@@ -52,3 +52,8 @@ continued through various means.
 one learns how to understand others with whom one disagrees. 
 * If there have to be arguments in the world, their share should better happen as friendly discussions
 rather than open physical confrontations.
+
+### Prepare for real study
+
+* After reading the summary, you will be ready to learn the real page, and not get lost in the intricacies and changing subject.
+
