@@ -7,7 +7,8 @@ Bible and instead taught orally, from teacher to student.
 it was written down, in Hebrew and Aramaic.
 * The twentieth century saw the translation in English, with the explanations.
 * Talmud Illuminated is a unique compendium of summaries of each page, illustrated with a fitting choice from world art.
-* It is thus a priceless body of knowledge the study of which will confer many benefits on the student. Here they are listed below.
+* It is thus a priceless body of knowledge the study of which will confer many benefits on the student. Here 
+are some of these benefits listed below.
 
 ### Mental gymnastics
 
