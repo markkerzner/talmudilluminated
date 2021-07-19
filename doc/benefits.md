@@ -45,3 +45,10 @@ benefit of [Talmud Illuminated](http://talmudilluminated.com/welcome.html).
 * The art choice is done completely by a woman (my wife) and represent the breadth and depth
 of her knowledge of art acquired originally growing up in Saint Petersburg, Russia, and then
 continued through various means.  
+
+### Promotion of peace
+
+* In many discussions, one must keep in mind multiple opposing points of view. By this practice,
+one learns how to understand others with whom one disagrees. 
+* If there have to be arguments in the world, their share should better happen as friendly discussions
+rather than open physical confrontations.
