@@ -14,6 +14,7 @@ public class PullFromBlog {
         System.out.println("Pulling from all tractates");
     }
     private void pullFromTractate(String tractateName) {
-        System.out.println("Pulling from tractate " + tractateName);
+        BloggerPuller blogger = new BloggerPuller();
+        blogger.pullForLabel(tractateName);
     }
 }
