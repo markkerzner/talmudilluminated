@@ -22,20 +22,13 @@ public class BloggerPuller {
     }
 
     public String getPage(String masechet, int pageNumber) {
-        String GOOGLE_API_KEY = System.getenv("GOOGLE_API_KEY");
-        String urlStr = "https://www.googleapis.com/blogger/v3/blogs/" +
-                CODE_BLOG_ID +
-                "/posts/search?q=" +
-                masechet + "+" + pageNumber +
-                "&key=" + GOOGLE_API_KEY;
         try {
-            String titleSearch = masechet + " " + pageNumber;
-            URL url = new URL(urlStr);
-            String jsonString = IOUtils.toString(url, "UTF-8");
-            JsonNode jsonNode = new ObjectMapper().readTree(jsonString);
+          String titleSearch = masechet + " " + pageNumber;
+            String jsonResultString = getSearchResultAsJsonString(masechet, pageNumber);
+            JsonNode jsonNode = new ObjectMapper().readTree(jsonResultString);
             JsonHandler jsonHandler = new JsonHandler(titleSearch);
             String [] values = jsonHandler.collectTheseFields(jsonNode);
-            if (values[0].startsWith(titleSearch)) ++foundExactlyOne;
+            if (values[0].toLowerCase().startsWith(titleSearch)) ++foundExactlyOne;
             if (!jsonHandler.isValid()) ++foundTooMany;
         } catch (IOException e) {
             e.printStackTrace();
@@ -50,6 +43,21 @@ public class BloggerPuller {
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
+        }
+    }
+    public String getSearchResultAsJsonString(String masechet, int pageNumber) {
+        try {
+            String GOOGLE_API_KEY = System.getenv("GOOGLE_API_KEY");
+            String urlStr = "https://www.googleapis.com/blogger/v3/blogs/" +
+                    CODE_BLOG_ID +
+                    "/posts/search?q=" +
+                    masechet + "+" + pageNumber +
+                    "&key=" + GOOGLE_API_KEY;
+            URL url = new URL(urlStr);
+            return IOUtils.toString(url, "UTF-8");
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
         }
     }
 }
