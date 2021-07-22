@@ -10,32 +10,26 @@ public class JsonHandler {
     private static String TITLE = "title";
     private static String CONTENT = "content";
     String[] fieldsValues = new String[2];
-
-    public static void main(String[] argv) throws Exception {
-        String json = "{ \"color\" : \"Black\", \"type\" : \"FIAT\" }";
-        ObjectMapper objectMapper = new ObjectMapper();
-        JsonNode jsonNode = objectMapper.readTree(json);
-
-        String color = jsonNode.get("color").asText();
-        System.out.println(color);
+    private int foundResults = 0;
+    private String searchTitle;
+    public JsonHandler(String searchTitle) {
+        this.searchTitle = searchTitle;
     }
-
     public JsonNode parseJson(String jsonString) throws Exception {
-        ObjectMapper objectMapper = new ObjectMapper();
-        JsonNode jsonNode = objectMapper.readTree(jsonString);
+        JsonNode jsonNode = new ObjectMapper().readTree(jsonString);
         return jsonNode;
     }
     public String[] collectTheseFields(JsonNode root) {
         if (root.isObject()) {
             Iterator<String> fieldNames = root.fieldNames();
-
             while (fieldNames.hasNext()) {
                 String fieldName = fieldNames.next();
-                if (TITLE.equalsIgnoreCase(fieldName)) {
+                if (TITLE.equalsIgnoreCase(fieldName) && root.get(fieldName).asText().startsWith(searchTitle)) {
+                    // TODO Fix the bad assumption here that 'title' is follow by 'content'
                     fieldsValues[0] = root.get(fieldName).asText();
-                }
-                if (CONTENT.equalsIgnoreCase(fieldName)) {
+                    fieldName = fieldNames.next();
                     fieldsValues[1] = root.get(fieldName).asText();
+                    ++foundResults;
                 }
                 JsonNode fieldValue = root.get(fieldName);
                 collectTheseFields(fieldValue);
@@ -47,10 +41,11 @@ public class JsonHandler {
                 collectTheseFields(arrayElement);
             }
         } else {
-            // JsonNode root represents a single value field - do something with it.
-
+            // skip it
         }
         return fieldsValues;
     }
-
+    public boolean isValid() {
+        return foundResults == 1;
+    }
 }
