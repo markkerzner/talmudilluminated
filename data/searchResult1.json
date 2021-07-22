@@ -1,0 +1,35 @@
+{
+  "kind": "blogger#postList",
+  "items": [
+    {
+      "kind": "blogger#post",
+      "id": "436189359333703651",
+      "blog": {
+        "id": "3539559106913091506"
+      },
+      "published": "2014-01-09T20:52:00-08:00",
+      "updated": "2021-06-07T20:12:27-07:00",
+      "url": "http://mkerzner.blogspot.com/2014/01/yoma-58-ox-and-goat.html",
+      "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3539559106913091506/posts/436189359333703651",
+      "title": "Yoma 58 - The ox and the goat",
+      "content": "\u003ca href=\"http://1.bp.blogspot.com/-_dS6bqNDqUE/Us9__3jEj2I/AAAAAAAAPlw/LU4wBhck6uM/s1600/Oxen+In+Repose+by+John+Singer+Sargent.jpg\" style=\"clear: left; float: left; margin-bottom: 1em; margin-right: 1em;\"\u003e\u003cimg border=\"0\" height=\"216\" src=\"http://1.bp.blogspot.com/-_dS6bqNDqUE/Us9__3jEj2I/AAAAAAAAPlw/LU4wBhck6uM/s1600/Oxen+In+Repose+by+John+Singer+Sargent.jpg\" width=\"320\" /\u003e\u003c/a\u003eHaving brought incense into the Holy of Holies, the High Priest (whose each action atones for some specific mistakes of the Jewish people) directs his steps to the golden Altar inside the Sanctuary to atone for the defect in this Altar’s service throughout the year. He takes the blood of the ox and the goat and applies it to the four corners (slight protrusions, also called “horns” of the Altar.) Rabbi Yoshiyah says that he mixes the two types of blood in a vessel - based on the words “One application in a year.” However, Rabbi Yonatan says that the “and” in the “ox and goat” teaches two separate applications. Each one then needs to find an explanation for the Torah words used in his opponent's derivation.\u003cbr /\u003e\n\u003cbr /\u003e\nHow does the High Priest apply this blood? Some say that he starts with that corner which he comes to first, following the rule that one cannot pass on a mitzvah if it came his way, and then walks around, while others say that he stands in one place and reaches to all the four corners with his hand. What is the reason for the argument here? It may be that they argue whether “he walks” means on foot or simply by hand. Others say that the argument is whether we derive the laws of the Inner Altar from those of the Outer Altar or if the laws of the Inner Altar are deduced on their own.\n\u003cbr /\u003e\n\u003cbr /\u003e\nArt: Oxen In Repose by John Singer Sargent",
+      "author": {
+        "id": "13141058882531144922",
+        "displayName": "Mark Kerzner",
+        "url": "https://www.blogger.com/profile/13141058882531144922",
+        "image": {
+          "url": "//1.bp.blogspot.com/-qJXdOOEVJt0/TzsyXEdP54I/AAAAAAAAIoI/ZwoVtC99AJ8/s35/mark.jpg"
+        }
+      },
+      "replies": {
+        "totalItems": "0",
+        "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3539559106913091506/posts/436189359333703651/comments"
+      },
+      "labels": [
+        "Yoma"
+      ],
+      "etag": "\"dGltZXN0YW1wOiAxNjIzMTIxOTQ3NjU4Cm9mZnNldDogLTI1MjAwMDAwCg\""
+    }
+  ],
+  "etag": "\"MjAyMS0wNy0yMVQwMzozNToyMC4xMDFa\""
+}

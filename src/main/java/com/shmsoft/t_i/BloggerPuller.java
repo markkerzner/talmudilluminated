@@ -3,7 +3,9 @@ package com.shmsoft.t_i;
 
 import org.apache.commons.io.IOUtils;
 
+import java.io.IOException;
 import java.net.URL;
+
 /**
  * Pulls Blogger content
  * https://developers.google.com/blogger/docs/3.0/reference/posts/get
@@ -19,15 +21,17 @@ public class BloggerPuller {
     public String getPage(String masechet, int pageNumber) {
         String urlStr = "https://www.googleapis.com/blogger/v3/blogs/" +
                 CODE_BLOG_ID +
-                "/posts/search?q=" + masechet + "+" + pageNumber +
+                "/posts/search?q=" +
+                // "sukkah" +
+                masechet + "+" + pageNumber +
                 "&key=" + GOOGLE_API_KEY;
-        String pageContent = "";
         try {
             URL url = new URL(urlStr);
-            pageContent = IOUtils.toString(url, "UTF-8");
-        } catch (Exception e) {
+            return IOUtils.toString(url, "UTF-8");
+        } catch (IOException e) {
             e.printStackTrace();
         }
-        return pageContent;
+        return null;
     }
+
 }

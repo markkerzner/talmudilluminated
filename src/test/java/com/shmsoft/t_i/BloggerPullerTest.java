@@ -2,13 +2,11 @@ package com.shmsoft.t_i;
 
 import org.junit.Test;
 
-import java.util.List;
-
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class BloggerPullerTest {
     @Test
-    public void testGetPage() {
+    public void getPage() {
         BloggerPuller bloggerPuller = new BloggerPuller();
         String answer = bloggerPuller.getPage("brachot", 2);
         System.out.println(answer);
