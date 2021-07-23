@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 
 public class BloggerPullerTest {
-    //@Test
+    @Test
     public void getMasechet() {
         BloggerPuller bloggerPuller = new BloggerPuller();
         bloggerPuller.getPages("brachot", 63);
