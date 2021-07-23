@@ -40,12 +40,10 @@ public class JsonHandlerTest {
     }
     @Test
     public void parseJson3() {
-        String masechet = "yoma";
+        String masechet = "Yoma";
         int pageNumber = 58;
         String titleSearch = masechet + " " + pageNumber;
-        titleSearch = "Yoma 58";
         try {
-            //String jsonString = FileUtils.readFileToString(new File("data/searchResult1.json"), "UTF-8");
             String jsonString = new BloggerPuller().getSearchResultAsJsonString(masechet, pageNumber);
             JsonNode jsonNode = new ObjectMapper().readTree(jsonString);
             JsonHandler jsonHandler = new JsonHandler(titleSearch);
@@ -57,19 +55,42 @@ public class JsonHandlerTest {
         }
     }
 
-    @Test
-    public void parseJson4() {
-        try {
-            String masechet = "yoma";
-            int pageNumber = 58;
-            String jsonStringWeb = new BloggerPuller().getSearchResultAsJsonString(masechet, pageNumber);
-            FileUtils.write(new File("data/searchOutput.json"), jsonStringWeb,"UTF-8");
-            String jsonStringFile = FileUtils.readFileToString(new File("data/searchResult3.json"), "UTF-8");
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
+    //@Test
+    public void parseJsonBrachot() {
+        String masechet = "Brachot";
+        for (int pageNumber = 2; pageNumber <= 64; ++pageNumber) {
+            System.out.println("parseJsonBrachot, pageNumber = " + pageNumber);
+            String titleSearch = masechet + " " + pageNumber;
+            try {
+                String jsonString = new BloggerPuller().getSearchResultAsJsonString(masechet, pageNumber);
+                JsonNode jsonNode = new ObjectMapper().readTree(jsonString);
+                JsonHandler jsonHandler = new JsonHandler(titleSearch);
+                String[] values = jsonHandler.collectTheseFields(jsonNode);
+                assertTrue(values[0].startsWith(titleSearch));
+                assertTrue(jsonHandler.isValid());
+                Thread.sleep(500);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
-
+    @Test
+    public void parseJsonShabbat() {
+        String masechet = "Shabbat";
+        for (int pageNumber = 2; pageNumber <= 146; ++pageNumber) {
+            System.out.println("parseJsonShabbat, pageNumber = " + pageNumber);
+            String titleSearch = masechet + " " + pageNumber;
+            try {
+                String jsonString = new BloggerPuller().getSearchResultAsJsonString(masechet, pageNumber);
+                JsonNode jsonNode = new ObjectMapper().readTree(jsonString);
+                JsonHandler jsonHandler = new JsonHandler(titleSearch);
+                String[] values = jsonHandler.collectTheseFields(jsonNode);
+                assertTrue(values[0].startsWith(titleSearch));
+                assertTrue(jsonHandler.isValid());
+                Thread.sleep(500);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }

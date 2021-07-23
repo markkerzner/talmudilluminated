@@ -24,7 +24,8 @@ public class JsonHandler {
             Iterator<String> fieldNames = root.fieldNames();
             while (fieldNames.hasNext()) {
                 String fieldName = fieldNames.next();
-                if (TITLE.equalsIgnoreCase(fieldName) && root.get(fieldName).asText().startsWith(searchTitle)) {
+                if (TITLE.equals(fieldName) && root.get(fieldName).asText().startsWith(searchTitle)) {
+                    // TODO Fix the bad assumption here that 'title' is follow by 'content'
                     // TODO Fix the bad assumption here that 'title' is follow by 'content'
                     fieldsValues[0] = root.get(fieldName).asText();
                     fieldName = fieldNames.next();
