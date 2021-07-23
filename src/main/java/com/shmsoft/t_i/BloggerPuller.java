@@ -20,23 +20,21 @@ public class BloggerPuller {
     private int foundExactlyOne = 0;
     private int foundTooMany = 0;
 
-    public void pullForLabel(String label) {
-        System.out.println("Pulling for label " + label);
-    }
-
     public void getPage(String masechet, int pageNumber) {
         String[] values = {"", ""}; // title, content
         try {
-            String titleSearch = "Brachot" + " " + pageNumber;
             String jsonResultString = getSearchResultAsJsonString(masechet, pageNumber);
             JsonNode jsonNode = new ObjectMapper().readTree(jsonResultString);
+            String titleSearch = makeTitleSearch(masechet, pageNumber);
             JsonHandler jsonHandler = new JsonHandler(titleSearch);
             values = jsonHandler.collectTheseFields(jsonNode);
             if (values[0].startsWith(titleSearch)) ++foundExactlyOne;
             if (!jsonHandler.isValid()) ++foundTooMany;
-            FileUtils.write(new File("content/" + masechet + "/" + pageNumber + ".txt"),
+            String pathToStore = "content/" + masechet.replace(' ', '_') + "/";
+            new File(pathToStore).mkdirs();
+            FileUtils.write(new File(pathToStore + pageNumber + ".txt"),
                     values[0] + "\n" + values[1],
-            "UTF-8");
+                    "UTF-8");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -60,7 +58,8 @@ public class BloggerPuller {
             String urlStr = "https://www.googleapis.com/blogger/v3/blogs/" +
                     CODE_BLOG_ID +
                     "/posts/search?q=" +
-                    masechet + "+" + pageNumber +
+                    masechet.replace(' ', '+') +
+                    "+" + pageNumber +
                     "&key=" + GOOGLE_API_KEY;
             URL url = new URL(urlStr);
             return IOUtils.toString(url, StandardCharsets.UTF_8);
@@ -68,5 +67,9 @@ public class BloggerPuller {
             e.printStackTrace();
             return null;
         }
+    }
+
+    private String makeTitleSearch(String masechet, int pageNumber) {
+        return masechet + " " + pageNumber;
     }
 }

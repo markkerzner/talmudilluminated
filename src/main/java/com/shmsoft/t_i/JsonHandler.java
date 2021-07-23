@@ -9,11 +9,12 @@ import java.util.Iterator;
 public class JsonHandler {
     private static String TITLE = "title";
     private static String CONTENT = "content";
-    String[] fieldsValues = new String[2];
+    String[] fieldsValues = {"", ""};
+
     private int foundResults = 0;
-    private String searchTitle;
+    private String titleSearch;
     public JsonHandler(String searchTitle) {
-        this.searchTitle = searchTitle;
+        this.titleSearch = searchTitle;
     }
     public JsonNode parseJson(String jsonString) throws Exception {
         JsonNode jsonNode = new ObjectMapper().readTree(jsonString);
@@ -24,8 +25,7 @@ public class JsonHandler {
             Iterator<String> fieldNames = root.fieldNames();
             while (fieldNames.hasNext()) {
                 String fieldName = fieldNames.next();
-                if (TITLE.equals(fieldName) && root.get(fieldName).asText().startsWith(searchTitle)) {
-                    // TODO Fix the bad assumption here that 'title' is follow by 'content'
+                if (TITLE.equals(fieldName) && root.get(fieldName).asText().toLowerCase().startsWith(titleSearch)) {
                     // TODO Fix the bad assumption here that 'title' is follow by 'content'
                     fieldsValues[0] = root.get(fieldName).asText();
                     fieldName = fieldNames.next();
