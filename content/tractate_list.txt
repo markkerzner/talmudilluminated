@@ -1,4 +1,13 @@
-# number, name, label, directory, page_name
-1, Brachot, Brachot, brachot, brachot, brachot
-2, Shabbat, Shabbat, shabbat, shabbat, shabbat
-3, Bava Kamma, Bava%Kamma, bava_kamma, bavakamma
+brachot,64
+shabbat,157
+eruvin,105
+pesachim,12
+shekalim,22
+yoma,88
+sukkah,56
+beitzah,40
+rosh hashanah,35
+taanit,31
+megillah,32
+moed katan,28
+chagigah,27

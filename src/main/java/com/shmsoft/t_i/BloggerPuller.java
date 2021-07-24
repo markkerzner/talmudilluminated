@@ -17,6 +17,10 @@ import java.nio.charset.StandardCharsets;
  */
 public class BloggerPuller {
     private static final String CODE_BLOG_ID = "3539559106913091506"; // The BlogId for the http://mkerzner.blogspot.com/ blog.
+    private static final String[] masechetNames = {"brachot", "eruvin", "pesachim", "shekalim", "yoma", "sukkah", "beitza",
+            "beizah", "rosh hashanah", "taanit", "megillah", "moed katan", "chagigah"};
+    private static final int[] masechetPages = {64, 157, 105, 121, 22, 88, 56,
+            40, 35, 31, 32, 28, 28};
     private int foundExactlyOne = 0;
     private int foundTooMany = 0;
 
@@ -71,5 +75,13 @@ public class BloggerPuller {
 
     private String makeTitleSearch(String masechet, int pageNumber) {
         return masechet + " " + pageNumber;
+    }
+    public static void main(String[] argv) {
+        assert (masechetNames.length == masechetPages.length);
+        for (int m = 0; m < masechetNames.length; ++m) {
+            System.out.println("Pulling masechet" + masechetNames[m]);
+            BloggerPuller bloggerPuller = new BloggerPuller();
+            bloggerPuller.getPages(masechetNames[m], masechetPages[m]);
+        }
     }
 }
