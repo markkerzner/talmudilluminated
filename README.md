@@ -19,3 +19,9 @@ The search may bring back a few pages, and the parser find the one it is looking
 it finds the answer where the _title_ field is "bava kamma 48".
 * All pages are stored into this project under the _content_ folder, and committed to GitHub.  
 
+## About the dates
+
+* The scraping project was basically completed in six days, from Tisha B'Av till Tu B'Av, 2021. That year, Tu B'Av
+fell out on Shabbat. The Talmud Illuminated project was started on the previous Tu B'Av that fell out on Shabbat, 2008.
+[Here is the start](http://mkerzner.blogspot.com/2008/08/purpose-of-daf-in-100-words.html).
+This part of the project thus took exactly 13 years on the Jewish calendar.  

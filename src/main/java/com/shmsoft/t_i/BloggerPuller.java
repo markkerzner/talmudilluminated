@@ -17,12 +17,27 @@ import java.nio.charset.StandardCharsets;
  */
 public class BloggerPuller {
     private static final String CODE_BLOG_ID = "3539559106913091506"; // The BlogId for the http://mkerzner.blogspot.com/ blog.
-    private static final String[] masechetNames = {"brachot", "eruvin", "pesachim", "shekalim", "yoma", "sukkah", "beitza",
-            "beizah", "rosh hashanah", "taanit", "megillah", "moed katan", "chagigah"};
-    private static final int[] masechetPages = {64, 157, 105, 121, 22, 88, 56,
-            40, 35, 31, 32, 28, 28};
+    public static final String[] masechetNames = {"brachot", "shabbat", "eruvin", "pesachim", "shekalim", "yoma",
+            "sukkah", "beitzah", "rosh hashanah", "taanit", "megillah", "moed katan", "chagigah", "yebamot", "ketubot",
+            "nedarim", "nazir", "sotah", "gittin", "kiddushin", "bava kamma", "bava metzia", "bava batra",
+            "sanhedrin", "makkot", "shevuot", "avoda zarah", "horayot", "zevachim", "menachot", "chulin", "bechorot",
+            "erchin", "temurah", "keritut", "meilah", "niddah"};
+    public static final int[] masechetPages = {64, 157, 105, 121, 22, 88,
+            56, 40, 35, 31, 32, 29, 27, 122, 112,
+            91, 66, 49, 90, 82, 119, 119, 176,
+            113, 24, 49, 76, 14, 120, 110, 142, 61,
+            34, 34, 28, 37, 73};
     private int foundExactlyOne = 0;
     private int foundTooMany = 0;
+
+    public static void main(String[] argv) {
+        assert (masechetNames.length == masechetPages.length);
+        for (int m = 0; m < masechetNames.length; ++m) {
+            System.out.println("Pulling masechet " + masechetNames[m]);
+            BloggerPuller bloggerPuller = new BloggerPuller();
+            bloggerPuller.getPages(masechetNames[m], masechetPages[m]);
+        }
+    }
 
     public void getPage(String masechet, int pageNumber) {
         String[] values = {"", ""}; // title, content
@@ -75,13 +90,5 @@ public class BloggerPuller {
 
     private String makeTitleSearch(String masechet, int pageNumber) {
         return masechet + " " + pageNumber;
-    }
-    public static void main(String[] argv) {
-        assert (masechetNames.length == masechetPages.length);
-        for (int m = 0; m < masechetNames.length; ++m) {
-            System.out.println("Pulling masechet" + masechetNames[m]);
-            BloggerPuller bloggerPuller = new BloggerPuller();
-            bloggerPuller.getPages(masechetNames[m], masechetPages[m]);
-        }
     }
 }
