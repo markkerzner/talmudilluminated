@@ -52,6 +52,18 @@ continued through various means.
 one learns how to understand others with whom one disagrees. 
 * If there have to be arguments in the world, their share should better happen as friendly discussions
 rather than open physical confrontations.
+  
+### Acquaint oneself with the feminist point of view
+
+* Every page is explained by a text passage and a choice of painting. There is always
+a tension between the two: the text is written by Mark (he, his), and the art is
+chosen by Helena (she, her).
+* Beyond that, the painting represents a conscious choice of a feminist point of view.
+* Let me give you an example. If a man suspects his wife of infidelity, he can take her to the Temple to
+be tested with water. The Talmud wants to know, how much water? 
+  [The choice of the painting](https://mkerzner.blogspot.com/2015/11/sotah-15-sacrifice-of-jealousy.html) clearly shows that [the man only has himself to blame](https://mkerzner.blogspot.com/2015/10/sotah-2-man-deserves-what-he-gets.html) for what happens and that
+the male reader himself might well violate anything if he were in a similar situation. 
+Watch for the paintings and their titles. Make a connection between the text and the title - that also has meaning.  
 
 ### Prepare for real study
 
