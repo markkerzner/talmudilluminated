@@ -21,7 +21,7 @@ public class BloggerPuller {
     public static final String[] masechetNames = {"brachot", "shabbat", "eruvin", "pesachim", "shekalim", "yoma",
             "sukkah", "beitzah", "rosh hashanah", "taanit", "megillah", "moed katan", "chagigah", "yevamot", "ketubot",
             "nedarim", "nazir", "sotah", "gittin", "kiddushin", "bava kamma", "bava metzia", "bava batra",
-            "sanhedrin", "makkot", "shevuot", "avoda zarah", "horayot", "zevachim", "menachot", "chullin", "bechorot",
+            "sanhedrin", "makkot", "shevuot", "avodah zarah", "horayot", "zevachim", "menachot", "chullin", "bechorot",
             "arachin", "temurah", "keritot", "meilah", "niddah"};
     public static final int[] masechetPages = {64, 157, 105, 121, 22, 88,
             56, 40, 35, 31, 32, 29, 27, 122, 112,
