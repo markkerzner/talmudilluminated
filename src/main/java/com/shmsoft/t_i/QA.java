@@ -13,7 +13,8 @@ public class QA {
         int[] masechetPages = BloggerPuller.masechetPages;
         assert (masechetNames.length == masechetPages.length);
         for (int m = 0; m < masechetNames.length; ++m) {
-            String pathToMasechet = "content/" + masechetNames[m] + "/";
+            String masechet = masechetNames[m].replace(' ', '_');
+            String pathToMasechet = "content/" + masechet + "/";
             try {
                 for (int p = 2; p <= masechetPages[m]; ++p) {
                     File pageFile = new File(pathToMasechet + p + ".txt");

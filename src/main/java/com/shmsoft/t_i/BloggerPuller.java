@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.Date;
 
 /**
  * Pulls Blogger content
@@ -18,7 +19,7 @@ import java.nio.charset.StandardCharsets;
 public class BloggerPuller {
     private static final String CODE_BLOG_ID = "3539559106913091506"; // The BlogId for the http://mkerzner.blogspot.com/ blog.
     public static final String[] masechetNames = {"brachot", "shabbat", "eruvin", "pesachim", "shekalim", "yoma",
-            "sukkah", "beitzah", "rosh hashanah", "taanit", "megillah", "moed katan", "chagigah", "yebamot", "ketubot",
+            "sukkah", "beitzah", "rosh hashanah", "taanit", "megillah", "moed katan", "chagigah", "yevamot", "ketubot",
             "nedarim", "nazir", "sotah", "gittin", "kiddushin", "bava kamma", "bava metzia", "bava batra",
             "sanhedrin", "makkot", "shevuot", "avoda zarah", "horayot", "zevachim", "menachot", "chullin", "bechorot",
             "arachin", "temurah", "keritot", "meilah", "niddah"};
@@ -31,12 +32,21 @@ public class BloggerPuller {
     private int foundTooMany = 0;
 
     public static void main(String[] argv) {
+        Date start = new Date();
+        int mm = -1;
+        if (argv.length > 0) {
+            mm = Integer.parseInt(argv[0]);
+        }
         assert (masechetNames.length == masechetPages.length);
         for (int m = 0; m < masechetNames.length; ++m) {
+            if (mm >=0 && m != mm) continue;
             System.out.println("Pulling masechet " + masechetNames[m]);
             BloggerPuller bloggerPuller = new BloggerPuller();
             bloggerPuller.getPages(masechetNames[m], masechetPages[m]);
         }
+        Date end = new Date();
+        long duration = end.getTime() - start.getTime();
+        System.out.println("Run time (seconds): " + duration / 1000);
     }
 
     public void getPage(String masechet, int pageNumber) {
