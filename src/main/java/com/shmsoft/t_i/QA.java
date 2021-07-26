@@ -34,7 +34,7 @@ public class QA {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            System.out.println("Total missing pages count: " + missingCount);
         }
+        System.out.println("Total missing pages count: " + missingCount);
     }
 }
