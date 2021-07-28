@@ -35,7 +35,7 @@ reasons sharpens one's brain.
 
 * Often, people cause the greatest possible damage when angry. They say the thing that they later regret, or do an act.
   
-* The ancient sage by the name of Hillel would not get angry even when provoked on purpose. Here is [how he did it] (https://talmudilluminated.com/shabbat/shabbat31.html).
+* The ancient sage by the name of Hillel would not get angry even when provoked on purpose. Here is [how he did it](https://talmudilluminated.com/shabbat/shabbat31.html).
 
 ### Acquire taste in art
 
