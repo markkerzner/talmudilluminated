@@ -24,4 +24,13 @@ it finds the answer where the _title_ field is "bava kamma 48".
 * The scraping project was basically completed in six days, from Tisha B'Av till Tu B'Av, 2021. That year, Tu B'Av
 fell out on Shabbat. The Talmud Illuminated project was started on the previous Tu B'Av that fell out on Shabbat, 2008.
 [Here is the start](http://mkerzner.blogspot.com/2008/08/purpose-of-daf-in-100-words.html).
-This part of the project thus took exactly 13 years on the Jewish calendar.  
+This part of the project thus took exactly 13 years on the Jewish calendar.
+  
+## Instructions
+
+1. Crawl
+2. QA
+3. MakeSite
+4. Copy the site to TalmudIlluminatedContent repo
+   * `cp -r site/* ../TalmudIlluminatedContent/`
+5. Deploy from there
