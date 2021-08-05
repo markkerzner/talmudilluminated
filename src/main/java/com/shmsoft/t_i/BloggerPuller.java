@@ -51,7 +51,6 @@ public class BloggerPuller {
 
     public void getPage(String masechet, int pageNumber) {
         String[] values = {"", ""}; // title, content
-        if (toSkip(masechet, pageNumber)) return;
         try {
             String jsonResultString = getSearchResultAsJsonString(masechet, pageNumber);
             JsonNode jsonNode = new ObjectMapper().readTree(jsonResultString);
@@ -103,11 +102,4 @@ public class BloggerPuller {
         return masechet + " " + pageNumber;
     }
 
-    // There is at least one page that Blogger search cannot find
-    // It is hard-coded here
-    // It is filled out manually
-    private boolean toSkip(String masechet, int pageNumber) {
-        if ("sukkah".equalsIgnoreCase(masechet) && pageNumber == 29) return true;
-        return false;
-    }
 }
