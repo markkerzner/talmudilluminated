@@ -28,9 +28,9 @@ This part of the project thus took exactly 13 years on the Jewish calendar.
   
 ## Instructions
 
-1. Crawl
-2. QA
-3. MakeSite
+1. Crawl (run Full Crawl configuration)
+2. QA (run QB configuration)
+3. MakeSite (run MakeSite configuration)
 4. Copy the site to TalmudIlluminatedContent repo
    * `cp -r site/* ../TalmudIlluminatedContent/`
-5. Deploy from there
+5. Deploy from there (open TalmudIlluminatedContent project and run deploy.sh)

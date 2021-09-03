@@ -1,4 +1,3 @@
-/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/home/mark/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/211.6693.111/lib/idea_rt.jar=36005:/home/mark/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/211.6693.111/bin -Dfile.encoding=UTF-8 -classpath /home/mark/projects/markkerzner/talmudilluminated/target/classes:/home/mark/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/mark/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/mark/.m2/repository/org/apache/htrace/htrace-core/3.2.0-incubating/htrace-core-3.2.0-incubating.jar com.shmsoft.t_i.QA
 Missing brachot 61
 Missing brachot 62
 Missing brachot 63
