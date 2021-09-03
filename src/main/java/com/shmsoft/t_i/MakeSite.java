@@ -56,7 +56,7 @@ public class MakeSite {
     private static String getIndexEntry(String title) {
         return title + "\n";
     }
-    // TODO finish up collecting and writing index
+    // TODO finish up collecting and writing the index
     private static void writeIndex(String index) {
         System.out.print(index);
     }
