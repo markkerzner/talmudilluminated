@@ -66,23 +66,7 @@ Missing pesachim 104
 Missing pesachim 105
 Missing pesachim 106
 Missing pesachim 107
-Missing sukkah 26
-Missing sukkah 29
-Missing sukkah 30
-Missing sukkah 31
-Missing sukkah 32
 Missing sukkah 33
-Missing sukkah 42
-Missing sukkah 43
-Missing sukkah 44
-Missing sukkah 45
-Missing sukkah 46
-Missing sukkah 47
-Missing sukkah 48
-Missing sukkah 49
-Missing sukkah 50
-Missing sukkah 51
-Missing sukkah 52
 Missing sukkah 53
 Missing sukkah 54
 Missing sukkah 55
@@ -466,5 +450,3 @@ Missing chullin 82
 Missing chullin 90
 Missing chullin 97
 Missing chullin 98
-Missing pages count: 468 of 2711
-Missing percent: 17%
