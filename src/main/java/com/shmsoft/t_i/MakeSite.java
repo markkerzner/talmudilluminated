@@ -12,6 +12,7 @@ public class MakeSite {
         String[] masechetNames = BloggerPuller.masechetNames;
         int[] masechetPages = BloggerPuller.masechetPages;
         assert (masechetNames.length == masechetPages.length);
+        StringBuilder index = new StringBuilder();
         for (int m = 0; m < masechetNames.length; ++m) {
             String masechet = masechetNames[m].replace(' ', '_');
             String pathToMasechet = "content/" + masechet + "/";
@@ -40,6 +41,7 @@ public class MakeSite {
                                 "</html>";
                         File outputFile = new File(pathToMasechetOnSite + masechet + p + ".html");
                         FileUtils.write(outputFile, html, "UTF-8");
+                        index.append(getIndexEntry(title));
                     } else {
                         // invalid
                     }
@@ -47,7 +49,16 @@ public class MakeSite {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            writeIndex(index.toString());
         }
+    }
+
+    private static String getIndexEntry(String title) {
+        return title + "\n";
+    }
+    // TODO finish up collecting and writing index
+    private static void writeIndex(String index) {
+        System.out.print(index);
     }
 }
 
