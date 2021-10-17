@@ -1,28 +1,3 @@
-# Benefits of Talmud study for humanity
-
-* Talmud is the hidden Bible. When the books of the Bible (Torah)
-were written, a large compendium of laws and stories were kept out of the
-Bible and instead taught orally, from teacher to student.
-* After about two thousand years of such transmission, and due to the danger of the teaching being lost,
-it was written down, in Hebrew and Aramaic.
-* The twentieth century saw the translation in English, with the explanations.
-* Talmud Illuminated is a unique compendium of summaries of each page, illustrated with a fitting choice from world art.
-* It is thus a priceless body of knowledge the study of which will confer many benefits on the student. Here 
-are some of these benefits listed below.
-
-### Mental gymnastics
-
-* Elderly people are advised to exercise their brains with card games, crossword puzzles, and other activities.
-Much more powerful benefits will accrue to anyone who exercises their brains regularly. The obvious parallel between
-intellectual study and exercising in the gym tells it all.
-  
-### Why is this study possible?
-
-* With [Talmud Illuminated](http://talmudilluminated.com/welcome.html), 
-  everyone can get the benefits listed below. Here every page is summarized in clear English.
-  Moreover, it is made more enjoyable by a select artwork, interplaying with the text. 
-  We will talk more about art later.
-
 ### Acquire business acumen
 
 * Some part of the Talmud are especially conducive to learning how to conduct competitive yet fair business. These
@@ -69,3 +44,27 @@ Watch for the paintings and their titles. Make a connection between the text and
 
 * After reading the summary, you will be ready to learn the real page, and not get lost in the intricacies and changing subject.
 
+# Benefits of Talmud study
+
+* Talmud is the hidden Bible. When the books of the Bible (Torah)
+were written, a large compendium of laws and stories were kept out of the
+Bible and instead taught orally, from teacher to student.
+* After about two thousand years of such transmission, and due to the danger of the teaching being lost,
+it was written down, in Hebrew and Aramaic.
+* The twentieth century saw the translation in English, with the explanations.
+* Talmud Illuminated is a unique compendium of summaries of each page, illustrated with a fitting choice from world art.
+* It is thus a priceless body of knowledge the study of which will confer many benefits on the student. Here 
+are some of these benefits listed below.
+
+### Mental gymnastics
+
+* Elderly people are advised to exercise their brains with card games, crossword puzzles, and other activities.
+Much more powerful benefits will accrue to anyone who exercises their brains regularly. The obvious parallel between
+intellectual study and exercising in the gym tells it all.
+  
+### Why is this study possible?
+
+* With [Talmud Illuminated](http://talmudilluminated.com/welcome.html), 
+  everyone can get the benefits listed below. Here every page is summarized in clear English.
+  Moreover, it is made more enjoyable by a select artwork, interplaying with the text. 
+  We will talk more about art later.
