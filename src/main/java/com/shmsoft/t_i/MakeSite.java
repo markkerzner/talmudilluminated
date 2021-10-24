@@ -8,8 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MakeSite {
-
     public static void main(String[] argv) throws IOException {
+        // For testing qa, give it a string to clean
+        if (argv.length == 1) {
+            System.out.println("Converting this into that:");
+            System.out.println(argv[0]);
+            System.out.println(qa(argv[0]));
+            return;
+        }
         String[] masechetNames = BloggerPuller.masechetNames;
         int[] masechetPages = BloggerPuller.masechetPages;
         assert (masechetNames.length == masechetPages.length);
@@ -29,9 +35,11 @@ public class MakeSite {
                         title.length() >= titleStart.length() &&
                         lines.size() > 1) {
                     // valid page, make html
+                    title = qa(title);
                     StringBuffer bodyContent = new StringBuffer();
                     for (int lineNumber = 1; lineNumber < lines.size(); ++lineNumber) {
-                        bodyContent.append(lines.get(lineNumber)).append("\n");
+                        String textLine = qa(lines.get(lineNumber));
+                        bodyContent.append(textLine).append("\n");
                     }
                     String html = "<html>" + "\n" +
                             "<title>" + title + "</title>" + "\n" +
@@ -56,5 +64,16 @@ public class MakeSite {
     private static void writeIndex(String masechet, ArrayList<String> index) throws IOException {
         FileUtils.writeLines(new File("site/" + masechet + "/index.html"), "UTF-8", index);
     }
-}
 
+    /**
+     * Clean up MS Work characters (smart quotes)
+     * Based on this https://stackoverflow.com/questions/2826191/converting-ms-word-curly-quotes-and-apostrophes
+     * @param textToCheck
+     * @return cleaned text
+     */
+    private static String qa(String textToCheck) {
+        return textToCheck.replaceAll("[\\u2018\\u2019]", "'")
+                .replaceAll("[\\u201C\\u201D]", "\"")
+                .replaceAll("–", "-");
+    }
+}

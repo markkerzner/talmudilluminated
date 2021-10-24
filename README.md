@@ -29,7 +29,7 @@ This part of the project thus took exactly 13 years on the Jewish calendar.
 ## Instructions
 
 1. Crawl (run Full Crawl configuration)
-2. QA (run QB configuration)
+2. QA (run QA configuration)
 3. MakeSite (run MakeSite configuration)
 4. Copy the site to TalmudIlluminatedContent repo
    * `cp -r site/* ../TalmudIlluminatedContent/`
