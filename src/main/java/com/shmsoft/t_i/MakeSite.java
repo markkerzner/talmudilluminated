@@ -41,11 +41,17 @@ public class MakeSite {
                         String textLine = qa(lines.get(lineNumber));
                         bodyContent.append(textLine).append("\n");
                     }
+                    String searchString = "<br/>\n" +
+                            "<br/>\n" +
+                            "<a href=\"https://mkerzner.blogspot.com/search?q=" +
+                            masechetNames[m] + "+" + p +
+                            "\">Leave a comment</a>";
                     String html = "<html>" + "\n" +
                             "<title>" + title + "</title>" + "\n" +
                             "<body>\n" +
                             "<h1>" + title + "</h1>" + "\n" +
                             bodyContent +
+                            searchString +
                             "</body>\n" +
                             "</html>";
                     File outputFile = new File(pathToMasechetOnSite + masechet + p + ".html");
