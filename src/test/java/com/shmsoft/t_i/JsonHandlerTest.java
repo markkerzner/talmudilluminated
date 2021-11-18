@@ -3,14 +3,13 @@ package com.shmsoft.t_i;
 import org.apache.commons.io.FileUtils;
 import org.apache.htrace.fasterxml.jackson.databind.JsonNode;
 import org.apache.htrace.fasterxml.jackson.databind.ObjectMapper;
-import org.junit.Test;
 
 import java.io.File;
 
 import static org.junit.Assert.assertTrue;
 
 public class JsonHandlerTest {
-    @Test
+    //@Test
     public void parseJson1() {
         String titleSearch = "Yoma 58";
         try {
@@ -24,7 +23,7 @@ public class JsonHandlerTest {
             e.printStackTrace();
         }
     }
-    @Test
+    //@Test
     public void parseJson2() {
         String titleSearch = "Yoma 3";
         try {
@@ -38,7 +37,7 @@ public class JsonHandlerTest {
             e.printStackTrace();
         }
     }
-    @Test
+    //@Test
     public void parseJson3() {
         String masechet = "Yoma";
         int pageNumber = 58;
@@ -74,7 +73,7 @@ public class JsonHandlerTest {
             }
         }
     }
-    @Test
+    //@Test
     public void parseJsonShabbat() {
         String masechet = "Shabbat";
         for (int pageNumber = 2; pageNumber <= 146; ++pageNumber) {
