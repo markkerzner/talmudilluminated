@@ -91,9 +91,6 @@ Missing beitzah 37
 Missing beitzah 38
 Missing beitzah 39
 Missing beitzah 40
-Missing rosh hashanah 17
-Missing rosh hashanah 19
-Missing rosh hashanah 20
 Missing rosh hashanah 22
 Missing rosh hashanah 24
 Missing rosh hashanah 25
@@ -440,5 +437,5 @@ Missing chullin 82
 Missing chullin 90
 Missing chullin 97
 Missing chullin 98
-Missing pages count: 442 of 2711
+Missing pages count: 439 of 2711
 Missing percent: 16%
