@@ -99,8 +99,6 @@ Missing taanit 7
 Missing taanit 8
 Missing taanit 9
 Missing taanit 10
-Missing taanit 14
-Missing taanit 26
 Missing taanit 27
 Missing taanit 28
 Missing taanit 29
@@ -437,5 +435,5 @@ Missing chullin 82
 Missing chullin 90
 Missing chullin 97
 Missing chullin 98
-Missing pages count: 439 of 2711
+Missing pages count: 437 of 2711
 Missing percent: 16%
