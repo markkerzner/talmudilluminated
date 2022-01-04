@@ -20,6 +20,8 @@ public class MakeSite {
         String[] masechetNames = BloggerPuller.masechetNames;
         int[] masechetPages = BloggerPuller.masechetPages;
         assert (masechetNames.length == masechetPages.length);
+        String fbMessenger = FileUtils.readFileToString(
+                new File("doc/fb-messenger.txt"), StandardCharsets.UTF_8);
         for (int m = 0; m < masechetNames.length; ++m) {
             String masechet = masechetNames[m].replace(' ', '_');
             String pathToMasechet = "content/" + masechet + "/";
@@ -27,6 +29,7 @@ public class MakeSite {
             new File(pathToMasechetOnSite).mkdirs();
             ArrayList<String> index = new ArrayList<String>();
             index.add("<html>");
+            index.add(fbMessenger);
             for (int p = 2; p <= masechetPages[m]; ++p) {
                 File pageFile = new File(pathToMasechet + p + ".txt");
                 List<String> lines = FileUtils.readLines(pageFile, "UTF-8");
@@ -47,11 +50,9 @@ public class MakeSite {
                             "<a href=\"https://mkerzner.blogspot.com/search?q=" +
                             masechetNames[m] + "+" + p +
                             "\">Leave a comment</a>";
-                    String fmMessenger = FileUtils.readFileToString(
-                            new File("doc/fb-messenger.txt"), StandardCharsets.UTF_8);
                     String html = "<html>" + "\n" +
                             "<title>" + title + "</title>" + "\n" +
-                            fmMessenger + "\n" +
+                            fbMessenger + "\n" +
                             "<body>\n" +
                             "<h1>" + title + "</h1>" + "\n" +
                             bodyContent +
