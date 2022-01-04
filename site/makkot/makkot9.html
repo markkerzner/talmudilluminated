@@ -1,5 +1,35 @@
 <html>
 <title>Makkot 9 - Exile for Inadvertent Killing</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Makkot 9 - Exile for Inadvertent Killing</h1>
 <div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/_hGn1v4stHxE/TBYpzUePJ4I/AAAAAAAADxQ/OykHM1RszNs/s1600/Pieter+the+Elder+Bruegel+-+The+Parable+of+the+Blind+Leading+the+Blind+1568.jsp" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/_hGn1v4stHxE/TBYpzUePJ4I/AAAAAAAADxQ/OykHM1RszNs/s320/Pieter+the+Elder+Bruegel+-+The+Parable+of+the+Blind+Leading+the+Blind+1568.jsp" /></a></div><span style="font-size: medium;">A blind person who killed inadvertently is not exiled, since  "<a href="http://bible.cc/numbers/35-23.htm">without seeing</a>" excludes him from responsibility - says Rabbi Yehudah. However, Rabbi Meir says that there is another exclusion, "<a href="http://bible.cc/deuteronomy/19-4.htm">without awareness</a>," and double negative becomes affirmative, so a blind inadvertent killer is exiled.<br />

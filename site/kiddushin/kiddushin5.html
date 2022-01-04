@@ -1,5 +1,35 @@
 <html>
 <title>Kiddushin 5 - Betrothal with a Document</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Kiddushin 5 - Betrothal with a Document</h1>
 <a href="http://3.bp.blogspot.com/_hGn1v4stHxE/SPN79DLR2KI/AAAAAAAAAW0/TWyNvr6h0Pw/s1600-h/Gerard+Terborch+-+A+Lady+Reading+a+Letter.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5256681478826350754" src="https://3.bp.blogspot.com/_hGn1v4stHxE/SPN79DLR2KI/AAAAAAAAAW0/TWyNvr6h0Pw/s320/Gerard+Terborch+-+A+Lady+Reading+a+Letter.jpg" style="cursor: pointer; float: left; margin: 0pt 10px 10px 0pt;" /></a>A document is drafted by a man, and it states that a woman is hereby betrothed to him. The Kiddushin is effected when the man gives the document to the woman.<br />

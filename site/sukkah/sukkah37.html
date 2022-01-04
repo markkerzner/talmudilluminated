@@ -1,5 +1,35 @@
 <html>
 <title>Sukkah 37 - Tying it all together</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Sukkah 37 - Tying it all together</h1>
 <a href="http://3.bp.blogspot.com/-n36gxHHZXi8/UyXc1Ji0JyI/AAAAAAAAQRY/ZGcLcStFXgc/s1600/Branches+with+Almond+Blossom+By+Vincent+Van+Gogh.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="256" src="http://3.bp.blogspot.com/-n36gxHHZXi8/UyXc1Ji0JyI/AAAAAAAAQRY/ZGcLcStFXgc/s1600/Branches+with+Almond+Blossom+By+Vincent+Van+Gogh.jpg" width="320" /></a>It is good to tie the <a href="http://mkerzner.blogspot.com/2014/03/sukkah-34-branches.html">bunch of Sukkot branches</a> together. Rabbi Yehudah even considers this a necessary requirement: the branches must be bound together. Thus, the material that you use to tie it together is part of the mitzvah. If so, it must be one of the same four species that you are tying - otherwise, you are adding to a mitzvah and taking together five species, and not four, and the Torah said, "Do not add to the mitzvot or subtract from them."

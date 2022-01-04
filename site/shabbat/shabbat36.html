@@ -1,5 +1,35 @@
 <html>
 <title>Shabbat 36 -- Announcing Shabbat</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Shabbat 36 -- Announcing Shabbat</h1>
 <a href="http://4.bp.blogspot.com/-FEJrKwcmTU0/UJ9FaqSMk7I/AAAAAAAALb4/v89RDfRAkKE/s1600/Camille+Pissarro+-+Peasant+Woman+and+Child+Harvesting+the+Fields,+Pontoise.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="269" src="http://4.bp.blogspot.com/-FEJrKwcmTU0/UJ9FaqSMk7I/AAAAAAAALb4/v89RDfRAkKE/s320/Camille+Pissarro+-+Peasant+Woman+and+Child+Harvesting+the+Fields,+Pontoise.jpg" width="320" /></a>The communities in the time of Talmud would announce Shabbat with six blasts of the shofar. About an hour before Shabbat they would sound the first one, to top the people from performing their labor in the fields, giving them enough time to journey back to town before Shabbat. Those working in the nearby fields were not permitted to enter the town, until those who were farther away came as well. They would all enter at once, so that those working later were not suspected of working after the shofar blast. The store in the town would still be open.

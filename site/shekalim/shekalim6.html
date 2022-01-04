@@ -1,5 +1,35 @@
 <html>
 <title>Shekalim 6 - Counting pennies</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Shekalim 6 - Counting pennies</h1>
 <a href="http://2.bp.blogspot.com/-eqEHIRfbng8/UmyYuYqOz_I/AAAAAAAAOAA/D3fihwGWgAA/s1600/Merchants+counting+money+by+(after)+Salomon+Koninck.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="220" src="http://2.bp.blogspot.com/-eqEHIRfbng8/UmyYuYqOz_I/AAAAAAAAOAA/D3fihwGWgAA/s320/Merchants+counting+money+by+(after)+Salomon+Koninck.jpg" width="320" /></a>If one was collecting small coins to accumulate his half-shekel - having declared "this is for my half-shekel" - but eventually he collected more than needed, &nbsp;what would he do with the surplus? Even though his designation of the surplus coins was invalid since he did not need them in the end, the coins still became consecrated, and the money should be put into the collection box in the Temple, to be used when the Altar is idle - this is the opinion of Beit Shammai. Beit Hillel disagrees: Temple consecration in error is invalid, and the money remains his. If his declaration was, "I will bring my shekel from this money," all agree that the extra money remains his. 

@@ -1,5 +1,35 @@
 <html>
 <title>Zevachim 49 - Before and After</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Zevachim 49 - Before and After</h1>
 <div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/_hGn1v4stHxE/TRwg1uwVA1I/AAAAAAAAEbs/SiVtcClBWJI/s1600/Pieter+the+Elder+Bruegel+-+The+Slaughter+Of+The+Innocents+1565-66.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="233" src="http://4.bp.blogspot.com/_hGn1v4stHxE/TRwg1uwVA1I/AAAAAAAAEbs/SiVtcClBWJI/s320/Pieter+the+Elder+Bruegel+-+The+Slaughter+Of+The+Innocents+1565-66.jpg" width="320" /></a></div><span class="Apple-style-span" style="font-size: medium;">We already know that the burnt offering should be slaughtered in the North of the Courtyard. But if the Kohen went ahead and slaughtered it in the South, is it valid? In other words, is this requirement "before" or even "after?" <br />

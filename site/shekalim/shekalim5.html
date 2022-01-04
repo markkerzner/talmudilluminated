@@ -1,5 +1,35 @@
 <html>
 <title>Shekalim 5 - Accidents</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Shekalim 5 - Accidents</h1>
 <a href="http://2.bp.blogspot.com/-KaFiu3bG9jM/UmyYi4yUlfI/AAAAAAAAN_4/yq_fp2n3qJU/s1600/The+Treasurer+by+James+Gillray.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="http://2.bp.blogspot.com/-KaFiu3bG9jM/UmyYi4yUlfI/AAAAAAAAN_4/yq_fp2n3qJU/s320/The+Treasurer+by+James+Gillray.jpg" width="241" /></a>If the half-shekels were too heavy to carry, one could exchange them for smaller golden coins of larger value, called "darkon." The collection chests, called "shofar" due to their shape, were set up in every city. They were regularly emptied and transported to Jerusalem.

@@ -1,5 +1,35 @@
 <html>
 <title>Yoma 42 - You say, two strips of wool, and I say - three</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Yoma 42 - You say, two strips of wool, and I say - three</h1>
 <a href="http://3.bp.blogspot.com/-fmPDf6wUgxY/UraAwdlLv9I/AAAAAAAAPBY/KN-rXjYoPqM/s1600/Goats+in+a+landscape+by+(after)+Johann+Rudolf+Byss.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="225" src="http://3.bp.blogspot.com/-fmPDf6wUgxY/UraAwdlLv9I/AAAAAAAAPBY/KN-rXjYoPqM/s320/Goats+in+a+landscape+by+(after)+Johann+Rudolf+Byss.jpg" width="320" /></a><a href="http://mkerzner.blogspot.com/2013/12/yoma-41-strip-of-red-wool.html">Our last discussion</a> concerned two strips of red wool used in Temple services. However, when Rav Dimi came back from one of these numerous learning trips to Israel, he brought back the teaching of Rabbi Yochanan, which was later enhanced by Rabbi Yonatan, and they said that there were three such strips. They also provided the minimal measures: the strip for burning the red heifer was the heaviest, the weight of ten "zuz" coins - since it had to land inside the fire in which the red heifer was burning. Next was the strip tied to the horns of the sent-away goat and, since it had to be divided in two, it needed a minimum of two "sela" coins or eight "zuz." Finally, the third one was used to purify a leper (metzora), and it could be as light as four zuz. Thus the question was now completely resolved.<br />

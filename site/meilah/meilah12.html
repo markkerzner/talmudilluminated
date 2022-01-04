@@ -1,5 +1,35 @@
 <html>
 <title>Meilah 12 - Ashes</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Meilah 12 - Ashes</h1>
 <a href="http://2.bp.blogspot.com/-6v-_WhHcJEI/T5180thDnUI/AAAAAAAAJf4/ogb_roTMkSs/s1600/Jan+Victors+-+A+Still+Life+With+A+Couple+Of+Pigeons+Nesting+And+Preening+Together+With+Four+Chicks.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="266" src="http://2.bp.blogspot.com/-6v-_WhHcJEI/T5180thDnUI/AAAAAAAAJf4/ogb_roTMkSs/s320/Jan+Victors+-+A+Still+Life+With+A+Couple+Of+Pigeons+Nesting+And+Preening+Together+With+Four+Chicks.jpg" width="320" /></a>Every morning, the Temple service started with removing a small portion of the ashes from the Altar and placing them at the southwestern corner of the Altar, where they were swallowed into the ground. Since there was this mitzvah of "separation of ashes," that continued, there remained a prohibition of misappropriation for the ashes. In contrast to the ashes of this outer Altar, the ashes of the inner Altar, which was used for burning the daily incense, lost the misappropriation prohibition once they were burned. However, they were put on the place where the outer Altar ashes, and after they were mixed, the prohibition of misappropriation was again in force.

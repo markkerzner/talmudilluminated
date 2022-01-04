@@ -1,5 +1,35 @@
 <html>
 <title>Yevamot 64 - Ten years without children</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Yevamot 64 - Ten years without children</h1>
 <a href="http://4.bp.blogspot.com/-2vyOR9-H9nE/VI3wlbrCtvI/AAAAAAAAXCQ/q6khkmbfsqY/s1600/Family%2Bwith%2Ba%2BBird%2Bby%2BBartolome%2BEsteban%2BMurillo.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-2vyOR9-H9nE/VI3wlbrCtvI/AAAAAAAAXCQ/q6khkmbfsqY/s1600/Family%2Bwith%2Ba%2BBird%2Bby%2BBartolome%2BEsteban%2BMurillo.jpg" height="234" width="320" /></a>If a man was married to a woman for ten years, and they did not have any children, in the times of the Talmud he would have to divorce her or marry another wife, so that he can fulfill the mitzvah of procreation. This is only true if he did not children before. It also assumes that they don't know who is at fault. However, if the man is sterile, there is no point for him to divorce her, since he cannot have children with anybody else anyway. After he divorces her, she has no presumption of not being able to have children, and when she marries to another man, the new husband needs to also count ten years before applying the rule above.

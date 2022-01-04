@@ -1,5 +1,35 @@
 <html>
 <title>Gittin 9 - Letter of freedom</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Gittin 9 - Letter of freedom</h1>
 <a href="http://3.bp.blogspot.com/-kqx3K7vlsoE/VnoqO3XW9rI/AAAAAAAAYi4/_bwqK2jHbmw/s1600/The%2BHour%2Bof%2BEmancipation%2Bby%2BWilliam%2BTolman%2BCarlton.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="256" src="http://3.bp.blogspot.com/-kqx3K7vlsoE/VnoqO3XW9rI/AAAAAAAAYi4/_bwqK2jHbmw/s320/The%2BHour%2Bof%2BEmancipation%2Bby%2BWilliam%2BTolman%2BCarlton.jpg" width="320" /></a>A divorce document (Get) is essentially a letter of freedom for the woman, for she is now free to marry anyone she wants. In the same way, a Get can be given to a slave, and it will be a letter of his emancipation, reading "You are free," or "You belong to yourself."

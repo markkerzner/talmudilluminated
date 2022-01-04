@@ -1,5 +1,35 @@
 <html>
 <title>Eruvin 79 - Haystack</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Eruvin 79 - Haystack</h1>
 <a href="http://2.bp.blogspot.com/-XFWkfHp-pW8/UaLPZKsJdQI/AAAAAAAANWk/FZOM5wvNlsk/s1600/Haystack+At+Sunset+by+Martin+Johnson+Heade+1819-1904.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="158" src="http://2.bp.blogspot.com/-XFWkfHp-pW8/UaLPZKsJdQI/AAAAAAAANWk/FZOM5wvNlsk/s320/Haystack+At+Sunset+by+Martin+Johnson+Heade+1819-1904.jpg" width="320" /></a>If two courtyards have between them a haystack which is ten hand-breadths high, then naturally it separates the two, and they must each make an eruv (common food) for their courtyard, to permit carrying there on Shabbat. 

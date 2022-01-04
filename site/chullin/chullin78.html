@@ -1,5 +1,35 @@
 <html>
 <title>Chullin 78 - It and Its Offspring</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Chullin 78 - It and Its Offspring</h1>
 <div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-QWNLrOGvLeY/Tm5qzZbk4jI/AAAAAAAAFdk/-PjwZfREbYs/s1600/Eug%25C3%25A8ne+Verboeckhoven+-+Shepherd+Girl+With+Cattle+And+Sheep+At+Rest.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="217" src="http://1.bp.blogspot.com/-QWNLrOGvLeY/Tm5qzZbk4jI/AAAAAAAAFdk/-PjwZfREbYs/s320/Eug%25C3%25A8ne+Verboeckhoven+-+Shepherd+Girl+With+Cattle+And+Sheep+At+Rest.jpg" width="320" /></a></div><span style="font-size: medium;">The Torah said, "<a href="http://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=3&amp;CHAPTER=22#P3395">Whether it is a bull, a sheep or a goat, do not slaughter [a female animal] and its child on the same day</a>." This prohibition is true both in the Land of Israel and outside, in the time of the Temple and now, for ordinary animals and for sacrifices.<br />

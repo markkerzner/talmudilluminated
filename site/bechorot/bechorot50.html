@@ -1,5 +1,35 @@
 <html>
 <title>Bechorot 50 - Shekel, Selah, and Other Currencies</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Bechorot 50 - Shekel, Selah, and Other Currencies</h1>
 <a href="http://3.bp.blogspot.com/-pYj8zHteJkg/TwSNfkVbU-I/AAAAAAAAIaI/zH8hP62ht4g/s1600/Auguste+Charpentier+-+The+jewish+moneylender+.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="http://3.bp.blogspot.com/-pYj8zHteJkg/TwSNfkVbU-I/AAAAAAAAIaI/zH8hP62ht4g/s320/Auguste+Charpentier+-+The+jewish+moneylender+.jpg" width="255" /></a>The amount given to a Kohen to redeem the firstborn son is "<a href="http://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=4&amp;CHAPTER=18#P4271">five shekels by the sanctuary standard, where the shekel is 20 gerah</a>." In the times of the Second Temple the names of the coins changed. Since a common payment was a half-shekel, donated yearly by each Jew to the Temple for atonement sacrifices, this half-shekel was called a "shekel," and the full shekel was instead called a "selah". That is why our ruling was formulated in terms of "shekel by the sanctuary standard," and not just a "shekel."

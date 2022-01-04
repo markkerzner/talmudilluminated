@@ -1,5 +1,35 @@
 <html>
 <title>Ketubot 87 - Repairing trust</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Ketubot 87 - Repairing trust</h1>
 <a href="http://4.bp.blogspot.com/-hyMeSN3Vx0U/VUPFGt4cr4I/AAAAAAAAXwo/F_IXeMyIZj4/s1600/The%2BOrphan%2BBy%2BWalter%2BLangley.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-hyMeSN3Vx0U/VUPFGt4cr4I/AAAAAAAAXwo/F_IXeMyIZj4/s1600/The%2BOrphan%2BBy%2BWalter%2BLangley.jpg" height="239" width="320" /></a><a href="http://mkerzner.blogspot.com/2015/04/trust.html">Earlier we learned</a> that a husband may at times impose an oath on his wife, that she did not embezzle any of his property. We also mentioned that the possibility of this oath may lead to a mistrust between the husband and the wife.

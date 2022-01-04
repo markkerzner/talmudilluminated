@@ -1,5 +1,35 @@
 <html>
 <title>Beitzah 6 - A chick</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Beitzah 6 - A chick</h1>
 <a href="http://1.bp.blogspot.com/-KF-3ltEe_ns/U0VzvN5hdNI/AAAAAAAAQxs/gRff9Gctcps/s1600/The+Proud+Mother+Hen+and+Chicks+by+John+Frederick+Herring+Snr.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="250" src="http://1.bp.blogspot.com/-KF-3ltEe_ns/U0VzvN5hdNI/AAAAAAAAQxs/gRff9Gctcps/s1600/The+Proud+Mother+Hen+and+Chicks+by+John+Frederick+Herring+Snr.jpg" width="320" /></a>Having discussed an egg laid on a Holiday (Yom Tov), the Talmud turns to a chick hatched on a Holiday. What is its status? Can it be eaten? We have two opinions. One is that it is muktzeh (set aside) - since before it hatched, it was not fit for any use. The other opinion is that it is permitted: if one were to slaughter it, it would become permitted as food - and this permission removes the prohibition of muktzeh.

@@ -1,5 +1,35 @@
 <html>
 <title>Ketubot 2 - Marriages are for Wednesdays</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Ketubot 2 - Marriages are for Wednesdays</h1>
 <a href="http://4.bp.blogspot.com/-qvxweZeYzTE/VNOs-w6H15I/AAAAAAAAXP8/DBTTRjVn_Ok/s1600/Wedding%2BProcession%2Bby%2BGustav%2BBrion.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-qvxweZeYzTE/VNOs-w6H15I/AAAAAAAAXP8/DBTTRjVn_Ok/s1600/Wedding%2BProcession%2Bby%2BGustav%2BBrion.jpg" height="225" width="320" /></a>The custom was for people to get engaged, and then take a year to prepare for a wedding. This engagement had more legal power than today: they were husband and wife, except not living together. When the time came to marry, girls for whom it was the first marriage would get married on Wednesdays. Why specifically on this day? Because of another circumstance - the courts used to convene on Thursdays, so that if he had any question about his wife, he could come to court on the morrow. For example, if he had suspicions that she was unfaithful to him, judging by the fact that she was not a virgin, he could come to court, and expect that the publicity caused by his actions could bring in witnesses of her unfaithfulness, if such there were.

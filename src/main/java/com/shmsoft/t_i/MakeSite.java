@@ -4,6 +4,7 @@ import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,8 +47,11 @@ public class MakeSite {
                             "<a href=\"https://mkerzner.blogspot.com/search?q=" +
                             masechetNames[m] + "+" + p +
                             "\">Leave a comment</a>";
+                    String fmMessenger = FileUtils.readFileToString(
+                            new File("doc/fb-messenger.txt"), StandardCharsets.UTF_8);
                     String html = "<html>" + "\n" +
                             "<title>" + title + "</title>" + "\n" +
+                            fmMessenger + "\n" +
                             "<body>\n" +
                             "<h1>" + title + "</h1>" + "\n" +
                             bodyContent +

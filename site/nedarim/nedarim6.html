@@ -1,5 +1,35 @@
 <html>
 <title>Nedarim 6 - Never mind what I said</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Nedarim 6 - Never mind what I said</h1>
 <a href="http://1.bp.blogspot.com/-1_CEL9l_pxE/VW4A1UwzDJI/AAAAAAAAX5k/qlJXrXYZIKY/s1600/Portrait%2Bof%2Ba%2BGentleman%2Band%2Bhis%2BWife%2Bin%2Ba%2BPark%2Bby%2BJohn%2BDownman.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="269" src="http://1.bp.blogspot.com/-1_CEL9l_pxE/VW4A1UwzDJI/AAAAAAAAX5k/qlJXrXYZIKY/s320/Portrait%2Bof%2Ba%2BGentleman%2Band%2Bhis%2BWife%2Bin%2Ba%2BPark%2Bby%2BJohn%2BDownman.jpg" width="320" /></a>Rava said that one needs to spell out everything in a contract or statement, while Abaye says that we understand what is meant. But this is the same as what Rabbi Yehudah and his opponents argued about regarding Get, where <a href="http://mkerzner.blogspot.com/2015/05/nedarim-5-how-to-properly-vow.html">Rabbi Yehudah required a full formula of "this is for you the document of removal, etc."</a><br />

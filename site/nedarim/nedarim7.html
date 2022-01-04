@@ -1,5 +1,35 @@
 <html>
 <title>Nedarim 7 - I am excommunicated from you!</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Nedarim 7 - I am excommunicated from you!</h1>
 <a href="http://1.bp.blogspot.com/-SSbj-PXeJGs/VXEpOMh9QTI/AAAAAAAAX6E/WtXnbnyC_eo/s1600/Before%2Bvows%2Bby%2BVasily%2BPerov.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="http://1.bp.blogspot.com/-SSbj-PXeJGs/VXEpOMh9QTI/AAAAAAAAX6E/WtXnbnyC_eo/s320/Before%2Bvows%2Bby%2BVasily%2BPerov.jpg" width="181" /></a>Having discussed vague declarations of vows for charity (corner of the field), and an equally vague designation of a lavatory - and left without an answer to both - the Talmud comes to another rule, about a man to told his fellow, "I am excommunicated from you!"

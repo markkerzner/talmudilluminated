@@ -1,5 +1,35 @@
 <html>
 <title>Beitzah 9 - A ladder</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Beitzah 9 - A ladder</h1>
 <a href="http://1.bp.blogspot.com/-V0mjGlvKNt0/U2BaMM6GkzI/AAAAAAAASDM/VW_GXK0kG94/s1600/The+entrance+to+a+large+barn,+a+ladder+leaning+against+the+wall+by+Giovanni+Battista+Tiepolo.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="http://1.bp.blogspot.com/-V0mjGlvKNt0/U2BaMM6GkzI/AAAAAAAASDM/VW_GXK0kG94/s1600/The+entrance+to+a+large+barn,+a+ladder+leaning+against+the+wall+by+Giovanni+Battista+Tiepolo.jpg" width="222" /></a>Beit Shammai prohibits moving a ladder from one dovecote to another, even though his intention is to fetch some doves for slaughter and consumption, which by itself is permissible on a Holiday (Yom Tov). Beit Hillel disagrees and allows moving the ladder.

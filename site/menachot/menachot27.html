@@ -1,5 +1,35 @@
 <html>
 <title>Menachot 27 - What is Essential</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Menachot 27 - What is Essential</h1>
 <div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-ouM_J-zKClk/TZu_SJ9if2I/AAAAAAAAEyg/E3sie0J7RQU/s1600/Paul+Gauguin+-+Landscape+with+Two+Goats.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="http://1.bp.blogspot.com/-ouM_J-zKClk/TZu_SJ9if2I/AAAAAAAAEyg/E3sie0J7RQU/s320/Paul+Gauguin+-+Landscape+with+Two+Goats.jpg" width="256" /></a></div><span style="font-size: medium;">From here on, for the next few pages, we will be dealing with the question of which parts of the commandments are essential and cannot be omitted. As a general rule, nothing is essential, unless stated otherwise. The Torah can indicate that a requirement is essential by either repeating it, or by using the word "thus," or the word "a decree" when describing it.<br />

@@ -1,5 +1,35 @@
 <html>
 <title>Kiddushin 25 - Cold Fish</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Kiddushin 25 - Cold Fish</h1>
 <a href="http://2.bp.blogspot.com/_hGn1v4stHxE/SQ5i7T1slXI/AAAAAAAAAZs/w3-uWJXVZNg/s1600-h/Quiringh+Gerritsz.+van+Brekelenkam+-+A+Fishmonger+-C.1667.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"><img alt="" border="0" src="http://2.bp.blogspot.com/_hGn1v4stHxE/SQ5i7T1slXI/AAAAAAAAAZs/w3-uWJXVZNg/s320/Quiringh+Gerritsz.+van+Brekelenkam+-+A+Fishmonger+-C.1667.jpg" id="BLOGGER_PHOTO_ID_5264253785519986034" style="cursor: pointer; float: left; height: 320px; margin: 0pt 10px 10px 0pt; width: 282px;" /></a><span style="font-size: medium;">The elders of the city of Nezonia did not attend Rav Chisda's lecture. He said to Rav Hamnuna, "Go place a ban on them."<br />

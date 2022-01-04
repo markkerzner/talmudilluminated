@@ -1,5 +1,35 @@
 <html>
 <title>Bechorot 21 - A Goat With Three Daughters</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Bechorot 21 - A Goat With Three Daughters</h1>
 <a href="http://1.bp.blogspot.com/-LcSyyrCvv-M/Tt8JPO5mukI/AAAAAAAAIPo/roVOSSPz8vA/s1600/Jakob+Philippe+Hackert+-+Italian+Landscape+With+A+Goat+And+Her+Kid.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="http://1.bp.blogspot.com/-LcSyyrCvv-M/Tt8JPO5mukI/AAAAAAAAIPo/roVOSSPz8vA/s320/Jakob+Philippe+Hackert+-+Italian+Landscape+With+A+Goat+And+Her+Kid.jpg" width="237" /></a>If a young goat gave birth to triplet daughters, and each of her daughters gave birth to three daughters, then we have twelve goats born within a year. For example, the triplet daughter goats may be born on the first of Elul, and after six months each daughter conceived. Five months later, before the next Elul, each of the triplet herself bore triplet, and since the accounting for tithe goes from Elul to Elul, and there were at least ten of them, the whole family goes into the same pen for tithing. Rabbi Shimon says, "I myself saw a progeny of a single goat tithed within her first year."

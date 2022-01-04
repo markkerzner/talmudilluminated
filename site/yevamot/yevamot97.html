@@ -1,5 +1,35 @@
 <html>
 <title>Yevamot 97 - Riddles</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Yevamot 97 - Riddles</h1>
 <a href="http://1.bp.blogspot.com/-xefV552zCEg/VLiYLbRO2vI/AAAAAAAAXLA/c_CgZ4pDwG4/s1600/Sisters%2BIn%2BThe%2BSewing%2BRoom%2Bby%2BFritz%2Bvon%2BUhde.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-xefV552zCEg/VLiYLbRO2vI/AAAAAAAAXLA/c_CgZ4pDwG4/s1600/Sisters%2BIn%2BThe%2BSewing%2BRoom%2Bby%2BFritz%2Bvon%2BUhde.jpg" height="320" width="254" /></a>If one's father violated or seduced a woman (or otherwise had an affair with her), then the son can still marry her. The prohibition to marry the wife of one's father does not apply here. Rabbi Yehudah forbids the son to marry such a woman. The <a href="http://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=5&amp;CHAPTER=23">verse itself</a> is talking only about a legal wife, but Rabbi Yehudah derives his additional prohibition from the context. Even the first teacher will agree that the Sages later prohibited such marriage.

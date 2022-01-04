@@ -1,5 +1,35 @@
 <html>
 <title>Yevamot 17 - A very young brother</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Yevamot 17 - A very young brother</h1>
 <a href="http://4.bp.blogspot.com/-UAXmUqlkDgQ/VEcnoDeYJMI/AAAAAAAAWjE/8URIF6fBJYs/s1600/Jacob%2BSending%2Bhis%2BSon%2BJoseph%2Bto%2BLook%2Bfor%2Bhis%2BBrothers%2Bby%2BEustache%2BLe%2BSueur.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-UAXmUqlkDgQ/VEcnoDeYJMI/AAAAAAAAWjE/8URIF6fBJYs/s1600/Jacob%2BSending%2Bhis%2BSon%2BJoseph%2Bto%2BLook%2Bfor%2Bhis%2BBrothers%2Bby%2BEustache%2BLe%2BSueur.jpg" height="320" width="246" /></a>The laws of yibum apply only when two brothers live at the same time and one dies childless. However, if the brother is not a contemporary, he cannot do a yibum. How do you mean?

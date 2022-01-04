@@ -1,5 +1,35 @@
 <html>
 <title>Yevamot 52 - Get, Yibum, Chalitzah</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Yevamot 52 - Get, Yibum, Chalitzah</h1>
 <a href="http://3.bp.blogspot.com/-Qc50g3FcG3c/VHaYeSIu3GI/AAAAAAAAW9g/4toh2-SdGWE/s1600/The%2BMarriage%2BContract%2Bby%2BJan%2BJozef%2C%2Bthe%2BYounger%2BHoremans.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-Qc50g3FcG3c/VHaYeSIu3GI/AAAAAAAAW9g/4toh2-SdGWE/s1600/The%2BMarriage%2BContract%2Bby%2BJan%2BJozef%2C%2Bthe%2BYounger%2BHoremans.jpg" height="320" width="222" /></a>What are the possible permutations of marriages and divorces, and also yibum and chalitzah? If one made a declaration of the intent to marry his deceased brother's wife, but then changed his mind and gave her a Get (divorce document), the Get is not enough. Since the actual Torah law dictates either a yibum or a chalitzah in this case, he needs to also give her a chalitzah.

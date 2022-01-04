@@ -1,5 +1,35 @@
 <html>
 <title>Ketubot 8 - The seven blessings</title>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104359928603992");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <body>
 <h1>Ketubot 8 - The seven blessings</h1>
 <a href="http://3.bp.blogspot.com/-0RUFT5eFcfs/VOOArz5IPhI/AAAAAAAAXW8/zEBhWw7Bj5g/s1600/Artist%2Band%2BHis%2BBride%2Bby%2BMarc%2BChagall.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-0RUFT5eFcfs/VOOArz5IPhI/AAAAAAAAXW8/zEBhWw7Bj5g/s1600/Artist%2Band%2BHis%2BBride%2Bby%2BMarc%2BChagall.jpg" height="320" width="231" /></a>Every day of the seven days of the marriage celebration, they recite seven blessings for the bride and groom. First the blessing on the wine. Then, "Blessed is the One who created everything for His glory." Just as God acted as the best friend at Adam and Eve's wedding, so too those assembled at the wedding emulate God.
