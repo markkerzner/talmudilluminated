@@ -1,5 +1,7 @@
 package com.shmsoft.t_i;
 
+import org.junit.Test;
+
 import static org.junit.Assert.assertTrue;
 
 public class BloggerPullerTest {
@@ -30,4 +32,11 @@ public class BloggerPullerTest {
         bloggerPuller.getPage("bava kamma", 57);
         assertTrue(true);
     }
+    @Test
+    public void getMasechetMegillah() {
+        BloggerPuller bloggerPuller = new BloggerPuller();
+        bloggerPuller.getPages("megillah", 32);
+        assertTrue(true);
+    }
+
 }
