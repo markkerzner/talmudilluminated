@@ -25,6 +25,19 @@
             <artifactId>htrace-core</artifactId>
             <version>3.2.0-incubating</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId>
+            <version>2.4.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parsers -->
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-parsers-standard-package</artifactId>
+            <version>2.4.1</version>
+            <type>pom</type>
+        </dependency>
+
     </dependencies>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
