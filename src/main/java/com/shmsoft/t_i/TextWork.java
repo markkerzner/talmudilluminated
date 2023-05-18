@@ -1,5 +1,6 @@
 package com.shmsoft.t_i;
 
+import org.apache.tika.Tika;
 import org.apache.tika.exception.TikaException;
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.AutoDetectParser;
@@ -21,6 +22,10 @@ public class TextWork {
         textWork.testTikaExtractText();
     }
     public void testTikaExtractText() throws IOException, TikaException, SAXException {
+        Tika tika = new Tika();
+        String text = tika.parseToString(new File("data/01.pdf"));
+        System.out.println("Detected: " + text);
+
         Parser parser = new AutoDetectParser();
         ContentHandler handler = new BodyContentHandler();
         Metadata metadata = new Metadata();
@@ -28,7 +33,7 @@ public class TextWork {
         InputStream stream = new FileInputStream(new File("data/01.pdf"));
         parser.parse(stream, handler, metadata, context);
         String contentString = handler.toString();
-        System.out.println(contentString);
+        System.out.println("PDF length: " + contentString.length());
 
     }
 }
