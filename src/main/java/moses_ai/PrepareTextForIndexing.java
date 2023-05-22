@@ -37,14 +37,12 @@ public class PrepareTextForIndexing {
                         int paragraphCount = 0;
                         for (int i = 0; i < paragraphs.length; i++) {
                             String paragraphFile = OUTPUT_DIR + "/" + file.getName() + "-paragraph-" + paragraphCount + ".txt";
-
                             String paragraph = paragraphs[i];
                             if (paragraph.length() > 3 && // skip empty paragraph
                                     !(paragraph.startsWith("Art")) && // skip description of art in summary
                                     !(paragraph.startsWith(" Art")) && // skip description of art in summary
                                     !paragraph.startsWith("Leave a comment") // skip "Leave a comment"
                             ) {
-                                System.out.println("Writing: " + paragraph);
                                 FileUtils.writeStringToFile(new File(paragraphFile), paragraph, "UTF-8");
                                 paragraphCount++;
                             }
