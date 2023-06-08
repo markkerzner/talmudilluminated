@@ -47,9 +47,8 @@ public class MakeSite {
                     }
                     String searchString = "<br/>\n" +
                             "<br/>\n" +
-                            "<a href=\"https://mkerzner.blogspot.com/search?q=" +
-                            masechetNames[m] + "+" + p +
-                            "\">Leave a comment</a>";
+                            "<a href=\"http://mosesai.org" +
+                            "\">Talk to MosesAI about it</a>";
                     String html = "<html>" + "\n" +
                             "<title>" + title + "</title>" + "\n" +
                             fbMessenger + "\n" +
