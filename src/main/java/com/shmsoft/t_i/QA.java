@@ -29,7 +29,7 @@ public class QA {
                         // valid
                     } else {
                         // invalid
-                        System.out.println("Missing " + titleStart);
+                        System.out.println(titleStart);
                         ++missingCount;
                     }
                 }
