@@ -388,11 +388,6 @@ gittin 65
 gittin 66
 gittin 67
 gittin 68
-bava kamma 8
-bava kamma 103
-bava kamma 105
-bava kamma 108
-bava metzia 61
 bava batra 41
 zevachim 11
 zevachim 12
@@ -410,4 +405,4 @@ chullin 82
 chullin 90
 chullin 97
 chullin 98
-Missing pages count: 412 of 2711
+Missing pages count: 407 of 2711
