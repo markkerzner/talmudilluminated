@@ -67,7 +67,6 @@ public class BloggerPuller {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     public void getPages(String masechet, int numberPages) {
