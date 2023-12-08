@@ -1,6 +1,3 @@
-brachot 61
-brachot 62
-brachot 63
 brachot 64
 shabbat 2
 shabbat 3
@@ -388,3 +385,5 @@ gittin 65
 gittin 66
 gittin 67
 gittin 68
+Missing pages count: 387 of 2711
+Missing percent: 14%
