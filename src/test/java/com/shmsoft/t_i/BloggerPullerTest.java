@@ -19,10 +19,10 @@ public class BloggerPullerTest {
         assertTrue(true);
     }
 
-    //@Test
+    @Test
     public void getPage() {
         BloggerPuller bloggerPuller = new BloggerPuller();
-        bloggerPuller.getPage("brachot", 57);
+        bloggerPuller.getPage("shabbat", 4);
         assertTrue(true);
     }
 
@@ -32,7 +32,7 @@ public class BloggerPullerTest {
         bloggerPuller.getPage("bava kamma", 57);
         assertTrue(true);
     }
-    @Test
+    //@Test
     public void getMasechetMegillah() {
         BloggerPuller bloggerPuller = new BloggerPuller();
         bloggerPuller.getPages("megillah", 32);
