@@ -22,7 +22,7 @@ public class BloggerPullerTest {
     @Test
     public void getPage() {
         BloggerPuller bloggerPuller = new BloggerPuller();
-        bloggerPuller.getPage("shabbat", 4);
+        bloggerPuller.getPage("shabbat", 5);
         assertTrue(true);
     }
 
