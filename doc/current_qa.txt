@@ -1,7 +1,3 @@
-shabbat 5
-shabbat 94
-shabbat 95
-shabbat 96
 shabbat 97
 shabbat 98
 shabbat 99
@@ -378,5 +374,5 @@ gittin 65
 gittin 66
 gittin 67
 gittin 68
-Missing pages count: 380 of 2711
-Missing percent: 14%
+Missing pages count: 376 of 2711
+Missing percent: 13%
