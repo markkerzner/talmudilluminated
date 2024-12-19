@@ -12,6 +12,8 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
+import static java.lang.System.exit;
+
 /**
  * Pulls Blogger content
  * https://developers.google.com/blogger/docs/3.0/reference/posts/get
@@ -32,14 +34,17 @@ public class BloggerPuller {
     private int foundTooMany = 0;
 
     public static void main(String[] argv) {
-        Date start = new Date();
-        int mm = -1;
-        if (argv.length > 0) {
-            mm = Integer.parseInt(argv[0]);
-        }
         assert (masechetNames.length == masechetPages.length);
+        Date start = new Date();
+        String masechetName = argv.length > 0 ? argv[0] : "";
+        if (!masechetName.isEmpty()) {
+            if (!isMasechetNameValid(masechetName)) {
+                System.out.println(masechetName + " it not valid.");
+                exit(1);
+            }
+        };
         for (int m = 0; m < masechetNames.length; ++m) {
-            if (mm >=0 && m != mm) continue;
+            if (!masechetName.isEmpty() && !masechetNames[m].startsWith(masechetName)) continue;
             System.out.println("Pulling masechet " + masechetNames[m]);
             BloggerPuller bloggerPuller = new BloggerPuller();
             bloggerPuller.getPages(masechetNames[m], masechetPages[m]);
@@ -100,5 +105,12 @@ public class BloggerPuller {
     private String makeTitleSearch(String masechet, int pageNumber) {
         return masechet + " " + pageNumber;
     }
-
+    public static boolean isMasechetNameValid(String mashechetName) {
+        for (String mname : masechetNames) {
+            if (mname.equalsIgnoreCase(mashechetName)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
