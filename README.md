@@ -36,4 +36,4 @@ This part of the project thus took exactly 13 years on the Jewish calendar.
 5. Deploy from there (open TalmudIlluminatedContent project and run deploy.sh)
 
 * Custom GPT:
-* ![](https://chatgpt.com/g/g-68d6ee5a5c008191a1919c20e0777157-moses-ai)
+* [MosesAI](https://chatgpt.com/g/g-68d6ee5a5c008191a1919c20e0777157-moses-ai)
