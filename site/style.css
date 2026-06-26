@@ -162,6 +162,14 @@ ul.daf-list li a {
 ul.daf-list li a:hover { background: #f3ead8; color: var(--accent-dk); }
 ul.daf-list li a .num { color: var(--accent); font-weight: 700; margin-right: 0.4rem; }
 
+/* ---------- Image credit (unobtrusive caption) ---------- */
+.credit {
+  margin: 0.4rem 0 1.5rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
 /* ---------- Homepage tractate grid ---------- */
 .tractate-grid {
   list-style: none;
