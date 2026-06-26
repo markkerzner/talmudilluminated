@@ -1,22 +1,48 @@
-<html>
-
-<a href="sotah2.html">Sotah 2 - Man deserves what he gets<br/></a>
-<a href="sotah3.html">Sotah 3 - Is jealousy good or bad?<br/></a>
-<a href="sotah4.html">Sotah 4 - How long do they need?<br/></a>
-<a href="sotah5.html">Sotah 5 - Haughty or humble?<br/></a>
-<a href="sotah15.html">Sotah 15 - The sacrifice of jealousy<br/></a>
-<a href="sotah20.html">Sotah 20 - The importance of teaching one's daughter Torah<br/></a>
-<a href="sotah22.html">Sotah 22 - On falsehood<br/></a>
-<a href="sotah27.html">Sotah 27 - Just as she, so is he<br/></a>
-<a href="sotah28.html">Sotah 28 - Laws of purity <br/></a>
-<a href="sotah29.html">Sotah 29 - Can you ask him?<br/></a>
-<a href="sotah30.html">Sotah 30 - Purity, Song at the Sea, and other sundry questions<br/></a>
-<a href="sotah31.html">Sotah 31 - Parrot<br/></a>
-<a href="sotah36.html">Sotah 36 - Why to learn languages<br/></a>
-<a href="sotah38.html">Sotah 38 - How to bless<br/></a>
-<a href="sotah40.html">Sotah 40 - The humility of Rabbi Abbahu<br/></a>
-<a href="sotah42.html">Sotah 42 - Kohen at war<br/></a>
-<a href="sotah43.html">Sotah 43 - Exclusions from military service<br/></a>
-<a href="sotah44.html">Sotah 44 - What is there to be afraid of?<br/></a>
-<a href="sotah49.html">Sotah 49 - Losses<br/></a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sotah | Talmud Illuminated</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/index.html">📖 Talmud Illuminated</a>
+  <nav class="breadcrumb"><a href="/index.html">Home</a> &rsaquo; Sotah</nav>
+</header>
+<main>
+<h1>Sotah</h1>
+<p class="tractate-intro">19 pages summarized and illuminated.</p>
+<input class="filter" id="filter" type="search" autocomplete="off" placeholder="Filter Sotah pages…" oninput="filterList(this.value)">
+<ul class="daf-list" id="daf-list">
+    <li><a href="sotah2.html"><span class="num">2</span>Man deserves what he gets</a></li>
+    <li><a href="sotah3.html"><span class="num">3</span>Is jealousy good or bad?</a></li>
+    <li><a href="sotah4.html"><span class="num">4</span>How long do they need?</a></li>
+    <li><a href="sotah5.html"><span class="num">5</span>Haughty or humble?</a></li>
+    <li><a href="sotah15.html"><span class="num">15</span>The sacrifice of jealousy</a></li>
+    <li><a href="sotah20.html"><span class="num">20</span>The importance of teaching one's daughter Torah</a></li>
+    <li><a href="sotah22.html"><span class="num">22</span>On falsehood</a></li>
+    <li><a href="sotah27.html"><span class="num">27</span>Just as she, so is he</a></li>
+    <li><a href="sotah28.html"><span class="num">28</span>Laws of purity </a></li>
+    <li><a href="sotah29.html"><span class="num">29</span>Can you ask him?</a></li>
+    <li><a href="sotah30.html"><span class="num">30</span>Purity, Song at the Sea, and other sundry questions</a></li>
+    <li><a href="sotah31.html"><span class="num">31</span>Parrot</a></li>
+    <li><a href="sotah36.html"><span class="num">36</span>Why to learn languages</a></li>
+    <li><a href="sotah38.html"><span class="num">38</span>How to bless</a></li>
+    <li><a href="sotah40.html"><span class="num">40</span>The humility of Rabbi Abbahu</a></li>
+    <li><a href="sotah42.html"><span class="num">42</span>Kohen at war</a></li>
+    <li><a href="sotah43.html"><span class="num">43</span>Exclusions from military service</a></li>
+    <li><a href="sotah44.html"><span class="num">44</span>What is there to be afraid of?</a></li>
+    <li><a href="sotah49.html"><span class="num">49</span>Losses</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <a href="/index.html">Home</a> &middot; <a href="/search.html">Search</a> &middot; <a href="http://mosesai.org">MosesAI</a> &middot; <a href="/about.html">About</a><br>
+  Summaries of every page of the Talmud Bavli, illuminated with the world's best art.
+</footer>
+<script>
+function filterList(q){q=q.toLowerCase();document.querySelectorAll('#daf-list li').forEach(function(li){li.style.display=li.textContent.toLowerCase().indexOf(q)>-1?'':'none';});}
+</script>
+</body>
 </html>

@@ -1,24 +1,50 @@
-<html>
-
-<a href="shekalim2.html">Shekalim 2 - On the first of Adar<br/></a>
-<a href="shekalim3.html">Shekalim 3 - Also on the first of Adar<br/></a>
-<a href="shekalim4.html">Shekalim 4 - From whom they collected half a shekel?<br/></a>
-<a href="shekalim5.html">Shekalim 5 - Accidents<br/></a>
-<a href="shekalim6.html">Shekalim 6 - Counting pennies<br/></a>
-<a href="shekalim7.html">Shekalim 7 - Monument<br/></a>
-<a href="shekalim8.html">Shekalim 8 - Scooping the shekalim<br/></a>
-<a href="shekalim9.html">Shekalim 9 - Scooping three times<br/></a>
-<a href="shekalim10.html">Shekalim 10 - Remainder and remainder of remainder<br/></a>
-<a href="shekalim11.html">Shekalim 11 - Multi-step transaction with incense<br/></a>
-<a href="shekalim12.html">Shekalim 12 - Gifts to the Temple<br/></a>
-<a href="shekalim13.html">Shekalim 13 - Wonderful administrators<br/></a>
-<a href="shekalim14.html">Shekalim 14 - The knowledge of foreign languages<br/></a>
-<a href="shekalim15.html">Shekalim 15 - The chamber of secrets<br/></a>
-<a href="shekalim16.html">Shekalim 16 - Thirteen<br/></a>
-<a href="shekalim17.html">Shekalim 17 - Bow down thirteen times<br/></a>
-<a href="shekalim18.html">Shekalim 18 - Thirteen tables<br/></a>
-<a href="shekalim19.html">Shekalim 19 - Found coins<br/></a>
-<a href="shekalim20.html">Shekalim 20 - Found animals<br/></a>
-<a href="shekalim21.html">Shekalim 21 - Found spittle<br/></a>
-<a href="shekalim22.html">Shekalim 22 - Temple curtain and shekalim today<br/></a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shekalim | Talmud Illuminated</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/index.html">📖 Talmud Illuminated</a>
+  <nav class="breadcrumb"><a href="/index.html">Home</a> &rsaquo; Shekalim</nav>
+</header>
+<main>
+<h1>Shekalim</h1>
+<p class="tractate-intro">21 pages summarized and illuminated.</p>
+<input class="filter" id="filter" type="search" autocomplete="off" placeholder="Filter Shekalim pages…" oninput="filterList(this.value)">
+<ul class="daf-list" id="daf-list">
+    <li><a href="shekalim2.html"><span class="num">2</span>On the first of Adar</a></li>
+    <li><a href="shekalim3.html"><span class="num">3</span>Also on the first of Adar</a></li>
+    <li><a href="shekalim4.html"><span class="num">4</span>From whom they collected half a shekel?</a></li>
+    <li><a href="shekalim5.html"><span class="num">5</span>Accidents</a></li>
+    <li><a href="shekalim6.html"><span class="num">6</span>Counting pennies</a></li>
+    <li><a href="shekalim7.html"><span class="num">7</span>Monument</a></li>
+    <li><a href="shekalim8.html"><span class="num">8</span>Scooping the shekalim</a></li>
+    <li><a href="shekalim9.html"><span class="num">9</span>Scooping three times</a></li>
+    <li><a href="shekalim10.html"><span class="num">10</span>Remainder and remainder of remainder</a></li>
+    <li><a href="shekalim11.html"><span class="num">11</span>Multi-step transaction with incense</a></li>
+    <li><a href="shekalim12.html"><span class="num">12</span>Gifts to the Temple</a></li>
+    <li><a href="shekalim13.html"><span class="num">13</span>Wonderful administrators</a></li>
+    <li><a href="shekalim14.html"><span class="num">14</span>The knowledge of foreign languages</a></li>
+    <li><a href="shekalim15.html"><span class="num">15</span>The chamber of secrets</a></li>
+    <li><a href="shekalim16.html"><span class="num">16</span>Thirteen</a></li>
+    <li><a href="shekalim17.html"><span class="num">17</span>Bow down thirteen times</a></li>
+    <li><a href="shekalim18.html"><span class="num">18</span>Thirteen tables</a></li>
+    <li><a href="shekalim19.html"><span class="num">19</span>Found coins</a></li>
+    <li><a href="shekalim20.html"><span class="num">20</span>Found animals</a></li>
+    <li><a href="shekalim21.html"><span class="num">21</span>Found spittle</a></li>
+    <li><a href="shekalim22.html"><span class="num">22</span>Temple curtain and shekalim today</a></li>
+</ul>
+</main>
+<footer class="site-footer">
+  <a href="/index.html">Home</a> &middot; <a href="/search.html">Search</a> &middot; <a href="http://mosesai.org">MosesAI</a> &middot; <a href="/about.html">About</a><br>
+  Summaries of every page of the Talmud Bavli, illuminated with the world's best art.
+</footer>
+<script>
+function filterList(q){q=q.toLowerCase();document.querySelectorAll('#daf-list li').forEach(function(li){li.style.display=li.textContent.toLowerCase().indexOf(q)>-1?'':'none';});}
+</script>
+</body>
 </html>
