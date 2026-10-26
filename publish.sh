@@ -31,6 +31,7 @@ cd "$PROJECT_DIR"   # BloggerPuller, QA and MakeSite all use relative paths
 CONTENT_REPO="${CONTENT_REPO:-$PROJECT_DIR/../TalmudIlluminatedContent}"
 MAX_NEW_MISSING="${MAX_NEW_MISSING:-10}"
 QA_BASELINE="doc/current_qa.txt"
+MISSING_LIST="doc/missing_pages.md"
 CLASSPATH_CACHE="target/classpath.txt"
 QA_LOG="target/qa.txt"
 
@@ -102,6 +103,12 @@ missing_count() { grep -oP 'Missing pages count:\s*\K[0-9]+' "$1" | tail -1; }
 
 missing="$(missing_count "$QA_LOG" || true)"
 [[ -n "$missing" ]] || die "QA produced no 'Missing pages count' line; see $PROJECT_DIR/$QA_LOG"
+
+# Refresh the human-readable list of what is still unwritten.
+if command -v python3 >/dev/null 2>&1; then
+  python3 -I missing_pages.py "$QA_LOG" > "$MISSING_LIST"
+  echo "Wrote $MISSING_LIST"
+fi
 
 if [[ -f "$QA_BASELINE" ]]; then
   baseline="$(missing_count "$QA_BASELINE" || true)"
