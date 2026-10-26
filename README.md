@@ -28,6 +28,11 @@ This part of the project thus took exactly 13 years on the Jewish calendar.
   
 ## Instructions
 
+Run `./publish.sh` -- it does all of the steps below, aborts if any stage fails,
+and will not deploy if QA shows many more missing pages than the baseline in
+`doc/current_qa.txt`. `./publish.sh --help` lists the options. The steps it
+automates, if you want to run them by hand:
+
 1. Crawl (run Full Crawl configuration)
 2. QA (run QA configuration)
 3. MakeSite (run MakeSite configuration)
