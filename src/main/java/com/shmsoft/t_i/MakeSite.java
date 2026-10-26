@@ -22,6 +22,14 @@ public class MakeSite {
 
     private static final String BRAND = "Talmud Illuminated";
 
+    /**
+     * Subscribe page for the daily email list (hosts the Sender.net form).
+     * Rendered as visible text, not just an href: these pages get copied and
+     * pasted into Facebook, which strips the markup, so a bare URL is the only
+     * form that survives as something a reader can click.
+     */
+    private static final String SUBSCRIBE_URL = "https://talmudilluminated.com/subscribe/";
+
     public static void main(String[] argv) throws IOException {
         // For testing qa, give it a string to clean
         if (argv.length == 1) {
@@ -119,7 +127,7 @@ public class MakeSite {
                 + header("<a href=\"index.html\">" + escapeHtml(display) + "</a> &rsaquo; Daf " + p)
                 + "<main>\n"
                 + "<h1>" + escapeHtml(title) + "</h1>\n"
-                + "<article class=\"daf\">\n" + body + "</article>\n"
+                + "<article class=\"daf\">\n" + body + subscribeLine() + "</article>\n"
                 + "<p class=\"ask\"><a href=\"http://mosesai.org\">"
                 + "Don't understand a point? Ask MosesAI.org about it.</a></p>\n"
                 + "</main>\n"
@@ -200,6 +208,16 @@ public class MakeSite {
                 + "  <nav class=\"breadcrumb\"><a href=\"/index.html\">Home</a> &rsaquo; "
                 + crumbTail + "</nav>\n"
                 + "</header>\n";
+    }
+
+    /**
+     * The daily-email offer. It is the last element inside &lt;article&gt;, directly
+     * after the summary, so that selecting the daf text and pasting it elsewhere
+     * (Facebook, email) carries the offer with it.
+     */
+    private static String subscribeLine() {
+        return "<p class=\"subscribe\">A page of Talmud in your inbox every morning &mdash; "
+                + "subscribe: <a href=\"" + SUBSCRIBE_URL + "\">" + SUBSCRIBE_URL + "</a></p>\n";
     }
 
     private static String footer() {

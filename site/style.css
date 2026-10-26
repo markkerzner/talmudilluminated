@@ -103,6 +103,17 @@ p { margin: 0 0 1rem; }
 .ask a { font-weight: 600; text-decoration: none; }
 .ask a:hover { text-decoration: underline; }
 
+/* Daily-email offer. Quieter than .ask so it reads as a footnote to the daf,
+   not a second call to action competing with it. */
+.subscribe {
+  margin-top: 1rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+.subscribe a { font-weight: 600; text-decoration: none; overflow-wrap: anywhere; }
+.subscribe a:hover { text-decoration: underline; }
+
 /* ---------- Prev / next pager ---------- */
 .pager {
   max-width: var(--max);
