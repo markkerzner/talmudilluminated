@@ -4,443 +4,445 @@
 
 ## Table of Contents
 
-- [content/rosh_hashanah/2.txt](#src-00001)
-- [content/rosh_hashanah/20.txt](#src-00002)
-- [content/rosh_hashanah/21.txt](#src-00003)
-- [content/rosh_hashanah/22.txt](#src-00004)
-- [content/rosh_hashanah/23.txt](#src-00005)
-- [content/rosh_hashanah/24.txt](#src-00006)
-- [content/rosh_hashanah/25.txt](#src-00007)
-- [content/rosh_hashanah/26.txt](#src-00008)
-- [content/rosh_hashanah/27.txt](#src-00009)
-- [content/rosh_hashanah/28.txt](#src-00010)
-- [content/rosh_hashanah/29.txt](#src-00011)
-- [content/rosh_hashanah/3.txt](#src-00012)
-- [content/rosh_hashanah/30.txt](#src-00013)
-- [content/rosh_hashanah/31.txt](#src-00014)
-- [content/rosh_hashanah/32.txt](#src-00015)
-- [content/rosh_hashanah/33.txt](#src-00016)
-- [content/rosh_hashanah/34.txt](#src-00017)
-- [content/rosh_hashanah/35.txt](#src-00018)
-- [content/rosh_hashanah/4.txt](#src-00019)
-- [content/rosh_hashanah/5.txt](#src-00020)
-- [content/rosh_hashanah/6.txt](#src-00021)
-- [content/rosh_hashanah/7.txt](#src-00022)
-- [content/rosh_hashanah/8.txt](#src-00023)
-- [content/rosh_hashanah/9.txt](#src-00024)
-- [content/sanhedrin/10.txt](#src-00025)
-- [content/sanhedrin/100.txt](#src-00026)
-- [content/sanhedrin/101.txt](#src-00027)
-- [content/sanhedrin/102.txt](#src-00028)
-- [content/sanhedrin/103.txt](#src-00029)
-- [content/sanhedrin/104.txt](#src-00030)
-- [content/sanhedrin/105.txt](#src-00031)
-- [content/sanhedrin/106.txt](#src-00032)
-- [content/sanhedrin/107.txt](#src-00033)
-- [content/sanhedrin/108.txt](#src-00034)
-- [content/sanhedrin/109.txt](#src-00035)
-- [content/sanhedrin/11.txt](#src-00036)
-- [content/sanhedrin/110.txt](#src-00037)
-- [content/sanhedrin/111.txt](#src-00038)
-- [content/sanhedrin/112.txt](#src-00039)
-- [content/sanhedrin/113.txt](#src-00040)
-- [content/sanhedrin/12.txt](#src-00041)
-- [content/sanhedrin/13.txt](#src-00042)
-- [content/sanhedrin/14.txt](#src-00043)
-- [content/sanhedrin/15.txt](#src-00044)
-- [content/sanhedrin/16.txt](#src-00045)
-- [content/sanhedrin/17.txt](#src-00046)
-- [content/sanhedrin/18.txt](#src-00047)
-- [content/sanhedrin/19.txt](#src-00048)
-- [content/sanhedrin/2.txt](#src-00049)
-- [content/sanhedrin/20.txt](#src-00050)
-- [content/sanhedrin/21.txt](#src-00051)
-- [content/sanhedrin/22.txt](#src-00052)
-- [content/sanhedrin/23.txt](#src-00053)
-- [content/sanhedrin/24.txt](#src-00054)
-- [content/sanhedrin/25.txt](#src-00055)
-- [content/sanhedrin/26.txt](#src-00056)
-- [content/sanhedrin/27.txt](#src-00057)
-- [content/sanhedrin/28.txt](#src-00058)
-- [content/sanhedrin/29.txt](#src-00059)
-- [content/sanhedrin/3.txt](#src-00060)
-- [content/sanhedrin/30.txt](#src-00061)
-- [content/sanhedrin/31.txt](#src-00062)
-- [content/sanhedrin/32.txt](#src-00063)
-- [content/sanhedrin/33.txt](#src-00064)
-- [content/sanhedrin/34.txt](#src-00065)
-- [content/sanhedrin/35.txt](#src-00066)
-- [content/sanhedrin/36.txt](#src-00067)
-- [content/sanhedrin/37.txt](#src-00068)
-- [content/sanhedrin/38.txt](#src-00069)
-- [content/sanhedrin/39.txt](#src-00070)
-- [content/sanhedrin/4.txt](#src-00071)
-- [content/sanhedrin/40.txt](#src-00072)
-- [content/sanhedrin/41.txt](#src-00073)
-- [content/sanhedrin/42.txt](#src-00074)
-- [content/sanhedrin/43.txt](#src-00075)
-- [content/sanhedrin/44.txt](#src-00076)
-- [content/sanhedrin/45.txt](#src-00077)
-- [content/sanhedrin/46.txt](#src-00078)
-- [content/sanhedrin/47.txt](#src-00079)
-- [content/sanhedrin/48.txt](#src-00080)
-- [content/sanhedrin/49.txt](#src-00081)
-- [content/sanhedrin/5.txt](#src-00082)
-- [content/sanhedrin/50.txt](#src-00083)
-- [content/sanhedrin/51.txt](#src-00084)
-- [content/sanhedrin/52.txt](#src-00085)
-- [content/sanhedrin/53.txt](#src-00086)
-- [content/sanhedrin/54.txt](#src-00087)
-- [content/sanhedrin/55.txt](#src-00088)
-- [content/sanhedrin/56.txt](#src-00089)
-- [content/sanhedrin/57.txt](#src-00090)
-- [content/sanhedrin/58.txt](#src-00091)
-- [content/sanhedrin/59.txt](#src-00092)
-- [content/sanhedrin/6.txt](#src-00093)
-- [content/sanhedrin/60.txt](#src-00094)
-- [content/sanhedrin/61.txt](#src-00095)
-- [content/sanhedrin/62.txt](#src-00096)
-- [content/sanhedrin/63.txt](#src-00097)
-- [content/sanhedrin/64.txt](#src-00098)
-- [content/sanhedrin/65.txt](#src-00099)
-- [content/sanhedrin/66.txt](#src-00100)
-- [content/sanhedrin/67.txt](#src-00101)
-- [content/sanhedrin/68.txt](#src-00102)
-- [content/sanhedrin/69.txt](#src-00103)
-- [content/sanhedrin/7.txt](#src-00104)
-- [content/sanhedrin/70.txt](#src-00105)
-- [content/sanhedrin/71.txt](#src-00106)
-- [content/sanhedrin/72.txt](#src-00107)
-- [content/sanhedrin/73.txt](#src-00108)
-- [content/sanhedrin/74.txt](#src-00109)
-- [content/sanhedrin/75.txt](#src-00110)
-- [content/sanhedrin/76.txt](#src-00111)
-- [content/sanhedrin/77.txt](#src-00112)
-- [content/sanhedrin/78.txt](#src-00113)
-- [content/sanhedrin/79.txt](#src-00114)
-- [content/sanhedrin/8.txt](#src-00115)
-- [content/sanhedrin/80.txt](#src-00116)
-- [content/sanhedrin/81.txt](#src-00117)
-- [content/sanhedrin/82.txt](#src-00118)
-- [content/sanhedrin/83.txt](#src-00119)
-- [content/sanhedrin/84.txt](#src-00120)
-- [content/sanhedrin/85.txt](#src-00121)
-- [content/sanhedrin/86.txt](#src-00122)
-- [content/sanhedrin/87.txt](#src-00123)
-- [content/sanhedrin/88.txt](#src-00124)
-- [content/sanhedrin/89.txt](#src-00125)
-- [content/sanhedrin/9.txt](#src-00126)
-- [content/sanhedrin/90.txt](#src-00127)
-- [content/sanhedrin/91.txt](#src-00128)
-- [content/sanhedrin/92.txt](#src-00129)
-- [content/sanhedrin/93.txt](#src-00130)
-- [content/sanhedrin/94.txt](#src-00131)
-- [content/sanhedrin/95.txt](#src-00132)
-- [content/sanhedrin/96.txt](#src-00133)
-- [content/sanhedrin/97.txt](#src-00134)
-- [content/sanhedrin/98.txt](#src-00135)
-- [content/sanhedrin/99.txt](#src-00136)
-- [content/shabbat/10.txt](#src-00137)
-- [content/shabbat/100.txt](#src-00138)
-- [content/shabbat/101.txt](#src-00139)
-- [content/shabbat/102.txt](#src-00140)
-- [content/shabbat/103.txt](#src-00141)
-- [content/shabbat/104.txt](#src-00142)
-- [content/shabbat/105.txt](#src-00143)
-- [content/shabbat/106.txt](#src-00144)
-- [content/shabbat/107.txt](#src-00145)
-- [content/shabbat/108.txt](#src-00146)
-- [content/shabbat/109.txt](#src-00147)
-- [content/shabbat/11.txt](#src-00148)
-- [content/shabbat/110.txt](#src-00149)
-- [content/shabbat/111.txt](#src-00150)
-- [content/shabbat/112.txt](#src-00151)
-- [content/shabbat/113.txt](#src-00152)
-- [content/shabbat/114.txt](#src-00153)
-- [content/shabbat/115.txt](#src-00154)
-- [content/shabbat/116.txt](#src-00155)
-- [content/shabbat/117.txt](#src-00156)
-- [content/shabbat/118.txt](#src-00157)
-- [content/shabbat/119.txt](#src-00158)
-- [content/shabbat/12.txt](#src-00159)
-- [content/shabbat/120.txt](#src-00160)
-- [content/shabbat/121.txt](#src-00161)
-- [content/shabbat/122.txt](#src-00162)
-- [content/shabbat/123.txt](#src-00163)
-- [content/shabbat/124.txt](#src-00164)
-- [content/shabbat/125.txt](#src-00165)
-- [content/shabbat/126.txt](#src-00166)
-- [content/shabbat/127.txt](#src-00167)
-- [content/shabbat/128.txt](#src-00168)
-- [content/shabbat/129.txt](#src-00169)
-- [content/shabbat/13.txt](#src-00170)
-- [content/shabbat/130.txt](#src-00171)
-- [content/shabbat/131.txt](#src-00172)
-- [content/shabbat/132.txt](#src-00173)
-- [content/shabbat/133.txt](#src-00174)
-- [content/shabbat/134.txt](#src-00175)
-- [content/shabbat/135.txt](#src-00176)
-- [content/shabbat/136.txt](#src-00177)
-- [content/shabbat/137.txt](#src-00178)
-- [content/shabbat/138.txt](#src-00179)
-- [content/shabbat/139.txt](#src-00180)
-- [content/shabbat/14.txt](#src-00181)
-- [content/shabbat/140.txt](#src-00182)
-- [content/shabbat/141.txt](#src-00183)
-- [content/shabbat/142.txt](#src-00184)
-- [content/shabbat/143.txt](#src-00185)
-- [content/shabbat/144.txt](#src-00186)
-- [content/shabbat/145.txt](#src-00187)
-- [content/shabbat/146.txt](#src-00188)
-- [content/shabbat/147.txt](#src-00189)
-- [content/shabbat/148.txt](#src-00190)
-- [content/shabbat/149.txt](#src-00191)
-- [content/shabbat/15.txt](#src-00192)
-- [content/shabbat/150.txt](#src-00193)
-- [content/shabbat/151.txt](#src-00194)
-- [content/shabbat/152.txt](#src-00195)
-- [content/shabbat/153.txt](#src-00196)
-- [content/shabbat/154.txt](#src-00197)
-- [content/shabbat/155.txt](#src-00198)
-- [content/shabbat/156.txt](#src-00199)
-- [content/shabbat/157.txt](#src-00200)
-- [content/shabbat/16.txt](#src-00201)
-- [content/shabbat/17.txt](#src-00202)
-- [content/shabbat/18.txt](#src-00203)
-- [content/shabbat/19.txt](#src-00204)
-- [content/shabbat/2.txt](#src-00205)
-- [content/shabbat/20.txt](#src-00206)
-- [content/shabbat/21.txt](#src-00207)
-- [content/shabbat/22.txt](#src-00208)
-- [content/shabbat/23.txt](#src-00209)
-- [content/shabbat/24.txt](#src-00210)
-- [content/shabbat/25.txt](#src-00211)
-- [content/shabbat/26.txt](#src-00212)
-- [content/shabbat/27.txt](#src-00213)
-- [content/shabbat/28.txt](#src-00214)
-- [content/shabbat/29.txt](#src-00215)
-- [content/shabbat/3.txt](#src-00216)
-- [content/shabbat/30.txt](#src-00217)
-- [content/shabbat/31.txt](#src-00218)
-- [content/shabbat/32.txt](#src-00219)
-- [content/shabbat/33.txt](#src-00220)
-- [content/shabbat/34.txt](#src-00221)
-- [content/shabbat/35.txt](#src-00222)
-- [content/shabbat/36.txt](#src-00223)
-- [content/shabbat/37.txt](#src-00224)
-- [content/shabbat/38.txt](#src-00225)
-- [content/shabbat/39.txt](#src-00226)
-- [content/shabbat/4.txt](#src-00227)
-- [content/shabbat/40.txt](#src-00228)
-- [content/shabbat/41.txt](#src-00229)
-- [content/shabbat/42.txt](#src-00230)
-- [content/shabbat/43.txt](#src-00231)
-- [content/shabbat/44.txt](#src-00232)
-- [content/shabbat/45.txt](#src-00233)
-- [content/shabbat/46.txt](#src-00234)
-- [content/shabbat/47.txt](#src-00235)
-- [content/shabbat/48.txt](#src-00236)
-- [content/shabbat/49.txt](#src-00237)
-- [content/shabbat/5.txt](#src-00238)
-- [content/shabbat/50.txt](#src-00239)
-- [content/shabbat/51.txt](#src-00240)
-- [content/shabbat/52.txt](#src-00241)
-- [content/shabbat/53.txt](#src-00242)
-- [content/shabbat/54.txt](#src-00243)
-- [content/shabbat/55.txt](#src-00244)
-- [content/shabbat/56.txt](#src-00245)
-- [content/shabbat/57.txt](#src-00246)
-- [content/shabbat/58.txt](#src-00247)
-- [content/shabbat/59.txt](#src-00248)
-- [content/shabbat/6.txt](#src-00249)
-- [content/shabbat/60.txt](#src-00250)
-- [content/shabbat/61.txt](#src-00251)
-- [content/shabbat/62.txt](#src-00252)
-- [content/shabbat/63.txt](#src-00253)
-- [content/shabbat/64.txt](#src-00254)
-- [content/shabbat/65.txt](#src-00255)
-- [content/shabbat/66.txt](#src-00256)
-- [content/shabbat/67.txt](#src-00257)
-- [content/shabbat/68.txt](#src-00258)
-- [content/shabbat/69.txt](#src-00259)
-- [content/shabbat/7.txt](#src-00260)
-- [content/shabbat/70.txt](#src-00261)
-- [content/shabbat/71.txt](#src-00262)
-- [content/shabbat/72.txt](#src-00263)
-- [content/shabbat/73.txt](#src-00264)
-- [content/shabbat/74.txt](#src-00265)
-- [content/shabbat/75.txt](#src-00266)
-- [content/shabbat/76.txt](#src-00267)
-- [content/shabbat/77.txt](#src-00268)
-- [content/shabbat/78.txt](#src-00269)
-- [content/shabbat/79.txt](#src-00270)
-- [content/shabbat/8.txt](#src-00271)
-- [content/shabbat/80.txt](#src-00272)
-- [content/shabbat/81.txt](#src-00273)
-- [content/shabbat/82.txt](#src-00274)
-- [content/shabbat/83.txt](#src-00275)
-- [content/shabbat/84.txt](#src-00276)
-- [content/shabbat/85.txt](#src-00277)
-- [content/shabbat/86.txt](#src-00278)
-- [content/shabbat/87.txt](#src-00279)
-- [content/shabbat/88.txt](#src-00280)
-- [content/shabbat/89.txt](#src-00281)
-- [content/shabbat/9.txt](#src-00282)
-- [content/shabbat/90.txt](#src-00283)
-- [content/shabbat/91.txt](#src-00284)
-- [content/shabbat/92.txt](#src-00285)
-- [content/shabbat/93.txt](#src-00286)
-- [content/shabbat/94.txt](#src-00287)
-- [content/shabbat/95.txt](#src-00288)
-- [content/shabbat/96.txt](#src-00289)
-- [content/shabbat/97.txt](#src-00290)
-- [content/shabbat/98.txt](#src-00291)
-- [content/shabbat/99.txt](#src-00292)
-- [content/shekalim/10.txt](#src-00293)
-- [content/shekalim/11.txt](#src-00294)
-- [content/shekalim/12.txt](#src-00295)
-- [content/shekalim/13.txt](#src-00296)
-- [content/shekalim/14.txt](#src-00297)
-- [content/shekalim/15.txt](#src-00298)
-- [content/shekalim/16.txt](#src-00299)
-- [content/shekalim/17.txt](#src-00300)
-- [content/shekalim/18.txt](#src-00301)
-- [content/shekalim/19.txt](#src-00302)
-- [content/shekalim/2.txt](#src-00303)
-- [content/shekalim/20.txt](#src-00304)
-- [content/shekalim/21.txt](#src-00305)
-- [content/shekalim/22.txt](#src-00306)
-- [content/shekalim/3.txt](#src-00307)
-- [content/shekalim/4.txt](#src-00308)
-- [content/shekalim/5.txt](#src-00309)
-- [content/shekalim/6.txt](#src-00310)
-- [content/shekalim/7.txt](#src-00311)
-- [content/shekalim/8.txt](#src-00312)
-- [content/shekalim/9.txt](#src-00313)
-- [content/shevuot/10.txt](#src-00314)
-- [content/shevuot/11.txt](#src-00315)
-- [content/shevuot/12.txt](#src-00316)
-- [content/shevuot/13.txt](#src-00317)
-- [content/shevuot/14.txt](#src-00318)
-- [content/shevuot/15.txt](#src-00319)
-- [content/shevuot/16.txt](#src-00320)
-- [content/shevuot/17.txt](#src-00321)
-- [content/shevuot/18.txt](#src-00322)
-- [content/shevuot/19.txt](#src-00323)
-- [content/shevuot/2.txt](#src-00324)
-- [content/shevuot/20.txt](#src-00325)
-- [content/shevuot/21.txt](#src-00326)
-- [content/shevuot/22.txt](#src-00327)
-- [content/shevuot/23.txt](#src-00328)
-- [content/shevuot/24.txt](#src-00329)
-- [content/shevuot/25.txt](#src-00330)
-- [content/shevuot/26.txt](#src-00331)
-- [content/shevuot/27.txt](#src-00332)
-- [content/shevuot/28.txt](#src-00333)
-- [content/shevuot/29.txt](#src-00334)
-- [content/shevuot/3.txt](#src-00335)
-- [content/shevuot/30.txt](#src-00336)
-- [content/shevuot/31.txt](#src-00337)
-- [content/shevuot/32.txt](#src-00338)
-- [content/shevuot/33.txt](#src-00339)
-- [content/shevuot/34.txt](#src-00340)
-- [content/shevuot/35.txt](#src-00341)
-- [content/shevuot/36.txt](#src-00342)
-- [content/shevuot/37.txt](#src-00343)
-- [content/shevuot/38.txt](#src-00344)
-- [content/shevuot/39.txt](#src-00345)
-- [content/shevuot/4.txt](#src-00346)
-- [content/shevuot/40.txt](#src-00347)
-- [content/shevuot/41.txt](#src-00348)
-- [content/shevuot/42.txt](#src-00349)
-- [content/shevuot/43.txt](#src-00350)
-- [content/shevuot/44.txt](#src-00351)
-- [content/shevuot/45.txt](#src-00352)
-- [content/shevuot/46.txt](#src-00353)
-- [content/shevuot/47.txt](#src-00354)
-- [content/shevuot/48.txt](#src-00355)
-- [content/shevuot/49.txt](#src-00356)
-- [content/shevuot/5.txt](#src-00357)
-- [content/shevuot/6.txt](#src-00358)
-- [content/shevuot/7.txt](#src-00359)
-- [content/shevuot/8.txt](#src-00360)
-- [content/shevuot/9.txt](#src-00361)
-- [content/sotah/10.txt](#src-00362)
-- [content/sotah/11.txt](#src-00363)
-- [content/sotah/12.txt](#src-00364)
-- [content/sotah/13.txt](#src-00365)
-- [content/sotah/14.txt](#src-00366)
-- [content/sotah/15.txt](#src-00367)
-- [content/sotah/16.txt](#src-00368)
-- [content/sotah/17.txt](#src-00369)
-- [content/sotah/18.txt](#src-00370)
-- [content/sotah/19.txt](#src-00371)
-- [content/sotah/2.txt](#src-00372)
-- [content/sotah/20.txt](#src-00373)
-- [content/sotah/21.txt](#src-00374)
-- [content/sotah/22.txt](#src-00375)
-- [content/sotah/23.txt](#src-00376)
-- [content/sotah/24.txt](#src-00377)
-- [content/sotah/25.txt](#src-00378)
-- [content/sotah/26.txt](#src-00379)
-- [content/sotah/27.txt](#src-00380)
-- [content/sotah/28.txt](#src-00381)
-- [content/sotah/29.txt](#src-00382)
-- [content/sotah/3.txt](#src-00383)
-- [content/sotah/30.txt](#src-00384)
-- [content/sotah/31.txt](#src-00385)
-- [content/sotah/32.txt](#src-00386)
-- [content/sotah/33.txt](#src-00387)
-- [content/sotah/34.txt](#src-00388)
-- [content/sotah/35.txt](#src-00389)
-- [content/sotah/36.txt](#src-00390)
-- [content/sotah/37.txt](#src-00391)
-- [content/sotah/38.txt](#src-00392)
-- [content/sotah/39.txt](#src-00393)
-- [content/sotah/4.txt](#src-00394)
-- [content/sotah/40.txt](#src-00395)
-- [content/sotah/41.txt](#src-00396)
-- [content/sotah/42.txt](#src-00397)
-- [content/sotah/43.txt](#src-00398)
-- [content/sotah/44.txt](#src-00399)
-- [content/sotah/45.txt](#src-00400)
-- [content/sotah/46.txt](#src-00401)
-- [content/sotah/47.txt](#src-00402)
-- [content/sotah/48.txt](#src-00403)
-- [content/sotah/49.txt](#src-00404)
-- [content/sotah/5.txt](#src-00405)
-- [content/sotah/6.txt](#src-00406)
-- [content/sotah/7.txt](#src-00407)
-- [content/sotah/8.txt](#src-00408)
-- [content/sotah/9.txt](#src-00409)
-- [content/sukkah/10.txt](#src-00410)
-- [content/sukkah/11.txt](#src-00411)
-- [content/sukkah/12.txt](#src-00412)
-- [content/sukkah/13.txt](#src-00413)
-- [content/sukkah/14.txt](#src-00414)
-- [content/sukkah/15.txt](#src-00415)
-- [content/sukkah/16.txt](#src-00416)
-- [content/sukkah/17.txt](#src-00417)
-- [content/sukkah/18.txt](#src-00418)
-- [content/sukkah/19.txt](#src-00419)
-- [content/sukkah/2.txt](#src-00420)
-- [content/sukkah/20.txt](#src-00421)
-- [content/sukkah/21.txt](#src-00422)
-- [content/sukkah/22.txt](#src-00423)
-- [content/sukkah/23.txt](#src-00424)
-- [content/sukkah/24.txt](#src-00425)
-- [content/sukkah/25.txt](#src-00426)
-- [content/sukkah/26.txt](#src-00427)
-- [content/sukkah/27.txt](#src-00428)
-- [content/sukkah/28.txt](#src-00429)
-- [content/sukkah/29.txt](#src-00430)
-- [content/sukkah/3.txt](#src-00431)
-- [content/sukkah/30.txt](#src-00432)
+- [content/rosh_hashanah/19.txt](#src-00001)
+- [content/rosh_hashanah/2.txt](#src-00002)
+- [content/rosh_hashanah/20.txt](#src-00003)
+- [content/rosh_hashanah/21.txt](#src-00004)
+- [content/rosh_hashanah/22.txt](#src-00005)
+- [content/rosh_hashanah/23.txt](#src-00006)
+- [content/rosh_hashanah/24.txt](#src-00007)
+- [content/rosh_hashanah/25.txt](#src-00008)
+- [content/rosh_hashanah/26.txt](#src-00009)
+- [content/rosh_hashanah/27.txt](#src-00010)
+- [content/rosh_hashanah/28.txt](#src-00011)
+- [content/rosh_hashanah/29.txt](#src-00012)
+- [content/rosh_hashanah/3.txt](#src-00013)
+- [content/rosh_hashanah/30.txt](#src-00014)
+- [content/rosh_hashanah/31.txt](#src-00015)
+- [content/rosh_hashanah/32.txt](#src-00016)
+- [content/rosh_hashanah/33.txt](#src-00017)
+- [content/rosh_hashanah/34.txt](#src-00018)
+- [content/rosh_hashanah/35.txt](#src-00019)
+- [content/rosh_hashanah/4.txt](#src-00020)
+- [content/rosh_hashanah/5.txt](#src-00021)
+- [content/rosh_hashanah/6.txt](#src-00022)
+- [content/rosh_hashanah/7.txt](#src-00023)
+- [content/rosh_hashanah/8.txt](#src-00024)
+- [content/rosh_hashanah/9.txt](#src-00025)
+- [content/sanhedrin/10.txt](#src-00026)
+- [content/sanhedrin/100.txt](#src-00027)
+- [content/sanhedrin/101.txt](#src-00028)
+- [content/sanhedrin/102.txt](#src-00029)
+- [content/sanhedrin/103.txt](#src-00030)
+- [content/sanhedrin/104.txt](#src-00031)
+- [content/sanhedrin/105.txt](#src-00032)
+- [content/sanhedrin/106.txt](#src-00033)
+- [content/sanhedrin/107.txt](#src-00034)
+- [content/sanhedrin/108.txt](#src-00035)
+- [content/sanhedrin/109.txt](#src-00036)
+- [content/sanhedrin/11.txt](#src-00037)
+- [content/sanhedrin/110.txt](#src-00038)
+- [content/sanhedrin/111.txt](#src-00039)
+- [content/sanhedrin/112.txt](#src-00040)
+- [content/sanhedrin/113.txt](#src-00041)
+- [content/sanhedrin/12.txt](#src-00042)
+- [content/sanhedrin/13.txt](#src-00043)
+- [content/sanhedrin/14.txt](#src-00044)
+- [content/sanhedrin/15.txt](#src-00045)
+- [content/sanhedrin/16.txt](#src-00046)
+- [content/sanhedrin/17.txt](#src-00047)
+- [content/sanhedrin/18.txt](#src-00048)
+- [content/sanhedrin/19.txt](#src-00049)
+- [content/sanhedrin/2.txt](#src-00050)
+- [content/sanhedrin/20.txt](#src-00051)
+- [content/sanhedrin/21.txt](#src-00052)
+- [content/sanhedrin/22.txt](#src-00053)
+- [content/sanhedrin/23.txt](#src-00054)
+- [content/sanhedrin/24.txt](#src-00055)
+- [content/sanhedrin/25.txt](#src-00056)
+- [content/sanhedrin/26.txt](#src-00057)
+- [content/sanhedrin/27.txt](#src-00058)
+- [content/sanhedrin/28.txt](#src-00059)
+- [content/sanhedrin/29.txt](#src-00060)
+- [content/sanhedrin/3.txt](#src-00061)
+- [content/sanhedrin/30.txt](#src-00062)
+- [content/sanhedrin/31.txt](#src-00063)
+- [content/sanhedrin/32.txt](#src-00064)
+- [content/sanhedrin/33.txt](#src-00065)
+- [content/sanhedrin/34.txt](#src-00066)
+- [content/sanhedrin/35.txt](#src-00067)
+- [content/sanhedrin/36.txt](#src-00068)
+- [content/sanhedrin/37.txt](#src-00069)
+- [content/sanhedrin/38.txt](#src-00070)
+- [content/sanhedrin/39.txt](#src-00071)
+- [content/sanhedrin/4.txt](#src-00072)
+- [content/sanhedrin/40.txt](#src-00073)
+- [content/sanhedrin/41.txt](#src-00074)
+- [content/sanhedrin/42.txt](#src-00075)
+- [content/sanhedrin/43.txt](#src-00076)
+- [content/sanhedrin/44.txt](#src-00077)
+- [content/sanhedrin/45.txt](#src-00078)
+- [content/sanhedrin/46.txt](#src-00079)
+- [content/sanhedrin/47.txt](#src-00080)
+- [content/sanhedrin/48.txt](#src-00081)
+- [content/sanhedrin/49.txt](#src-00082)
+- [content/sanhedrin/5.txt](#src-00083)
+- [content/sanhedrin/50.txt](#src-00084)
+- [content/sanhedrin/51.txt](#src-00085)
+- [content/sanhedrin/52.txt](#src-00086)
+- [content/sanhedrin/53.txt](#src-00087)
+- [content/sanhedrin/54.txt](#src-00088)
+- [content/sanhedrin/55.txt](#src-00089)
+- [content/sanhedrin/56.txt](#src-00090)
+- [content/sanhedrin/57.txt](#src-00091)
+- [content/sanhedrin/58.txt](#src-00092)
+- [content/sanhedrin/59.txt](#src-00093)
+- [content/sanhedrin/6.txt](#src-00094)
+- [content/sanhedrin/60.txt](#src-00095)
+- [content/sanhedrin/61.txt](#src-00096)
+- [content/sanhedrin/62.txt](#src-00097)
+- [content/sanhedrin/63.txt](#src-00098)
+- [content/sanhedrin/64.txt](#src-00099)
+- [content/sanhedrin/65.txt](#src-00100)
+- [content/sanhedrin/66.txt](#src-00101)
+- [content/sanhedrin/67.txt](#src-00102)
+- [content/sanhedrin/68.txt](#src-00103)
+- [content/sanhedrin/69.txt](#src-00104)
+- [content/sanhedrin/7.txt](#src-00105)
+- [content/sanhedrin/70.txt](#src-00106)
+- [content/sanhedrin/71.txt](#src-00107)
+- [content/sanhedrin/72.txt](#src-00108)
+- [content/sanhedrin/73.txt](#src-00109)
+- [content/sanhedrin/74.txt](#src-00110)
+- [content/sanhedrin/75.txt](#src-00111)
+- [content/sanhedrin/76.txt](#src-00112)
+- [content/sanhedrin/77.txt](#src-00113)
+- [content/sanhedrin/78.txt](#src-00114)
+- [content/sanhedrin/79.txt](#src-00115)
+- [content/sanhedrin/8.txt](#src-00116)
+- [content/sanhedrin/80.txt](#src-00117)
+- [content/sanhedrin/81.txt](#src-00118)
+- [content/sanhedrin/82.txt](#src-00119)
+- [content/sanhedrin/83.txt](#src-00120)
+- [content/sanhedrin/84.txt](#src-00121)
+- [content/sanhedrin/85.txt](#src-00122)
+- [content/sanhedrin/86.txt](#src-00123)
+- [content/sanhedrin/87.txt](#src-00124)
+- [content/sanhedrin/88.txt](#src-00125)
+- [content/sanhedrin/89.txt](#src-00126)
+- [content/sanhedrin/9.txt](#src-00127)
+- [content/sanhedrin/90.txt](#src-00128)
+- [content/sanhedrin/91.txt](#src-00129)
+- [content/sanhedrin/92.txt](#src-00130)
+- [content/sanhedrin/93.txt](#src-00131)
+- [content/sanhedrin/94.txt](#src-00132)
+- [content/sanhedrin/95.txt](#src-00133)
+- [content/sanhedrin/96.txt](#src-00134)
+- [content/sanhedrin/97.txt](#src-00135)
+- [content/sanhedrin/98.txt](#src-00136)
+- [content/sanhedrin/99.txt](#src-00137)
+- [content/shabbat/10.txt](#src-00138)
+- [content/shabbat/100.txt](#src-00139)
+- [content/shabbat/101.txt](#src-00140)
+- [content/shabbat/102.txt](#src-00141)
+- [content/shabbat/103.txt](#src-00142)
+- [content/shabbat/104.txt](#src-00143)
+- [content/shabbat/105.txt](#src-00144)
+- [content/shabbat/106.txt](#src-00145)
+- [content/shabbat/107.txt](#src-00146)
+- [content/shabbat/108.txt](#src-00147)
+- [content/shabbat/109.txt](#src-00148)
+- [content/shabbat/11.txt](#src-00149)
+- [content/shabbat/110.txt](#src-00150)
+- [content/shabbat/111.txt](#src-00151)
+- [content/shabbat/112.txt](#src-00152)
+- [content/shabbat/113.txt](#src-00153)
+- [content/shabbat/114.txt](#src-00154)
+- [content/shabbat/115.txt](#src-00155)
+- [content/shabbat/116.txt](#src-00156)
+- [content/shabbat/117.txt](#src-00157)
+- [content/shabbat/118.txt](#src-00158)
+- [content/shabbat/119.txt](#src-00159)
+- [content/shabbat/12.txt](#src-00160)
+- [content/shabbat/120.txt](#src-00161)
+- [content/shabbat/121.txt](#src-00162)
+- [content/shabbat/122.txt](#src-00163)
+- [content/shabbat/123.txt](#src-00164)
+- [content/shabbat/124.txt](#src-00165)
+- [content/shabbat/125.txt](#src-00166)
+- [content/shabbat/126.txt](#src-00167)
+- [content/shabbat/127.txt](#src-00168)
+- [content/shabbat/128.txt](#src-00169)
+- [content/shabbat/129.txt](#src-00170)
+- [content/shabbat/13.txt](#src-00171)
+- [content/shabbat/130.txt](#src-00172)
+- [content/shabbat/131.txt](#src-00173)
+- [content/shabbat/132.txt](#src-00174)
+- [content/shabbat/133.txt](#src-00175)
+- [content/shabbat/134.txt](#src-00176)
+- [content/shabbat/135.txt](#src-00177)
+- [content/shabbat/136.txt](#src-00178)
+- [content/shabbat/137.txt](#src-00179)
+- [content/shabbat/138.txt](#src-00180)
+- [content/shabbat/139.txt](#src-00181)
+- [content/shabbat/14.txt](#src-00182)
+- [content/shabbat/140.txt](#src-00183)
+- [content/shabbat/141.txt](#src-00184)
+- [content/shabbat/142.txt](#src-00185)
+- [content/shabbat/143.txt](#src-00186)
+- [content/shabbat/144.txt](#src-00187)
+- [content/shabbat/145.txt](#src-00188)
+- [content/shabbat/146.txt](#src-00189)
+- [content/shabbat/147.txt](#src-00190)
+- [content/shabbat/148.txt](#src-00191)
+- [content/shabbat/149.txt](#src-00192)
+- [content/shabbat/15.txt](#src-00193)
+- [content/shabbat/150.txt](#src-00194)
+- [content/shabbat/151.txt](#src-00195)
+- [content/shabbat/152.txt](#src-00196)
+- [content/shabbat/153.txt](#src-00197)
+- [content/shabbat/154.txt](#src-00198)
+- [content/shabbat/155.txt](#src-00199)
+- [content/shabbat/156.txt](#src-00200)
+- [content/shabbat/157.txt](#src-00201)
+- [content/shabbat/16.txt](#src-00202)
+- [content/shabbat/17.txt](#src-00203)
+- [content/shabbat/18.txt](#src-00204)
+- [content/shabbat/19.txt](#src-00205)
+- [content/shabbat/2.txt](#src-00206)
+- [content/shabbat/20.txt](#src-00207)
+- [content/shabbat/21.txt](#src-00208)
+- [content/shabbat/22.txt](#src-00209)
+- [content/shabbat/23.txt](#src-00210)
+- [content/shabbat/24.txt](#src-00211)
+- [content/shabbat/25.txt](#src-00212)
+- [content/shabbat/26.txt](#src-00213)
+- [content/shabbat/27.txt](#src-00214)
+- [content/shabbat/28.txt](#src-00215)
+- [content/shabbat/29.txt](#src-00216)
+- [content/shabbat/3.txt](#src-00217)
+- [content/shabbat/30.txt](#src-00218)
+- [content/shabbat/31.txt](#src-00219)
+- [content/shabbat/32.txt](#src-00220)
+- [content/shabbat/33.txt](#src-00221)
+- [content/shabbat/34.txt](#src-00222)
+- [content/shabbat/35.txt](#src-00223)
+- [content/shabbat/36.txt](#src-00224)
+- [content/shabbat/37.txt](#src-00225)
+- [content/shabbat/38.txt](#src-00226)
+- [content/shabbat/39.txt](#src-00227)
+- [content/shabbat/4.txt](#src-00228)
+- [content/shabbat/40.txt](#src-00229)
+- [content/shabbat/41.txt](#src-00230)
+- [content/shabbat/42.txt](#src-00231)
+- [content/shabbat/43.txt](#src-00232)
+- [content/shabbat/44.txt](#src-00233)
+- [content/shabbat/45.txt](#src-00234)
+- [content/shabbat/46.txt](#src-00235)
+- [content/shabbat/47.txt](#src-00236)
+- [content/shabbat/48.txt](#src-00237)
+- [content/shabbat/49.txt](#src-00238)
+- [content/shabbat/5.txt](#src-00239)
+- [content/shabbat/50.txt](#src-00240)
+- [content/shabbat/51.txt](#src-00241)
+- [content/shabbat/52.txt](#src-00242)
+- [content/shabbat/53.txt](#src-00243)
+- [content/shabbat/54.txt](#src-00244)
+- [content/shabbat/55.txt](#src-00245)
+- [content/shabbat/56.txt](#src-00246)
+- [content/shabbat/57.txt](#src-00247)
+- [content/shabbat/58.txt](#src-00248)
+- [content/shabbat/59.txt](#src-00249)
+- [content/shabbat/6.txt](#src-00250)
+- [content/shabbat/60.txt](#src-00251)
+- [content/shabbat/61.txt](#src-00252)
+- [content/shabbat/62.txt](#src-00253)
+- [content/shabbat/63.txt](#src-00254)
+- [content/shabbat/64.txt](#src-00255)
+- [content/shabbat/65.txt](#src-00256)
+- [content/shabbat/66.txt](#src-00257)
+- [content/shabbat/67.txt](#src-00258)
+- [content/shabbat/68.txt](#src-00259)
+- [content/shabbat/69.txt](#src-00260)
+- [content/shabbat/7.txt](#src-00261)
+- [content/shabbat/70.txt](#src-00262)
+- [content/shabbat/71.txt](#src-00263)
+- [content/shabbat/72.txt](#src-00264)
+- [content/shabbat/73.txt](#src-00265)
+- [content/shabbat/74.txt](#src-00266)
+- [content/shabbat/75.txt](#src-00267)
+- [content/shabbat/76.txt](#src-00268)
+- [content/shabbat/77.txt](#src-00269)
+- [content/shabbat/78.txt](#src-00270)
+- [content/shabbat/79.txt](#src-00271)
+- [content/shabbat/8.txt](#src-00272)
+- [content/shabbat/80.txt](#src-00273)
+- [content/shabbat/81.txt](#src-00274)
+- [content/shabbat/82.txt](#src-00275)
+- [content/shabbat/83.txt](#src-00276)
+- [content/shabbat/84.txt](#src-00277)
+- [content/shabbat/85.txt](#src-00278)
+- [content/shabbat/86.txt](#src-00279)
+- [content/shabbat/87.txt](#src-00280)
+- [content/shabbat/88.txt](#src-00281)
+- [content/shabbat/89.txt](#src-00282)
+- [content/shabbat/9.txt](#src-00283)
+- [content/shabbat/90.txt](#src-00284)
+- [content/shabbat/91.txt](#src-00285)
+- [content/shabbat/92.txt](#src-00286)
+- [content/shabbat/93.txt](#src-00287)
+- [content/shabbat/94.txt](#src-00288)
+- [content/shabbat/95.txt](#src-00289)
+- [content/shabbat/96.txt](#src-00290)
+- [content/shabbat/97.txt](#src-00291)
+- [content/shabbat/98.txt](#src-00292)
+- [content/shabbat/99.txt](#src-00293)
+- [content/shekalim/10.txt](#src-00294)
+- [content/shekalim/11.txt](#src-00295)
+- [content/shekalim/12.txt](#src-00296)
+- [content/shekalim/13.txt](#src-00297)
+- [content/shekalim/14.txt](#src-00298)
+- [content/shekalim/15.txt](#src-00299)
+- [content/shekalim/16.txt](#src-00300)
+- [content/shekalim/17.txt](#src-00301)
+- [content/shekalim/18.txt](#src-00302)
+- [content/shekalim/19.txt](#src-00303)
+- [content/shekalim/2.txt](#src-00304)
+- [content/shekalim/20.txt](#src-00305)
+- [content/shekalim/21.txt](#src-00306)
+- [content/shekalim/22.txt](#src-00307)
+- [content/shekalim/3.txt](#src-00308)
+- [content/shekalim/4.txt](#src-00309)
+- [content/shekalim/5.txt](#src-00310)
+- [content/shekalim/6.txt](#src-00311)
+- [content/shekalim/7.txt](#src-00312)
+- [content/shekalim/8.txt](#src-00313)
+- [content/shekalim/9.txt](#src-00314)
+- [content/shevuot/10.txt](#src-00315)
+- [content/shevuot/11.txt](#src-00316)
+- [content/shevuot/12.txt](#src-00317)
+- [content/shevuot/13.txt](#src-00318)
+- [content/shevuot/14.txt](#src-00319)
+- [content/shevuot/15.txt](#src-00320)
+- [content/shevuot/16.txt](#src-00321)
+- [content/shevuot/17.txt](#src-00322)
+- [content/shevuot/18.txt](#src-00323)
+- [content/shevuot/19.txt](#src-00324)
+- [content/shevuot/2.txt](#src-00325)
+- [content/shevuot/20.txt](#src-00326)
+- [content/shevuot/21.txt](#src-00327)
+- [content/shevuot/22.txt](#src-00328)
+- [content/shevuot/23.txt](#src-00329)
+- [content/shevuot/24.txt](#src-00330)
+- [content/shevuot/25.txt](#src-00331)
+- [content/shevuot/26.txt](#src-00332)
+- [content/shevuot/27.txt](#src-00333)
+- [content/shevuot/28.txt](#src-00334)
+- [content/shevuot/29.txt](#src-00335)
+- [content/shevuot/3.txt](#src-00336)
+- [content/shevuot/30.txt](#src-00337)
+- [content/shevuot/31.txt](#src-00338)
+- [content/shevuot/32.txt](#src-00339)
+- [content/shevuot/33.txt](#src-00340)
+- [content/shevuot/34.txt](#src-00341)
+- [content/shevuot/35.txt](#src-00342)
+- [content/shevuot/36.txt](#src-00343)
+- [content/shevuot/37.txt](#src-00344)
+- [content/shevuot/38.txt](#src-00345)
+- [content/shevuot/39.txt](#src-00346)
+- [content/shevuot/4.txt](#src-00347)
+- [content/shevuot/40.txt](#src-00348)
+- [content/shevuot/41.txt](#src-00349)
+- [content/shevuot/42.txt](#src-00350)
+- [content/shevuot/43.txt](#src-00351)
+- [content/shevuot/44.txt](#src-00352)
+- [content/shevuot/45.txt](#src-00353)
+- [content/shevuot/46.txt](#src-00354)
+- [content/shevuot/47.txt](#src-00355)
+- [content/shevuot/48.txt](#src-00356)
+- [content/shevuot/49.txt](#src-00357)
+- [content/shevuot/5.txt](#src-00358)
+- [content/shevuot/6.txt](#src-00359)
+- [content/shevuot/7.txt](#src-00360)
+- [content/shevuot/8.txt](#src-00361)
+- [content/shevuot/9.txt](#src-00362)
+- [content/sotah/10.txt](#src-00363)
+- [content/sotah/11.txt](#src-00364)
+- [content/sotah/12.txt](#src-00365)
+- [content/sotah/13.txt](#src-00366)
+- [content/sotah/14.txt](#src-00367)
+- [content/sotah/15.txt](#src-00368)
+- [content/sotah/16.txt](#src-00369)
+- [content/sotah/17.txt](#src-00370)
+- [content/sotah/18.txt](#src-00371)
+- [content/sotah/19.txt](#src-00372)
+- [content/sotah/2.txt](#src-00373)
+- [content/sotah/20.txt](#src-00374)
+- [content/sotah/21.txt](#src-00375)
+- [content/sotah/22.txt](#src-00376)
+- [content/sotah/23.txt](#src-00377)
+- [content/sotah/24.txt](#src-00378)
+- [content/sotah/25.txt](#src-00379)
+- [content/sotah/26.txt](#src-00380)
+- [content/sotah/27.txt](#src-00381)
+- [content/sotah/28.txt](#src-00382)
+- [content/sotah/29.txt](#src-00383)
+- [content/sotah/3.txt](#src-00384)
+- [content/sotah/30.txt](#src-00385)
+- [content/sotah/31.txt](#src-00386)
+- [content/sotah/32.txt](#src-00387)
+- [content/sotah/33.txt](#src-00388)
+- [content/sotah/34.txt](#src-00389)
+- [content/sotah/35.txt](#src-00390)
+- [content/sotah/36.txt](#src-00391)
+- [content/sotah/37.txt](#src-00392)
+- [content/sotah/38.txt](#src-00393)
+- [content/sotah/39.txt](#src-00394)
+- [content/sotah/4.txt](#src-00395)
+- [content/sotah/40.txt](#src-00396)
+- [content/sotah/41.txt](#src-00397)
+- [content/sotah/42.txt](#src-00398)
+- [content/sotah/43.txt](#src-00399)
+- [content/sotah/44.txt](#src-00400)
+- [content/sotah/45.txt](#src-00401)
+- [content/sotah/46.txt](#src-00402)
+- [content/sotah/47.txt](#src-00403)
+- [content/sotah/48.txt](#src-00404)
+- [content/sotah/49.txt](#src-00405)
+- [content/sotah/5.txt](#src-00406)
+- [content/sotah/6.txt](#src-00407)
+- [content/sotah/7.txt](#src-00408)
+- [content/sotah/8.txt](#src-00409)
+- [content/sotah/9.txt](#src-00410)
+- [content/sukkah/10.txt](#src-00411)
+- [content/sukkah/11.txt](#src-00412)
+- [content/sukkah/12.txt](#src-00413)
+- [content/sukkah/13.txt](#src-00414)
+- [content/sukkah/14.txt](#src-00415)
+- [content/sukkah/15.txt](#src-00416)
+- [content/sukkah/16.txt](#src-00417)
+- [content/sukkah/17.txt](#src-00418)
+- [content/sukkah/18.txt](#src-00419)
+- [content/sukkah/19.txt](#src-00420)
+- [content/sukkah/2.txt](#src-00421)
+- [content/sukkah/20.txt](#src-00422)
+- [content/sukkah/21.txt](#src-00423)
+- [content/sukkah/22.txt](#src-00424)
+
+---
+
+### content/rosh_hashanah/19.txt
+<a id="src-00001"></a>
+
+**Source file:** `content/rosh_hashanah/19.txt`
+
+Rosh Hashanah 19 - The court sets the time
+<a href="https://mkerzner.blogspot.com/2014/05/rosh-hashanah-18-sometimes-sorrow.html" target="_blank"></a><div class="separator" style="clear: both; text-align: center;"><a href="https://mkerzner.blogspot.com/2014/05/rosh-hashanah-18-sometimes-sorrow.html" target="_blank"></a><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm6ahz5qA3SrUrrtG225_1UzoQZuAMzUUsdtSGGdUrzXj4cq3bXyQIRRs8SDF3UJZ50wG29mUrEgAFJNsUpA3T-6EXGw-Kj5gIzpm9Ibtps8jFSvYQGv1AfbI4gOv3pGS9J7CXvz23OtfO/s700/andrew-wyeth--crescent-moon.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="700" data-original-width="500" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm6ahz5qA3SrUrrtG225_1UzoQZuAMzUUsdtSGGdUrzXj4cq3bXyQIRRs8SDF3UJZ50wG29mUrEgAFJNsUpA3T-6EXGw-Kj5gIzpm9Ibtps8jFSvYQGv1AfbI4gOv3pGS9J7CXvz23OtfO/s320/andrew-wyeth--crescent-moon.jpg" width="229" /></a></div><a href="https://mkerzner.blogspot.com/2014/05/rosh-hashanah-18-sometimes-sorrow.html" target="_blank">As we learned earlier</a>, once the court (Sanhedrin) confirms the New Moon, the day becomes the first day of the month (Rosh Chodesh.) The calendar for Shabbat is different. Shabbat comes on the seventh day, and the court has no power to accelerate or delay this. By contrast, the first of the following month comes either twenty-nine or thirty days after the previous. Depending on the court's determination, the exact date for every Holiday, such as Rosh Hashanah and Passover, may change. This setting of the date will affect the dates when people can or cannot do work. It will also affect the dates when they can or cannot eat chametz and should eat matzah.<div><br /></div><div>Therefore, the court would send messengers who would travel to distant lands such as Babylonia and inform the Jewish community about the date when the New Moon was declared. There were a total of six months when this knowledge was necessary. One of them was Elul - because of Rosh Hashanah that followed that month. The other was the month of Tishrei - because of Yom Kippur on the tenth day of Tishrei. Why did they have to trouble the messengers two months in a row, seeing that the month of Elul was almost always twenty-nine days, and thus the month could be calculated directly? In setting the next month, the court took the needs of the whole nation into account. Therefore, they could make the Elul month complete thirty days and delay Rosh Hashanah on rare occasions.</div><div><br /></div><div>Art: Crescent Moon by Andrew Wyeth</div><div><br /></div><div><br /></div>
 
 ---
 
 ### content/rosh_hashanah/2.txt
-<a id="src-00001"></a>
+<a id="src-00002"></a>
 
 **Source file:** `content/rosh_hashanah/2.txt`
 
@@ -461,7 +463,7 @@ Art: Giant Redwood Trees of California By Albert Bierstadt
 ---
 
 ### content/rosh_hashanah/20.txt
-<a id="src-00002"></a>
+<a id="src-00003"></a>
 
 **Source file:** `content/rosh_hashanah/20.txt`
 
@@ -471,7 +473,7 @@ Rosh Hashanah 20 - Did they intimidate the witnesses?
 ---
 
 ### content/rosh_hashanah/21.txt
-<a id="src-00003"></a>
+<a id="src-00004"></a>
 
 **Source file:** `content/rosh_hashanah/21.txt`
 
@@ -489,7 +491,7 @@ Art: Walking In The Woods by Emile Isenbart
 ---
 
 ### content/rosh_hashanah/22.txt
-<a id="src-00004"></a>
+<a id="src-00005"></a>
 
 **Source file:** `content/rosh_hashanah/22.txt`
 
@@ -498,7 +500,7 @@ Art: Walking In The Woods by Emile Isenbart
 ---
 
 ### content/rosh_hashanah/23.txt
-<a id="src-00005"></a>
+<a id="src-00006"></a>
 
 **Source file:** `content/rosh_hashanah/23.txt`
 
@@ -517,7 +519,7 @@ Art: New Moon by Maxfield Parrish
 ---
 
 ### content/rosh_hashanah/24.txt
-<a id="src-00006"></a>
+<a id="src-00007"></a>
 
 **Source file:** `content/rosh_hashanah/24.txt`
 
@@ -526,7 +528,7 @@ Art: New Moon by Maxfield Parrish
 ---
 
 ### content/rosh_hashanah/25.txt
-<a id="src-00007"></a>
+<a id="src-00008"></a>
 
 **Source file:** `content/rosh_hashanah/25.txt`
 
@@ -535,7 +537,7 @@ Art: New Moon by Maxfield Parrish
 ---
 
 ### content/rosh_hashanah/26.txt
-<a id="src-00008"></a>
+<a id="src-00009"></a>
 
 **Source file:** `content/rosh_hashanah/26.txt`
 
@@ -544,7 +546,7 @@ Art: New Moon by Maxfield Parrish
 ---
 
 ### content/rosh_hashanah/27.txt
-<a id="src-00009"></a>
+<a id="src-00010"></a>
 
 **Source file:** `content/rosh_hashanah/27.txt`
 
@@ -560,7 +562,7 @@ Art: An Officer Blowing a Trumpet By Anthonie Palamedesz
 ---
 
 ### content/rosh_hashanah/28.txt
-<a id="src-00010"></a>
+<a id="src-00011"></a>
 
 **Source file:** `content/rosh_hashanah/28.txt`
 
@@ -576,7 +578,7 @@ Art:&nbsp;The Donkey by Eugene Joseph Verboeckhoven
 ---
 
 ### content/rosh_hashanah/29.txt
-<a id="src-00011"></a>
+<a id="src-00012"></a>
 
 **Source file:** `content/rosh_hashanah/29.txt`
 
@@ -592,7 +594,7 @@ Art:&nbsp;View Of Jerusalem by Pierre Tetar Van Elven
 ---
 
 ### content/rosh_hashanah/3.txt
-<a id="src-00012"></a>
+<a id="src-00013"></a>
 
 **Source file:** `content/rosh_hashanah/3.txt`
 
@@ -611,7 +613,7 @@ Art: Moses By Antonio Zanchi
 ---
 
 ### content/rosh_hashanah/30.txt
-<a id="src-00013"></a>
+<a id="src-00014"></a>
 
 **Source file:** `content/rosh_hashanah/30.txt`
 
@@ -628,7 +630,7 @@ Art: New York Harbor In Moonlight by Edward Moran
 ---
 
 ### content/rosh_hashanah/31.txt
-<a id="src-00014"></a>
+<a id="src-00015"></a>
 
 **Source file:** `content/rosh_hashanah/31.txt`
 
@@ -646,7 +648,7 @@ Art: Harvesters Resting (or Ruth and Boaz) by Jean-Francois Millet
 ---
 
 ### content/rosh_hashanah/32.txt
-<a id="src-00015"></a>
+<a id="src-00016"></a>
 
 **Source file:** `content/rosh_hashanah/32.txt`
 
@@ -665,7 +667,7 @@ Art: The Rider on the Black Horse by George Frederick Watts
 ---
 
 ### content/rosh_hashanah/33.txt
-<a id="src-00016"></a>
+<a id="src-00017"></a>
 
 **Source file:** `content/rosh_hashanah/33.txt`
 
@@ -683,7 +685,7 @@ Art: Blowing bubbles By Theophile Emmanuel Duverger
 ---
 
 ### content/rosh_hashanah/34.txt
-<a id="src-00017"></a>
+<a id="src-00018"></a>
 
 **Source file:** `content/rosh_hashanah/34.txt`
 
@@ -699,7 +701,7 @@ Art: Square in an Ancient City by Jean Lemaire</div>
 ---
 
 ### content/rosh_hashanah/35.txt
-<a id="src-00018"></a>
+<a id="src-00019"></a>
 
 **Source file:** `content/rosh_hashanah/35.txt`
 
@@ -720,7 +722,7 @@ Art: The Daily Prayers by Leopold Pilichowski
 ---
 
 ### content/rosh_hashanah/4.txt
-<a id="src-00019"></a>
+<a id="src-00020"></a>
 
 **Source file:** `content/rosh_hashanah/4.txt`
 
@@ -748,7 +750,7 @@ Art: A Breach of Promise By Walter-Dendy Sadler
 ---
 
 ### content/rosh_hashanah/5.txt
-<a id="src-00020"></a>
+<a id="src-00021"></a>
 
 **Source file:** `content/rosh_hashanah/5.txt`
 
@@ -767,7 +769,7 @@ Art: Charity By François Bonvin
 ---
 
 ### content/rosh_hashanah/6.txt
-<a id="src-00021"></a>
+<a id="src-00022"></a>
 
 **Source file:** `content/rosh_hashanah/6.txt`
 
@@ -783,7 +785,7 @@ Art: The Artist's Parents By Philipp Otto Runge
 ---
 
 ### content/rosh_hashanah/7.txt
-<a id="src-00022"></a>
+<a id="src-00023"></a>
 
 **Source file:** `content/rosh_hashanah/7.txt`
 
@@ -801,7 +803,7 @@ Art: Esther before Ahasuerus By Giovanni Andrea Sirani
 ---
 
 ### content/rosh_hashanah/8.txt
-<a id="src-00023"></a>
+<a id="src-00024"></a>
 
 **Source file:** `content/rosh_hashanah/8.txt`
 
@@ -819,7 +821,7 @@ Art:&nbsp;Cornfield By Berthe Morisot
 ---
 
 ### content/rosh_hashanah/9.txt
-<a id="src-00024"></a>
+<a id="src-00025"></a>
 
 **Source file:** `content/rosh_hashanah/9.txt`
 
@@ -839,7 +841,7 @@ Art: Peasants feasting and dancing by (after) David The Younger Teniers, 1660
 ---
 
 ### content/sanhedrin/10.txt
-<a id="src-00025"></a>
+<a id="src-00026"></a>
 
 **Source file:** `content/sanhedrin/10.txt`
 
@@ -854,7 +856,7 @@ Art: The Kiss by Gustav Klimt
 ---
 
 ### content/sanhedrin/100.txt
-<a id="src-00026"></a>
+<a id="src-00027"></a>
 
 **Source file:** `content/sanhedrin/100.txt`
 
@@ -871,7 +873,7 @@ Art: The Jewel Case by Jan Frederik Pieter Portielje
 ---
 
 ### content/sanhedrin/101.txt
-<a id="src-00027"></a>
+<a id="src-00028"></a>
 
 **Source file:** `content/sanhedrin/101.txt`
 
@@ -887,7 +889,7 @@ Art: Sufferers by&nbsp;</span><span style="font-size: large;">Janos Thorma</span
 ---
 
 ### content/sanhedrin/102.txt
-<a id="src-00028"></a>
+<a id="src-00029"></a>
 
 **Source file:** `content/sanhedrin/102.txt`
 
@@ -904,7 +906,7 @@ Art: Three Jewish men sharing an evening drink by Russian School
 ---
 
 ### content/sanhedrin/103.txt
-<a id="src-00029"></a>
+<a id="src-00030"></a>
 
 **Source file:** `content/sanhedrin/103.txt`
 
@@ -918,7 +920,7 @@ Art: Triple Portrait Sister and Brothers by&nbsp;</span><span style="font-size: 
 ---
 
 ### content/sanhedrin/104.txt
-<a id="src-00030"></a>
+<a id="src-00031"></a>
 
 **Source file:** `content/sanhedrin/104.txt`
 
@@ -937,7 +939,7 @@ Art: A Glass of Beer and a Bread Roll on a Table by Balthasar Denner
 ---
 
 ### content/sanhedrin/105.txt
-<a id="src-00031"></a>
+<a id="src-00032"></a>
 
 **Source file:** `content/sanhedrin/105.txt`
 
@@ -951,7 +953,7 @@ Art: The Golden Hours by&nbsp;</span><span style="font-size: large;">Lord Freder
 ---
 
 ### content/sanhedrin/106.txt
-<a id="src-00032"></a>
+<a id="src-00033"></a>
 
 **Source file:** `content/sanhedrin/106.txt`
 
@@ -967,7 +969,7 @@ Art: Glass of Wine by Johannes Vermeer
 ---
 
 ### content/sanhedrin/107.txt
-<a id="src-00033"></a>
+<a id="src-00034"></a>
 
 **Source file:** `content/sanhedrin/107.txt`
 
@@ -982,7 +984,7 @@ Art: Bathsheba Receiving David Letter by Jan Steen
 ---
 
 ### content/sanhedrin/108.txt
-<a id="src-00034"></a>
+<a id="src-00035"></a>
 
 **Source file:** `content/sanhedrin/108.txt`
 
@@ -1000,7 +1002,7 @@ Art: Lot Fleeing With His Daughters From Sodom by&nbsp;</span><span style="font-
 ---
 
 ### content/sanhedrin/109.txt
-<a id="src-00035"></a>
+<a id="src-00036"></a>
 
 **Source file:** `content/sanhedrin/109.txt`
 
@@ -1015,7 +1017,7 @@ Art: Still Life with a Pomegranate by Theodule Augustine Ribot
 ---
 
 ### content/sanhedrin/11.txt
-<a id="src-00036"></a>
+<a id="src-00037"></a>
 
 **Source file:** `content/sanhedrin/11.txt`
 
@@ -1031,7 +1033,7 @@ Art: Declaration of Love by&nbsp;</span><span style="font-size: large;">Matthias
 ---
 
 ### content/sanhedrin/110.txt
-<a id="src-00037"></a>
+<a id="src-00038"></a>
 
 **Source file:** `content/sanhedrin/110.txt`
 
@@ -1047,7 +1049,7 @@ Art: William Sidney Mount - School Boys Quarreling</span>
 ---
 
 ### content/sanhedrin/111.txt
-<a id="src-00038"></a>
+<a id="src-00039"></a>
 
 **Source file:** `content/sanhedrin/111.txt`
 
@@ -1062,7 +1064,7 @@ Art: Jozef Israels - Grief Out of Darkness into Light<br />
 ---
 
 ### content/sanhedrin/112.txt
-<a id="src-00039"></a>
+<a id="src-00040"></a>
 
 **Source file:** `content/sanhedrin/112.txt`
 
@@ -1076,7 +1078,7 @@ Art: Yellow City by Egon Schiele</span>
 ---
 
 ### content/sanhedrin/113.txt
-<a id="src-00040"></a>
+<a id="src-00041"></a>
 
 **Source file:** `content/sanhedrin/113.txt`
 
@@ -1094,7 +1096,7 @@ Art: Rain Storm, Union Square by Childe Hassam</span>
 ---
 
 ### content/sanhedrin/12.txt
-<a id="src-00041"></a>
+<a id="src-00042"></a>
 
 **Source file:** `content/sanhedrin/12.txt`
 
@@ -1109,7 +1111,7 @@ Art: Jerusalem from the Latin Convent by&nbsp;</span><span style="font-size: lar
 ---
 
 ### content/sanhedrin/13.txt
-<a id="src-00042"></a>
+<a id="src-00043"></a>
 
 **Source file:** `content/sanhedrin/13.txt`
 
@@ -1123,7 +1125,7 @@ Art: Jeroboam Offering Sacrifice for the Idol by Jean-Honore Fragonard</span>
 ---
 
 ### content/sanhedrin/14.txt
-<a id="src-00043"></a>
+<a id="src-00044"></a>
 
 **Source file:** `content/sanhedrin/14.txt`
 
@@ -1139,7 +1141,7 @@ Art: The Stomach of the Legislature the Ministerial Benches of 1834 by&nbsp;</sp
 ---
 
 ### content/sanhedrin/15.txt
-<a id="src-00044"></a>
+<a id="src-00045"></a>
 
 **Source file:** `content/sanhedrin/15.txt`
 
@@ -1155,7 +1157,7 @@ Art: Portrait of Three Lawyers by&nbsp;</span><span style="font-size: large;">Vi
 ---
 
 ### content/sanhedrin/16.txt
-<a id="src-00045"></a>
+<a id="src-00046"></a>
 
 **Source file:** `content/sanhedrin/16.txt`
 
@@ -1169,7 +1171,7 @@ The boundaries of the city of Jerusalem or the Courtyard in the Temple can only 
 ---
 
 ### content/sanhedrin/17.txt
-<a id="src-00046"></a>
+<a id="src-00047"></a>
 
 **Source file:** `content/sanhedrin/17.txt`
 
@@ -1184,7 +1186,7 @@ The members of the Sanhedrin must be men of height, wisdom, moderate old age, ac
 ---
 
 ### content/sanhedrin/18.txt
-<a id="src-00047"></a>
+<a id="src-00048"></a>
 
 **Source file:** `content/sanhedrin/18.txt`
 
@@ -1199,7 +1201,7 @@ Art: Parade on the Field of Mars - Grigori Grigorevich Chernetsov
 ---
 
 ### content/sanhedrin/19.txt
-<a id="src-00048"></a>
+<a id="src-00049"></a>
 
 **Source file:** `content/sanhedrin/19.txt`
 
@@ -1214,7 +1216,7 @@ Art: St Louis, King of France by El Greco
 ---
 
 ### content/sanhedrin/2.txt
-<a id="src-00049"></a>
+<a id="src-00050"></a>
 
 **Source file:** `content/sanhedrin/2.txt`
 
@@ -1231,7 +1233,7 @@ Art: Charles I in Three Positions by Anthony Van Dyck
 ---
 
 ### content/sanhedrin/20.txt
-<a id="src-00050"></a>
+<a id="src-00051"></a>
 
 **Source file:** `content/sanhedrin/20.txt`
 
@@ -1246,7 +1248,7 @@ Art: Sleeping Woman by Felix Edouard Vallotton<br />
 ---
 
 ### content/sanhedrin/21.txt
-<a id="src-00051"></a>
+<a id="src-00052"></a>
 
 **Source file:** `content/sanhedrin/21.txt`
 
@@ -1266,7 +1268,7 @@ Art: The Harem by Juan Gimenez y Martin<br />
 ---
 
 ### content/sanhedrin/22.txt
-<a id="src-00052"></a>
+<a id="src-00053"></a>
 
 **Source file:** `content/sanhedrin/22.txt`
 
@@ -1283,7 +1285,7 @@ Art: King Solomon and the Queen of Sheba by Konrad Witz
 ---
 
 ### content/sanhedrin/23.txt
-<a id="src-00053"></a>
+<a id="src-00054"></a>
 
 **Source file:** `content/sanhedrin/23.txt`
 
@@ -1298,7 +1300,7 @@ Art: Old woman examining a coin by&nbsp;</span><span style="font-size: large;">G
 ---
 
 ### content/sanhedrin/24.txt
-<a id="src-00054"></a>
+<a id="src-00055"></a>
 
 **Source file:** `content/sanhedrin/24.txt`
 
@@ -1315,7 +1317,7 @@ Art: Portrait of the Artist by Pietro Ligari
 ---
 
 ### content/sanhedrin/25.txt
-<a id="src-00055"></a>
+<a id="src-00056"></a>
 
 **Source file:** `content/sanhedrin/25.txt`
 
@@ -1329,7 +1331,7 @@ Art: The Gamblers by&nbsp;</span><span style="font-size: large;">Michelangelo Ca
 ---
 
 ### content/sanhedrin/26.txt
-<a id="src-00056"></a>
+<a id="src-00057"></a>
 
 **Source file:** `content/sanhedrin/26.txt`
 
@@ -1346,7 +1348,7 @@ Art: Plowing by Carl Larsson
 ---
 
 ### content/sanhedrin/27.txt
-<a id="src-00057"></a>
+<a id="src-00058"></a>
 
 **Source file:** `content/sanhedrin/27.txt`
 
@@ -1368,7 +1370,7 @@ Art: Gossip by Thomas Sully</span>
 ---
 
 ### content/sanhedrin/28.txt
-<a id="src-00058"></a>
+<a id="src-00059"></a>
 
 **Source file:** `content/sanhedrin/28.txt`
 
@@ -1384,7 +1386,7 @@ Art: The Browne Brothers by&nbsp;</span><span style="font-size: large;">Isaac Ol
 ---
 
 ### content/sanhedrin/29.txt
-<a id="src-00059"></a>
+<a id="src-00060"></a>
 
 **Source file:** `content/sanhedrin/29.txt`
 
@@ -1400,7 +1402,7 @@ Art: In the Corridor of the District Court by&nbsp;</span><span style="font-size
 ---
 
 ### content/sanhedrin/3.txt
-<a id="src-00060"></a>
+<a id="src-00061"></a>
 
 **Source file:** `content/sanhedrin/3.txt`
 
@@ -1415,7 +1417,7 @@ Art: Portrait of a Man with Three Sons by Barthel Bruyn</span>
 ---
 
 ### content/sanhedrin/30.txt
-<a id="src-00061"></a>
+<a id="src-00062"></a>
 
 **Source file:** `content/sanhedrin/30.txt`
 
@@ -1429,7 +1431,7 @@ Art: The Three Gossips by&nbsp;</span><span style="font-size: large;">Louis Gros
 ---
 
 ### content/sanhedrin/31.txt
-<a id="src-00062"></a>
+<a id="src-00063"></a>
 
 **Source file:** `content/sanhedrin/31.txt`
 
@@ -1447,7 +1449,7 @@ Art: Portrait of Judge John More by&nbsp;</span><span style="font-size: large;">
 ---
 
 ### content/sanhedrin/32.txt
-<a id="src-00063"></a>
+<a id="src-00064"></a>
 
 **Source file:** `content/sanhedrin/32.txt`
 
@@ -1461,7 +1463,7 @@ Art: The Judge by&nbsp;</span><span style="font-size: large;">Fritz Sonderland</
 ---
 
 ### content/sanhedrin/33.txt
-<a id="src-00064"></a>
+<a id="src-00065"></a>
 
 **Source file:** `content/sanhedrin/33.txt`
 
@@ -1475,7 +1477,7 @@ Art: Cashier Counter with Coins by&nbsp;</span><span style="font-size: large;">G
 ---
 
 ### content/sanhedrin/34.txt
-<a id="src-00065"></a>
+<a id="src-00066"></a>
 
 **Source file:** `content/sanhedrin/34.txt`
 
@@ -1491,7 +1493,7 @@ Art: Paulus Berestey, Judge at Haarlem by&nbsp;</span><span style="font-size: la
 ---
 
 ### content/sanhedrin/35.txt
-<a id="src-00066"></a>
+<a id="src-00067"></a>
 
 **Source file:** `content/sanhedrin/35.txt`
 
@@ -1505,7 +1507,7 @@ Art: A Theological Debate by Eduard Frankfort</span>
 ---
 
 ### content/sanhedrin/36.txt
-<a id="src-00067"></a>
+<a id="src-00068"></a>
 
 **Source file:** `content/sanhedrin/36.txt`
 
@@ -1519,7 +1521,7 @@ Art: The Judge And Jury Society In The Cider Cellar by&nbsp;</span><span style="
 ---
 
 ### content/sanhedrin/37.txt
-<a id="src-00068"></a>
+<a id="src-00069"></a>
 
 **Source file:** `content/sanhedrin/37.txt`
 
@@ -1533,7 +1535,7 @@ Art: The Murderer in the Lane by Edvard Munch
 ---
 
 ### content/sanhedrin/38.txt
-<a id="src-00069"></a>
+<a id="src-00070"></a>
 
 **Source file:** `content/sanhedrin/38.txt`
 
@@ -1547,7 +1549,7 @@ Art: Elohim Creating Adam by William Blake</span>
 ---
 
 ### content/sanhedrin/39.txt
-<a id="src-00070"></a>
+<a id="src-00071"></a>
 
 **Source file:** `content/sanhedrin/39.txt`
 
@@ -1561,7 +1563,7 @@ Art: Daniel in the Lion's Den by Peter Paul Rubens</span>
 ---
 
 ### content/sanhedrin/4.txt
-<a id="src-00071"></a>
+<a id="src-00072"></a>
 
 **Source file:** `content/sanhedrin/4.txt`
 
@@ -1577,7 +1579,7 @@ Art: Three Prophets by&nbsp;</span><span style="font-size: large;">Jean Changene
 ---
 
 ### content/sanhedrin/40.txt
-<a id="src-00072"></a>
+<a id="src-00073"></a>
 
 **Source file:** `content/sanhedrin/40.txt`
 
@@ -1591,7 +1593,7 @@ Art: St. Lucy Before the Judge by&nbsp;</span><span style="font-size: large;">Lo
 ---
 
 ### content/sanhedrin/41.txt
-<a id="src-00073"></a>
+<a id="src-00074"></a>
 
 **Source file:** `content/sanhedrin/41.txt`
 
@@ -1607,7 +1609,7 @@ Art: The Execution of the Emperor Maximilian by&nbsp;</span><span style="font-si
 ---
 
 ### content/sanhedrin/42.txt
-<a id="src-00074"></a>
+<a id="src-00075"></a>
 
 **Source file:** `content/sanhedrin/42.txt`
 
@@ -1621,7 +1623,7 @@ Art: Rue Mosnier with Flags by&nbsp;</span><span style="font-size: large;">Edoua
 ---
 
 ### content/sanhedrin/43.txt
-<a id="src-00075"></a>
+<a id="src-00076"></a>
 
 **Source file:** `content/sanhedrin/43.txt`
 
@@ -1637,7 +1639,7 @@ Art: Arab Encampment in the Atlas Mountains by&nbsp;</span><span style="font-siz
 ---
 
 ### content/sanhedrin/44.txt
-<a id="src-00076"></a>
+<a id="src-00077"></a>
 
 **Source file:** `content/sanhedrin/44.txt`
 
@@ -1653,7 +1655,7 @@ Art: A Philosopher in His Study by&nbsp;</span><span style="font-size: large;">A
 ---
 
 ### content/sanhedrin/45.txt
-<a id="src-00077"></a>
+<a id="src-00078"></a>
 
 **Source file:** `content/sanhedrin/45.txt`
 
@@ -1667,7 +1669,7 @@ Art: Purtud, Alpine Scene and Boulders by&nbsp;</span><span style="font-size: la
 ---
 
 ### content/sanhedrin/46.txt
-<a id="src-00078"></a>
+<a id="src-00079"></a>
 
 **Source file:** `content/sanhedrin/46.txt`
 
@@ -1685,7 +1687,7 @@ Art: The Gallows by Pierre Luc Charles Ciceri</span>
 ---
 
 ### content/sanhedrin/47.txt
-<a id="src-00079"></a>
+<a id="src-00080"></a>
 
 **Source file:** `content/sanhedrin/47.txt`
 
@@ -1701,7 +1703,7 @@ Art: Burial of St. Lucy by&nbsp;</span><span style="font-size: large;">Caravaggi
 ---
 
 ### content/sanhedrin/48.txt
-<a id="src-00080"></a>
+<a id="src-00081"></a>
 
 **Source file:** `content/sanhedrin/48.txt`
 
@@ -1714,7 +1716,7 @@ Art: Dead Men Tell No Tales by Howard Pyle</span>
 ---
 
 ### content/sanhedrin/49.txt
-<a id="src-00081"></a>
+<a id="src-00082"></a>
 
 **Source file:** `content/sanhedrin/49.txt`
 
@@ -1728,7 +1730,7 @@ Art: The Execution Of Lady Jane by Paul Delaroche -&nbsp; Grey</span>
 ---
 
 ### content/sanhedrin/5.txt
-<a id="src-00082"></a>
+<a id="src-00083"></a>
 
 **Source file:** `content/sanhedrin/5.txt`
 
@@ -1743,7 +1745,7 @@ Art: Portrait of the politician Bertrand Barère de Vieuzac by Jean-Louis Laneuv
 ---
 
 ### content/sanhedrin/50.txt
-<a id="src-00083"></a>
+<a id="src-00084"></a>
 
 **Source file:** `content/sanhedrin/50.txt`
 
@@ -1759,7 +1761,7 @@ Art: The Swing by&nbsp;</span><span style="font-size: large;">August Renoir&nbsp
 ---
 
 ### content/sanhedrin/51.txt
-<a id="src-00084"></a>
+<a id="src-00085"></a>
 
 **Source file:** `content/sanhedrin/51.txt`
 
@@ -1775,7 +1777,7 @@ Art: A Musician and His Daughter by Thomas De Keyser</span>
 ---
 
 ### content/sanhedrin/52.txt
-<a id="src-00085"></a>
+<a id="src-00086"></a>
 
 **Source file:** `content/sanhedrin/52.txt`
 
@@ -1791,7 +1793,7 @@ Art: Boy with a Sword by Edouard Manet</span>
 ---
 
 ### content/sanhedrin/53.txt
-<a id="src-00086"></a>
+<a id="src-00087"></a>
 
 **Source file:** `content/sanhedrin/53.txt`
 
@@ -1805,7 +1807,7 @@ Art: The Artist's Mother by James McNeill Whistler</span>
 ---
 
 ### content/sanhedrin/54.txt
-<a id="src-00087"></a>
+<a id="src-00088"></a>
 
 **Source file:** `content/sanhedrin/54.txt`
 
@@ -1819,7 +1821,7 @@ Art: Sheep and Lamb by Jacopo BASSANO</span>
 ---
 
 ### content/sanhedrin/55.txt
-<a id="src-00088"></a>
+<a id="src-00089"></a>
 
 **Source file:** `content/sanhedrin/55.txt`
 
@@ -1835,7 +1837,7 @@ Art: Young Man in Reverie by John Singer Sargent
 ---
 
 ### content/sanhedrin/56.txt
-<a id="src-00089"></a>
+<a id="src-00090"></a>
 
 **Source file:** `content/sanhedrin/56.txt`
 
@@ -1849,7 +1851,7 @@ Art: The Beggar by Jules Bastien-Lepage</span>
 ---
 
 ### content/sanhedrin/57.txt
-<a id="src-00090"></a>
+<a id="src-00091"></a>
 
 **Source file:** `content/sanhedrin/57.txt`
 
@@ -1862,7 +1864,7 @@ Art: Noah Building the Ark by Manfredi de Battilor Bartolo Di Fredi Fredi</span>
 ---
 
 ### content/sanhedrin/58.txt
-<a id="src-00091"></a>
+<a id="src-00092"></a>
 
 **Source file:** `content/sanhedrin/58.txt`
 
@@ -1876,7 +1878,7 @@ Art: Mabel, Daughter of Charles Galloway by&nbsp;</span><span style="font-size: 
 ---
 
 ### content/sanhedrin/59.txt
-<a id="src-00092"></a>
+<a id="src-00093"></a>
 
 **Source file:** `content/sanhedrin/59.txt`
 
@@ -1892,7 +1894,7 @@ Art: Girl Peeling Vegetables by Jean Simeon Chardin</span>
 ---
 
 ### content/sanhedrin/6.txt
-<a id="src-00093"></a>
+<a id="src-00094"></a>
 
 **Source file:** `content/sanhedrin/6.txt`
 
@@ -1907,7 +1909,7 @@ Art: Anthony van Dyck at the Court of Charles I by&nbsp;&nbsp;Louis Katzenstein
 ---
 
 ### content/sanhedrin/60.txt
-<a id="src-00094"></a>
+<a id="src-00095"></a>
 
 **Source file:** `content/sanhedrin/60.txt`
 
@@ -1922,7 +1924,7 @@ Art: Persian Lady Worshipping the Rising Sun by Maria Hadfield Cosway
 ---
 
 ### content/sanhedrin/61.txt
-<a id="src-00095"></a>
+<a id="src-00096"></a>
 
 **Source file:** `content/sanhedrin/61.txt`
 
@@ -1938,7 +1940,7 @@ Art: Paul Gauguin - Rave Te Htit Aamy Aka The Idol</span>
 ---
 
 ### content/sanhedrin/62.txt
-<a id="src-00096"></a>
+<a id="src-00097"></a>
 
 **Source file:** `content/sanhedrin/62.txt`
 
@@ -1952,7 +1954,7 @@ Art: Campfire by&nbsp;</span><span style="font-size: large;">Winslow Homer</span
 ---
 
 ### content/sanhedrin/63.txt
-<a id="src-00097"></a>
+<a id="src-00098"></a>
 
 **Source file:** `content/sanhedrin/63.txt`
 
@@ -1966,7 +1968,7 @@ Art: Adoration of the Golden Calf by&nbsp;</span><span style="font-size: large;"
 ---
 
 ### content/sanhedrin/64.txt
-<a id="src-00098"></a>
+<a id="src-00099"></a>
 
 **Source file:** `content/sanhedrin/64.txt`
 
@@ -1982,7 +1984,7 @@ Art: Mother Caressing Her Convalescant Daughter by&nbsp;</span><span style="font
 ---
 
 ### content/sanhedrin/65.txt
-<a id="src-00099"></a>
+<a id="src-00100"></a>
 
 **Source file:** `content/sanhedrin/65.txt`
 
@@ -1996,7 +1998,7 @@ Art: The Wake at the Cemetery by Aleksei Ivanovich Korzukhin</span>
 ---
 
 ### content/sanhedrin/66.txt
-<a id="src-00100"></a>
+<a id="src-00101"></a>
 
 **Source file:** `content/sanhedrin/66.txt`
 
@@ -2010,7 +2012,7 @@ Art: A Girl by Lord Frederick Leighton</span>
 ---
 
 ### content/sanhedrin/67.txt
-<a id="src-00101"></a>
+<a id="src-00102"></a>
 
 **Source file:** `content/sanhedrin/67.txt`
 
@@ -2026,7 +2028,7 @@ Art: Healer on a Donkey by&nbsp;</span><span style="font-size: large;">Niko Piro
 ---
 
 ### content/sanhedrin/68.txt
-<a id="src-00102"></a>
+<a id="src-00103"></a>
 
 **Source file:** `content/sanhedrin/68.txt`
 
@@ -2042,7 +2044,7 @@ Art: The Poor Schoolboy by&nbsp;</span><span style="font-size: large;">Antonio M
 ---
 
 ### content/sanhedrin/69.txt
-<a id="src-00103"></a>
+<a id="src-00104"></a>
 
 **Source file:** `content/sanhedrin/69.txt`
 
@@ -2056,7 +2058,7 @@ Art: Italian Youth Sitting in Corot's Room by&nbsp;</span><span style="font-size
 ---
 
 ### content/sanhedrin/7.txt
-<a id="src-00104"></a>
+<a id="src-00105"></a>
 
 **Source file:** `content/sanhedrin/7.txt`
 
@@ -2070,7 +2072,7 @@ One man liked to say, "When our love was strong, we could have lain together on 
 ---
 
 ### content/sanhedrin/70.txt
-<a id="src-00105"></a>
+<a id="src-00106"></a>
 
 **Source file:** `content/sanhedrin/70.txt`
 
@@ -2085,7 +2087,7 @@ Art: Still Life With Apples, Meat, And A Roll by&nbsp;</span><span style="font-s
 ---
 
 ### content/sanhedrin/71.txt
-<a id="src-00106"></a>
+<a id="src-00107"></a>
 
 **Source file:** `content/sanhedrin/71.txt`
 
@@ -2099,7 +2101,7 @@ Art: A Young Man Seated at a Table by&nbsp;</span><span style="font-size: large;
 ---
 
 ### content/sanhedrin/72.txt
-<a id="src-00107"></a>
+<a id="src-00108"></a>
 
 **Source file:** `content/sanhedrin/72.txt`
 
@@ -2113,7 +2115,7 @@ Art: A Canal Tunnel Near Leeds by&nbsp;</span><span style="font-size: large;">Jo
 ---
 
 ### content/sanhedrin/73.txt
-<a id="src-00108"></a>
+<a id="src-00109"></a>
 
 **Source file:** `content/sanhedrin/73.txt`
 
@@ -2127,7 +2129,7 @@ Art: Murder by&nbsp;</span><span style="font-size: large;">Paul Cezanne</span>
 ---
 
 ### content/sanhedrin/74.txt
-<a id="src-00109"></a>
+<a id="src-00110"></a>
 
 **Source file:** `content/sanhedrin/74.txt`
 
@@ -2141,7 +2143,7 @@ Art: The Fight by&nbsp;</span><span style="font-size: large;">Emile Friant</span
 ---
 
 ### content/sanhedrin/75.txt
-<a id="src-00110"></a>
+<a id="src-00111"></a>
 
 **Source file:** `content/sanhedrin/75.txt`
 
@@ -2155,7 +2157,7 @@ Art: Kathleen and Mary Ann by&nbsp;</span><span style="font-size: large;">Mrs. L
 ---
 
 ### content/sanhedrin/76.txt
-<a id="src-00111"></a>
+<a id="src-00112"></a>
 
 **Source file:** `content/sanhedrin/76.txt`
 
@@ -2171,7 +2173,7 @@ Art: The Snake Charmer by&nbsp;</span><span style="font-size: large;">Arthur Wil
 ---
 
 ### content/sanhedrin/77.txt
-<a id="src-00112"></a>
+<a id="src-00113"></a>
 
 **Source file:** `content/sanhedrin/77.txt`
 
@@ -2186,7 +2188,7 @@ Art: Landscape with a waterfall by&nbsp;</span><span style="font-size: large;">W
 ---
 
 ### content/sanhedrin/78.txt
-<a id="src-00113"></a>
+<a id="src-00114"></a>
 
 **Source file:** `content/sanhedrin/78.txt`
 
@@ -2202,7 +2204,7 @@ Art: Brawling Peasants by Joost Cornelisz - Droochsloot</span>
 ---
 
 ### content/sanhedrin/79.txt
-<a id="src-00114"></a>
+<a id="src-00115"></a>
 
 **Source file:** `content/sanhedrin/79.txt`
 
@@ -2218,7 +2220,7 @@ Art: The Cobbler's Apprentice by&nbsp;</span><span style="font-size: large;">Fra
 ---
 
 ### content/sanhedrin/8.txt
-<a id="src-00115"></a>
+<a id="src-00116"></a>
 
 **Source file:** `content/sanhedrin/8.txt`
 
@@ -2232,7 +2234,7 @@ Art: The Cittern Player by&nbsp;</span><span style="font-size: large;">Gabriel M
 ---
 
 ### content/sanhedrin/80.txt
-<a id="src-00116"></a>
+<a id="src-00117"></a>
 
 **Source file:** `content/sanhedrin/80.txt`
 
@@ -2247,7 +2249,7 @@ Art: A Wine Cellar by Johann Sperl
 ---
 
 ### content/sanhedrin/81.txt
-<a id="src-00117"></a>
+<a id="src-00118"></a>
 
 **Source file:** `content/sanhedrin/81.txt`
 
@@ -2263,7 +2265,7 @@ Art: The Bread Seller and Water Carriers by&nbsp;</span><span style="font-size: 
 ---
 
 ### content/sanhedrin/82.txt
-<a id="src-00118"></a>
+<a id="src-00119"></a>
 
 **Source file:** `content/sanhedrin/82.txt`
 
@@ -2281,7 +2283,7 @@ Art: Vessels Fruit And Cloth In Front Of A Chest by Paul Cezanne
 ---
 
 ### content/sanhedrin/83.txt
-<a id="src-00119"></a>
+<a id="src-00120"></a>
 
 **Source file:** `content/sanhedrin/83.txt`
 
@@ -2296,7 +2298,7 @@ Art: The Peasant Meal by&nbsp;</span><span style="font-size: large;">Le Nain Bro
 ---
 
 ### content/sanhedrin/84.txt
-<a id="src-00120"></a>
+<a id="src-00121"></a>
 
 **Source file:** `content/sanhedrin/84.txt`
 
@@ -2312,7 +2314,7 @@ Art: The Slave by&nbsp;</span><span style="font-size: large;">William Etty</span
 ---
 
 ### content/sanhedrin/85.txt
-<a id="src-00121"></a>
+<a id="src-00122"></a>
 
 **Source file:** `content/sanhedrin/85.txt`
 
@@ -2328,7 +2330,7 @@ Art: A Slap In The Face by Salvatore Frangiamore</span>
 ---
 
 ### content/sanhedrin/86.txt
-<a id="src-00122"></a>
+<a id="src-00123"></a>
 
 **Source file:** `content/sanhedrin/86.txt`
 
@@ -2343,7 +2345,7 @@ The dissenting sage and his disputants on the local court would come to the cour
 ---
 
 ### content/sanhedrin/87.txt
-<a id="src-00123"></a>
+<a id="src-00124"></a>
 
 **Source file:** `content/sanhedrin/87.txt`
 
@@ -2358,7 +2360,7 @@ Art: The sage and the geckos by Arthur Boyd Houghton
 ---
 
 ### content/sanhedrin/88.txt
-<a id="src-00124"></a>
+<a id="src-00125"></a>
 
 **Source file:** `content/sanhedrin/88.txt`
 
@@ -2373,7 +2375,7 @@ Art: The Praying Jew by Marc Chagall
 ---
 
 ### content/sanhedrin/89.txt
-<a id="src-00125"></a>
+<a id="src-00126"></a>
 
 **Source file:** `content/sanhedrin/89.txt`
 
@@ -2387,7 +2389,7 @@ Art: Study for Two Heads for Boston Mural 'The Prophets' by&nbsp;</span><span st
 ---
 
 ### content/sanhedrin/9.txt
-<a id="src-00126"></a>
+<a id="src-00127"></a>
 
 **Source file:** `content/sanhedrin/9.txt`
 
@@ -2405,7 +2407,7 @@ Art: Reading (portrait of the artist's wife) by Ivan Nikolaevich Kramskoy
 ---
 
 ### content/sanhedrin/90.txt
-<a id="src-00127"></a>
+<a id="src-00128"></a>
 
 **Source file:** `content/sanhedrin/90.txt`
 
@@ -2419,7 +2421,7 @@ Art: The Resurrection of the Dead by&nbsp;</span><span style="font-size: large;"
 ---
 
 ### content/sanhedrin/91.txt
-<a id="src-00128"></a>
+<a id="src-00129"></a>
 
 **Source file:** `content/sanhedrin/91.txt`
 
@@ -2437,7 +2439,7 @@ Art: Hunchback by Ilya Repin<br />
 ---
 
 ### content/sanhedrin/92.txt
-<a id="src-00129"></a>
+<a id="src-00130"></a>
 
 **Source file:** `content/sanhedrin/92.txt`
 
@@ -2454,7 +2456,7 @@ Art: Ezekiel by Michelangelo Buonarroti</span>
 ---
 
 ### content/sanhedrin/93.txt
-<a id="src-00130"></a>
+<a id="src-00131"></a>
 
 **Source file:** `content/sanhedrin/93.txt`
 
@@ -2469,7 +2471,7 @@ Art: Tall Furnaces by Maximilien Luce
 ---
 
 ### content/sanhedrin/94.txt
-<a id="src-00131"></a>
+<a id="src-00132"></a>
 
 **Source file:** `content/sanhedrin/94.txt`
 
@@ -2483,7 +2485,7 @@ Art: A woman reading by candlelight by&nbsp;</span><span style="font-size: large
 ---
 
 ### content/sanhedrin/95.txt
-<a id="src-00132"></a>
+<a id="src-00133"></a>
 
 **Source file:** `content/sanhedrin/95.txt`
 
@@ -2503,7 +2505,7 @@ Art: Hunting Deer by&nbsp;</span><span style="font-size: large;">Frans Snyders</
 ---
 
 ### content/sanhedrin/96.txt
-<a id="src-00133"></a>
+<a id="src-00134"></a>
 
 **Source file:** `content/sanhedrin/96.txt`
 
@@ -2521,7 +2523,7 @@ Art: Nebuchadnezzar by W</span><span style="font-size: large;">illiam Blake</spa
 ---
 
 ### content/sanhedrin/97.txt
-<a id="src-00134"></a>
+<a id="src-00135"></a>
 
 **Source file:** `content/sanhedrin/97.txt`
 
@@ -2542,7 +2544,7 @@ Art: A Tavern Interior by Johannes Christoffel Vaarberg
 ---
 
 ### content/sanhedrin/98.txt
-<a id="src-00135"></a>
+<a id="src-00136"></a>
 
 **Source file:** `content/sanhedrin/98.txt`
 
@@ -2561,7 +2563,7 @@ Art: The Donkey by Jean-Baptiste-Camille Corot
 ---
 
 ### content/sanhedrin/99.txt
-<a id="src-00136"></a>
+<a id="src-00137"></a>
 
 **Source file:** `content/sanhedrin/99.txt`
 
@@ -2580,7 +2582,7 @@ Art: Paradise by Mikolajus Ciurlionis
 ---
 
 ### content/shabbat/10.txt
-<a id="src-00137"></a>
+<a id="src-00138"></a>
 
 **Source file:** `content/shabbat/10.txt`
 
@@ -2602,16 +2604,17 @@ Art: Gabriel Metsu - The Hunter's Gift
 ---
 
 ### content/shabbat/100.txt
-<a id="src-00138"></a>
+<a id="src-00139"></a>
 
 **Source file:** `content/shabbat/100.txt`
 
-
+Shabbat 100 - A nut on the water in a box in a cistern
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPzxTziJu4wOF62E5C6V7_e6n79uud_OrUkv9x86n1fh0fDcHU0rZnc6N-PqjAVtogt-maunS3XUZK-x4UUwdcXru2n2jRrOBAZTtccyvX0BDqJzimC3RoPBFZbvktqJYQ2SHwf-Fu6atOJNCvAI56UXrxPNr3Uniy5uguOIRrquhA256QyC6wJXrHhIHW/s548/Still%20Life%20of%20Fruit%20and%20Nuts%20by%20Giuseppe%20Ruoppolo.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="331" data-original-width="548" height="193" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPzxTziJu4wOF62E5C6V7_e6n79uud_OrUkv9x86n1fh0fDcHU0rZnc6N-PqjAVtogt-maunS3XUZK-x4UUwdcXru2n2jRrOBAZTtccyvX0BDqJzimC3RoPBFZbvktqJYQ2SHwf-Fu6atOJNCvAI56UXrxPNr3Uniy5uguOIRrquhA256QyC6wJXrHhIHW/s320/Still%20Life%20of%20Fruit%20and%20Nuts%20by%20Giuseppe%20Ruoppolo.png" width="320" /></a></div>In order to transgress Shabbat by "carrying," one must pick the object up in one place, move it four steps, and lay it at rest in a new place. Since one should not carry on Shabbat, one should NOT do so; thus, we have defined what one should NOT do.<p></p><p>If one takes water from a container with water, he has picked the water up from its (water's) natural resting place. That is an honest "picking up", and for that he will be liable on Shabbat.&nbsp;</p><p>If one picks up a nut (I am thinking walnut) that is floating on the surface of the water, then he has not violated Shabbat because this is not the nut's natural resting place.</p><p>What is that nut is floating on the water that is in a box, and the box is floating on the water in its turn? The nut is at rest in the vessel, and he is liable? Or maybe we look at the box and see it floating on the water, and he is not liable?</p><p>The answer is "silence" or "teiku." Some say that the four letters of teiku stand for "Tishby iteretz kushiot veibayot", that is, "Eliyahu will explain all hard places and questions."</p><p>Art:&nbsp;Still Life of Fruit and Nuts by Giuseppe Ruoppolo</p>
 
 ---
 
 ### content/shabbat/101.txt
-<a id="src-00139"></a>
+<a id="src-00140"></a>
 
 **Source file:** `content/shabbat/101.txt`
 
@@ -2627,7 +2630,7 @@ Art: Andries Van Eertvelt - Two Ships at Anchor
 ---
 
 ### content/shabbat/102.txt
-<a id="src-00140"></a>
+<a id="src-00141"></a>
 
 **Source file:** `content/shabbat/102.txt`
 
@@ -2649,7 +2652,7 @@ Art: Winslow Homer - Dog on a Log
 ---
 
 ### content/shabbat/103.txt
-<a id="src-00141"></a>
+<a id="src-00142"></a>
 
 **Source file:** `content/shabbat/103.txt`
 
@@ -2668,7 +2671,7 @@ Art: Gerard Ter Borch - Lady Reading a Letter
 ---
 
 ### content/shabbat/104.txt
-<a id="src-00142"></a>
+<a id="src-00143"></a>
 
 **Source file:** `content/shabbat/104.txt`
 
@@ -2684,7 +2687,7 @@ Art: Alexei Kondratyevich Savrasov - Sea of Mud
 ---
 
 ### content/shabbat/105.txt
-<a id="src-00143"></a>
+<a id="src-00144"></a>
 
 **Source file:** `content/shabbat/105.txt`
 
@@ -2706,7 +2709,7 @@ Art: Francisco De Zurbaran - Hercules Tearing the Burning Robe
 ---
 
 ### content/shabbat/106.txt
-<a id="src-00144"></a>
+<a id="src-00145"></a>
 
 **Source file:** `content/shabbat/106.txt`
 
@@ -2724,7 +2727,7 @@ Art: Christian Krohg - Young Woman on a Bench
 ---
 
 ### content/shabbat/107.txt
-<a id="src-00145"></a>
+<a id="src-00146"></a>
 
 **Source file:** `content/shabbat/107.txt`
 
@@ -2746,7 +2749,7 @@ Art: Rosa Bonheur - Two Deer In A Forest Glade
 ---
 
 ### content/shabbat/108.txt
-<a id="src-00146"></a>
+<a id="src-00147"></a>
 
 **Source file:** `content/shabbat/108.txt`
 
@@ -2762,7 +2765,7 @@ Art: Jacob Toorenvliet - A Fish Seller
 ---
 
 ### content/shabbat/109.txt
-<a id="src-00147"></a>
+<a id="src-00148"></a>
 
 **Source file:** `content/shabbat/109.txt`
 
@@ -2778,7 +2781,7 @@ Art: Gabriel Metsu - The Sick Child
 ---
 
 ### content/shabbat/11.txt
-<a id="src-00148"></a>
+<a id="src-00149"></a>
 
 **Source file:** `content/shabbat/11.txt`
 
@@ -2802,7 +2805,7 @@ Art: Quiringh Gerritsz. van Brekelenkam - The Tailor's Workshop
 ---
 
 ### content/shabbat/110.txt
-<a id="src-00149"></a>
+<a id="src-00150"></a>
 
 **Source file:** `content/shabbat/110.txt`
 
@@ -2820,7 +2823,7 @@ Art: William Oliver - A snake in the grass
 ---
 
 ### content/shabbat/111.txt
-<a id="src-00150"></a>
+<a id="src-00151"></a>
 
 **Source file:** `content/shabbat/111.txt`
 
@@ -2839,7 +2842,7 @@ Art: Jan Matejko - Stanczyk Faking a Toothache
 ---
 
 ### content/shabbat/112.txt
-<a id="src-00151"></a>
+<a id="src-00152"></a>
 
 **Source file:** `content/shabbat/112.txt`
 
@@ -2858,7 +2861,7 @@ Art: Camille Pissarro - Young Woman Knotting Her Hair
 ---
 
 ### content/shabbat/113.txt
-<a id="src-00152"></a>
+<a id="src-00153"></a>
 
 **Source file:** `content/shabbat/113.txt`
 
@@ -2879,7 +2882,7 @@ Art: Nicolas Poussin - Ruth and Boaz
 ---
 
 ### content/shabbat/114.txt
-<a id="src-00153"></a>
+<a id="src-00154"></a>
 
 **Source file:** `content/shabbat/114.txt`
 
@@ -2901,7 +2904,7 @@ Art: Vincent Van Gogh - A Pair Of Leather Clogs
 ---
 
 ### content/shabbat/115.txt
-<a id="src-00154"></a>
+<a id="src-00155"></a>
 
 **Source file:** `content/shabbat/115.txt`
 
@@ -2923,7 +2926,7 @@ Art: Egbert van der Poel - A house on fire at night with peasants coming to resc
 ---
 
 ### content/shabbat/116.txt
-<a id="src-00155"></a>
+<a id="src-00156"></a>
 
 **Source file:** `content/shabbat/116.txt`
 
@@ -2941,7 +2944,7 @@ Art: John Dawson Watson - Fireside Thoughts
 ---
 
 ### content/shabbat/117.txt
-<a id="src-00156"></a>
+<a id="src-00157"></a>
 
 **Source file:** `content/shabbat/117.txt`
 
@@ -2960,7 +2963,7 @@ Art: Carlo Magini - Still life with food and vegetables
 ---
 
 ### content/shabbat/118.txt
-<a id="src-00157"></a>
+<a id="src-00158"></a>
 
 **Source file:** `content/shabbat/118.txt`
 
@@ -2976,7 +2979,7 @@ Art: Gillis Van Tilborch - A couple sitting and having a meal
 ---
 
 ### content/shabbat/119.txt
-<a id="src-00158"></a>
+<a id="src-00159"></a>
 
 **Source file:** `content/shabbat/119.txt`
 
@@ -2995,7 +2998,7 @@ Art: Claude Oscar Monet - The Railway Bridge At Argenteuil
 ---
 
 ### content/shabbat/12.txt
-<a id="src-00159"></a>
+<a id="src-00160"></a>
 
 **Source file:** `content/shabbat/12.txt`
 
@@ -3013,7 +3016,7 @@ Art:&nbsp;Carl Vilhelm Holsoe - Woman Reading by Lamplight
 ---
 
 ### content/shabbat/120.txt
-<a id="src-00160"></a>
+<a id="src-00161"></a>
 
 **Source file:** `content/shabbat/120.txt`
 
@@ -3034,7 +3037,7 @@ Art: Jacob Foppens Van Es - Still Life Of A Pewter Plate With A Jan Steen Jug, A
 ---
 
 ### content/shabbat/121.txt
-<a id="src-00161"></a>
+<a id="src-00162"></a>
 
 **Source file:** `content/shabbat/121.txt`
 
@@ -3053,7 +3056,7 @@ Art: Egbert Lievensz. Van Der Poel - A Fire In A Village At Night With Villagers
 ---
 
 ### content/shabbat/122.txt
-<a id="src-00162"></a>
+<a id="src-00163"></a>
 
 **Source file:** `content/shabbat/122.txt`
 
@@ -3072,7 +3075,7 @@ Art: Frans Swagers - A ferry boat disembarking its passengers
 ---
 
 ### content/shabbat/123.txt
-<a id="src-00163"></a>
+<a id="src-00164"></a>
 
 **Source file:** `content/shabbat/123.txt`
 
@@ -3093,7 +3096,7 @@ Art: John Singer Sargent - Venetian Doorway<span id="goog_1824008985"></span><sp
 ---
 
 ### content/shabbat/124.txt
-<a id="src-00164"></a>
+<a id="src-00165"></a>
 
 **Source file:** `content/shabbat/124.txt`
 
@@ -3112,7 +3115,7 @@ Art: William-Adolphe Bouguereau - The Broken Pitcher
 ---
 
 ### content/shabbat/125.txt
-<a id="src-00165"></a>
+<a id="src-00166"></a>
 
 **Source file:** `content/shabbat/125.txt`
 
@@ -3130,7 +3133,7 @@ Art: Claude Oscar Monet - Camille Monet At The Window Argentuile
 ---
 
 ### content/shabbat/126.txt
-<a id="src-00166"></a>
+<a id="src-00167"></a>
 
 **Source file:** `content/shabbat/126.txt`
 
@@ -3148,7 +3151,7 @@ Art: Paul Cezanne - Young Italian Girl Resting On Her Elbow
 ---
 
 ### content/shabbat/127.txt
-<a id="src-00167"></a>
+<a id="src-00168"></a>
 
 **Source file:** `content/shabbat/127.txt`
 
@@ -3169,7 +3172,7 @@ Art: Charles Desire Hue - Visiting a sick friend
 ---
 
 ### content/shabbat/128.txt
-<a id="src-00168"></a>
+<a id="src-00169"></a>
 
 **Source file:** `content/shabbat/128.txt`
 
@@ -3188,7 +3191,7 @@ Art: Victor-Alfred-Paul Vignon - Mother and Child taking a Walk
 ---
 
 ### content/shabbat/129.txt
-<a id="src-00169"></a>
+<a id="src-00170"></a>
 
 **Source file:** `content/shabbat/129.txt`
 
@@ -3207,7 +3210,7 @@ Art: Victor-Alfred-Paul Vignon - Mother and Child taking a Walk
 ---
 
 ### content/shabbat/13.txt
-<a id="src-00170"></a>
+<a id="src-00171"></a>
 
 **Source file:** `content/shabbat/13.txt`
 
@@ -3229,7 +3232,7 @@ Art: Alfons Spring - In The Attic
 ---
 
 ### content/shabbat/130.txt
-<a id="src-00171"></a>
+<a id="src-00172"></a>
 
 **Source file:** `content/shabbat/130.txt`
 
@@ -3248,7 +3251,7 @@ Art: Alexandre Gabriel Decamps - The Knife grinder
 ---
 
 ### content/shabbat/131.txt
-<a id="src-00172"></a>
+<a id="src-00173"></a>
 
 **Source file:** `content/shabbat/131.txt`
 
@@ -3264,7 +3267,7 @@ Art: Bernard Picart - Jewish Meal During the Feast of the Tabernacles
 ---
 
 ### content/shabbat/132.txt
-<a id="src-00173"></a>
+<a id="src-00174"></a>
 
 **Source file:** `content/shabbat/132.txt`
 
@@ -3285,7 +3288,7 @@ Art: William Blake - The Circumcision
 ---
 
 ### content/shabbat/133.txt
-<a id="src-00174"></a>
+<a id="src-00175"></a>
 
 **Source file:** `content/shabbat/133.txt`
 
@@ -3301,7 +3304,7 @@ Art: Jules Breton - Woman carrying Water
 ---
 
 ### content/shabbat/134.txt
-<a id="src-00175"></a>
+<a id="src-00176"></a>
 
 **Source file:** `content/shabbat/134.txt`
 
@@ -3316,7 +3319,7 @@ Art: John Adam P. Houston - Washing The Baby
 ---
 
 ### content/shabbat/135.txt
-<a id="src-00176"></a>
+<a id="src-00177"></a>
 
 **Source file:** `content/shabbat/135.txt`
 
@@ -3332,7 +3335,7 @@ Art: Adriaen The Elder Verdoel - The Circumcision
 ---
 
 ### content/shabbat/136.txt
-<a id="src-00177"></a>
+<a id="src-00178"></a>
 
 **Source file:** `content/shabbat/136.txt`
 
@@ -3350,7 +3353,7 @@ Art: Umberto Boccioni - Mourning
 ---
 
 ### content/shabbat/137.txt
-<a id="src-00178"></a>
+<a id="src-00179"></a>
 
 **Source file:** `content/shabbat/137.txt`
 
@@ -3369,7 +3372,7 @@ Art: Joseph Rodefer DeCamp - An Infant
 ---
 
 ### content/shabbat/138.txt
-<a id="src-00179"></a>
+<a id="src-00180"></a>
 
 **Source file:** `content/shabbat/138.txt`
 
@@ -3391,7 +3394,7 @@ Art: Giacomo Francesco Cipper - A Peasant Pouring A Glass Of Wine
 ---
 
 ### content/shabbat/139.txt
-<a id="src-00180"></a>
+<a id="src-00181"></a>
 
 **Source file:** `content/shabbat/139.txt`
 
@@ -3409,7 +3412,7 @@ Art: Childe Hassam - Building the Schooner
 ---
 
 ### content/shabbat/14.txt
-<a id="src-00181"></a>
+<a id="src-00182"></a>
 
 **Source file:** `content/shabbat/14.txt`
 
@@ -3431,7 +3434,7 @@ Art: Joos De Momper - A Mountainous Landscape With Travellers And A Hermit Outsi
 ---
 
 ### content/shabbat/140.txt
-<a id="src-00182"></a>
+<a id="src-00183"></a>
 
 **Source file:** `content/shabbat/140.txt`
 
@@ -3447,7 +3450,7 @@ Art: Joseph-Alphonse Planson - Still Life Of A Chocolatier, Together With Boiled
 ---
 
 ### content/shabbat/141.txt
-<a id="src-00183"></a>
+<a id="src-00184"></a>
 
 **Source file:** `content/shabbat/141.txt`
 
@@ -3466,7 +3469,7 @@ Art: Jean-Baptiste-Simeon Chardin - Still life of Vegetables for the Soup
 ---
 
 ### content/shabbat/142.txt
-<a id="src-00184"></a>
+<a id="src-00185"></a>
 
 **Source file:** `content/shabbat/142.txt`
 
@@ -3485,7 +3488,7 @@ Art: Giacomo Ceruti - Women Working on Pillow Lace (Il Pitocchetto)
 ---
 
 ### content/shabbat/143.txt
-<a id="src-00185"></a>
+<a id="src-00186"></a>
 
 **Source file:** `content/shabbat/143.txt`
 
@@ -3504,7 +3507,7 @@ Art: Fernando Botero - Man Drinking Orange Juice
 ---
 
 ### content/shabbat/144.txt
-<a id="src-00186"></a>
+<a id="src-00187"></a>
 
 **Source file:** `content/shabbat/144.txt`
 
@@ -3523,52 +3526,57 @@ Art: Albert Neuhuys - A saucer of milk
 ---
 
 ### content/shabbat/145.txt
-<a id="src-00187"></a>
+<a id="src-00188"></a>
 
 **Source file:** `content/shabbat/145.txt`
 
-
+Shabbat 145 - Squeezing grapes, honeycomb, and cooked vegetables - and Rabbi Yochanan dozing
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRN6vXIsjcCOtw93c3-kyeH5mVJk7jHSu3WHVio6U1FL9fIDlYbTSPf1xSOkcqjYV4kwUKzhQW2R8QYt9jqkOQCGaqQ0iiHdf_1PzXOeHdY8WvFIE59XlaxzboPNAtiyiMP44x-voGkWWEzqDAgtFFGVXd-ydYcsLo6YEOTvm36CNofmQfRLwTpQngGR7u/s896/Juan_Ferna%CC%81ndez_-_Still_Life_with_Four_Bunches_of_Grapes,_c._1630_-_1635._Prado.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="640" data-original-width="896" height="229" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRN6vXIsjcCOtw93c3-kyeH5mVJk7jHSu3WHVio6U1FL9fIDlYbTSPf1xSOkcqjYV4kwUKzhQW2R8QYt9jqkOQCGaqQ0iiHdf_1PzXOeHdY8WvFIE59XlaxzboPNAtiyiMP44x-voGkWWEzqDAgtFFGVXd-ydYcsLo6YEOTvm36CNofmQfRLwTpQngGR7u/s320/Juan_Ferna%CC%81ndez_-_Still_Life_with_Four_Bunches_of_Grapes,_c._1630_-_1635._Prado.jpg" width="320" /></a></div>Squeezing grapes for grape juice is prohibited on Shabbat because it was done in the Temple. You might think that squeezing grapes, honeycomb, and cooked vegetables follow the same law, but they do not. For example, squeezing cooked vegetables to make them taste better is completely permitted, but getting their juice might be prohibited by the Sages.<p></p><p>Rabbi Yochanan was dozing off while his two students discussed their questions. However, their answers were based on logic. For example, they asked, why are Holidays in Babylon more joyous than in Israel? Because they are poor and reserve celebrations for the Holidays, and so on.</p><p>At that, Rabbi Yochanan awoke and said, "Children! If something is clear, certain, and wise, say it. If not - do not say." Then he gave the Torah explanations. For example, the Holidays in Babylon are joyous because they were not included in the curse of "Your new moons and Holidays My soul hates - says the Holy One." That applied only to Israel but not to Babylon.</p><p>Art: Still Life with Four Bunches of Grapes by Juan Fernandez</p>
 
 ---
 
 ### content/shabbat/146.txt
-<a id="src-00188"></a>
+<a id="src-00189"></a>
 
 **Source file:** `content/shabbat/146.txt`
 
-
+Shabbat 146 - How to open coke on Shabbat and other sundry issues
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhakOyP1pcuTluU8YvJx_rT76RD8klAHbQKhAgXhb7tmMzxf2lv277XkU4DTf2XHY8vqg39j4u2KgPbhyphenhyphenpXGVuMmbzUsJmxz6IjwtqwSTHH4o1xA23I_gYqjvh-HexvGIAu0gpAevJp0GVefXkCJcFkl6hQhdmq4NKWAt_F6Dj0FX_MZ_2vESQ3xNGd0_Lo/s800/Still%20Life%20with%20Figs%20and%20Bread%20by%20Luis%20Melendez.jpeg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="800" data-original-width="563" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhakOyP1pcuTluU8YvJx_rT76RD8klAHbQKhAgXhb7tmMzxf2lv277XkU4DTf2XHY8vqg39j4u2KgPbhyphenhyphenpXGVuMmbzUsJmxz6IjwtqwSTHH4o1xA23I_gYqjvh-HexvGIAu0gpAevJp0GVefXkCJcFkl6hQhdmq4NKWAt_F6Dj0FX_MZ_2vESQ3xNGd0_Lo/s320/Still%20Life%20with%20Figs%20and%20Bread%20by%20Luis%20Melendez.jpeg" width="225" /></a></div>Let's say you have a cask of dried figs on Shabbat. You can open it and take out figs, but you should not plan to use this cask for storage afterward. You might think that making an opening somehow violates Shabbat, but in truth, it does not because you need the food, and for that, even destructive acts are permitted.<p></p><p>Similarly, you can open a Coke can on Shabbat. And yet, very careful people may squash the can afterward.&nbsp;</p><p>Why did our rule mention dry figs? It wanted to address a complication we would otherwise not have guessed. Dried figs were usually pressed into a cake, and one would need a knife or a sword to cut them. Since he is allowed to use the knife to cut the figs, he would also be allowed to use it to open the barrel. However, this was a stringent position of only one Sage, Rabbi Nechemia, and therefore would not represent the final law. The Talmud derives this from the ruling and goes on to draw many other subtle observations.</p><p>Art: Still Life with Figs and Bread by Luis Melendez</p>
 
 ---
 
 ### content/shabbat/147.txt
-<a id="src-00189"></a>
+<a id="src-00190"></a>
 
 **Source file:** `content/shabbat/147.txt`
 
-
+Shabbat 147 - Wet clothes, wet towels
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ZVwEnJOigAxmnKhtGQxRQQoCm1Fi8Xr5a-iTbkubItyN1i9DtMnqqi2fx4cqk4Jv5wbloWIzNvn1tg8CvohdFNMFpVF8QkXPH2n527IRK6603XDmtXzseubhfY6PmTfcCTMmVkJj2sDyAi_5iJR8HldnPNKsGpP9IyogPVpAZmOME0UC6Lq-7y3Gwy9l/s1260/Carl_Larsson_-_Bathroom_Scene_-_Lisbeth_pub_in_Lasst_Licht_Hinin_(Let_in_More_Light)_1909_-_(MeisterDrucke-248499).jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="902" data-original-width="1260" height="229" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ZVwEnJOigAxmnKhtGQxRQQoCm1Fi8Xr5a-iTbkubItyN1i9DtMnqqi2fx4cqk4Jv5wbloWIzNvn1tg8CvohdFNMFpVF8QkXPH2n527IRK6603XDmtXzseubhfY6PmTfcCTMmVkJj2sDyAi_5iJR8HldnPNKsGpP9IyogPVpAZmOME0UC6Lq-7y3Gwy9l/s320/Carl_Larsson_-_Bathroom_Scene_-_Lisbeth_pub_in_Lasst_Licht_Hinin_(Let_in_More_Light)_1909_-_(MeisterDrucke-248499).jpg" width="320" /></a></div>If your clothes got wet on Shabbat, you can continue walking in them. You do not have to worry that people will suspect you of having washed your clothes on Shabbat. Neither are the Sages concerned that you may come to wring them dry, out of respect for human dignity. However, once you arrive at a safe place, you should take them off, and you can spread them in the sun to dry - but not in front of people.<p></p><p>If you bathe on Shabbat and dry yourself, you should not carry the towels back to your home, lest you squeeze them, even if you used ten towels. However, if there were ten people bathing, it would be the opposite: they could carry the towels back home, even if they all used the same towel. They will remind each other not to squeeze the towel.</p><p>Art: Bathroom Scene by Carl Larsson&nbsp;&nbsp;</p>
 
 ---
 
 ### content/shabbat/148.txt
-<a id="src-00190"></a>
+<a id="src-00191"></a>
 
 **Source file:** `content/shabbat/148.txt`
 
-
+Shabbat 148 - How to borrow on Shabbat
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjo6k5JN1DuBP1hmrh7mJMvZwo92hBaxRcfj2hPaqh7ZsomfYQ3osd0r_b20lUREM4O70KeVLKpy5aA4LVVQ_h79N8zduCR4HLyPGpeWgUa54lUeRaqP3u0MyFjRcO1FzLeKCakbfGwBqx5XGQuh5VXxUmt7dYOQabbyoqpWIEd7PC2u_sHWGyfKnLaUdZ/s1200/main-image.jpeg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="1004" data-original-width="1200" height="268" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjo6k5JN1DuBP1hmrh7mJMvZwo92hBaxRcfj2hPaqh7ZsomfYQ3osd0r_b20lUREM4O70KeVLKpy5aA4LVVQ_h79N8zduCR4HLyPGpeWgUa54lUeRaqP3u0MyFjRcO1FzLeKCakbfGwBqx5XGQuh5VXxUmt7dYOQabbyoqpWIEd7PC2u_sHWGyfKnLaUdZ/s320/main-image.jpeg" width="320" /></a></div>In general, financial transactions are forbidden on Shabbat. Prophet Isaiah said that you should honor Shabbat by not pursuing business. However, one can run out of oil or wine on Shabbat or on a Yom Tov and may need more. Enjoying the holidays is also important. How did the Sages solve this dilemma?&nbsp;<p></p><p>One is allowed to borrow pitches on wine or oil, provided he does not use the term "lend me" but instead says "can I borrow?" In Hebrew, these two terms are different. The first implies a financial loan and may lead to writing down a contract. The second implies consumable goods, where the borrower can return the same kind of produce.</p><p>If the lender wants to do good but does not trust the borrower without a written agreement? The lender can offer his cloak as a guarantee</p><p>Art: Still Life with Apples and Pitcher by Camille Pissarro</p>
 
 ---
 
 ### content/shabbat/149.txt
-<a id="src-00191"></a>
+<a id="src-00192"></a>
 
 **Source file:** `content/shabbat/149.txt`
 
-
+Shabbat 149 - How to count guests and read cartoons on Shabbat
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQpsg_Qb1R8O9tsQTgI5NyX70-n0WEw5KumpQ9wImDFOcdbMmRrTcNkwQ7pn3h8HLZ_-9ZHqsVlDabu8qMAtdtNVzIIfRrRNVZvkW90f_uSlbdduuASZ-BXp6kFjU8gc9IvB54elEM66ZTvuHs5IHPeUjqbjjAOfTSLxna2IHi2Gr6ZjPm9ymwRTcu-Lf3/s1239/Jan_Vermeer_van_Delft_-_Brieflezend_meisje_bij_het_venster_(ca._1657-59).jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="1239" data-original-width="960" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQpsg_Qb1R8O9tsQTgI5NyX70-n0WEw5KumpQ9wImDFOcdbMmRrTcNkwQ7pn3h8HLZ_-9ZHqsVlDabu8qMAtdtNVzIIfRrRNVZvkW90f_uSlbdduuASZ-BXp6kFjU8gc9IvB54elEM66ZTvuHs5IHPeUjqbjjAOfTSLxna2IHi2Gr6ZjPm9ymwRTcu-Lf3/s320/Jan_Vermeer_van_Delft_-_Brieflezend_meisje_bij_het_venster_(ca._1657-59).jpg" width="248" /></a></div>One can count his invited guests, to know how many loaves of bread he will need, and the deserts he will serve - if he does it orally, but he should not read them from a written note. Why? Because he might come to erase someone from the list, and erasing is prohibited on Shabbat. Another reason is that he might get accustomed to it and start reading business documentation. Some forbid even reading social correspondence.<p></p><p>What practical difference is there between the two reasons, erasing on Shabbat and reading business documentation? If the writing is very high on the wall, he will not come to erase it there.&nbsp;</p><p>Can one read captions under a picture? Not on Shabbat! And the picture itself is forbidden to look at, even on a weekday. Why? Because of "do not turn to idols" which are born of your imagination. Some say that a cursory look is allowed, and others that it refers only to idols that were prepared but never worshiped.</p><p>Art:&nbsp;Girl Reading a Letter at an Open Window by Johannes Vermeer</p>
 
 ---
 
 ### content/shabbat/15.txt
-<a id="src-00192"></a>
+<a id="src-00193"></a>
 
 **Source file:** `content/shabbat/15.txt`
 
@@ -3589,7 +3597,7 @@ Art: Bernardino Luini - The Gathering Of The Manna
 ---
 
 ### content/shabbat/150.txt
-<a id="src-00193"></a>
+<a id="src-00194"></a>
 
 **Source file:** `content/shabbat/150.txt`
 
@@ -3598,7 +3606,7 @@ Art: Bernardino Luini - The Gathering Of The Manna
 ---
 
 ### content/shabbat/151.txt
-<a id="src-00194"></a>
+<a id="src-00195"></a>
 
 **Source file:** `content/shabbat/151.txt`
 
@@ -3607,7 +3615,7 @@ Art: Bernardino Luini - The Gathering Of The Manna
 ---
 
 ### content/shabbat/152.txt
-<a id="src-00195"></a>
+<a id="src-00196"></a>
 
 **Source file:** `content/shabbat/152.txt`
 
@@ -3616,7 +3624,7 @@ Art: Bernardino Luini - The Gathering Of The Manna
 ---
 
 ### content/shabbat/153.txt
-<a id="src-00196"></a>
+<a id="src-00197"></a>
 
 **Source file:** `content/shabbat/153.txt`
 
@@ -3625,7 +3633,7 @@ Art: Bernardino Luini - The Gathering Of The Manna
 ---
 
 ### content/shabbat/154.txt
-<a id="src-00197"></a>
+<a id="src-00198"></a>
 
 **Source file:** `content/shabbat/154.txt`
 
@@ -3634,7 +3642,7 @@ Art: Bernardino Luini - The Gathering Of The Manna
 ---
 
 ### content/shabbat/155.txt
-<a id="src-00198"></a>
+<a id="src-00199"></a>
 
 **Source file:** `content/shabbat/155.txt`
 
@@ -3643,7 +3651,7 @@ Art: Bernardino Luini - The Gathering Of The Manna
 ---
 
 ### content/shabbat/156.txt
-<a id="src-00199"></a>
+<a id="src-00200"></a>
 
 **Source file:** `content/shabbat/156.txt`
 
@@ -3652,7 +3660,7 @@ Art: Bernardino Luini - The Gathering Of The Manna
 ---
 
 ### content/shabbat/157.txt
-<a id="src-00200"></a>
+<a id="src-00201"></a>
 
 **Source file:** `content/shabbat/157.txt`
 
@@ -3661,7 +3669,7 @@ Art: Bernardino Luini - The Gathering Of The Manna
 ---
 
 ### content/shabbat/16.txt
-<a id="src-00201"></a>
+<a id="src-00202"></a>
 
 **Source file:** `content/shabbat/16.txt`
 
@@ -3679,7 +3687,7 @@ Art: Osias, the Elder Beert - A Still Life Of Three Wine Glasses
 ---
 
 ### content/shabbat/17.txt
-<a id="src-00202"></a>
+<a id="src-00203"></a>
 
 **Source file:** `content/shabbat/17.txt`
 
@@ -3695,7 +3703,7 @@ Art: Thomas Moran - Storm Clouds Over Long Island
 ---
 
 ### content/shabbat/18.txt
-<a id="src-00203"></a>
+<a id="src-00204"></a>
 
 **Source file:** `content/shabbat/18.txt`
 
@@ -3714,7 +3722,7 @@ Art: Jean-Francois Millet - Breaking Flax
 ---
 
 ### content/shabbat/19.txt
-<a id="src-00204"></a>
+<a id="src-00205"></a>
 
 **Source file:** `content/shabbat/19.txt`
 
@@ -3733,7 +3741,7 @@ Art: Les lavandières - Jean-François Millet
 ---
 
 ### content/shabbat/2.txt
-<a id="src-00205"></a>
+<a id="src-00206"></a>
 
 **Source file:** `content/shabbat/2.txt`
 
@@ -3743,7 +3751,7 @@ Shabbat 2 - From the house to the street
 ---
 
 ### content/shabbat/20.txt
-<a id="src-00206"></a>
+<a id="src-00207"></a>
 
 **Source file:** `content/shabbat/20.txt`
 
@@ -3765,7 +3773,7 @@ Art: Godfried Schalcken - Man with a Candle
 ---
 
 ### content/shabbat/21.txt
-<a id="src-00207"></a>
+<a id="src-00208"></a>
 
 **Source file:** `content/shabbat/21.txt`
 
@@ -3787,7 +3795,7 @@ Art: Wolfgang Heimbach - Man with oil lamp
 ---
 
 ### content/shabbat/22.txt
-<a id="src-00208"></a>
+<a id="src-00209"></a>
 
 **Source file:** `content/shabbat/22.txt`
 
@@ -3802,7 +3810,7 @@ Art: Cornelis Jacobsz Delff - A Still Life with an oil lamp
 ---
 
 ### content/shabbat/23.txt
-<a id="src-00209"></a>
+<a id="src-00210"></a>
 
 **Source file:** `content/shabbat/23.txt`
 
@@ -3824,7 +3832,7 @@ Art: Jean-Francois Millet - Woman Sewing By Lamplight
 ---
 
 ### content/shabbat/24.txt
-<a id="src-00210"></a>
+<a id="src-00211"></a>
 
 **Source file:** `content/shabbat/24.txt`
 
@@ -3840,7 +3848,7 @@ Art: Eduard Von Grutzner - A Good Vintage
 ---
 
 ### content/shabbat/25.txt
-<a id="src-00211"></a>
+<a id="src-00212"></a>
 
 **Source file:** `content/shabbat/25.txt`
 
@@ -3859,7 +3867,7 @@ Art: Thomas Faed - The cottage bedroom
 ---
 
 ### content/shabbat/26.txt
-<a id="src-00212"></a>
+<a id="src-00213"></a>
 
 **Source file:** `content/shabbat/26.txt`
 
@@ -3881,7 +3889,7 @@ Art: Theo van Rysselberghe - Portrait of Madame Monnon, the Artist's Mother-in-L
 ---
 
 ### content/shabbat/27.txt
-<a id="src-00213"></a>
+<a id="src-00214"></a>
 
 **Source file:** `content/shabbat/27.txt`
 
@@ -3900,7 +3908,7 @@ Art: Raja Ravi Varma - The Miser
 ---
 
 ### content/shabbat/28.txt
-<a id="src-00214"></a>
+<a id="src-00215"></a>
 
 **Source file:** `content/shabbat/28.txt`
 
@@ -3919,7 +3927,7 @@ Art: Raphael - The Woman with the Unicorn
 ---
 
 ### content/shabbat/29.txt
-<a id="src-00215"></a>
+<a id="src-00216"></a>
 
 **Source file:** `content/shabbat/29.txt`
 
@@ -3935,7 +3943,7 @@ Art: Trophîme Bigot - Girl pouring oil into a lamp
 ---
 
 ### content/shabbat/3.txt
-<a id="src-00216"></a>
+<a id="src-00217"></a>
 
 **Source file:** `content/shabbat/3.txt`
 
@@ -3945,7 +3953,7 @@ Shabbat 3 - Two that are four
 ---
 
 ### content/shabbat/30.txt
-<a id="src-00217"></a>
+<a id="src-00218"></a>
 
 **Source file:** `content/shabbat/30.txt`
 
@@ -3970,7 +3978,7 @@ Art: Edward Prentis - The Sick Bed
 ---
 
 ### content/shabbat/31.txt
-<a id="src-00218"></a>
+<a id="src-00219"></a>
 
 **Source file:** `content/shabbat/31.txt`
 
@@ -3994,7 +4002,7 @@ Art: Vincent Van Gogh - The Midwife
 ---
 
 ### content/shabbat/32.txt
-<a id="src-00219"></a>
+<a id="src-00220"></a>
 
 **Source file:** `content/shabbat/32.txt`
 
@@ -4013,7 +4021,7 @@ Art: Frederick Childe Hassam - Bridge at Old Lyme
 ---
 
 ### content/shabbat/33.txt
-<a id="src-00220"></a>
+<a id="src-00221"></a>
 
 **Source file:** `content/shabbat/33.txt`
 
@@ -4033,7 +4041,7 @@ Art: Charles Haigh-Wood - The Peace Offering
 ---
 
 ### content/shabbat/34.txt
-<a id="src-00221"></a>
+<a id="src-00222"></a>
 
 **Source file:** `content/shabbat/34.txt`
 
@@ -4055,7 +4063,7 @@ Art: David The Younger Teniers - Hermits in a Cave
 ---
 
 ### content/shabbat/35.txt
-<a id="src-00222"></a>
+<a id="src-00223"></a>
 
 **Source file:** `content/shabbat/35.txt`
 
@@ -4077,7 +4085,7 @@ Art: Winslow Homer - Twilight at Leeds, New York
 ---
 
 ### content/shabbat/36.txt
-<a id="src-00223"></a>
+<a id="src-00224"></a>
 
 **Source file:** `content/shabbat/36.txt`
 
@@ -4093,7 +4101,7 @@ Art: Camille Pissarro - Peasant Woman and Child Harvesting the Fields, Pontoise
 ---
 
 ### content/shabbat/37.txt
-<a id="src-00224"></a>
+<a id="src-00225"></a>
 
 **Source file:** `content/shabbat/37.txt`
 
@@ -4112,7 +4120,7 @@ Art: Philippe Lodowyck Jacob Sadee - Lighting The Stove
 ---
 
 ### content/shabbat/38.txt
-<a id="src-00225"></a>
+<a id="src-00226"></a>
 
 **Source file:** `content/shabbat/38.txt`
 
@@ -4131,7 +4139,7 @@ Art: Emil Carlsen - Still Life with Kettle and Jug
 ---
 
 ### content/shabbat/39.txt
-<a id="src-00226"></a>
+<a id="src-00227"></a>
 
 **Source file:** `content/shabbat/39.txt`
 
@@ -4147,7 +4155,7 @@ Theodule Augustine Ribot - Still Life With Jugs And Eggs
 ---
 
 ### content/shabbat/4.txt
-<a id="src-00227"></a>
+<a id="src-00228"></a>
 
 **Source file:** `content/shabbat/4.txt`
 
@@ -4157,7 +4165,7 @@ Shabbat 4 - Do not confuse a scholar
 ---
 
 ### content/shabbat/40.txt
-<a id="src-00228"></a>
+<a id="src-00229"></a>
 
 **Source file:** `content/shabbat/40.txt`
 
@@ -4176,7 +4184,7 @@ Art: Camille Pissarro - Woman Washing Her Feet in a Brook
 ---
 
 ### content/shabbat/41.txt
-<a id="src-00229"></a>
+<a id="src-00230"></a>
 
 **Source file:** `content/shabbat/41.txt`
 
@@ -4195,7 +4203,7 @@ Art: Petrov-Vodkin - "Still life with samovar"
 ---
 
 ### content/shabbat/42.txt
-<a id="src-00230"></a>
+<a id="src-00231"></a>
 
 **Source file:** `content/shabbat/42.txt`
 
@@ -4216,7 +4224,7 @@ Art: Pietro Falca - The Spice-vendor's shop
 ---
 
 ### content/shabbat/43.txt
-<a id="src-00231"></a>
+<a id="src-00232"></a>
 
 **Source file:** `content/shabbat/43.txt`
 
@@ -4238,7 +4246,7 @@ Art: Baldassare De Caro - A Cockerel And Chickens In A Shed With An Earthenware 
 ---
 
 ### content/shabbat/44.txt
-<a id="src-00232"></a>
+<a id="src-00233"></a>
 
 **Source file:** `content/shabbat/44.txt`
 
@@ -4259,7 +4267,7 @@ Art: Gerrit Dou - A young woman with a lamp
 ---
 
 ### content/shabbat/45.txt
-<a id="src-00233"></a>
+<a id="src-00234"></a>
 
 **Source file:** `content/shabbat/45.txt`
 
@@ -4277,7 +4285,7 @@ Art: George Frederick Watts - Lady on a day-bed
 ---
 
 ### content/shabbat/46.txt
-<a id="src-00234"></a>
+<a id="src-00235"></a>
 
 **Source file:** `content/shabbat/46.txt`
 
@@ -4296,7 +4304,7 @@ Art: Georges Croegaert - A Gentleman Waiting in an Interior
 ---
 
 ### content/shabbat/47.txt
-<a id="src-00235"></a>
+<a id="src-00236"></a>
 
 **Source file:** `content/shabbat/47.txt`
 
@@ -4318,7 +4326,7 @@ Art: Wolfgang Heimbach - Young woman with an oil lamp
 ---
 
 ### content/shabbat/48.txt
-<a id="src-00236"></a>
+<a id="src-00237"></a>
 
 **Source file:** `content/shabbat/48.txt`
 
@@ -4337,7 +4345,7 @@ Art: Gustave Caillebotte - Interior Of A Studio With Stove
 ---
 
 ### content/shabbat/49.txt
-<a id="src-00237"></a>
+<a id="src-00238"></a>
 
 **Source file:** `content/shabbat/49.txt`
 
@@ -4359,7 +4367,7 @@ Art: Franz Werner von Tamm - Doves
 ---
 
 ### content/shabbat/5.txt
-<a id="src-00238"></a>
+<a id="src-00239"></a>
 
 **Source file:** `content/shabbat/5.txt`
 
@@ -4369,7 +4377,7 @@ Shabbat 5 - Airspace, is it the same as resting on the ground?
 ---
 
 ### content/shabbat/50.txt
-<a id="src-00239"></a>
+<a id="src-00240"></a>
 
 **Source file:** `content/shabbat/50.txt`
 
@@ -4387,7 +4395,7 @@ Art:  Francisco De Goya y Lucientes
 ---
 
 ### content/shabbat/51.txt
-<a id="src-00240"></a>
+<a id="src-00241"></a>
 
 **Source file:** `content/shabbat/51.txt`
 
@@ -4409,7 +4417,7 @@ Art: Jean-Baptiste-Simeon Chardin  - Leeks, a casserole with a cloth, a copper p
 ---
 
 ### content/shabbat/52.txt
-<a id="src-00241"></a>
+<a id="src-00242"></a>
 
 **Source file:** `content/shabbat/52.txt`
 
@@ -4427,7 +4435,7 @@ Art:&nbsp;Jean-Léon Gérôme - Camels at a Watering Trough
 ---
 
 ### content/shabbat/53.txt
-<a id="src-00242"></a>
+<a id="src-00243"></a>
 
 **Source file:** `content/shabbat/53.txt`
 
@@ -4443,7 +4451,7 @@ Art: Alfred Wierusz-Kowalski - Attack of Wolves
 ---
 
 ### content/shabbat/54.txt
-<a id="src-00243"></a>
+<a id="src-00244"></a>
 
 **Source file:** `content/shabbat/54.txt`
 
@@ -4462,7 +4470,7 @@ Art: Belgian Unknown Masters - A Landscape With Camels
 ---
 
 ### content/shabbat/55.txt
-<a id="src-00244"></a>
+<a id="src-00245"></a>
 
 **Source file:** `content/shabbat/55.txt`
 
@@ -4484,7 +4492,7 @@ Art:  Jehan Georges Vibert - The Reprimand
 ---
 
 ### content/shabbat/56.txt
-<a id="src-00245"></a>
+<a id="src-00246"></a>
 
 **Source file:** `content/shabbat/56.txt`
 
@@ -4505,7 +4513,7 @@ Art: Lucas The Elder Cranach - David And Bathsheba
 ---
 
 ### content/shabbat/57.txt
-<a id="src-00246"></a>
+<a id="src-00247"></a>
 
 **Source file:** `content/shabbat/57.txt`
 
@@ -4531,7 +4539,7 @@ Art: Isidor Kaufmann - A Jewish Bride
 ---
 
 ### content/shabbat/58.txt
-<a id="src-00247"></a>
+<a id="src-00248"></a>
 
 **Source file:** `content/shabbat/58.txt`
 
@@ -4550,7 +4558,7 @@ Art: Pieter De Hooch - A Mistress and Her Servant
 ---
 
 ### content/shabbat/59.txt
-<a id="src-00248"></a>
+<a id="src-00249"></a>
 
 **Source file:** `content/shabbat/59.txt`
 
@@ -4569,7 +4577,7 @@ Art: Anthonie Palamedesz - A gentleman offering a piece of jewelry to a woman
 ---
 
 ### content/shabbat/6.txt
-<a id="src-00249"></a>
+<a id="src-00250"></a>
 
 **Source file:** `content/shabbat/6.txt`
 
@@ -4588,7 +4596,7 @@ Art: Ferdinand Loyen Du Puigaudeau - Village Plaza
 ---
 
 ### content/shabbat/60.txt
-<a id="src-00250"></a>
+<a id="src-00251"></a>
 
 **Source file:** `content/shabbat/60.txt`
 
@@ -4607,7 +4615,7 @@ Art: Vincent Van Gogh - Three Pairs Of Shoes
 ---
 
 ### content/shabbat/61.txt
-<a id="src-00251"></a>
+<a id="src-00252"></a>
 
 **Source file:** `content/shabbat/61.txt`
 
@@ -4626,7 +4634,7 @@ Art: John George Brown - Shoeshine Boy Smoking
 ---
 
 ### content/shabbat/62.txt
-<a id="src-00252"></a>
+<a id="src-00253"></a>
 
 **Source file:** `content/shabbat/62.txt`
 
@@ -4652,7 +4660,7 @@ Art: Thomas Wade - The Seamstress
 ---
 
 ### content/shabbat/63.txt
-<a id="src-00253"></a>
+<a id="src-00254"></a>
 
 **Source file:** `content/shabbat/63.txt`
 
@@ -4669,7 +4677,7 @@ Art: John Singer Sargent - Charles Stewart, Sixth Marquess of Londonderry
 ---
 
 ### content/shabbat/64.txt
-<a id="src-00254"></a>
+<a id="src-00255"></a>
 
 **Source file:** `content/shabbat/64.txt`
 
@@ -4688,7 +4696,7 @@ Art: Albrecht Durer - The Furlegerin with braided hair
 ---
 
 ### content/shabbat/65.txt
-<a id="src-00255"></a>
+<a id="src-00256"></a>
 
 **Source file:** `content/shabbat/65.txt`
 
@@ -4707,7 +4715,7 @@ Art: C. Durif-Bedel - The False Teeth Workshop
 ---
 
 ### content/shabbat/66.txt
-<a id="src-00256"></a>
+<a id="src-00257"></a>
 
 **Source file:** `content/shabbat/66.txt`
 
@@ -4729,7 +4737,7 @@ Art: Adriaen Pietersz. Van De Venne - Crippled Beggar Dancing with a Peasant Wom
 ---
 
 ### content/shabbat/67.txt
-<a id="src-00257"></a>
+<a id="src-00258"></a>
 
 **Source file:** `content/shabbat/67.txt`
 
@@ -4754,7 +4762,7 @@ Art: Mihaly Munkacsy - Mother and Child
 ---
 
 ### content/shabbat/68.txt
-<a id="src-00258"></a>
+<a id="src-00259"></a>
 
 **Source file:** `content/shabbat/68.txt`
 
@@ -4776,7 +4784,7 @@ Art: Henry Farny - The Captive
 ---
 
 ### content/shabbat/69.txt
-<a id="src-00259"></a>
+<a id="src-00260"></a>
 
 **Source file:** `content/shabbat/69.txt`
 
@@ -4795,7 +4803,7 @@ Art: Frank Duveneck - Woman With Forget Me Nots
 ---
 
 ### content/shabbat/7.txt
-<a id="src-00260"></a>
+<a id="src-00261"></a>
 
 **Source file:** `content/shabbat/7.txt`
 
@@ -4813,7 +4821,7 @@ Art: Albert Bierstadt - The Shore Of The Turquoise Sea
 ---
 
 ### content/shabbat/70.txt
-<a id="src-00261"></a>
+<a id="src-00262"></a>
 
 **Source file:** `content/shabbat/70.txt`
 
@@ -4832,7 +4840,7 @@ Art: Carl Haag - In the Desert
 ---
 
 ### content/shabbat/71.txt
-<a id="src-00262"></a>
+<a id="src-00263"></a>
 
 **Source file:** `content/shabbat/71.txt`
 
@@ -4854,7 +4862,7 @@ Art: Vincent Van Gogh - Reaper With Sickle
 ---
 
 ### content/shabbat/72.txt
-<a id="src-00263"></a>
+<a id="src-00264"></a>
 
 **Source file:** `content/shabbat/72.txt`
 
@@ -4873,7 +4881,7 @@ Art: William James Muller - The Slave Market
 ---
 
 ### content/shabbat/73.txt
-<a id="src-00264"></a>
+<a id="src-00265"></a>
 
 **Source file:** `content/shabbat/73.txt`
 
@@ -4898,7 +4906,7 @@ Art: Francis Blackwell Mayer - Leisure and Labor
 ---
 
 ### content/shabbat/74.txt
-<a id="src-00265"></a>
+<a id="src-00266"></a>
 
 **Source file:** `content/shabbat/74.txt`
 
@@ -4918,7 +4926,7 @@ Art: Eastman Johnson - Winnowing Grain
 ---
 
 ### content/shabbat/75.txt
-<a id="src-00266"></a>
+<a id="src-00267"></a>
 
 **Source file:** `content/shabbat/75.txt`
 
@@ -4937,7 +4945,7 @@ Art: North-Italian School - Mathematicians in an Interior
 ---
 
 ### content/shabbat/76.txt
-<a id="src-00267"></a>
+<a id="src-00268"></a>
 
 **Source file:** `content/shabbat/76.txt`
 
@@ -4956,7 +4964,7 @@ Art: Pierre Auguste Renoir - Onions
 ---
 
 ### content/shabbat/77.txt
-<a id="src-00268"></a>
+<a id="src-00269"></a>
 
 **Source file:** `content/shabbat/77.txt`
 
@@ -4981,7 +4989,7 @@ Art: Heinrich Martin Krabb - Watching the little pigs
 ---
 
 ### content/shabbat/78.txt
-<a id="src-00269"></a>
+<a id="src-00270"></a>
 
 **Source file:** `content/shabbat/78.txt`
 
@@ -4997,7 +5005,7 @@ Art: Dirck Hals - Woman Tearing a Letter
 ---
 
 ### content/shabbat/79.txt
-<a id="src-00270"></a>
+<a id="src-00271"></a>
 
 **Source file:** `content/shabbat/79.txt`
 
@@ -5016,7 +5024,7 @@ Art: Hendrick Heerschop or Herschop - A scholar seated at his writing desk in an
 ---
 
 ### content/shabbat/8.txt
-<a id="src-00271"></a>
+<a id="src-00272"></a>
 
 **Source file:** `content/shabbat/8.txt`
 
@@ -5038,7 +5046,7 @@ Art: Peter de Wint - Still-life with a jug and wicker baskets
 ---
 
 ### content/shabbat/80.txt
-<a id="src-00272"></a>
+<a id="src-00273"></a>
 
 **Source file:** `content/shabbat/80.txt`
 
@@ -5057,7 +5065,7 @@ Art: Benjamin Walter Spiers - Art and Letters
 ---
 
 ### content/shabbat/81.txt
-<a id="src-00273"></a>
+<a id="src-00274"></a>
 
 **Source file:** `content/shabbat/81.txt`
 
@@ -5076,7 +5084,7 @@ Art: Vincent Van Gogh - Still Life With Cabbage And Clogs
 ---
 
 ### content/shabbat/82.txt
-<a id="src-00274"></a>
+<a id="src-00275"></a>
 
 **Source file:** `content/shabbat/82.txt`
 
@@ -5095,7 +5103,7 @@ Art: Winslow Homer - Guide Carrying a Deer
 ---
 
 ### content/shabbat/83.txt
-<a id="src-00275"></a>
+<a id="src-00276"></a>
 
 **Source file:** `content/shabbat/83.txt`
 
@@ -5114,7 +5122,7 @@ Art: Rombout Van Troyen - Grotto with Statues and Numerous Figures Worshipping I
 ---
 
 ### content/shabbat/84.txt
-<a id="src-00276"></a>
+<a id="src-00277"></a>
 
 **Source file:** `content/shabbat/84.txt`
 
@@ -5129,7 +5137,7 @@ Art:&nbsp;Gerbrand Van Den Eeckhout - Scholar with his Books
 ---
 
 ### content/shabbat/85.txt
-<a id="src-00277"></a>
+<a id="src-00278"></a>
 
 **Source file:** `content/shabbat/85.txt`
 
@@ -5145,7 +5153,7 @@ Art: Carl Larsson - The seeds
 ---
 
 ### content/shabbat/86.txt
-<a id="src-00278"></a>
+<a id="src-00279"></a>
 
 **Source file:** `content/shabbat/86.txt`
 
@@ -5164,7 +5172,7 @@ Art: German School - Purity
 ---
 
 ### content/shabbat/87.txt
-<a id="src-00279"></a>
+<a id="src-00280"></a>
 
 **Source file:** `content/shabbat/87.txt`
 
@@ -5186,7 +5194,7 @@ Art: Claude Vignon - Moses with the Tablets of the Law
 ---
 
 ### content/shabbat/88.txt
-<a id="src-00280"></a>
+<a id="src-00281"></a>
 
 **Source file:** `content/shabbat/88.txt`
 
@@ -5206,7 +5214,7 @@ Art: William Henry Midwood - In disgrace
 ---
 
 ### content/shabbat/89.txt
-<a id="src-00281"></a>
+<a id="src-00282"></a>
 
 **Source file:** `content/shabbat/89.txt`
 
@@ -5222,7 +5230,7 @@ Art: David Roberts - Mount Sinai
 ---
 
 ### content/shabbat/9.txt
-<a id="src-00282"></a>
+<a id="src-00283"></a>
 
 **Source file:** `content/shabbat/9.txt`
 
@@ -5241,7 +5249,7 @@ Art: Albert Joseph Franke - The Barber's Shop
 ---
 
 ### content/shabbat/90.txt
-<a id="src-00283"></a>
+<a id="src-00284"></a>
 
 **Source file:** `content/shabbat/90.txt`
 
@@ -5260,7 +5268,7 @@ Pepper and tar – any amount. However, this is not our common pepper, for that 
 ---
 
 ### content/shabbat/91.txt
-<a id="src-00284"></a>
+<a id="src-00285"></a>
 
 **Source file:** `content/shabbat/91.txt`
 
@@ -5270,7 +5278,7 @@ Shabbat 91 - Storing food, and then carrying it
 ---
 
 ### content/shabbat/92.txt
-<a id="src-00285"></a>
+<a id="src-00286"></a>
 
 **Source file:** `content/shabbat/92.txt`
 
@@ -5280,7 +5288,7 @@ Shabbat 92 - How tall was Moses?
 ---
 
 ### content/shabbat/93.txt
-<a id="src-00286"></a>
+<a id="src-00287"></a>
 
 **Source file:** `content/shabbat/93.txt`
 
@@ -5290,7 +5298,7 @@ Shabbat 93 - Giant loaf of bread
 ---
 
 ### content/shabbat/94.txt
-<a id="src-00287"></a>
+<a id="src-00288"></a>
 
 **Source file:** `content/shabbat/94.txt`
 
@@ -5300,7 +5308,7 @@ Shabbat 94 - Carrying a live person on a bed on Shabbat is allowed!
 ---
 
 ### content/shabbat/95.txt
-<a id="src-00288"></a>
+<a id="src-00289"></a>
 
 **Source file:** `content/shabbat/95.txt`
 
@@ -5310,7 +5318,7 @@ Shabbat 95 - Nail biting and painting eyes on Shabbat
 ---
 
 ### content/shabbat/96.txt
-<a id="src-00289"></a>
+<a id="src-00290"></a>
 
 **Source file:** `content/shabbat/96.txt`
 
@@ -5320,7 +5328,7 @@ Shabbat 96 - Throwing things on Shabbat
 ---
 
 ### content/shabbat/97.txt
-<a id="src-00290"></a>
+<a id="src-00291"></a>
 
 **Source file:** `content/shabbat/97.txt`
 
@@ -5330,25 +5338,27 @@ Shabbat 97 - What Tzelafchad did on Shabbat
 ---
 
 ### content/shabbat/98.txt
-<a id="src-00291"></a>
+<a id="src-00292"></a>
 
 **Source file:** `content/shabbat/98.txt`
 
-
+Shabbat 98 - What precisely is allowed on Shabbat and what not?
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBRibyl1oBGq7j76RAA36yQVhWMLulCCYHD8TQoL0YHYQOEI681kIzh8DIcNzbt0g1ZfyimAh6PLsxHoySaophKEGlpRphWyJiRtLCfNcyV8Om-QqH0ttiVlO_ff1V2I1scNL3Um38Es2dalvAnRalegfbVJFqDdPth_YtQEXCsS3Jh_sdGt-7SU3IyvyA/s646/Peasant_Women_with_Brushwood,_c.1858_by_Jean-Francois_Millet.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="646" data-original-width="500" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBRibyl1oBGq7j76RAA36yQVhWMLulCCYHD8TQoL0YHYQOEI681kIzh8DIcNzbt0g1ZfyimAh6PLsxHoySaophKEGlpRphWyJiRtLCfNcyV8Om-QqH0ttiVlO_ff1V2I1scNL3Um38Es2dalvAnRalegfbVJFqDdPth_YtQEXCsS3Jh_sdGt-7SU3IyvyA/s320/Peasant_Women_with_Brushwood,_c.1858_by_Jean-Francois_Millet.jpg" width="248" /></a></div>When we derive Shabbat laws, for example, what and how we can carry on Shabbat, we compare everything to the building of the Temple. But why the Temple, of all things? The Temple existed to rectify all of Creation. Study its laws and their deeper meaning, and you will see it - but for now, you will have to take my word for it.<p></p><p>For example, at first it seems obvious to the Talmud that if one wanted to throw something eight amot in the public area (amot means elbows), and threw only four amot, then it is the same as if one wanted to write the name Shimon, and wrote only Shem, which is also a name, then he has violated Shabbat.</p><p>Many things require explanation here. What is a public area? That is similar to the Temple building site, which is visited by 600,000 people daily and has no roof or walls. And where did they throw objects when building the Temple? That is what they did with construction materials. And what is the size of the public area? - Sixteen amot, just as the size of the construction site that could fit the carriages used by the Levites.</p><p>But later, the Talmud changes its mind about what it thought was obvious. It has to define "carrying" or "throwing" as a sequence of two acts: picking up the object in one place and then letting it land in another. With this definition of carrying, logic becomes much clearer.</p><p>Art:&nbsp;Peasant Women with Brushwood by Jean-Francois Millet</p><p><br /></p>
 
 ---
 
 ### content/shabbat/99.txt
-<a id="src-00292"></a>
+<a id="src-00293"></a>
 
 **Source file:** `content/shabbat/99.txt`
 
-
+Shabbat 99 - Creating new areas on Shabbat
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEgqIGbQhk1hLeZQVIrFmjeTG-JPKt5Hoeb-QO-JI6w8XgjtvQnqrMPb2uVbrw-iEqqtcOONzGQU7ZDBDraLsHFfXsu5TYFObWc-WRrb3RlRF5HqVFg0AXGDSFxFt8zADqqsuxZP2s1sR-R-dwZoYjPykyhJLFE5dtBihxdyKTr0-AgDmabuOfZIoX9Uq2/s735/Peasant%20Woman%20Digging%20by%20Van%20Gogh.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="735" data-original-width="547" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEgqIGbQhk1hLeZQVIrFmjeTG-JPKt5Hoeb-QO-JI6w8XgjtvQnqrMPb2uVbrw-iEqqtcOONzGQU7ZDBDraLsHFfXsu5TYFObWc-WRrb3RlRF5HqVFg0AXGDSFxFt8zADqqsuxZP2s1sR-R-dwZoYjPykyhJLFE5dtBihxdyKTr0-AgDmabuOfZIoX9Uq2/s320/Peasant%20Woman%20Digging%20by%20Van%20Gogh.png" width="238" /></a></div>On Shabbat, there is a public area, like a street, and a private area, like a home, and one is prohibited from carrying objects from one to the other. Bringing into the house is forbidden, and taking out is forbidden. There are precise definitions of what a public area is, but you can think of it as a desert where Jews lived.<p></p><p>There are thus two major types of areas: public and private. In addition, there are many areas that are not as populous as a public area in the desert, but the Sages prohibited carrying there, because one might then come carry in a real public area. These are called "Karmelit." The root of this word is "Karmel," which means a field, cultivated or not.</p><p>To make yourself work hard, you can think of the following question. If you have a ditch nine tefachim (handbreadth) deep, it is not yet a real private area. One is allowed to carry things there. However, if he takes earth from that pit, he makes it into a private place. Has he violated Shabbat? When he started digging, it was not a private area, but by the time he finished, it was! The major question is when the area acquires the new status.</p><p>Art:&nbsp;Peasant Woman Digging by Van Gogh</p>
 
 ---
 
 ### content/shekalim/10.txt
-<a id="src-00293"></a>
+<a id="src-00294"></a>
 
 **Source file:** `content/shekalim/10.txt`
 
@@ -5364,7 +5374,7 @@ Art: The Lesson in Charity by Henri Nicolas van Gorp
 ---
 
 ### content/shekalim/11.txt
-<a id="src-00294"></a>
+<a id="src-00295"></a>
 
 **Source file:** `content/shekalim/11.txt`
 
@@ -5380,7 +5390,7 @@ Art: An artisan's family in an interior by Giuseppe Constantini
 ---
 
 ### content/shekalim/12.txt
-<a id="src-00295"></a>
+<a id="src-00296"></a>
 
 **Source file:** `content/shekalim/12.txt`
 
@@ -5399,7 +5409,7 @@ Art: Drovers And Their Animals Beside A Ruin by Sebastien Heemskerck
 ---
 
 ### content/shekalim/13.txt
-<a id="src-00296"></a>
+<a id="src-00297"></a>
 
 **Source file:** `content/shekalim/13.txt`
 
@@ -5420,7 +5430,7 @@ Art: The Three Generations by James Clarke Waite
 ---
 
 ### content/shekalim/14.txt
-<a id="src-00297"></a>
+<a id="src-00298"></a>
 
 **Source file:** `content/shekalim/14.txt`
 
@@ -5442,7 +5452,7 @@ Art: The Language of the Fan by Jules Joseph Lefebvre
 ---
 
 ### content/shekalim/15.txt
-<a id="src-00298"></a>
+<a id="src-00299"></a>
 
 **Source file:** `content/shekalim/15.txt`
 
@@ -5461,7 +5471,7 @@ Art: A Business Secret by Isidor Kaufmann
 ---
 
 ### content/shekalim/16.txt
-<a id="src-00299"></a>
+<a id="src-00300"></a>
 
 **Source file:** `content/shekalim/16.txt`
 
@@ -5487,7 +5497,7 @@ Art: The Reception of the Ambassadors of the Thirteen Swiss Cantons by Adam Fran
 ---
 
 ### content/shekalim/17.txt
-<a id="src-00300"></a>
+<a id="src-00301"></a>
 
 **Source file:** `content/shekalim/17.txt`
 
@@ -5507,7 +5517,7 @@ Art: Daniel Before Nebuchadnezzar by Salomon Koninck
 ---
 
 ### content/shekalim/18.txt
-<a id="src-00301"></a>
+<a id="src-00302"></a>
 
 **Source file:** `content/shekalim/18.txt`
 
@@ -5523,7 +5533,7 @@ Art: Still Life with Melon, Peach, Fruit-Filled Compote and Glass of Wine on a M
 ---
 
 ### content/shekalim/19.txt
-<a id="src-00302"></a>
+<a id="src-00303"></a>
 
 **Source file:** `content/shekalim/19.txt`
 
@@ -5538,7 +5548,7 @@ Art: The gold-weigher by Salomon Koninck
 ---
 
 ### content/shekalim/2.txt
-<a id="src-00303"></a>
+<a id="src-00304"></a>
 
 **Source file:** `content/shekalim/2.txt`
 
@@ -5556,7 +5566,7 @@ Art: The Tribute Money by (after) Sir Peter Paul Rubens
 ---
 
 ### content/shekalim/20.txt
-<a id="src-00304"></a>
+<a id="src-00305"></a>
 
 **Source file:** `content/shekalim/20.txt`
 
@@ -5576,7 +5586,7 @@ Art: Landscape With Animals And A Drover Resting By A Tree by Dirk van Bergen
 ---
 
 ### content/shekalim/21.txt
-<a id="src-00305"></a>
+<a id="src-00306"></a>
 
 **Source file:** `content/shekalim/21.txt`
 
@@ -5592,7 +5602,7 @@ Art: A partridge, a dead duck, a pitcher, two knives, a loaf of bread and hens, 
 ---
 
 ### content/shekalim/22.txt
-<a id="src-00306"></a>
+<a id="src-00307"></a>
 
 **Source file:** `content/shekalim/22.txt`
 
@@ -5608,7 +5618,7 @@ Art: The Dead Sea with the mountains of Moab by Gustave Bauernfeind
 ---
 
 ### content/shekalim/3.txt
-<a id="src-00307"></a>
+<a id="src-00308"></a>
 
 **Source file:** `content/shekalim/3.txt`
 
@@ -5630,7 +5640,7 @@ Art: Peasants in the Field, Eragny by Camille Pissarro
 ---
 
 ### content/shekalim/4.txt
-<a id="src-00308"></a>
+<a id="src-00309"></a>
 
 **Source file:** `content/shekalim/4.txt`
 
@@ -5650,7 +5660,7 @@ Art: A man counting money by (after) Joos Van Craesbeeck
 ---
 
 ### content/shekalim/5.txt
-<a id="src-00309"></a>
+<a id="src-00310"></a>
 
 **Source file:** `content/shekalim/5.txt`
 
@@ -5669,7 +5679,7 @@ Art: The Treasurer by James Gillray
 ---
 
 ### content/shekalim/6.txt
-<a id="src-00310"></a>
+<a id="src-00311"></a>
 
 **Source file:** `content/shekalim/6.txt`
 
@@ -5685,7 +5695,7 @@ Art: Merchants counting money by (after) Salomon Koninck
 ---
 
 ### content/shekalim/7.txt
-<a id="src-00311"></a>
+<a id="src-00312"></a>
 
 **Source file:** `content/shekalim/7.txt`
 
@@ -5705,7 +5715,7 @@ In the final analysis, &nbsp;charity and just deeds are better than the sacrific
 ---
 
 ### content/shekalim/8.txt
-<a id="src-00312"></a>
+<a id="src-00313"></a>
 
 **Source file:** `content/shekalim/8.txt`
 
@@ -5723,7 +5733,7 @@ Art: The Parable Of The Rich And Poor Man by (after) Frans II Francken
 ---
 
 ### content/shekalim/9.txt
-<a id="src-00313"></a>
+<a id="src-00314"></a>
 
 **Source file:** `content/shekalim/9.txt`
 
@@ -5744,7 +5754,7 @@ Art: Divine inspiration by Petrus Van Schendel
 ---
 
 ### content/shevuot/10.txt
-<a id="src-00314"></a>
+<a id="src-00315"></a>
 
 **Source file:** `content/shevuot/10.txt`
 
@@ -5761,7 +5771,7 @@ Rabbi Shimon Ben Yehuda has a different version of what Rabbi Shimon said: that 
 ---
 
 ### content/shevuot/11.txt
-<a id="src-00315"></a>
+<a id="src-00316"></a>
 
 **Source file:** `content/shevuot/11.txt`
 
@@ -5777,7 +5787,7 @@ Art: Still Life with Wine Glass and Silver Bowl by&nbsp;</span><span style="font
 ---
 
 ### content/shevuot/12.txt
-<a id="src-00316"></a>
+<a id="src-00317"></a>
 
 **Source file:** `content/shevuot/12.txt`
 
@@ -5792,7 +5802,7 @@ Art: Heath Ewe and Lamb by James Ward
 ---
 
 ### content/shevuot/13.txt
-<a id="src-00317"></a>
+<a id="src-00318"></a>
 
 **Source file:** `content/shevuot/13.txt`
 
@@ -5806,7 +5816,7 @@ Art: To Crown the Feast by George Goodwin Kilburne</span>
 ---
 
 ### content/shevuot/14.txt
-<a id="src-00318"></a>
+<a id="src-00319"></a>
 
 **Source file:** `content/shevuot/14.txt`
 
@@ -5823,7 +5833,7 @@ Art: Parrot, Blue Tit, Two Lizards, and Vases by Luisa Vitelli<br />
 ---
 
 ### content/shevuot/15.txt
-<a id="src-00319"></a>
+<a id="src-00320"></a>
 
 **Source file:** `content/shevuot/15.txt`
 
@@ -5838,7 +5848,7 @@ Art: David Playing the Harp by Jan De Bray
 ---
 
 ### content/shevuot/16.txt
-<a id="src-00320"></a>
+<a id="src-00321"></a>
 
 **Source file:** `content/shevuot/16.txt`
 
@@ -5857,7 +5867,7 @@ Art: David Street in Jerusalem by Gustave Bauernfeind
 ---
 
 ### content/shevuot/17.txt
-<a id="src-00321"></a>
+<a id="src-00322"></a>
 
 **Source file:** `content/shevuot/17.txt`
 
@@ -5873,7 +5883,7 @@ Art: Woman with a Baby Kneeling by&nbsp;</span><span style="font-size: large;">S
 ---
 
 ### content/shevuot/18.txt
-<a id="src-00322"></a>
+<a id="src-00323"></a>
 
 **Source file:** `content/shevuot/18.txt`
 
@@ -5890,7 +5900,7 @@ Art: Le Verrou (The Bolt) by Jean-Honore Fragonard
 ---
 
 ### content/shevuot/19.txt
-<a id="src-00323"></a>
+<a id="src-00324"></a>
 
 **Source file:** `content/shevuot/19.txt`
 
@@ -5904,7 +5914,7 @@ Art: Boys Eating Fruit by&nbsp;</span><span style="font-size: large;">Bartolome 
 ---
 
 ### content/shevuot/2.txt
-<a id="src-00324"></a>
+<a id="src-00325"></a>
 
 **Source file:** `content/shevuot/2.txt`
 
@@ -5920,7 +5930,7 @@ Art: Still Life with Bread and Wine Glass by&nbsp;</span><span style="font-size:
 ---
 
 ### content/shevuot/20.txt
-<a id="src-00325"></a>
+<a id="src-00326"></a>
 
 **Source file:** `content/shevuot/20.txt`
 
@@ -5936,7 +5946,7 @@ Art: Still Life with Figs and Bread by&nbsp;</span><span style="font-size: large
 ---
 
 ### content/shevuot/21.txt
-<a id="src-00326"></a>
+<a id="src-00327"></a>
 
 **Source file:** `content/shevuot/21.txt`
 
@@ -5955,7 +5965,7 @@ Art: Peasant Couple Eating by Georges de La Tour
 ---
 
 ### content/shevuot/22.txt
-<a id="src-00327"></a>
+<a id="src-00328"></a>
 
 **Source file:** `content/shevuot/22.txt`
 
@@ -5971,7 +5981,7 @@ Art: Sea Food by&nbsp;</span><span style="font-size: large;">Giacomo Ceruti</spa
 ---
 
 ### content/shevuot/23.txt
-<a id="src-00328"></a>
+<a id="src-00329"></a>
 
 **Source file:** `content/shevuot/23.txt`
 
@@ -5988,7 +5998,7 @@ Art: The Milkmaid by Johannes Vermeer
 ---
 
 ### content/shevuot/24.txt
-<a id="src-00329"></a>
+<a id="src-00330"></a>
 
 **Source file:** `content/shevuot/24.txt`
 
@@ -6002,7 +6012,7 @@ Art: Still Life with a Rib of Beef by Jean-Baptiste-Simeon Chardin
 ---
 
 ### content/shevuot/25.txt
-<a id="src-00330"></a>
+<a id="src-00331"></a>
 
 **Source file:** `content/shevuot/25.txt`
 
@@ -6020,7 +6030,7 @@ Art: A Woman Asleep at Table - Jan Vermeer Van Delft
 ---
 
 ### content/shevuot/26.txt
-<a id="src-00331"></a>
+<a id="src-00332"></a>
 
 **Source file:** `content/shevuot/26.txt`
 
@@ -6036,7 +6046,7 @@ Art: Sea and Rocks, Appledore, Isles of Shoals by&nbsp;</span><span style="font-
 ---
 
 ### content/shevuot/27.txt
-<a id="src-00332"></a>
+<a id="src-00333"></a>
 
 **Source file:** `content/shevuot/27.txt`
 
@@ -6052,7 +6062,7 @@ Art: Deputies swearing oaths by Jacques-Louis David</span>
 ---
 
 ### content/shevuot/28.txt
-<a id="src-00333"></a>
+<a id="src-00334"></a>
 
 **Source file:** `content/shevuot/28.txt`
 
@@ -6071,7 +6081,7 @@ Art: Sellers of figs and nuts by Edmond Lebel
 ---
 
 ### content/shevuot/29.txt
-<a id="src-00334"></a>
+<a id="src-00335"></a>
 
 **Source file:** `content/shevuot/29.txt`
 
@@ -6089,7 +6099,7 @@ Art: A View Of St Mark's Column, And The Doge's Palace, Venice by Edward Pritche
 ---
 
 ### content/shevuot/3.txt
-<a id="src-00335"></a>
+<a id="src-00336"></a>
 
 **Source file:** `content/shevuot/3.txt`
 
@@ -6109,7 +6119,7 @@ Art: Discussing The Talmud by&nbsp;</span><span style="font-size: large;">Isidor
 ---
 
 ### content/shevuot/30.txt
-<a id="src-00336"></a>
+<a id="src-00337"></a>
 
 **Source file:** `content/shevuot/30.txt`
 
@@ -6124,7 +6134,7 @@ Art: The  Court Oath by Louis Charles Auguste Couder
 ---
 
 ### content/shevuot/31.txt
-<a id="src-00337"></a>
+<a id="src-00338"></a>
 
 **Source file:** `content/shevuot/31.txt`
 
@@ -6145,7 +6155,7 @@ Art: Andre Collin - Poor People</span>
 ---
 
 ### content/shevuot/32.txt
-<a id="src-00338"></a>
+<a id="src-00339"></a>
 
 **Source file:** `content/shevuot/32.txt`
 
@@ -6159,7 +6169,7 @@ Art: Justice Lemuel Shaw by&nbsp;</span><span style="font-size: large;">William 
 ---
 
 ### content/shevuot/33.txt
-<a id="src-00339"></a>
+<a id="src-00340"></a>
 
 **Source file:** `content/shevuot/33.txt`
 
@@ -6177,7 +6187,7 @@ Art: Wheat Stacks With Reaper by Vincent Van Gogh</span>
 ---
 
 ### content/shevuot/34.txt
-<a id="src-00340"></a>
+<a id="src-00341"></a>
 
 **Source file:** `content/shevuot/34.txt`
 
@@ -6201,7 +6211,7 @@ Art: John Mowbray with his money agent by&nbsp;</span><span style="font-size: la
 ---
 
 ### content/shevuot/35.txt
-<a id="src-00341"></a>
+<a id="src-00342"></a>
 
 **Source file:** `content/shevuot/35.txt`
 
@@ -6218,7 +6228,7 @@ Art: A Group Of Artists by Jules Alexandre Grun
 ---
 
 ### content/shevuot/36.txt
-<a id="src-00342"></a>
+<a id="src-00343"></a>
 
 **Source file:** `content/shevuot/36.txt`
 
@@ -6236,7 +6246,7 @@ Art: Stolen Pleasures by George Baxter
 ---
 
 ### content/shevuot/37.txt
-<a id="src-00343"></a>
+<a id="src-00344"></a>
 
 **Source file:** `content/shevuot/37.txt`
 
@@ -6255,7 +6265,7 @@ Art: The Spanking by Paul Charles Chocarne-Moreau
 ---
 
 ### content/shevuot/38.txt
-<a id="src-00344"></a>
+<a id="src-00345"></a>
 
 **Source file:** `content/shevuot/38.txt`
 
@@ -6272,7 +6282,7 @@ Art: The Doubtful Coin by Thomas Waterman Wood
 ---
 
 ### content/shevuot/39.txt
-<a id="src-00345"></a>
+<a id="src-00346"></a>
 
 **Source file:** `content/shevuot/39.txt`
 
@@ -6290,7 +6300,7 @@ Art: H. de la Charlerie - King Louis XVI Swearing on the Book of the Constitutio
 ---
 
 ### content/shevuot/4.txt
-<a id="src-00346"></a>
+<a id="src-00347"></a>
 
 **Source file:** `content/shevuot/4.txt`
 
@@ -6308,7 +6318,7 @@ Art: The Discussion by&nbsp;</span><span style="font-size: large;">Thomas Hovend
 ---
 
 ### content/shevuot/40.txt
-<a id="src-00347"></a>
+<a id="src-00348"></a>
 
 **Source file:** `content/shevuot/40.txt`
 
@@ -6324,7 +6334,7 @@ Art: The Public Ministry of Finance by&nbsp;</span><span style="font-size: large
 ---
 
 ### content/shevuot/41.txt
-<a id="src-00348"></a>
+<a id="src-00349"></a>
 
 **Source file:** `content/shevuot/41.txt`
 
@@ -6340,7 +6350,7 @@ Art: Forgotten Speech by&nbsp;</span><span style="font-size: large;">Leopold Loe
 ---
 
 ### content/shevuot/42.txt
-<a id="src-00349"></a>
+<a id="src-00350"></a>
 
 **Source file:** `content/shevuot/42.txt`
 
@@ -6356,7 +6366,7 @@ Art: Woman Seated At Window by&nbsp;</span><span style="font-size: large;">John 
 ---
 
 ### content/shevuot/43.txt
-<a id="src-00350"></a>
+<a id="src-00351"></a>
 
 **Source file:** `content/shevuot/43.txt`
 
@@ -6373,7 +6383,7 @@ Art: Earth by Hans Thoma
 ---
 
 ### content/shevuot/44.txt
-<a id="src-00351"></a>
+<a id="src-00352"></a>
 
 **Source file:** `content/shevuot/44.txt`
 
@@ -6387,7 +6397,7 @@ Art: Iron Workers at Noontime by&nbsp;</span><span style="font-size: large;">Tho
 ---
 
 ### content/shevuot/45.txt
-<a id="src-00352"></a>
+<a id="src-00353"></a>
 
 **Source file:** `content/shevuot/45.txt`
 
@@ -6405,7 +6415,7 @@ Art: The Poor Man's Store by John Frederick Peto<br />
 ---
 
 ### content/shevuot/46.txt
-<a id="src-00353"></a>
+<a id="src-00354"></a>
 
 **Source file:** `content/shevuot/46.txt`
 
@@ -6419,7 +6429,7 @@ Art: Forest workers in the woods with saws by&nbsp;</span><span style="font-size
 ---
 
 ### content/shevuot/47.txt
-<a id="src-00354"></a>
+<a id="src-00355"></a>
 
 **Source file:** `content/shevuot/47.txt`
 
@@ -6435,7 +6445,7 @@ Art: Anna Accused by Tobit of Stealing the Kid by&nbsp;</span><span style="font-
 ---
 
 ### content/shevuot/48.txt
-<a id="src-00355"></a>
+<a id="src-00356"></a>
 
 **Source file:** `content/shevuot/48.txt`
 
@@ -6453,7 +6463,7 @@ Art: A Child's Funeral by&nbsp;</span><span style="font-size: large;">Luigi Nono
 ---
 
 ### content/shevuot/49.txt
-<a id="src-00356"></a>
+<a id="src-00357"></a>
 
 **Source file:** `content/shevuot/49.txt`
 
@@ -6469,7 +6479,7 @@ Art: Oxen on the beach by Joaquin Sorolla y Bastida</span>
 ---
 
 ### content/shevuot/5.txt
-<a id="src-00357"></a>
+<a id="src-00358"></a>
 
 **Source file:** `content/shevuot/5.txt`
 
@@ -6485,7 +6495,7 @@ Art: Venetian Water Carriers by&nbsp;</span><span style="font-size: large;">John
 ---
 
 ### content/shevuot/6.txt
-<a id="src-00358"></a>
+<a id="src-00359"></a>
 
 **Source file:** `content/shevuot/6.txt`
 
@@ -6500,7 +6510,7 @@ Art: The King Uzziah Stricken with Leprosy by Rembrandt Van Rijn</span>
 ---
 
 ### content/shevuot/7.txt
-<a id="src-00359"></a>
+<a id="src-00360"></a>
 
 **Source file:** `content/shevuot/7.txt`
 
@@ -6517,7 +6527,7 @@ Art: Girl with a goat by Theodore Robinson
 ---
 
 ### content/shevuot/8.txt
-<a id="src-00360"></a>
+<a id="src-00361"></a>
 
 **Source file:** `content/shevuot/8.txt`
 
@@ -6534,7 +6544,7 @@ Art: The Gossips by Carl von Marr<br />
 ---
 
 ### content/shevuot/9.txt
-<a id="src-00361"></a>
+<a id="src-00362"></a>
 
 **Source file:** `content/shevuot/9.txt`
 
@@ -6550,7 +6560,7 @@ Art: Man and Woman Contemplating the Moon by Caspar David Friedrich</span>
 ---
 
 ### content/sotah/10.txt
-<a id="src-00362"></a>
+<a id="src-00363"></a>
 
 **Source file:** `content/sotah/10.txt`
 
@@ -6559,7 +6569,7 @@ Art: Man and Woman Contemplating the Moon by Caspar David Friedrich</span>
 ---
 
 ### content/sotah/11.txt
-<a id="src-00363"></a>
+<a id="src-00364"></a>
 
 **Source file:** `content/sotah/11.txt`
 
@@ -6568,7 +6578,7 @@ Art: Man and Woman Contemplating the Moon by Caspar David Friedrich</span>
 ---
 
 ### content/sotah/12.txt
-<a id="src-00364"></a>
+<a id="src-00365"></a>
 
 **Source file:** `content/sotah/12.txt`
 
@@ -6577,7 +6587,7 @@ Art: Man and Woman Contemplating the Moon by Caspar David Friedrich</span>
 ---
 
 ### content/sotah/13.txt
-<a id="src-00365"></a>
+<a id="src-00366"></a>
 
 **Source file:** `content/sotah/13.txt`
 
@@ -6586,7 +6596,7 @@ Art: Man and Woman Contemplating the Moon by Caspar David Friedrich</span>
 ---
 
 ### content/sotah/14.txt
-<a id="src-00366"></a>
+<a id="src-00367"></a>
 
 **Source file:** `content/sotah/14.txt`
 
@@ -6595,7 +6605,7 @@ Art: Man and Woman Contemplating the Moon by Caspar David Friedrich</span>
 ---
 
 ### content/sotah/15.txt
-<a id="src-00367"></a>
+<a id="src-00368"></a>
 
 **Source file:** `content/sotah/15.txt`
 
@@ -6614,7 +6624,7 @@ Art: The Mirror by William Merritt Chase
 ---
 
 ### content/sotah/16.txt
-<a id="src-00368"></a>
+<a id="src-00369"></a>
 
 **Source file:** `content/sotah/16.txt`
 
@@ -6623,7 +6633,7 @@ Art: The Mirror by William Merritt Chase
 ---
 
 ### content/sotah/17.txt
-<a id="src-00369"></a>
+<a id="src-00370"></a>
 
 **Source file:** `content/sotah/17.txt`
 
@@ -6632,7 +6642,7 @@ Art: The Mirror by William Merritt Chase
 ---
 
 ### content/sotah/18.txt
-<a id="src-00370"></a>
+<a id="src-00371"></a>
 
 **Source file:** `content/sotah/18.txt`
 
@@ -6641,7 +6651,7 @@ Art: The Mirror by William Merritt Chase
 ---
 
 ### content/sotah/19.txt
-<a id="src-00371"></a>
+<a id="src-00372"></a>
 
 **Source file:** `content/sotah/19.txt`
 
@@ -6650,7 +6660,7 @@ Art: The Mirror by William Merritt Chase
 ---
 
 ### content/sotah/2.txt
-<a id="src-00372"></a>
+<a id="src-00373"></a>
 
 **Source file:** `content/sotah/2.txt`
 
@@ -6671,7 +6681,7 @@ Art: Portrait of a Couple by French Unknown Masters
 ---
 
 ### content/sotah/20.txt
-<a id="src-00373"></a>
+<a id="src-00374"></a>
 
 **Source file:** `content/sotah/20.txt`
 
@@ -6690,7 +6700,7 @@ Art: Elegant Couples In Interiors by Pio Ricci
 ---
 
 ### content/sotah/21.txt
-<a id="src-00374"></a>
+<a id="src-00375"></a>
 
 **Source file:** `content/sotah/21.txt`
 
@@ -6699,7 +6709,7 @@ Art: Elegant Couples In Interiors by Pio Ricci
 ---
 
 ### content/sotah/22.txt
-<a id="src-00375"></a>
+<a id="src-00376"></a>
 
 **Source file:** `content/sotah/22.txt`
 
@@ -6718,7 +6728,7 @@ Art:&nbsp;Old Man Reading by Johannes Weiland
 ---
 
 ### content/sotah/23.txt
-<a id="src-00376"></a>
+<a id="src-00377"></a>
 
 **Source file:** `content/sotah/23.txt`
 
@@ -6727,7 +6737,7 @@ Art:&nbsp;Old Man Reading by Johannes Weiland
 ---
 
 ### content/sotah/24.txt
-<a id="src-00377"></a>
+<a id="src-00378"></a>
 
 **Source file:** `content/sotah/24.txt`
 
@@ -6736,7 +6746,7 @@ Art:&nbsp;Old Man Reading by Johannes Weiland
 ---
 
 ### content/sotah/25.txt
-<a id="src-00378"></a>
+<a id="src-00379"></a>
 
 **Source file:** `content/sotah/25.txt`
 
@@ -6745,7 +6755,7 @@ Art:&nbsp;Old Man Reading by Johannes Weiland
 ---
 
 ### content/sotah/26.txt
-<a id="src-00379"></a>
+<a id="src-00380"></a>
 
 **Source file:** `content/sotah/26.txt`
 
@@ -6754,7 +6764,7 @@ Art:&nbsp;Old Man Reading by Johannes Weiland
 ---
 
 ### content/sotah/27.txt
-<a id="src-00380"></a>
+<a id="src-00381"></a>
 
 **Source file:** `content/sotah/27.txt`
 
@@ -6775,7 +6785,7 @@ Art: Young lovers interrupted by Henry John Yeend King
 ---
 
 ### content/sotah/28.txt
-<a id="src-00381"></a>
+<a id="src-00382"></a>
 
 **Source file:** `content/sotah/28.txt`
 
@@ -6796,7 +6806,7 @@ Art: Two Rats by Vincent Van Gogh
 ---
 
 ### content/sotah/29.txt
-<a id="src-00382"></a>
+<a id="src-00383"></a>
 
 **Source file:** `content/sotah/29.txt`
 
@@ -6817,7 +6827,7 @@ Art: A pottery bowl, cuts of meat and onions on a table by French School
 ---
 
 ### content/sotah/3.txt
-<a id="src-00383"></a>
+<a id="src-00384"></a>
 
 **Source file:** `content/sotah/3.txt`
 
@@ -6835,7 +6845,7 @@ Art: Couple at the window by Georg Friedrich Kersting
 ---
 
 ### content/sotah/30.txt
-<a id="src-00384"></a>
+<a id="src-00385"></a>
 
 **Source file:** `content/sotah/30.txt`
 
@@ -6856,7 +6866,7 @@ Art: The Israelites after the Crossing of the Red Sea by Hieronymous III Francke
 ---
 
 ### content/sotah/31.txt
-<a id="src-00385"></a>
+<a id="src-00386"></a>
 
 **Source file:** `content/sotah/31.txt`
 
@@ -6875,7 +6885,7 @@ Art: Woman With Parrot by Paul Cezanne
 ---
 
 ### content/sotah/32.txt
-<a id="src-00386"></a>
+<a id="src-00387"></a>
 
 **Source file:** `content/sotah/32.txt`
 
@@ -6884,7 +6894,7 @@ Art: Woman With Parrot by Paul Cezanne
 ---
 
 ### content/sotah/33.txt
-<a id="src-00387"></a>
+<a id="src-00388"></a>
 
 **Source file:** `content/sotah/33.txt`
 
@@ -6893,7 +6903,7 @@ Art: Woman With Parrot by Paul Cezanne
 ---
 
 ### content/sotah/34.txt
-<a id="src-00388"></a>
+<a id="src-00389"></a>
 
 **Source file:** `content/sotah/34.txt`
 
@@ -6902,7 +6912,7 @@ Art: Woman With Parrot by Paul Cezanne
 ---
 
 ### content/sotah/35.txt
-<a id="src-00389"></a>
+<a id="src-00390"></a>
 
 **Source file:** `content/sotah/35.txt`
 
@@ -6911,7 +6921,7 @@ Art: Woman With Parrot by Paul Cezanne
 ---
 
 ### content/sotah/36.txt
-<a id="src-00390"></a>
+<a id="src-00391"></a>
 
 **Source file:** `content/sotah/36.txt`
 
@@ -6932,7 +6942,7 @@ Art: Joseph in the Pharaoh's Palace by Jacopo (Giacomo) Amigoni
 ---
 
 ### content/sotah/37.txt
-<a id="src-00391"></a>
+<a id="src-00392"></a>
 
 **Source file:** `content/sotah/37.txt`
 
@@ -6941,7 +6951,7 @@ Art: Joseph in the Pharaoh's Palace by Jacopo (Giacomo) Amigoni
 ---
 
 ### content/sotah/38.txt
-<a id="src-00392"></a>
+<a id="src-00393"></a>
 
 **Source file:** `content/sotah/38.txt`
 
@@ -6960,7 +6970,7 @@ Art: Jacob Blessing the Children of Joseph by Rembrandt Van Rijn
 ---
 
 ### content/sotah/39.txt
-<a id="src-00393"></a>
+<a id="src-00394"></a>
 
 **Source file:** `content/sotah/39.txt`
 
@@ -6969,7 +6979,7 @@ Art: Jacob Blessing the Children of Joseph by Rembrandt Van Rijn
 ---
 
 ### content/sotah/4.txt
-<a id="src-00394"></a>
+<a id="src-00395"></a>
 
 **Source file:** `content/sotah/4.txt`
 
@@ -6990,7 +7000,7 @@ Art: An elegant couple on a bench by a pond by Johann Heinrich The Elder Tischbe
 ---
 
 ### content/sotah/40.txt
-<a id="src-00395"></a>
+<a id="src-00396"></a>
 
 **Source file:** `content/sotah/40.txt`
 
@@ -7010,7 +7020,7 @@ Art: A humble question by Herman Frederik Carel ten Kate
 ---
 
 ### content/sotah/41.txt
-<a id="src-00396"></a>
+<a id="src-00397"></a>
 
 **Source file:** `content/sotah/41.txt`
 
@@ -7019,7 +7029,7 @@ Art: A humble question by Herman Frederik Carel ten Kate
 ---
 
 ### content/sotah/42.txt
-<a id="src-00397"></a>
+<a id="src-00398"></a>
 
 **Source file:** `content/sotah/42.txt`
 
@@ -7040,7 +7050,7 @@ Art: David Beheading Goliath by Michiel van Coxie
 ---
 
 ### content/sotah/43.txt
-<a id="src-00398"></a>
+<a id="src-00399"></a>
 
 **Source file:** `content/sotah/43.txt`
 
@@ -7057,7 +7067,7 @@ Art: The Engagement Ring by John Shirley Fox
 ---
 
 ### content/sotah/44.txt
-<a id="src-00399"></a>
+<a id="src-00400"></a>
 
 **Source file:** `content/sotah/44.txt`
 
@@ -7079,7 +7089,7 @@ Art: The Soldier's Return by Girolamo Induno
 ---
 
 ### content/sotah/45.txt
-<a id="src-00400"></a>
+<a id="src-00401"></a>
 
 **Source file:** `content/sotah/45.txt`
 
@@ -7088,7 +7098,7 @@ Art: The Soldier's Return by Girolamo Induno
 ---
 
 ### content/sotah/46.txt
-<a id="src-00401"></a>
+<a id="src-00402"></a>
 
 **Source file:** `content/sotah/46.txt`
 
@@ -7097,7 +7107,7 @@ Art: The Soldier's Return by Girolamo Induno
 ---
 
 ### content/sotah/47.txt
-<a id="src-00402"></a>
+<a id="src-00403"></a>
 
 **Source file:** `content/sotah/47.txt`
 
@@ -7106,7 +7116,7 @@ Art: The Soldier's Return by Girolamo Induno
 ---
 
 ### content/sotah/48.txt
-<a id="src-00403"></a>
+<a id="src-00404"></a>
 
 **Source file:** `content/sotah/48.txt`
 
@@ -7115,7 +7125,7 @@ Art: The Soldier's Return by Girolamo Induno
 ---
 
 ### content/sotah/49.txt
-<a id="src-00404"></a>
+<a id="src-00405"></a>
 
 **Source file:** `content/sotah/49.txt`
 
@@ -7133,7 +7143,7 @@ Art: Filial Piety by Jean Baptiste Greuze
 ---
 
 ### content/sotah/5.txt
-<a id="src-00405"></a>
+<a id="src-00406"></a>
 
 **Source file:** `content/sotah/5.txt`
 
@@ -7150,7 +7160,7 @@ Art: Old Man Praying by Rembrandt Van Rijn
 ---
 
 ### content/sotah/6.txt
-<a id="src-00406"></a>
+<a id="src-00407"></a>
 
 **Source file:** `content/sotah/6.txt`
 
@@ -7159,7 +7169,7 @@ Art: Old Man Praying by Rembrandt Van Rijn
 ---
 
 ### content/sotah/7.txt
-<a id="src-00407"></a>
+<a id="src-00408"></a>
 
 **Source file:** `content/sotah/7.txt`
 
@@ -7168,7 +7178,7 @@ Art: Old Man Praying by Rembrandt Van Rijn
 ---
 
 ### content/sotah/8.txt
-<a id="src-00408"></a>
+<a id="src-00409"></a>
 
 **Source file:** `content/sotah/8.txt`
 
@@ -7177,7 +7187,7 @@ Art: Old Man Praying by Rembrandt Van Rijn
 ---
 
 ### content/sotah/9.txt
-<a id="src-00409"></a>
+<a id="src-00410"></a>
 
 **Source file:** `content/sotah/9.txt`
 
@@ -7186,7 +7196,7 @@ Art: Old Man Praying by Rembrandt Van Rijn
 ---
 
 ### content/sukkah/10.txt
-<a id="src-00410"></a>
+<a id="src-00411"></a>
 
 **Source file:** `content/sukkah/10.txt`
 
@@ -7196,7 +7206,7 @@ Sukkah 10 - Sukkah atop another sukkah
 ---
 
 ### content/sukkah/11.txt
-<a id="src-00411"></a>
+<a id="src-00412"></a>
 
 **Source file:** `content/sukkah/11.txt`
 
@@ -7206,7 +7216,7 @@ Sukkah 11 - What is s'chach?
 ---
 
 ### content/sukkah/12.txt
-<a id="src-00412"></a>
+<a id="src-00413"></a>
 
 **Source file:** `content/sukkah/12.txt`
 
@@ -7216,7 +7226,7 @@ Sukkah 12 - Clouds of glory
 ---
 
 ### content/sukkah/13.txt
-<a id="src-00413"></a>
+<a id="src-00414"></a>
 
 **Source file:** `content/sukkah/13.txt`
 
@@ -7226,7 +7236,7 @@ Sukkah 13 - Bundles that are valid for s'chach
 ---
 
 ### content/sukkah/14.txt
-<a id="src-00414"></a>
+<a id="src-00415"></a>
 
 **Source file:** `content/sukkah/14.txt`
 
@@ -7236,7 +7246,7 @@ Sukkah 14 - A board on the sukkah
 ---
 
 ### content/sukkah/15.txt
-<a id="src-00415"></a>
+<a id="src-00416"></a>
 
 **Source file:** `content/sukkah/15.txt`
 
@@ -7255,7 +7265,7 @@ Art:&nbsp;Kalevipoeg Carrying the Boards By Oskar Kallis
 ---
 
 ### content/sukkah/16.txt
-<a id="src-00416"></a>
+<a id="src-00417"></a>
 
 **Source file:** `content/sukkah/16.txt`
 
@@ -7274,7 +7284,7 @@ Art:&nbsp;The haystack by Camille Pissarro
 ---
 
 ### content/sukkah/17.txt
-<a id="src-00417"></a>
+<a id="src-00418"></a>
 
 **Source file:** `content/sukkah/17.txt`
 
@@ -7300,7 +7310,7 @@ Art: Roofs by Paul Cezanne
 ---
 
 ### content/sukkah/18.txt
-<a id="src-00418"></a>
+<a id="src-00419"></a>
 
 **Source file:** `content/sukkah/18.txt`
 
@@ -7322,7 +7332,7 @@ Art: Couch on the Porch by Frederick Childe Hassam
 ---
 
 ### content/sukkah/19.txt
-<a id="src-00419"></a>
+<a id="src-00420"></a>
 
 **Source file:** `content/sukkah/19.txt`
 
@@ -7338,7 +7348,7 @@ Art: Wigwam at Grand Portage By Eastman Johnson
 ---
 
 ### content/sukkah/2.txt
-<a id="src-00420"></a>
+<a id="src-00421"></a>
 
 **Source file:** `content/sukkah/2.txt`
 
@@ -7355,7 +7365,7 @@ Art: The Flight of the Israelites out of Egypt By Benedetto Caliari
 ---
 
 ### content/sukkah/20.txt
-<a id="src-00421"></a>
+<a id="src-00422"></a>
 
 **Source file:** `content/sukkah/20.txt`
 
@@ -7373,7 +7383,7 @@ Art: Woman Looking Under a Bed, By Edouard (Jean-Edouard) Vuillard
 ---
 
 ### content/sukkah/21.txt
-<a id="src-00422"></a>
+<a id="src-00423"></a>
 
 **Source file:** `content/sukkah/21.txt`
 
@@ -7390,7 +7400,7 @@ Art: The Bedroom by Marius Borgeaud
 ---
 
 ### content/sukkah/22.txt
-<a id="src-00423"></a>
+<a id="src-00424"></a>
 
 **Source file:** `content/sukkah/22.txt`
 
@@ -7402,139 +7412,6 @@ On the other extreme, if a sukkah is covered with too much s'chach so that the s
 <br />
 <br />
 Art: Starry Night Over The Rhone By Vincent Van Gogh
-
----
-
-### content/sukkah/23.txt
-<a id="src-00424"></a>
-
-**Source file:** `content/sukkah/23.txt`
-
-Sukkah 23 – Sukkah-mobile
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihS8KhtPuEg0g4i1PqebXqj1-O6QPwCRD-rVQO95RVZDDIH39sAaiJdCfBvGx22DAeRFOyk7VSZgYZN-n3LDRQuo3lYR57a3f8x8C3cSudX4M-c4vNj2G8NLm2CsCX4LCJ5pp0gJfLQVN8/s1600/The+Storm+at+Sea+with+Shipwreck+By+Jan+The+Elder+Brueghel.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="234" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihS8KhtPuEg0g4i1PqebXqj1-O6QPwCRD-rVQO95RVZDDIH39sAaiJdCfBvGx22DAeRFOyk7VSZgYZN-n3LDRQuo3lYR57a3f8x8C3cSudX4M-c4vNj2G8NLm2CsCX4LCJ5pp0gJfLQVN8/s1600/The+Storm+at+Sea+with+Shipwreck+By+Jan+The+Elder+Brueghel.jpg" width="320" /></a></div>
-If one makes his sukkah on top of a wagon – it is valid since it is definitely only a temporary dwelling.
-<br />
-<br />
-If he makes it on a ship, it is valid too. It once happened that Rabbi Akiva and Rabban Gamliel were traveling on a ship, and Rabbi Akiva made his sukkah on top of it. The following day a wind blew and toppled the sukkah. Said Rabban Gamliel, “Akiva, where is your sukkah now?” However, he was not taunting; rather, in Rabban Gamliel's view, a sukkah on top of a ship is invalid. Why? – Because it cannot withstand the strong sea winds, and is thus as if non-existent. If so, what does Rabbi Akiva answer? – He says that if it could stand on land, that is enough permanence, which is valid.
-<br />
-<br />
-If he makes his sukkah on top of a tree, this is valid, but since one cannot climb trees on holidays, one cannot go up into this sukkah on the first day of Sukkot (a Holiday.)<br />
-<br />
-If he makes a sukkah on top of a camel, it is valid between the camel's humps, and here too, he cannot go up into this sukkah on the holidays. Some say that the sukkah should be equally fit for all seven days of Sukkot and, since here he cannot use it on the first day, it is invalid for the rest. The Talmud continues with discussions of when live animals can be used for walls or coverings, or even for <a href="http://mkerzner.blogspot.com/search/label/Gittin">writing a Get</a> on them, and what the problems with this might be.
-<br />
-<br />
-Art: The Storm at Sea with Shipwreck By Jan The Elder Brueghel
-
----
-
-### content/sukkah/24.txt
-<a id="src-00425"></a>
-
-**Source file:** `content/sukkah/24.txt`
-
-Sukkah 24 – Should one be concerned with improbabilities?
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVQIV_8kMWU1OywTOStePkyGhYgf4GA3jjEqKIZugIGNJYchvkchwq7TlO6IZ5JuEXovkC5lY9-Z4EKXZbfvvTyJ3ljgHy-mgoXigUvmgMjgle6u8EodJM7ZpPEleVXWKFtxb8rIRriyoj/s1600/The+Display+of+the+Elephant+by+Pietro+Longhi.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="252" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVQIV_8kMWU1OywTOStePkyGhYgf4GA3jjEqKIZugIGNJYchvkchwq7TlO6IZ5JuEXovkC5lY9-Z4EKXZbfvvTyJ3ljgHy-mgoXigUvmgMjgle6u8EodJM7ZpPEleVXWKFtxb8rIRriyoj/s1600/The+Display+of+the+Elephant+by+Pietro+Longhi.jpg" width="320" /></a>In discussing the use of an animal for walls of a sukkah, Rabbi Yehudah allows it: as long as it serves as a partition, it is a valid wall. However, Rabbi Meir says that the Sages decreed not to do this. Why not? The animal may die, and in doing so, bring its height to less than ten handbreadths. One may not notice this and continue sitting in a sukkah that is not kosher. According to this, an elephant, which is high enough even in death, would make a valid partition.
-<br />
-<br />
-But is it Rabbi Meir's way to be concerned with improbabilities? For example, if one buys wine that may not have been tithed and needs to drink it on Shabbat, he can separate the tithe in his mind and do it physically after Shabbat – and there Rabbi Meir is not concerned that the wine bag will break and leave him with no tithe! - He will answer that it is more likely for an animal to die than for a wineskin to break. 
-<br />
-<br />
-But is Rabbi Yehudah not concerned with the possibility of death? Why, on Yom Kippur, he prepares <a href="http://mkerzner.blogspot.com/2013/11/yoma-13-another-wife-for-high-priest.html">another wife for the High Priest – lest his wife will die</a>! – He will answer that Yom Kippur is special.
-<br />
-<br />
-So you are saying that you are concerned about the animal's death, but otherwise, the animal could be a wall? If so, it is a utensil and can receive spiritual impurity. Why then does Rabbi Meir consider it pure even when used as a coffin cover? Because of this objection, we take away all of the previous discussion and say that the real reason why an animal cannot be a wall is that Rabbi Meir requires walls made by man's hands in a sukkah.
-<br />
-<br />
-Art: The Display of the Elephant by Pietro Longhi
-
----
-
-### content/sukkah/25.txt
-<a id="src-00426"></a>
-
-**Source file:** `content/sukkah/25.txt`
-
-Sukkah 25 – Trees around your sukkah
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkDi0xdleOXRhLNXl8G8s69KTukOQzGfbtS4Zqbgv9QaJ9bVbl7iD6gNPJyQ2c2y3-fTJM4tf9AtHJAP8efyrDTIpsxg7xNfmbAyBuEml74CYW0hoXMFQGfPnhHHlq2PpzrtIHzHwvzF7p/s1600/The+Artist's+House+Through+the+Trees+by+John+Henry+Twachtman.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkDi0xdleOXRhLNXl8G8s69KTukOQzGfbtS4Zqbgv9QaJ9bVbl7iD6gNPJyQ2c2y3-fTJM4tf9AtHJAP8efyrDTIpsxg7xNfmbAyBuEml74CYW0hoXMFQGfPnhHHlq2PpzrtIHzHwvzF7p/s1600/The+Artist's+House+Through+the+Trees+by+John+Henry+Twachtman.jpg" width="259" /></a>If one made trees serve as walls of his sukkah, this is valid, and we don't say that perhaps the Sages decreed not to do this out of concern that someone may use a tree on holiday. They didn't. 
-<br />
-<br />
-However, Rav Acha bar Yakov stated that any partition that moves is not valid. What about our sukkah, which is surrounded by trees whose branches are always moving! - Rav Acha will answer that we don't know all the circumstances: the rule only applies if he has tied the tree branches with interwoven branches of palm trees. Thus, the permission that we had suddenly becomes very limited.
-<br />
-<br />
-One who is busy with a mitzvah – such as traveling to study Torah, greet his teacher, or redeem a Jewish captive – does not have to observe the mitzvah of sukkah. Why? – Since he is busy with one mitzvah, he should not abandon it to do another one. And how do we know this principle? – Since the Torah said, "<a href="http://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=5&amp;CHAPTER=6#P5088">When you sit in your home</a>." This is said about reading the "Shema" prayer, but it teaches us a general principle: one only has to do a mitzvah if he is “sitting in his home” and is not busy with another mitzvah. But maybe the Torah is talking about one who is sitting in his home and is already doing a mitzvah – which would then teach us precisely the opposite, namely, that one has to drop a mitzvah and do another one!? – No, the Torah said an extra word, “your” home, to teach that you are busy only with your affairs. Quod erat demonstrandum.
-<br />
-<br />
-Art: The Artist's House Through the Trees by John Henry Twachtman
-
----
-
-### content/sukkah/26.txt
-<a id="src-00427"></a>
-
-**Source file:** `content/sukkah/26.txt`
-
-Sukkah 26 - A guarantor needs another guarantor in turn
-<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7XgcOKU9V71r3FdfY5N8Wf60bm0FdPeFKSl24lU0gz-Iz5_WqMObVhm1EfTSwacYP-giK_idu5vJLZDefpdjhUf_9f8PPDk2-xZXmHcbomy-dwPmdds_qe5sxvb-3PL3o4HHqAHbw8hgs/s800/The+Sick+Child+by+J.+Bond+Francisco.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="532" data-original-width="800" height="213" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7XgcOKU9V71r3FdfY5N8Wf60bm0FdPeFKSl24lU0gz-Iz5_WqMObVhm1EfTSwacYP-giK_idu5vJLZDefpdjhUf_9f8PPDk2-xZXmHcbomy-dwPmdds_qe5sxvb-3PL3o4HHqAHbw8hgs/s320/The+Sick+Child+by+J.+Bond+Francisco.jpg" width="320" /></a></div>Someone who is sick is exempt from the obligation of a sukkah: he does not have to sleep there, and he does not have to eat there. Even his attendants can go out of the sukkah and sleep outside. One who feels discomfort - such as the smell of the floor - is not obligated to be in the sukkah. If so, why did we have to mention the sick person? Surely, the sick is uncomfortable. The difference is that the sick can take his attendants with him, but it does not apply to the attendants of an uncomfortable person.&nbsp;<p></p><p>One can eat a light snack outside the sukkah but not take a catnap. But with tefillin, catnap is allowed; what is the difference? Is it because he can appoint an overseer who will wake him up? Rav Mesharshia objected: that's not an explanation - guarantor needs his own guarantor, and your overseer may fall asleep as well! Rather, one should not nap outside the sukkah because even a nap refreshes him and counts as sleep. With tefillin, the concern is that he should not pass gas, and that won't happen while catnapping.</p><p>Rabbi Yochanan ben Zakkai was extra strict with himself and ate and drank even small amounts only in the sukkah. Nevertheless, this kind of strictness is permitted and is not considered presumptuous.</p><p>Art:&nbsp;The Sick Child by J. Bond Francisco</p>
-
----
-
-### content/sukkah/27.txt
-<a id="src-00428"></a>
-
-**Source file:** `content/sukkah/27.txt`
-
-Sukkah 27 - Fourteen obligatory meals in the Sukkah
-<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfvADrGrl0c8DEH_AXq6jp7wK9BOsdaMCRJ_SGbOsyo4ckhUeAPbn6DOCpdOSVhzUqIm-oRqF8tSPq-S1jTg1kZkexYE-RktHHuO9scLpXG-U3HAi0jrvjXWcUtP1_CggoEPBbmnEh9k71/s599/The+Prayer+Before+the+Meal+-+Jan+Steen.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="599" data-original-width="514" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfvADrGrl0c8DEH_AXq6jp7wK9BOsdaMCRJ_SGbOsyo4ckhUeAPbn6DOCpdOSVhzUqIm-oRqF8tSPq-S1jTg1kZkexYE-RktHHuO9scLpXG-U3HAi0jrvjXWcUtP1_CggoEPBbmnEh9k71/s320/The+Prayer+Before+the+Meal+-+Jan+Steen.jpg" width="275" /></a></div>One must eat fourteen meals in the Sukkah during the seven days of the Holiday, one during the day and one in the evening. This is the opinion of Rabbi Eliezer. What is his logic? One should live in the Sukkah like at home, and just as at home, he eats a day meal and an evening meal; he must do the same in the Sukkah.<p></p><p>The Sages disagree: only the first evening meal is obligatory. What is their logic? Don't they agree that he should live in the Sukkah? Yes, they agree, but their logic is different: just as at home, eating is not obligatory but is his choice, so in the Sukkah, he is not obligated to eat. But if so, why is the first meal required? - They compare Sukkot to Pesach. Just as Pesach starts on the fifteenth of the month and <a href="https://mkerzner.blogspot.com/2013/10/pesachim-108-drinking-wine-and-eating.html" target="_blank">the first meal - matzah</a> - is required, Sukkot also starts on the fifteenth, and the first meal is required.</p><p>Furthermore, Rabbi Eliezer said that if one missed the first meal in the Sukkah, he can compensate it by eating another meal, and even on the Holiday right after Sukkot, which is called Shemini Atzeret, the Eighth-day Holiday. But how could Rabbi Eliezer say that - one is not allowed to sit in the Sukkah for an extra day! - By then, Rabbi Eliezer changed his mind. He agrees that fourteen meals are not required, and now he argues that one can fulfill his obligation after Sukkot, just as it is true on the eighth day of Passover.</p><p>The Prayer Before the Meal by Jan Steen</p>
-
----
-
-### content/sukkah/28.txt
-<a id="src-00429"></a>
-
-**Source file:** `content/sukkah/28.txt`
-
-Sukkah 28 - All Israel can use one sukkah
-<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTuY-_2dZT2IanpP1sLbQeeaAYfHkXHk89gjgKZpafMjjnA2wvWkL-0dJ123iZ-117av3gaNFlzydKMPXJBA6EOvFXywJ9KOKqnc5G1nSsyahxAPgZEYBqVoFhuCwGB3TD4OUiyDegZTZB/s1024/The+Palm+by+Pierre-Auguste+Renoir.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="848" data-original-width="1024" height="265" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTuY-_2dZT2IanpP1sLbQeeaAYfHkXHk89gjgKZpafMjjnA2wvWkL-0dJ123iZ-117av3gaNFlzydKMPXJBA6EOvFXywJ9KOKqnc5G1nSsyahxAPgZEYBqVoFhuCwGB3TD4OUiyDegZTZB/s320/The+Palm+by+Pierre-Auguste+Renoir.jpg" width="320" /></a></div>Another mitzvah of Sukkot is "<a href="https://mkerzner.blogspot.com/2014/03/sukkah-34-branches.html" target="_blank">waving the branches</a>" - the palm branches, citron, and so on. One should own them at the time of waving because the requirement is "take for yourself." Could it be that one should own the sukkah as well? - No, all Israelites can sit in one sukkah because it says, "<a href="https://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=3&amp;CHAPTER=23#P3442" target="_blank">All the natives in Israel will sit in a Sukkah</a>," that is, they can sit in one sukkah.<p></p><p>The sukkah should be big enough to contain his head and most of the body, but the table can stay outside. The School of Shammai disagrees: the table must be inside, or else he might be drawn after it and eat outside the sukkah. Now they bring evidence. The Sages from both schools once visited Rabbi Yochanan ben HaChoranit and found him sitting in a sukkah with the table outside and said nothing. But they disagree about this evidence: the School of Shammai says that the Sages spoke up and told him, "If this is how you always conducted yourself, you never fulfilled this mitzvah in your life!'</p><p>Art:&nbsp;The Palm by Pierre-Auguste Renoir</p>
-
----
-
-### content/sukkah/29.txt
-<a id="src-00430"></a>
-
-**Source file:** `content/sukkah/29.txt`
-
-Sukkah 29 - Permanent temporary dwelling
-<div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnG9cePRNrK96dV_O3DT2535DLVD7ybyhyphenhyphen-gzNZJa0qDK72ER_PYwgWlI0DETIcJp3npmnMJceXFMY8mp3FwFqhmNGfyV_yUBxm8kfHVJ27oYKELR0lwpo7rZ67LL_NyRXUYnas6F01ZUR/s545/The+drunk+violinist+by+Gerrit+van+Honthorst.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="545" data-original-width="545" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnG9cePRNrK96dV_O3DT2535DLVD7ybyhyphenhyphen-gzNZJa0qDK72ER_PYwgWlI0DETIcJp3npmnMJceXFMY8mp3FwFqhmNGfyV_yUBxm8kfHVJ27oYKELR0lwpo7rZ67LL_NyRXUYnas6F01ZUR/s320/The+drunk+violinist+by+Gerrit+van+Honthorst.jpg" width="320" /></a></div>The sukkah is intended as a temporary dwelling: it is shaky and not too strong; it lets in sun and rain. However, its residents must behave as if it were their permanent home for the seven days of the festival. How do they show it? If he has nice vessels, he should bring them to the sukkah. Nice clothing? - Bring them to the sukkah. In general, he should eat, drink, and relax in the sukkah.<div><br /></div><div>One cannot deny, however, that sukkah is not conducive to deep concentration. Where should he study, inside or outside? For things that are easy or already understood - he can review them in the sukkah. For hard things, he can go learn them at home.</div><div><br /></div><div>If it begins to rain, he should persist. However, once there is enough rain to cause discomfort, he can leave. What is called discomfort? When his porridge is ruined because of the rain.&nbsp;</div><div><br /></div><div>When we are all ready for the sukkah and it rains - what can this be compared to? To a slave who came to pour wine for his master (and wine was usually diluted with water,) but the master took this water and poured it in his face.</div><div><br /></div><div>Art:&nbsp;The drunk violinist by Gerrit van Honthorst</div>
-
----
-
-### content/sukkah/3.txt
-<a id="src-00431"></a>
-
-**Source file:** `content/sukkah/3.txt`
-
-Sukkah 3 – The smallest possible sukkah
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOefF8nT7foYkgaZ52sj-LpHGk2CVL04ovzKwCmurfEbwJDQ1VrqLcsdkAYkVoF7dpPtptuAeyH8NaLxW-qxq3ihxWO6vNRTgV6BKWDhdczxls0r3w85BXczYbMWz_WkhMUIJW0HdPdpML/s1600/Peasants+at+the+Table+By+Diego+Rodriguez+de+Silva+y+Velazquez.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="276" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOefF8nT7foYkgaZ52sj-LpHGk2CVL04ovzKwCmurfEbwJDQ1VrqLcsdkAYkVoF7dpPtptuAeyH8NaLxW-qxq3ihxWO6vNRTgV6BKWDhdczxls0r3w85BXczYbMWz_WkhMUIJW0HdPdpML/s1600/Peasants+at+the+Table+By+Diego+Rodriguez+de+Silva+y+Velazquez.jpg" width="320" /></a>Rav Itzhak bar Shmuel stated the law: the smallest possible sukkah has to be no less than seven handbreadths by seven handbreadths so that one can fit in it his head, most of his body, and his table. They asked him, “But this is the opinion of Beit Shammai, and we know that whenever Beit Hillel and Beit Shammai argue, the law is always like Beit Hillel!?” He answered, “And what should I do? In this case, Beit Shammai is correct.”
-<br />
-<br />
-Note, however, that the table is inside the sukkah. This leaves room for a more lenient opinion: a sukkah that is so small that it only contains his head and body while the table is outside is still valid. That, indeed, is the opinion of Beit Hillel. 
-<br />
-<br />
-What if the sukkah is pretty big, but the table is still outside? Would this be valid or not? It turns out that Beit Hillel and Beit Shammai are consistent with their own opinions: Beit Hillel permits it, while Beit Shammai says he does not fulfill the mitzvah. What is then the basic underlying reason for their disagreement? - Beit Shammai says that the Sages instituted an additional law and disqualified a sukkah with an outside table out of concern that he will get drawn after the food on the table and will, in fact, eat outside the sukkah. Beit Hillel disagrees and says that there is no such concern.
-<br />
-<br />
-Art: Peasants at the Table By Diego Rodriguez de Silva y Velazquez
-
----
-
-### content/sukkah/30.txt
-<a id="src-00432"></a>
-
-**Source file:** `content/sukkah/30.txt`
-
-Sukkah 30 - Good deed performed through a bad one
-<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhow9MWMNawreecktmgdRS9SNrwvwI468nQTQy-Dvvwtss6V4jy2OVNG-ZCxRXUscODWJnDfDz4BCAmhebIO837SM8xSk13mcr3R4CY3GgI0YTAPbbBKLQ2O7YsYQwvhTKZ0pJiet6IUcTZ/s774/774px-Paul-Charles_Chocarne-Moreau_The_Cunning_Thief.jpeg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="600" data-original-width="774" height="248" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhow9MWMNawreecktmgdRS9SNrwvwI468nQTQy-Dvvwtss6V4jy2OVNG-ZCxRXUscODWJnDfDz4BCAmhebIO837SM8xSk13mcr3R4CY3GgI0YTAPbbBKLQ2O7YsYQwvhTKZ0pJiet6IUcTZ/s320/774px-Paul-Charles_Chocarne-Moreau_The_Cunning_Thief.jpeg" width="320" /></a></div>On Sukkot, people must wave a <a href="https://mkerzner.blogspot.com/2014/03/sukkah-34-branches.html" target="_blank">bunch of branches</a>. One of these is a palm branch (lulav.) However, if he stole his lulav, it is not kosher, and he has not fulfilled his obligation.<p></p><p>Why is that? Since the Torah said, "<a href="https://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=3&amp;CHAPTER=23#P3440" target="_blank">You shall take <i>for yourself</i>, on the <i>first day</i> of Sukkot holiday, palms tree branches</a>," they should belong to yourself. And stolen branch does not belong to the thief. However,&nbsp; this only resolves the matter for the first day. What about the second day?</p><p>Rabbi Shimon, the author of the Zohar, gives the rule: it would be a good deed brought about through transgression, which is not valid. But why is this so? Why not say that the end justifies the means? It is because of this: "<a href="https://www.mechon-mamre.org/p/pt/pt2401.htm" target="_blank">You bring the stolen, the lame, and the sick animal - shall I accept it</a>?" Just as lame cannot be fixed, so stolen is forever disqualified.&nbsp;</p><p>But let's analyze this further. The thief steals the goods. The owner has not given up and hopes to get them back. At this time, the object does not belong to the owner, and a mitzvah that should be done with one's own object is invalid. But later, when the owner despairs, the object belongs to the thief! And yet, Rabbi Shimon declares it invalid. This tells us that one cannot do a good deed through transgression.</p><p>This opinion is not unanimous. Shmuel disagrees and says that it depends on the situation. He says that just as you can borrow a lulav and thus make it yours for performing the commandment, so is the stolen lulav valid starting from the second day of Sukkot and later.</p><p>Art:&nbsp;&nbsp;The Cunning Thief by Paul-Charles Chocarne-Moreau</p>
 
 ---
 

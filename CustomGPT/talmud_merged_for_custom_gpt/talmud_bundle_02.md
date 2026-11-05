@@ -4,439 +4,452 @@
 
 ## Table of Contents
 
-- [content/bava_metzia/36.txt](#src-00001)
-- [content/bava_metzia/37.txt](#src-00002)
-- [content/bava_metzia/38.txt](#src-00003)
-- [content/bava_metzia/39.txt](#src-00004)
-- [content/bava_metzia/4.txt](#src-00005)
-- [content/bava_metzia/40.txt](#src-00006)
-- [content/bava_metzia/41.txt](#src-00007)
-- [content/bava_metzia/42.txt](#src-00008)
-- [content/bava_metzia/43.txt](#src-00009)
-- [content/bava_metzia/44.txt](#src-00010)
-- [content/bava_metzia/45.txt](#src-00011)
-- [content/bava_metzia/46.txt](#src-00012)
-- [content/bava_metzia/47.txt](#src-00013)
-- [content/bava_metzia/48.txt](#src-00014)
-- [content/bava_metzia/49.txt](#src-00015)
-- [content/bava_metzia/5.txt](#src-00016)
-- [content/bava_metzia/50.txt](#src-00017)
-- [content/bava_metzia/51.txt](#src-00018)
-- [content/bava_metzia/52.txt](#src-00019)
-- [content/bava_metzia/53.txt](#src-00020)
-- [content/bava_metzia/54.txt](#src-00021)
-- [content/bava_metzia/55.txt](#src-00022)
-- [content/bava_metzia/56.txt](#src-00023)
-- [content/bava_metzia/57.txt](#src-00024)
-- [content/bava_metzia/58.txt](#src-00025)
-- [content/bava_metzia/59.txt](#src-00026)
-- [content/bava_metzia/6.txt](#src-00027)
-- [content/bava_metzia/60.txt](#src-00028)
-- [content/bava_metzia/61.txt](#src-00029)
-- [content/bava_metzia/62.txt](#src-00030)
-- [content/bava_metzia/63.txt](#src-00031)
-- [content/bava_metzia/64.txt](#src-00032)
-- [content/bava_metzia/65.txt](#src-00033)
-- [content/bava_metzia/66.txt](#src-00034)
-- [content/bava_metzia/67.txt](#src-00035)
-- [content/bava_metzia/68.txt](#src-00036)
-- [content/bava_metzia/69.txt](#src-00037)
-- [content/bava_metzia/7.txt](#src-00038)
-- [content/bava_metzia/70.txt](#src-00039)
-- [content/bava_metzia/71.txt](#src-00040)
-- [content/bava_metzia/72.txt](#src-00041)
-- [content/bava_metzia/73.txt](#src-00042)
-- [content/bava_metzia/74.txt](#src-00043)
-- [content/bava_metzia/75.txt](#src-00044)
-- [content/bava_metzia/76.txt](#src-00045)
-- [content/bava_metzia/77.txt](#src-00046)
-- [content/bava_metzia/78.txt](#src-00047)
-- [content/bava_metzia/79.txt](#src-00048)
-- [content/bava_metzia/8.txt](#src-00049)
-- [content/bava_metzia/80.txt](#src-00050)
-- [content/bava_metzia/81.txt](#src-00051)
-- [content/bava_metzia/82.txt](#src-00052)
-- [content/bava_metzia/83.txt](#src-00053)
-- [content/bava_metzia/84.txt](#src-00054)
-- [content/bava_metzia/85.txt](#src-00055)
-- [content/bava_metzia/86.txt](#src-00056)
-- [content/bava_metzia/87.txt](#src-00057)
-- [content/bava_metzia/88.txt](#src-00058)
-- [content/bava_metzia/89.txt](#src-00059)
-- [content/bava_metzia/9.txt](#src-00060)
-- [content/bava_metzia/90.txt](#src-00061)
-- [content/bava_metzia/91.txt](#src-00062)
-- [content/bava_metzia/92.txt](#src-00063)
-- [content/bava_metzia/93.txt](#src-00064)
-- [content/bava_metzia/94.txt](#src-00065)
-- [content/bava_metzia/95.txt](#src-00066)
-- [content/bava_metzia/96.txt](#src-00067)
-- [content/bava_metzia/97.txt](#src-00068)
-- [content/bava_metzia/98.txt](#src-00069)
-- [content/bava_metzia/99.txt](#src-00070)
-- [content/bechorot/10.txt](#src-00071)
-- [content/bechorot/11.txt](#src-00072)
-- [content/bechorot/12.txt](#src-00073)
-- [content/bechorot/13.txt](#src-00074)
-- [content/bechorot/14.txt](#src-00075)
-- [content/bechorot/15.txt](#src-00076)
-- [content/bechorot/16.txt](#src-00077)
-- [content/bechorot/17.txt](#src-00078)
-- [content/bechorot/18.txt](#src-00079)
-- [content/bechorot/19.txt](#src-00080)
-- [content/bechorot/2.txt](#src-00081)
-- [content/bechorot/20.txt](#src-00082)
-- [content/bechorot/21.txt](#src-00083)
-- [content/bechorot/22.txt](#src-00084)
-- [content/bechorot/23.txt](#src-00085)
-- [content/bechorot/24.txt](#src-00086)
-- [content/bechorot/25.txt](#src-00087)
-- [content/bechorot/26.txt](#src-00088)
-- [content/bechorot/27.txt](#src-00089)
-- [content/bechorot/28.txt](#src-00090)
-- [content/bechorot/29.txt](#src-00091)
-- [content/bechorot/3.txt](#src-00092)
-- [content/bechorot/30.txt](#src-00093)
-- [content/bechorot/31.txt](#src-00094)
-- [content/bechorot/32.txt](#src-00095)
-- [content/bechorot/33.txt](#src-00096)
-- [content/bechorot/34.txt](#src-00097)
-- [content/bechorot/35.txt](#src-00098)
-- [content/bechorot/36.txt](#src-00099)
-- [content/bechorot/37.txt](#src-00100)
-- [content/bechorot/38.txt](#src-00101)
-- [content/bechorot/39.txt](#src-00102)
-- [content/bechorot/4.txt](#src-00103)
-- [content/bechorot/40.txt](#src-00104)
-- [content/bechorot/41.txt](#src-00105)
-- [content/bechorot/42.txt](#src-00106)
-- [content/bechorot/43.txt](#src-00107)
-- [content/bechorot/44.txt](#src-00108)
-- [content/bechorot/45.txt](#src-00109)
-- [content/bechorot/46.txt](#src-00110)
-- [content/bechorot/47.txt](#src-00111)
-- [content/bechorot/48.txt](#src-00112)
-- [content/bechorot/49.txt](#src-00113)
-- [content/bechorot/5.txt](#src-00114)
-- [content/bechorot/50.txt](#src-00115)
-- [content/bechorot/51.txt](#src-00116)
-- [content/bechorot/52.txt](#src-00117)
-- [content/bechorot/53.txt](#src-00118)
-- [content/bechorot/54.txt](#src-00119)
-- [content/bechorot/55.txt](#src-00120)
-- [content/bechorot/56.txt](#src-00121)
-- [content/bechorot/57.txt](#src-00122)
-- [content/bechorot/58.txt](#src-00123)
-- [content/bechorot/59.txt](#src-00124)
-- [content/bechorot/6.txt](#src-00125)
-- [content/bechorot/60.txt](#src-00126)
-- [content/bechorot/61.txt](#src-00127)
-- [content/bechorot/7.txt](#src-00128)
-- [content/bechorot/8.txt](#src-00129)
-- [content/bechorot/9.txt](#src-00130)
-- [content/beitzah/10.txt](#src-00131)
-- [content/beitzah/11.txt](#src-00132)
-- [content/beitzah/12.txt](#src-00133)
-- [content/beitzah/13.txt](#src-00134)
-- [content/beitzah/14.txt](#src-00135)
-- [content/beitzah/15.txt](#src-00136)
-- [content/beitzah/16.txt](#src-00137)
-- [content/beitzah/17.txt](#src-00138)
-- [content/beitzah/18.txt](#src-00139)
-- [content/beitzah/19.txt](#src-00140)
-- [content/beitzah/2.txt](#src-00141)
-- [content/beitzah/20.txt](#src-00142)
-- [content/beitzah/21.txt](#src-00143)
-- [content/beitzah/22.txt](#src-00144)
-- [content/beitzah/23.txt](#src-00145)
-- [content/beitzah/24.txt](#src-00146)
-- [content/beitzah/25.txt](#src-00147)
-- [content/beitzah/26.txt](#src-00148)
-- [content/beitzah/27.txt](#src-00149)
-- [content/beitzah/28.txt](#src-00150)
-- [content/beitzah/29.txt](#src-00151)
-- [content/beitzah/3.txt](#src-00152)
-- [content/beitzah/30.txt](#src-00153)
-- [content/beitzah/31.txt](#src-00154)
-- [content/beitzah/32.txt](#src-00155)
-- [content/beitzah/33.txt](#src-00156)
-- [content/beitzah/34.txt](#src-00157)
-- [content/beitzah/35.txt](#src-00158)
-- [content/beitzah/36.txt](#src-00159)
-- [content/beitzah/37.txt](#src-00160)
-- [content/beitzah/38.txt](#src-00161)
-- [content/beitzah/39.txt](#src-00162)
-- [content/beitzah/4.txt](#src-00163)
-- [content/beitzah/40.txt](#src-00164)
-- [content/beitzah/5.txt](#src-00165)
-- [content/beitzah/6.txt](#src-00166)
-- [content/beitzah/7.txt](#src-00167)
-- [content/beitzah/8.txt](#src-00168)
-- [content/beitzah/9.txt](#src-00169)
-- [content/brachot/10.txt](#src-00170)
-- [content/brachot/11.txt](#src-00171)
-- [content/brachot/12.txt](#src-00172)
-- [content/brachot/13.txt](#src-00173)
-- [content/brachot/14.txt](#src-00174)
-- [content/brachot/15.txt](#src-00175)
-- [content/brachot/16.txt](#src-00176)
-- [content/brachot/17.txt](#src-00177)
-- [content/brachot/18.txt](#src-00178)
-- [content/brachot/19.txt](#src-00179)
-- [content/brachot/2.txt](#src-00180)
-- [content/brachot/20.txt](#src-00181)
-- [content/brachot/21.txt](#src-00182)
-- [content/brachot/22.txt](#src-00183)
-- [content/brachot/23.txt](#src-00184)
-- [content/brachot/24.txt](#src-00185)
-- [content/brachot/25.txt](#src-00186)
-- [content/brachot/26.txt](#src-00187)
-- [content/brachot/27.txt](#src-00188)
-- [content/brachot/28.txt](#src-00189)
-- [content/brachot/29.txt](#src-00190)
-- [content/brachot/3.txt](#src-00191)
-- [content/brachot/30.txt](#src-00192)
-- [content/brachot/31.txt](#src-00193)
-- [content/brachot/32.txt](#src-00194)
-- [content/brachot/33.txt](#src-00195)
-- [content/brachot/34.txt](#src-00196)
-- [content/brachot/35.txt](#src-00197)
-- [content/brachot/36.txt](#src-00198)
-- [content/brachot/37.txt](#src-00199)
-- [content/brachot/38.txt](#src-00200)
-- [content/brachot/39.txt](#src-00201)
-- [content/brachot/4.txt](#src-00202)
-- [content/brachot/40.txt](#src-00203)
-- [content/brachot/41.txt](#src-00204)
-- [content/brachot/42.txt](#src-00205)
-- [content/brachot/43.txt](#src-00206)
-- [content/brachot/44.txt](#src-00207)
-- [content/brachot/45.txt](#src-00208)
-- [content/brachot/46.txt](#src-00209)
-- [content/brachot/47.txt](#src-00210)
-- [content/brachot/48.txt](#src-00211)
-- [content/brachot/49.txt](#src-00212)
-- [content/brachot/5.txt](#src-00213)
-- [content/brachot/50.txt](#src-00214)
-- [content/brachot/51.txt](#src-00215)
-- [content/brachot/52.txt](#src-00216)
-- [content/brachot/53.txt](#src-00217)
-- [content/brachot/54.txt](#src-00218)
-- [content/brachot/55.txt](#src-00219)
-- [content/brachot/56.txt](#src-00220)
-- [content/brachot/57.txt](#src-00221)
-- [content/brachot/58.txt](#src-00222)
-- [content/brachot/59.txt](#src-00223)
-- [content/brachot/6.txt](#src-00224)
-- [content/brachot/60.txt](#src-00225)
-- [content/brachot/61.txt](#src-00226)
-- [content/brachot/62.txt](#src-00227)
-- [content/brachot/63.txt](#src-00228)
-- [content/brachot/64.txt](#src-00229)
-- [content/brachot/7.txt](#src-00230)
-- [content/brachot/8.txt](#src-00231)
-- [content/brachot/9.txt](#src-00232)
-- [content/chagigah/10.txt](#src-00233)
-- [content/chagigah/11.txt](#src-00234)
-- [content/chagigah/12.txt](#src-00235)
-- [content/chagigah/13.txt](#src-00236)
-- [content/chagigah/14.txt](#src-00237)
-- [content/chagigah/15.txt](#src-00238)
-- [content/chagigah/16.txt](#src-00239)
-- [content/chagigah/17.txt](#src-00240)
-- [content/chagigah/18.txt](#src-00241)
-- [content/chagigah/19.txt](#src-00242)
-- [content/chagigah/2.txt](#src-00243)
-- [content/chagigah/20.txt](#src-00244)
-- [content/chagigah/21.txt](#src-00245)
-- [content/chagigah/22.txt](#src-00246)
-- [content/chagigah/23.txt](#src-00247)
-- [content/chagigah/24.txt](#src-00248)
-- [content/chagigah/25.txt](#src-00249)
-- [content/chagigah/26.txt](#src-00250)
-- [content/chagigah/27.txt](#src-00251)
-- [content/chagigah/3.txt](#src-00252)
-- [content/chagigah/4.txt](#src-00253)
-- [content/chagigah/5.txt](#src-00254)
-- [content/chagigah/6.txt](#src-00255)
-- [content/chagigah/7.txt](#src-00256)
-- [content/chagigah/8.txt](#src-00257)
-- [content/chagigah/9.txt](#src-00258)
-- [content/chullin/10.txt](#src-00259)
-- [content/chullin/100.txt](#src-00260)
-- [content/chullin/101.txt](#src-00261)
-- [content/chullin/102.txt](#src-00262)
-- [content/chullin/103.txt](#src-00263)
-- [content/chullin/104.txt](#src-00264)
-- [content/chullin/105.txt](#src-00265)
-- [content/chullin/106.txt](#src-00266)
-- [content/chullin/107.txt](#src-00267)
-- [content/chullin/108.txt](#src-00268)
-- [content/chullin/109.txt](#src-00269)
-- [content/chullin/11.txt](#src-00270)
-- [content/chullin/110.txt](#src-00271)
-- [content/chullin/111.txt](#src-00272)
-- [content/chullin/112.txt](#src-00273)
-- [content/chullin/113.txt](#src-00274)
-- [content/chullin/114.txt](#src-00275)
-- [content/chullin/115.txt](#src-00276)
-- [content/chullin/116.txt](#src-00277)
-- [content/chullin/117.txt](#src-00278)
-- [content/chullin/118.txt](#src-00279)
-- [content/chullin/119.txt](#src-00280)
-- [content/chullin/12.txt](#src-00281)
-- [content/chullin/120.txt](#src-00282)
-- [content/chullin/121.txt](#src-00283)
-- [content/chullin/122.txt](#src-00284)
-- [content/chullin/123.txt](#src-00285)
-- [content/chullin/124.txt](#src-00286)
-- [content/chullin/125.txt](#src-00287)
-- [content/chullin/126.txt](#src-00288)
-- [content/chullin/127.txt](#src-00289)
-- [content/chullin/128.txt](#src-00290)
-- [content/chullin/129.txt](#src-00291)
-- [content/chullin/13.txt](#src-00292)
-- [content/chullin/130.txt](#src-00293)
-- [content/chullin/131.txt](#src-00294)
-- [content/chullin/132.txt](#src-00295)
-- [content/chullin/133.txt](#src-00296)
-- [content/chullin/134.txt](#src-00297)
-- [content/chullin/135.txt](#src-00298)
-- [content/chullin/136.txt](#src-00299)
-- [content/chullin/137.txt](#src-00300)
-- [content/chullin/138.txt](#src-00301)
-- [content/chullin/139.txt](#src-00302)
-- [content/chullin/14.txt](#src-00303)
-- [content/chullin/140.txt](#src-00304)
-- [content/chullin/141.txt](#src-00305)
-- [content/chullin/142.txt](#src-00306)
-- [content/chullin/15.txt](#src-00307)
-- [content/chullin/16.txt](#src-00308)
-- [content/chullin/17.txt](#src-00309)
-- [content/chullin/18.txt](#src-00310)
-- [content/chullin/19.txt](#src-00311)
-- [content/chullin/2.txt](#src-00312)
-- [content/chullin/20.txt](#src-00313)
-- [content/chullin/21.txt](#src-00314)
-- [content/chullin/22.txt](#src-00315)
-- [content/chullin/23.txt](#src-00316)
-- [content/chullin/24.txt](#src-00317)
-- [content/chullin/25.txt](#src-00318)
-- [content/chullin/26.txt](#src-00319)
-- [content/chullin/27.txt](#src-00320)
-- [content/chullin/28.txt](#src-00321)
-- [content/chullin/29.txt](#src-00322)
-- [content/chullin/3.txt](#src-00323)
-- [content/chullin/30.txt](#src-00324)
-- [content/chullin/31.txt](#src-00325)
-- [content/chullin/32.txt](#src-00326)
-- [content/chullin/33.txt](#src-00327)
-- [content/chullin/34.txt](#src-00328)
-- [content/chullin/35.txt](#src-00329)
-- [content/chullin/36.txt](#src-00330)
-- [content/chullin/37.txt](#src-00331)
-- [content/chullin/38.txt](#src-00332)
-- [content/chullin/39.txt](#src-00333)
-- [content/chullin/4.txt](#src-00334)
-- [content/chullin/40.txt](#src-00335)
-- [content/chullin/41.txt](#src-00336)
-- [content/chullin/42.txt](#src-00337)
-- [content/chullin/43.txt](#src-00338)
-- [content/chullin/44.txt](#src-00339)
-- [content/chullin/45.txt](#src-00340)
-- [content/chullin/46.txt](#src-00341)
-- [content/chullin/47.txt](#src-00342)
-- [content/chullin/48.txt](#src-00343)
-- [content/chullin/49.txt](#src-00344)
-- [content/chullin/5.txt](#src-00345)
-- [content/chullin/50.txt](#src-00346)
-- [content/chullin/51.txt](#src-00347)
-- [content/chullin/52.txt](#src-00348)
-- [content/chullin/53.txt](#src-00349)
-- [content/chullin/54.txt](#src-00350)
-- [content/chullin/55.txt](#src-00351)
-- [content/chullin/56.txt](#src-00352)
-- [content/chullin/57.txt](#src-00353)
-- [content/chullin/58.txt](#src-00354)
-- [content/chullin/59.txt](#src-00355)
-- [content/chullin/6.txt](#src-00356)
-- [content/chullin/60.txt](#src-00357)
-- [content/chullin/61.txt](#src-00358)
-- [content/chullin/62.txt](#src-00359)
-- [content/chullin/63.txt](#src-00360)
-- [content/chullin/64.txt](#src-00361)
-- [content/chullin/65.txt](#src-00362)
-- [content/chullin/66.txt](#src-00363)
-- [content/chullin/67.txt](#src-00364)
-- [content/chullin/68.txt](#src-00365)
-- [content/chullin/69.txt](#src-00366)
-- [content/chullin/7.txt](#src-00367)
-- [content/chullin/70.txt](#src-00368)
-- [content/chullin/71.txt](#src-00369)
-- [content/chullin/72.txt](#src-00370)
-- [content/chullin/73.txt](#src-00371)
-- [content/chullin/74.txt](#src-00372)
-- [content/chullin/75.txt](#src-00373)
-- [content/chullin/76.txt](#src-00374)
-- [content/chullin/77.txt](#src-00375)
-- [content/chullin/78.txt](#src-00376)
-- [content/chullin/79.txt](#src-00377)
-- [content/chullin/8.txt](#src-00378)
-- [content/chullin/80.txt](#src-00379)
-- [content/chullin/81.txt](#src-00380)
-- [content/chullin/82.txt](#src-00381)
-- [content/chullin/83.txt](#src-00382)
-- [content/chullin/84.txt](#src-00383)
-- [content/chullin/85.txt](#src-00384)
-- [content/chullin/86.txt](#src-00385)
-- [content/chullin/87.txt](#src-00386)
-- [content/chullin/88.txt](#src-00387)
-- [content/chullin/89.txt](#src-00388)
-- [content/chullin/9.txt](#src-00389)
-- [content/chullin/90.txt](#src-00390)
-- [content/chullin/91.txt](#src-00391)
-- [content/chullin/92.txt](#src-00392)
-- [content/chullin/93.txt](#src-00393)
-- [content/chullin/94.txt](#src-00394)
-- [content/chullin/95.txt](#src-00395)
-- [content/chullin/96.txt](#src-00396)
-- [content/chullin/97.txt](#src-00397)
-- [content/chullin/98.txt](#src-00398)
-- [content/chullin/99.txt](#src-00399)
-- [content/eruvin/10.txt](#src-00400)
-- [content/eruvin/100.txt](#src-00401)
-- [content/eruvin/101.txt](#src-00402)
-- [content/eruvin/102.txt](#src-00403)
-- [content/eruvin/103.txt](#src-00404)
-- [content/eruvin/104.txt](#src-00405)
-- [content/eruvin/105.txt](#src-00406)
-- [content/eruvin/11.txt](#src-00407)
-- [content/eruvin/12.txt](#src-00408)
-- [content/eruvin/13.txt](#src-00409)
-- [content/eruvin/14.txt](#src-00410)
-- [content/eruvin/15.txt](#src-00411)
-- [content/eruvin/16.txt](#src-00412)
-- [content/eruvin/17.txt](#src-00413)
-- [content/eruvin/18.txt](#src-00414)
-- [content/eruvin/19.txt](#src-00415)
-- [content/eruvin/2.txt](#src-00416)
-- [content/eruvin/20.txt](#src-00417)
-- [content/eruvin/21.txt](#src-00418)
-- [content/eruvin/22.txt](#src-00419)
-- [content/eruvin/23.txt](#src-00420)
-- [content/eruvin/24.txt](#src-00421)
-- [content/eruvin/25.txt](#src-00422)
-- [content/eruvin/26.txt](#src-00423)
-- [content/eruvin/27.txt](#src-00424)
-- [content/eruvin/28.txt](#src-00425)
-- [content/eruvin/29.txt](#src-00426)
-- [content/eruvin/3.txt](#src-00427)
-- [content/eruvin/30.txt](#src-00428)
+- [content/bava_metzia/35.txt](#src-00001)
+- [content/bava_metzia/36.txt](#src-00002)
+- [content/bava_metzia/37.txt](#src-00003)
+- [content/bava_metzia/38.txt](#src-00004)
+- [content/bava_metzia/39.txt](#src-00005)
+- [content/bava_metzia/4.txt](#src-00006)
+- [content/bava_metzia/40.txt](#src-00007)
+- [content/bava_metzia/41.txt](#src-00008)
+- [content/bava_metzia/42.txt](#src-00009)
+- [content/bava_metzia/43.txt](#src-00010)
+- [content/bava_metzia/44.txt](#src-00011)
+- [content/bava_metzia/45.txt](#src-00012)
+- [content/bava_metzia/46.txt](#src-00013)
+- [content/bava_metzia/47.txt](#src-00014)
+- [content/bava_metzia/48.txt](#src-00015)
+- [content/bava_metzia/49.txt](#src-00016)
+- [content/bava_metzia/5.txt](#src-00017)
+- [content/bava_metzia/50.txt](#src-00018)
+- [content/bava_metzia/51.txt](#src-00019)
+- [content/bava_metzia/52.txt](#src-00020)
+- [content/bava_metzia/53.txt](#src-00021)
+- [content/bava_metzia/54.txt](#src-00022)
+- [content/bava_metzia/55.txt](#src-00023)
+- [content/bava_metzia/56.txt](#src-00024)
+- [content/bava_metzia/57.txt](#src-00025)
+- [content/bava_metzia/58.txt](#src-00026)
+- [content/bava_metzia/59.txt](#src-00027)
+- [content/bava_metzia/6.txt](#src-00028)
+- [content/bava_metzia/60.txt](#src-00029)
+- [content/bava_metzia/61.txt](#src-00030)
+- [content/bava_metzia/62.txt](#src-00031)
+- [content/bava_metzia/63.txt](#src-00032)
+- [content/bava_metzia/64.txt](#src-00033)
+- [content/bava_metzia/65.txt](#src-00034)
+- [content/bava_metzia/66.txt](#src-00035)
+- [content/bava_metzia/67.txt](#src-00036)
+- [content/bava_metzia/68.txt](#src-00037)
+- [content/bava_metzia/69.txt](#src-00038)
+- [content/bava_metzia/7.txt](#src-00039)
+- [content/bava_metzia/70.txt](#src-00040)
+- [content/bava_metzia/71.txt](#src-00041)
+- [content/bava_metzia/72.txt](#src-00042)
+- [content/bava_metzia/73.txt](#src-00043)
+- [content/bava_metzia/74.txt](#src-00044)
+- [content/bava_metzia/75.txt](#src-00045)
+- [content/bava_metzia/76.txt](#src-00046)
+- [content/bava_metzia/77.txt](#src-00047)
+- [content/bava_metzia/78.txt](#src-00048)
+- [content/bava_metzia/79.txt](#src-00049)
+- [content/bava_metzia/8.txt](#src-00050)
+- [content/bava_metzia/80.txt](#src-00051)
+- [content/bava_metzia/81.txt](#src-00052)
+- [content/bava_metzia/82.txt](#src-00053)
+- [content/bava_metzia/83.txt](#src-00054)
+- [content/bava_metzia/84.txt](#src-00055)
+- [content/bava_metzia/85.txt](#src-00056)
+- [content/bava_metzia/86.txt](#src-00057)
+- [content/bava_metzia/87.txt](#src-00058)
+- [content/bava_metzia/88.txt](#src-00059)
+- [content/bava_metzia/89.txt](#src-00060)
+- [content/bava_metzia/9.txt](#src-00061)
+- [content/bava_metzia/90.txt](#src-00062)
+- [content/bava_metzia/91.txt](#src-00063)
+- [content/bava_metzia/92.txt](#src-00064)
+- [content/bava_metzia/93.txt](#src-00065)
+- [content/bava_metzia/94.txt](#src-00066)
+- [content/bava_metzia/95.txt](#src-00067)
+- [content/bava_metzia/96.txt](#src-00068)
+- [content/bava_metzia/97.txt](#src-00069)
+- [content/bava_metzia/98.txt](#src-00070)
+- [content/bava_metzia/99.txt](#src-00071)
+- [content/bechorot/10.txt](#src-00072)
+- [content/bechorot/11.txt](#src-00073)
+- [content/bechorot/12.txt](#src-00074)
+- [content/bechorot/13.txt](#src-00075)
+- [content/bechorot/14.txt](#src-00076)
+- [content/bechorot/15.txt](#src-00077)
+- [content/bechorot/16.txt](#src-00078)
+- [content/bechorot/17.txt](#src-00079)
+- [content/bechorot/18.txt](#src-00080)
+- [content/bechorot/19.txt](#src-00081)
+- [content/bechorot/2.txt](#src-00082)
+- [content/bechorot/20.txt](#src-00083)
+- [content/bechorot/21.txt](#src-00084)
+- [content/bechorot/22.txt](#src-00085)
+- [content/bechorot/23.txt](#src-00086)
+- [content/bechorot/24.txt](#src-00087)
+- [content/bechorot/25.txt](#src-00088)
+- [content/bechorot/26.txt](#src-00089)
+- [content/bechorot/27.txt](#src-00090)
+- [content/bechorot/28.txt](#src-00091)
+- [content/bechorot/29.txt](#src-00092)
+- [content/bechorot/3.txt](#src-00093)
+- [content/bechorot/30.txt](#src-00094)
+- [content/bechorot/31.txt](#src-00095)
+- [content/bechorot/32.txt](#src-00096)
+- [content/bechorot/33.txt](#src-00097)
+- [content/bechorot/34.txt](#src-00098)
+- [content/bechorot/35.txt](#src-00099)
+- [content/bechorot/36.txt](#src-00100)
+- [content/bechorot/37.txt](#src-00101)
+- [content/bechorot/38.txt](#src-00102)
+- [content/bechorot/39.txt](#src-00103)
+- [content/bechorot/4.txt](#src-00104)
+- [content/bechorot/40.txt](#src-00105)
+- [content/bechorot/41.txt](#src-00106)
+- [content/bechorot/42.txt](#src-00107)
+- [content/bechorot/43.txt](#src-00108)
+- [content/bechorot/44.txt](#src-00109)
+- [content/bechorot/45.txt](#src-00110)
+- [content/bechorot/46.txt](#src-00111)
+- [content/bechorot/47.txt](#src-00112)
+- [content/bechorot/48.txt](#src-00113)
+- [content/bechorot/49.txt](#src-00114)
+- [content/bechorot/5.txt](#src-00115)
+- [content/bechorot/50.txt](#src-00116)
+- [content/bechorot/51.txt](#src-00117)
+- [content/bechorot/52.txt](#src-00118)
+- [content/bechorot/53.txt](#src-00119)
+- [content/bechorot/54.txt](#src-00120)
+- [content/bechorot/55.txt](#src-00121)
+- [content/bechorot/56.txt](#src-00122)
+- [content/bechorot/57.txt](#src-00123)
+- [content/bechorot/58.txt](#src-00124)
+- [content/bechorot/59.txt](#src-00125)
+- [content/bechorot/6.txt](#src-00126)
+- [content/bechorot/60.txt](#src-00127)
+- [content/bechorot/61.txt](#src-00128)
+- [content/bechorot/7.txt](#src-00129)
+- [content/bechorot/8.txt](#src-00130)
+- [content/bechorot/9.txt](#src-00131)
+- [content/beitzah/10.txt](#src-00132)
+- [content/beitzah/11.txt](#src-00133)
+- [content/beitzah/12.txt](#src-00134)
+- [content/beitzah/13.txt](#src-00135)
+- [content/beitzah/14.txt](#src-00136)
+- [content/beitzah/15.txt](#src-00137)
+- [content/beitzah/16.txt](#src-00138)
+- [content/beitzah/17.txt](#src-00139)
+- [content/beitzah/18.txt](#src-00140)
+- [content/beitzah/19.txt](#src-00141)
+- [content/beitzah/2.txt](#src-00142)
+- [content/beitzah/20.txt](#src-00143)
+- [content/beitzah/21.txt](#src-00144)
+- [content/beitzah/22.txt](#src-00145)
+- [content/beitzah/23.txt](#src-00146)
+- [content/beitzah/24.txt](#src-00147)
+- [content/beitzah/25.txt](#src-00148)
+- [content/beitzah/26.txt](#src-00149)
+- [content/beitzah/27.txt](#src-00150)
+- [content/beitzah/28.txt](#src-00151)
+- [content/beitzah/29.txt](#src-00152)
+- [content/beitzah/3.txt](#src-00153)
+- [content/beitzah/30.txt](#src-00154)
+- [content/beitzah/31.txt](#src-00155)
+- [content/beitzah/32.txt](#src-00156)
+- [content/beitzah/33.txt](#src-00157)
+- [content/beitzah/34.txt](#src-00158)
+- [content/beitzah/35.txt](#src-00159)
+- [content/beitzah/36.txt](#src-00160)
+- [content/beitzah/37.txt](#src-00161)
+- [content/beitzah/38.txt](#src-00162)
+- [content/beitzah/39.txt](#src-00163)
+- [content/beitzah/4.txt](#src-00164)
+- [content/beitzah/40.txt](#src-00165)
+- [content/beitzah/5.txt](#src-00166)
+- [content/beitzah/6.txt](#src-00167)
+- [content/beitzah/7.txt](#src-00168)
+- [content/beitzah/8.txt](#src-00169)
+- [content/beitzah/9.txt](#src-00170)
+- [content/brachot/10.txt](#src-00171)
+- [content/brachot/11.txt](#src-00172)
+- [content/brachot/12.txt](#src-00173)
+- [content/brachot/13.txt](#src-00174)
+- [content/brachot/14.txt](#src-00175)
+- [content/brachot/15.txt](#src-00176)
+- [content/brachot/16.txt](#src-00177)
+- [content/brachot/17.txt](#src-00178)
+- [content/brachot/18.txt](#src-00179)
+- [content/brachot/19.txt](#src-00180)
+- [content/brachot/2.txt](#src-00181)
+- [content/brachot/20.txt](#src-00182)
+- [content/brachot/21.txt](#src-00183)
+- [content/brachot/22.txt](#src-00184)
+- [content/brachot/23.txt](#src-00185)
+- [content/brachot/24.txt](#src-00186)
+- [content/brachot/25.txt](#src-00187)
+- [content/brachot/26.txt](#src-00188)
+- [content/brachot/27.txt](#src-00189)
+- [content/brachot/28.txt](#src-00190)
+- [content/brachot/29.txt](#src-00191)
+- [content/brachot/3.txt](#src-00192)
+- [content/brachot/30.txt](#src-00193)
+- [content/brachot/31.txt](#src-00194)
+- [content/brachot/32.txt](#src-00195)
+- [content/brachot/33.txt](#src-00196)
+- [content/brachot/34.txt](#src-00197)
+- [content/brachot/35.txt](#src-00198)
+- [content/brachot/36.txt](#src-00199)
+- [content/brachot/37.txt](#src-00200)
+- [content/brachot/38.txt](#src-00201)
+- [content/brachot/39.txt](#src-00202)
+- [content/brachot/4.txt](#src-00203)
+- [content/brachot/40.txt](#src-00204)
+- [content/brachot/41.txt](#src-00205)
+- [content/brachot/42.txt](#src-00206)
+- [content/brachot/43.txt](#src-00207)
+- [content/brachot/44.txt](#src-00208)
+- [content/brachot/45.txt](#src-00209)
+- [content/brachot/46.txt](#src-00210)
+- [content/brachot/47.txt](#src-00211)
+- [content/brachot/48.txt](#src-00212)
+- [content/brachot/49.txt](#src-00213)
+- [content/brachot/5.txt](#src-00214)
+- [content/brachot/50.txt](#src-00215)
+- [content/brachot/51.txt](#src-00216)
+- [content/brachot/52.txt](#src-00217)
+- [content/brachot/53.txt](#src-00218)
+- [content/brachot/54.txt](#src-00219)
+- [content/brachot/55.txt](#src-00220)
+- [content/brachot/56.txt](#src-00221)
+- [content/brachot/57.txt](#src-00222)
+- [content/brachot/58.txt](#src-00223)
+- [content/brachot/59.txt](#src-00224)
+- [content/brachot/6.txt](#src-00225)
+- [content/brachot/60.txt](#src-00226)
+- [content/brachot/61.txt](#src-00227)
+- [content/brachot/62.txt](#src-00228)
+- [content/brachot/63.txt](#src-00229)
+- [content/brachot/64.txt](#src-00230)
+- [content/brachot/7.txt](#src-00231)
+- [content/brachot/8.txt](#src-00232)
+- [content/brachot/9.txt](#src-00233)
+- [content/chagigah/10.txt](#src-00234)
+- [content/chagigah/11.txt](#src-00235)
+- [content/chagigah/12.txt](#src-00236)
+- [content/chagigah/13.txt](#src-00237)
+- [content/chagigah/14.txt](#src-00238)
+- [content/chagigah/15.txt](#src-00239)
+- [content/chagigah/16.txt](#src-00240)
+- [content/chagigah/17.txt](#src-00241)
+- [content/chagigah/18.txt](#src-00242)
+- [content/chagigah/19.txt](#src-00243)
+- [content/chagigah/2.txt](#src-00244)
+- [content/chagigah/20.txt](#src-00245)
+- [content/chagigah/21.txt](#src-00246)
+- [content/chagigah/22.txt](#src-00247)
+- [content/chagigah/23.txt](#src-00248)
+- [content/chagigah/24.txt](#src-00249)
+- [content/chagigah/25.txt](#src-00250)
+- [content/chagigah/26.txt](#src-00251)
+- [content/chagigah/27.txt](#src-00252)
+- [content/chagigah/3.txt](#src-00253)
+- [content/chagigah/4.txt](#src-00254)
+- [content/chagigah/5.txt](#src-00255)
+- [content/chagigah/6.txt](#src-00256)
+- [content/chagigah/7.txt](#src-00257)
+- [content/chagigah/8.txt](#src-00258)
+- [content/chagigah/9.txt](#src-00259)
+- [content/chullin/10.txt](#src-00260)
+- [content/chullin/100.txt](#src-00261)
+- [content/chullin/101.txt](#src-00262)
+- [content/chullin/102.txt](#src-00263)
+- [content/chullin/103.txt](#src-00264)
+- [content/chullin/104.txt](#src-00265)
+- [content/chullin/105.txt](#src-00266)
+- [content/chullin/106.txt](#src-00267)
+- [content/chullin/107.txt](#src-00268)
+- [content/chullin/108.txt](#src-00269)
+- [content/chullin/109.txt](#src-00270)
+- [content/chullin/11.txt](#src-00271)
+- [content/chullin/110.txt](#src-00272)
+- [content/chullin/111.txt](#src-00273)
+- [content/chullin/112.txt](#src-00274)
+- [content/chullin/113.txt](#src-00275)
+- [content/chullin/114.txt](#src-00276)
+- [content/chullin/115.txt](#src-00277)
+- [content/chullin/116.txt](#src-00278)
+- [content/chullin/117.txt](#src-00279)
+- [content/chullin/118.txt](#src-00280)
+- [content/chullin/119.txt](#src-00281)
+- [content/chullin/12.txt](#src-00282)
+- [content/chullin/120.txt](#src-00283)
+- [content/chullin/121.txt](#src-00284)
+- [content/chullin/122.txt](#src-00285)
+- [content/chullin/123.txt](#src-00286)
+- [content/chullin/124.txt](#src-00287)
+- [content/chullin/125.txt](#src-00288)
+- [content/chullin/126.txt](#src-00289)
+- [content/chullin/127.txt](#src-00290)
+- [content/chullin/128.txt](#src-00291)
+- [content/chullin/129.txt](#src-00292)
+- [content/chullin/13.txt](#src-00293)
+- [content/chullin/130.txt](#src-00294)
+- [content/chullin/131.txt](#src-00295)
+- [content/chullin/132.txt](#src-00296)
+- [content/chullin/133.txt](#src-00297)
+- [content/chullin/134.txt](#src-00298)
+- [content/chullin/135.txt](#src-00299)
+- [content/chullin/136.txt](#src-00300)
+- [content/chullin/137.txt](#src-00301)
+- [content/chullin/138.txt](#src-00302)
+- [content/chullin/139.txt](#src-00303)
+- [content/chullin/14.txt](#src-00304)
+- [content/chullin/140.txt](#src-00305)
+- [content/chullin/141.txt](#src-00306)
+- [content/chullin/142.txt](#src-00307)
+- [content/chullin/15.txt](#src-00308)
+- [content/chullin/16.txt](#src-00309)
+- [content/chullin/17.txt](#src-00310)
+- [content/chullin/18.txt](#src-00311)
+- [content/chullin/19.txt](#src-00312)
+- [content/chullin/2.txt](#src-00313)
+- [content/chullin/20.txt](#src-00314)
+- [content/chullin/21.txt](#src-00315)
+- [content/chullin/22.txt](#src-00316)
+- [content/chullin/23.txt](#src-00317)
+- [content/chullin/24.txt](#src-00318)
+- [content/chullin/25.txt](#src-00319)
+- [content/chullin/26.txt](#src-00320)
+- [content/chullin/27.txt](#src-00321)
+- [content/chullin/28.txt](#src-00322)
+- [content/chullin/29.txt](#src-00323)
+- [content/chullin/3.txt](#src-00324)
+- [content/chullin/30.txt](#src-00325)
+- [content/chullin/31.txt](#src-00326)
+- [content/chullin/32.txt](#src-00327)
+- [content/chullin/33.txt](#src-00328)
+- [content/chullin/34.txt](#src-00329)
+- [content/chullin/35.txt](#src-00330)
+- [content/chullin/36.txt](#src-00331)
+- [content/chullin/37.txt](#src-00332)
+- [content/chullin/38.txt](#src-00333)
+- [content/chullin/39.txt](#src-00334)
+- [content/chullin/4.txt](#src-00335)
+- [content/chullin/40.txt](#src-00336)
+- [content/chullin/41.txt](#src-00337)
+- [content/chullin/42.txt](#src-00338)
+- [content/chullin/43.txt](#src-00339)
+- [content/chullin/44.txt](#src-00340)
+- [content/chullin/45.txt](#src-00341)
+- [content/chullin/46.txt](#src-00342)
+- [content/chullin/47.txt](#src-00343)
+- [content/chullin/48.txt](#src-00344)
+- [content/chullin/49.txt](#src-00345)
+- [content/chullin/5.txt](#src-00346)
+- [content/chullin/50.txt](#src-00347)
+- [content/chullin/51.txt](#src-00348)
+- [content/chullin/52.txt](#src-00349)
+- [content/chullin/53.txt](#src-00350)
+- [content/chullin/54.txt](#src-00351)
+- [content/chullin/55.txt](#src-00352)
+- [content/chullin/56.txt](#src-00353)
+- [content/chullin/57.txt](#src-00354)
+- [content/chullin/58.txt](#src-00355)
+- [content/chullin/59.txt](#src-00356)
+- [content/chullin/6.txt](#src-00357)
+- [content/chullin/60.txt](#src-00358)
+- [content/chullin/61.txt](#src-00359)
+- [content/chullin/62.txt](#src-00360)
+- [content/chullin/63.txt](#src-00361)
+- [content/chullin/64.txt](#src-00362)
+- [content/chullin/65.txt](#src-00363)
+- [content/chullin/66.txt](#src-00364)
+- [content/chullin/67.txt](#src-00365)
+- [content/chullin/68.txt](#src-00366)
+- [content/chullin/69.txt](#src-00367)
+- [content/chullin/7.txt](#src-00368)
+- [content/chullin/70.txt](#src-00369)
+- [content/chullin/71.txt](#src-00370)
+- [content/chullin/72.txt](#src-00371)
+- [content/chullin/73.txt](#src-00372)
+- [content/chullin/74.txt](#src-00373)
+- [content/chullin/75.txt](#src-00374)
+- [content/chullin/76.txt](#src-00375)
+- [content/chullin/77.txt](#src-00376)
+- [content/chullin/78.txt](#src-00377)
+- [content/chullin/79.txt](#src-00378)
+- [content/chullin/8.txt](#src-00379)
+- [content/chullin/80.txt](#src-00380)
+- [content/chullin/81.txt](#src-00381)
+- [content/chullin/82.txt](#src-00382)
+- [content/chullin/83.txt](#src-00383)
+- [content/chullin/84.txt](#src-00384)
+- [content/chullin/85.txt](#src-00385)
+- [content/chullin/86.txt](#src-00386)
+- [content/chullin/87.txt](#src-00387)
+- [content/chullin/88.txt](#src-00388)
+- [content/chullin/89.txt](#src-00389)
+- [content/chullin/9.txt](#src-00390)
+- [content/chullin/90.txt](#src-00391)
+- [content/chullin/91.txt](#src-00392)
+- [content/chullin/92.txt](#src-00393)
+- [content/chullin/93.txt](#src-00394)
+- [content/chullin/94.txt](#src-00395)
+- [content/chullin/95.txt](#src-00396)
+- [content/chullin/96.txt](#src-00397)
+- [content/chullin/97.txt](#src-00398)
+- [content/chullin/98.txt](#src-00399)
+- [content/chullin/99.txt](#src-00400)
+- [content/eruvin/10.txt](#src-00401)
+- [content/eruvin/100.txt](#src-00402)
+- [content/eruvin/101.txt](#src-00403)
+- [content/eruvin/102.txt](#src-00404)
+- [content/eruvin/103.txt](#src-00405)
+- [content/eruvin/104.txt](#src-00406)
+- [content/eruvin/105.txt](#src-00407)
+- [content/eruvin/11.txt](#src-00408)
+- [content/eruvin/12.txt](#src-00409)
+- [content/eruvin/13.txt](#src-00410)
+- [content/eruvin/14.txt](#src-00411)
+- [content/eruvin/15.txt](#src-00412)
+- [content/eruvin/16.txt](#src-00413)
+- [content/eruvin/17.txt](#src-00414)
+- [content/eruvin/18.txt](#src-00415)
+- [content/eruvin/19.txt](#src-00416)
+- [content/eruvin/2.txt](#src-00417)
+- [content/eruvin/20.txt](#src-00418)
+- [content/eruvin/21.txt](#src-00419)
+- [content/eruvin/22.txt](#src-00420)
+- [content/eruvin/23.txt](#src-00421)
+- [content/eruvin/24.txt](#src-00422)
+- [content/eruvin/25.txt](#src-00423)
+- [content/eruvin/26.txt](#src-00424)
+- [content/eruvin/27.txt](#src-00425)
+- [content/eruvin/28.txt](#src-00426)
+- [content/eruvin/29.txt](#src-00427)
+- [content/eruvin/3.txt](#src-00428)
+
+---
+
+### content/bava_metzia/35.txt
+<a id="src-00001"></a>
+
+**Source file:** `content/bava_metzia/35.txt`
+
+Bava Metzia 35 - A Deposit that was Stolen (Finds)
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCoHoxdALEF7dST03wGcclDgmwJ8cnsIEktaT_4DzGTOdsrlo0bbPzh1Gy0BnOJE3yTjNrU_quPdmTewWKYYZivvK8DnDiSyl6p-SFbxQXedPKXFVwpumijLeNXRXWEwQYEh3Nwm6pJcd8/s1600-h/Egbert+van+der+Poel+-+Cottage+with+a+Still-Life+of+Kitchen+Utensils.jpg" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5341860822094726130" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCoHoxdALEF7dST03wGcclDgmwJ8cnsIEktaT_4DzGTOdsrlo0bbPzh1Gy0BnOJE3yTjNrU_quPdmTewWKYYZivvK8DnDiSyl6p-SFbxQXedPKXFVwpumijLeNXRXWEwQYEh3Nwm6pJcd8/s320/Egbert+van+der+Poel+-+Cottage+with+a+Still-Life+of+Kitchen+Utensils.jpg" style="cursor: pointer; float: left; height: 254px; margin: 0pt 10px 10px 0pt; width: 320px;" /></a>If one deposits an animal or utensils with another for safekeeping and they were stolen or lost, the custodian can take an oath that he was not negligent and free himself from payment. If he did  not desire to swear and paid, and then the thief is found, the thief pays the double amount to the custodian.<br />
+<br />
+If one rented a cow and then lent it to another, and it subsequently died a natural death, then the renter is not liable for that, but the borrower is liable to pay the renter. Rabbi Yossi says that the renter needs to return the value of the cow to the owner.<br />
+<br /><div>Art: Cottage with a Still-Life of Kitchen Utensils by Egbert van der Poel</div>
 
 ---
 
 ### content/bava_metzia/36.txt
-<a id="src-00001"></a>
+<a id="src-00002"></a>
 
 **Source file:** `content/bava_metzia/36.txt`
 
@@ -450,7 +463,7 @@ The final law agrees with Rabbi Yochanan.<div><br /></div><div>Art: A Joint Inve
 ---
 
 ### content/bava_metzia/37.txt
-<a id="src-00002"></a>
+<a id="src-00003"></a>
 
 **Source file:** `content/bava_metzia/37.txt`
 
@@ -466,7 +479,7 @@ Both cases describe going beyond the letter of the law. The thief wants to avoid
 ---
 
 ### content/bava_metzia/38.txt
-<a id="src-00003"></a>
+<a id="src-00004"></a>
 
 **Source file:** `content/bava_metzia/38.txt`
 
@@ -486,7 +499,7 @@ Another explanation is that he may have designated it as tithes for his other pr
 ---
 
 ### content/bava_metzia/39.txt
-<a id="src-00004"></a>
+<a id="src-00005"></a>
 
 **Source file:** `content/bava_metzia/39.txt`
 
@@ -501,7 +514,7 @@ Can the law be derived from “...<a href="http://bible.cc/exodus/22-24.htm">and
 ---
 
 ### content/bava_metzia/4.txt
-<a id="src-00005"></a>
+<a id="src-00006"></a>
 
 **Source file:** `content/bava_metzia/4.txt`
 
@@ -523,7 +536,7 @@ Rav. Sheshet says the fifty zuz are viewed as if the lender is holding them. The
 ---
 
 ### content/bava_metzia/40.txt
-<a id="src-00006"></a>
+<a id="src-00007"></a>
 
 **Source file:** `content/bava_metzia/40.txt`
 
@@ -543,7 +556,7 @@ For wine, one deducts the absorption of the barrel and the sediment; for oil - t
 ---
 
 ### content/bava_metzia/41.txt
-<a id="src-00007"></a>
+<a id="src-00008"></a>
 
 **Source file:** `content/bava_metzia/41.txt`
 
@@ -561,7 +574,7 @@ Art: Boy Drinking from a Barrel by David Gilmore Blythe</div>
 ---
 
 ### content/bava_metzia/42.txt
-<a id="src-00008"></a>
+<a id="src-00009"></a>
 
 **Source file:** `content/bava_metzia/42.txt`
 
@@ -579,7 +592,7 @@ Art: A pedlar carrying a brazier by a townhouse landscape beyond by Longhi, Piet
 ---
 
 ### content/bava_metzia/43.txt
-<a id="src-00009"></a>
+<a id="src-00010"></a>
 
 **Source file:** `content/bava_metzia/43.txt`
 
@@ -601,7 +614,7 @@ If a custodian misappropriated a deposit and later destroyed it, then according 
 ---
 
 ### content/bava_metzia/44.txt
-<a id="src-00010"></a>
+<a id="src-00011"></a>
 
 **Source file:** `content/bava_metzia/44.txt`
 
@@ -621,7 +634,7 @@ By Rabbinical law, when someone pays money for a movable object, he has yet to a
 ---
 
 ### content/bava_metzia/45.txt
-<a id="src-00011"></a>
+<a id="src-00012"></a>
 
 **Source file:** `content/bava_metzia/45.txt`
 
@@ -641,7 +654,7 @@ Although paying the money <a href="http://community.livejournal.com/talmud_daily
 ---
 
 ### content/bava_metzia/46.txt
-<a id="src-00012"></a>
+<a id="src-00013"></a>
 
 **Source file:** `content/bava_metzia/46.txt`
 
@@ -657,7 +670,7 @@ Since the coin's value can be revoked by the government, its value is not intrin
 ---
 
 ### content/bava_metzia/47.txt
-<a id="src-00013"></a>
+<a id="src-00014"></a>
 
 **Source file:** `content/bava_metzia/47.txt`
 
@@ -672,7 +685,7 @@ Bava Metzia 47 - How is the “Exchange” Acquisition Performed? (Finds)
 ---
 
 ### content/bava_metzia/48.txt
-<a id="src-00014"></a>
+<a id="src-00015"></a>
 
 **Source file:** `content/bava_metzia/48.txt`
 
@@ -694,7 +707,7 @@ The final law follows Rabbi Yochanan.</div><div><br /></div><div>Art: Gogol burn
 ---
 
 ### content/bava_metzia/49.txt
-<a id="src-00015"></a>
+<a id="src-00016"></a>
 
 **Source file:** `content/bava_metzia/49.txt`
 
@@ -716,7 +729,7 @@ When one makes a partial payment on movable property, Rav says that he acquires 
 ---
 
 ### content/bava_metzia/5.txt
-<a id="src-00016"></a>
+<a id="src-00017"></a>
 
 **Source file:** `content/bava_metzia/5.txt`
 
@@ -727,7 +740,7 @@ Bava Metzia 5 - No Oath in the Case of "Here, it is Yours?" (Finds)
 ---
 
 ### content/bava_metzia/50.txt
-<a id="src-00017"></a>
+<a id="src-00018"></a>
 
 **Source file:** `content/bava_metzia/50.txt`
 
@@ -747,7 +760,7 @@ Bava Metzia 50 - Both the Seller and the Buyer Can't Cheat (Finds)
 ---
 
 ### content/bava_metzia/51.txt
-<a id="src-00018"></a>
+<a id="src-00019"></a>
 
 **Source file:** `content/bava_metzia/51.txt`
 
@@ -765,7 +778,7 @@ Bava Metzia 51 - No Price Fraud for Personal Possessions (Finds)
 ---
 
 ### content/bava_metzia/52.txt
-<a id="src-00019"></a>
+<a id="src-00020"></a>
 
 **Source file:** `content/bava_metzia/52.txt`
 
@@ -789,7 +802,7 @@ Art: A Money-Changer by Mason, Major George Henry</div>
 ---
 
 ### content/bava_metzia/53.txt
-<a id="src-00020"></a>
+<a id="src-00021"></a>
 
 **Source file:** `content/bava_metzia/53.txt`
 
@@ -813,7 +826,7 @@ Bava Metzia 53 - Redeeming Second Tithe (Finds)
 ---
 
 ### content/bava_metzia/54.txt
-<a id="src-00021"></a>
+<a id="src-00022"></a>
 
 **Source file:** `content/bava_metzia/54.txt`
 
@@ -838,7 +851,7 @@ Bava Metzia 54 - Adding One-Fifth (Finds)
 ---
 
 ### content/bava_metzia/55.txt
-<a id="src-00022"></a>
+<a id="src-00023"></a>
 
 **Source file:** `content/bava_metzia/55.txt`
 
@@ -856,7 +869,7 @@ Bava Metzia 55 - Prutahs and One-Fifth Surcharges (Finds)
 ---
 
 ### content/bava_metzia/56.txt
-<a id="src-00023"></a>
+<a id="src-00024"></a>
 
 **Source file:** `content/bava_metzia/56.txt`
 
@@ -879,7 +892,7 @@ Bava Metzia 56 - Things not Subject to Price Fraud (Finds)
 ---
 
 ### content/bava_metzia/57.txt
-<a id="src-00024"></a>
+<a id="src-00025"></a>
 
 **Source file:** `content/bava_metzia/57.txt`
 
@@ -897,7 +910,7 @@ How do we know that an unpaid custodian doesn't swear about <a href="http://mker
 ---
 
 ### content/bava_metzia/58.txt
-<a id="src-00025"></a>
+<a id="src-00026"></a>
 
 **Source file:** `content/bava_metzia/58.txt`
 
@@ -915,7 +928,7 @@ Art: Joseph Accused by Potiphar's Wife by Rembrandt van Rijn</div>
 ---
 
 ### content/bava_metzia/59.txt
-<a id="src-00026"></a>
+<a id="src-00027"></a>
 
 **Source file:** `content/bava_metzia/59.txt`
 
@@ -935,7 +948,7 @@ Bava Metzia 59 - Not to Offend Anybody with Words
 ---
 
 ### content/bava_metzia/6.txt
-<a id="src-00027"></a>
+<a id="src-00028"></a>
 
 **Source file:** `content/bava_metzia/6.txt`
 
@@ -945,7 +958,7 @@ Bava Metzia 6 - Why Accept An Oath? (Finds)
 ---
 
 ### content/bava_metzia/60.txt
-<a id="src-00028"></a>
+<a id="src-00029"></a>
 
 **Source file:** `content/bava_metzia/60.txt`
 
@@ -965,7 +978,7 @@ Bava Metzia 60 - Deceptive Business Practices (Finds)
 ---
 
 ### content/bava_metzia/61.txt
-<a id="src-00029"></a>
+<a id="src-00030"></a>
 
 **Source file:** `content/bava_metzia/61.txt`
 
@@ -988,7 +1001,7 @@ Bava Metzia 61 – Two Forms of Interest: Neshech and Tarbit
 ---
 
 ### content/bava_metzia/62.txt
-<a id="src-00030"></a>
+<a id="src-00031"></a>
 
 **Source file:** `content/bava_metzia/62.txt`
 
@@ -1003,7 +1016,7 @@ Bava Metzia 62 - Interest is Collectable in Court (Finds)
 ---
 
 ### content/bava_metzia/63.txt
-<a id="src-00031"></a>
+<a id="src-00032"></a>
 
 **Source file:** `content/bava_metzia/63.txt`
 
@@ -1027,7 +1040,7 @@ Bava Metzia 63 – When Forward Contracts are Permitted (Finds)
 ---
 
 ### content/bava_metzia/64.txt
-<a id="src-00032"></a>
+<a id="src-00033"></a>
 
 **Source file:** `content/bava_metzia/64.txt`
 
@@ -1045,7 +1058,7 @@ Bava Metzia 64 - Forward Contract on Gourds (Finds)
 ---
 
 ### content/bava_metzia/65.txt
-<a id="src-00033"></a>
+<a id="src-00034"></a>
 
 **Source file:** `content/bava_metzia/65.txt`
 
@@ -1061,7 +1074,7 @@ Bava Metzia 65 – Early Payment is Allowed (Finds)
 ---
 
 ### content/bava_metzia/66.txt
-<a id="src-00034"></a>
+<a id="src-00035"></a>
 
 **Source file:** `content/bava_metzia/66.txt`
 
@@ -1077,7 +1090,7 @@ Bava Metzia 66 - Heter Iska and Penalty for Late Payment (Finds)
 ---
 
 ### content/bava_metzia/67.txt
-<a id="src-00035"></a>
+<a id="src-00036"></a>
 
 **Source file:** `content/bava_metzia/67.txt`
 
@@ -1093,7 +1106,7 @@ Bava Metzia 67 - Excessive Penalty on Default is Illegal (Finds)
 ---
 
 ### content/bava_metzia/68.txt
-<a id="src-00036"></a>
+<a id="src-00037"></a>
 
 **Source file:** `content/bava_metzia/68.txt`
 
@@ -1109,7 +1122,7 @@ Bava Metzia 68 – Joint Venture Avoids Interest Prohibition (Finds)
 ---
 
 ### content/bava_metzia/69.txt
-<a id="src-00037"></a>
+<a id="src-00038"></a>
 
 **Source file:** `content/bava_metzia/69.txt`
 
@@ -1129,7 +1142,7 @@ Bava Metzia 69 – Half-and-half Venture (Finds)
 ---
 
 ### content/bava_metzia/7.txt
-<a id="src-00038"></a>
+<a id="src-00039"></a>
 
 **Source file:** `content/bava_metzia/7.txt`
 
@@ -1139,7 +1152,7 @@ Bava Metzia 7 - Two People Found a Document (Finds)
 ---
 
 ### content/bava_metzia/70.txt
-<a id="src-00039"></a>
+<a id="src-00040"></a>
 
 **Source file:** `content/bava_metzia/70.txt`
 
@@ -1159,7 +1172,7 @@ Bava Metzia 70 - When Interest is Allowed (Finds)
 ---
 
 ### content/bava_metzia/71.txt
-<a id="src-00040"></a>
+<a id="src-00041"></a>
 
 **Source file:** `content/bava_metzia/71.txt`
 
@@ -1172,7 +1185,7 @@ Bava Metzia 71 - Taking Interest from Non-Jews is also Prohibited (Finds)
 ---
 
 ### content/bava_metzia/72.txt
-<a id="src-00041"></a>
+<a id="src-00042"></a>
 
 **Source file:** `content/bava_metzia/72.txt`
 
@@ -1194,7 +1207,7 @@ Bava Metzia 72 - Guarantor and Loan Assumption (Finds)
 ---
 
 ### content/bava_metzia/73.txt
-<a id="src-00042"></a>
+<a id="src-00043"></a>
 
 **Source file:** `content/bava_metzia/73.txt`
 
@@ -1209,7 +1222,7 @@ Bava Metzia 73 - Forward Contracts with High Risk (Finds)
 ---
 
 ### content/bava_metzia/74.txt
-<a id="src-00043"></a>
+<a id="src-00044"></a>
 
 **Source file:** `content/bava_metzia/74.txt`
 
@@ -1223,7 +1236,7 @@ Bava Metzia 74 - Commodity Loans (Finds)
 ---
 
 ### content/bava_metzia/75.txt
-<a id="src-00044"></a>
+<a id="src-00045"></a>
 
 **Source file:** `content/bava_metzia/75.txt`
 
@@ -1241,7 +1254,7 @@ Bava Metzia 75 - When Commodity Loans are Allowed (Finds)
 ---
 
 ### content/bava_metzia/76.txt
-<a id="src-00045"></a>
+<a id="src-00046"></a>
 
 **Source file:** `content/bava_metzia/76.txt`
 
@@ -1265,7 +1278,7 @@ Art: A Flute Player by Adriaen van Ostade</div>
 ---
 
 ### content/bava_metzia/77.txt
-<a id="src-00046"></a>
+<a id="src-00047"></a>
 
 **Source file:** `content/bava_metzia/77.txt`
 
@@ -1283,7 +1296,7 @@ Bava Metzia 77 – Labor Laws (Finds)
 ---
 
 ### content/bava_metzia/78.txt
-<a id="src-00047"></a>
+<a id="src-00048"></a>
 
 **Source file:** `content/bava_metzia/78.txt`
 
@@ -1305,7 +1318,7 @@ Bava Metzia 78 – Rental Agreements (Finds)
 ---
 
 ### content/bava_metzia/79.txt
-<a id="src-00048"></a>
+<a id="src-00049"></a>
 
 **Source file:** `content/bava_metzia/79.txt`
 
@@ -1323,7 +1336,7 @@ Bava Metzia 79 - Boat Rentals (Finds)
 ---
 
 ### content/bava_metzia/8.txt
-<a id="src-00049"></a>
+<a id="src-00050"></a>
 
 **Source file:** `content/bava_metzia/8.txt`
 
@@ -1335,7 +1348,7 @@ There, each one is holding his end of the garment, and should his fellow drop it
 ---
 
 ### content/bava_metzia/80.txt
-<a id="src-00050"></a>
+<a id="src-00051"></a>
 
 **Source file:** `content/bava_metzia/80.txt`
 
@@ -1351,7 +1364,7 @@ Bava Metzia 80 - Transportation Rentals (Finds)
 ---
 
 ### content/bava_metzia/81.txt
-<a id="src-00051"></a>
+<a id="src-00052"></a>
 
 **Source file:** `content/bava_metzia/81.txt`
 
@@ -1371,7 +1384,7 @@ Bava Metzia 81 - What Type of Guardian Are You? (Finds)
 ---
 
 ### content/bava_metzia/82.txt
-<a id="src-00052"></a>
+<a id="src-00053"></a>
 
 **Source file:** `content/bava_metzia/82.txt`
 
@@ -1391,7 +1404,7 @@ Bava Metzia 82 - Porter Breaks a Keg (Finds)
 ---
 
 ### content/bava_metzia/83.txt
-<a id="src-00053"></a>
+<a id="src-00054"></a>
 
 **Source file:** `content/bava_metzia/83.txt`
 
@@ -1401,7 +1414,7 @@ Bava Metzia 83 - Negligent Porters Break a Keg of Wine (Finds)
 ---
 
 ### content/bava_metzia/84.txt
-<a id="src-00054"></a>
+<a id="src-00055"></a>
 
 **Source file:** `content/bava_metzia/84.txt`
 
@@ -1411,7 +1424,7 @@ Bava Metzia 84 - Robber Knows his Trade (Finds)
 ---
 
 ### content/bava_metzia/85.txt
-<a id="src-00055"></a>
+<a id="src-00056"></a>
 
 **Source file:** `content/bava_metzia/85.txt`
 
@@ -1425,7 +1438,7 @@ Bava Metzia 85 - Teaching Torah to Children (Finds)
 ---
 
 ### content/bava_metzia/86.txt
-<a id="src-00056"></a>
+<a id="src-00057"></a>
 
 **Source file:** `content/bava_metzia/86.txt`
 
@@ -1439,7 +1452,7 @@ Bava Metzia 86 – The Story of Rabbah Bar Nachmani (Finds)
 ---
 
 ### content/bava_metzia/87.txt
-<a id="src-00057"></a>
+<a id="src-00058"></a>
 
 **Source file:** `content/bava_metzia/87.txt`
 
@@ -1459,7 +1472,7 @@ Bava Metzia 87 - Workers Eat While Harvesting (Finds)
 ---
 
 ### content/bava_metzia/88.txt
-<a id="src-00058"></a>
+<a id="src-00059"></a>
 
 **Source file:** `content/bava_metzia/88.txt`
 
@@ -1473,7 +1486,7 @@ Bava Metzia 88 - Ox Eats While Harvesting (Finds)
 ---
 
 ### content/bava_metzia/89.txt
-<a id="src-00059"></a>
+<a id="src-00060"></a>
 
 **Source file:** `content/bava_metzia/89.txt`
 
@@ -1494,7 +1507,7 @@ Bava Metzia 89 – Workers Prepare to Eat More (Finds)
 ---
 
 ### content/bava_metzia/9.txt
-<a id="src-00060"></a>
+<a id="src-00061"></a>
 
 **Source file:** `content/bava_metzia/9.txt`
 
@@ -1504,7 +1517,7 @@ Bava Metzia 9 - Rider Sees a Find (Finds)
 ---
 
 ### content/bava_metzia/90.txt
-<a id="src-00061"></a>
+<a id="src-00062"></a>
 
 **Source file:** `content/bava_metzia/90.txt`
 
@@ -1520,7 +1533,7 @@ Bava Metzia 90 – Who Can Muzzle? (Finds)
 ---
 
 ### content/bava_metzia/91.txt
-<a id="src-00062"></a>
+<a id="src-00063"></a>
 
 **Source file:** `content/bava_metzia/91.txt`
 
@@ -1534,7 +1547,7 @@ Bava Metzia 91 - Muzzling an Animal and Mother who is a Harlot (Finds)
 ---
 
 ### content/bava_metzia/92.txt
-<a id="src-00063"></a>
+<a id="src-00064"></a>
 
 **Source file:** `content/bava_metzia/92.txt`
 
@@ -1552,7 +1565,7 @@ Bava Metzia 92 – How Much Can a Worker Eat? (Finds)
 ---
 
 ### content/bava_metzia/93.txt
-<a id="src-00064"></a>
+<a id="src-00065"></a>
 
 **Source file:** `content/bava_metzia/93.txt`
 
@@ -1562,7 +1575,7 @@ Bava Metzia 93 - Dealing in Food Entitlement (Finds)
 ---
 
 ### content/bava_metzia/94.txt
-<a id="src-00065"></a>
+<a id="src-00066"></a>
 
 **Source file:** `content/bava_metzia/94.txt`
 
@@ -1572,7 +1585,7 @@ Bava Metzia 94 – Conditions in Contracts (Finds)
 ---
 
 ### content/bava_metzia/95.txt
-<a id="src-00066"></a>
+<a id="src-00067"></a>
 
 **Source file:** `content/bava_metzia/95.txt`
 
@@ -1586,7 +1599,7 @@ Bava Metzia 95 – Deriving Borrower's Law With an "A Fortiori" Argument (Finds)
 ---
 
 ### content/bava_metzia/96.txt
-<a id="src-00067"></a>
+<a id="src-00068"></a>
 
 **Source file:** `content/bava_metzia/96.txt`
 
@@ -1608,7 +1621,7 @@ Bava Metzia 96 – Borrower’s Exemption from Liability (Finds)
 ---
 
 ### content/bava_metzia/97.txt
-<a id="src-00068"></a>
+<a id="src-00069"></a>
 
 **Source file:** `content/bava_metzia/97.txt`
 
@@ -1626,7 +1639,7 @@ Bava Metzia 97 - Mice Kill Cat (Finds)
 ---
 
 ### content/bava_metzia/98.txt
-<a id="src-00069"></a>
+<a id="src-00070"></a>
 
 **Source file:** `content/bava_metzia/98.txt`
 
@@ -1646,7 +1659,7 @@ Bava Metzia 98 - Cow Half-Borrowed, Half-Rented (Finds)
 ---
 
 ### content/bava_metzia/99.txt
-<a id="src-00070"></a>
+<a id="src-00071"></a>
 
 **Source file:** `content/bava_metzia/99.txt`
 
@@ -1656,7 +1669,7 @@ Bava Metzia 99 – Responsibility in Transit (Finds)
 ---
 
 ### content/bechorot/10.txt
-<a id="src-00071"></a>
+<a id="src-00072"></a>
 
 **Source file:** `content/bechorot/10.txt`
 
@@ -1675,7 +1688,7 @@ Art: Ebenezer Newman Downard - A Donkey At A Gate
 ---
 
 ### content/bechorot/11.txt
-<a id="src-00072"></a>
+<a id="src-00073"></a>
 
 **Source file:** `content/bechorot/11.txt`
 
@@ -1689,7 +1702,7 @@ Art:&nbsp;Vincent Van Gogh - Still Life With Vegetables And Fruit
 ---
 
 ### content/bechorot/12.txt
-<a id="src-00073"></a>
+<a id="src-00074"></a>
 
 **Source file:** `content/bechorot/12.txt`
 
@@ -1705,7 +1718,7 @@ Art:&nbsp;William Snr Luker - Deer In The New Forest
 ---
 
 ### content/bechorot/13.txt
-<a id="src-00074"></a>
+<a id="src-00075"></a>
 
 **Source file:** `content/bechorot/13.txt`
 
@@ -1727,7 +1740,7 @@ Art:&nbsp;Willem Romeijn - Cow, Goats and Sheep in a Meadow<br />
 ---
 
 ### content/bechorot/14.txt
-<a id="src-00075"></a>
+<a id="src-00076"></a>
 
 **Source file:** `content/bechorot/14.txt`
 
@@ -1746,7 +1759,7 @@ Art: William Gowe Ferguson - Still-Life with Dead Game
 ---
 
 ### content/bechorot/15.txt
-<a id="src-00076"></a>
+<a id="src-00077"></a>
 
 **Source file:** `content/bechorot/15.txt`
 
@@ -1762,7 +1775,7 @@ Art:&nbsp;Winslow Homer - Dogs In A Boat
 ---
 
 ### content/bechorot/16.txt
-<a id="src-00077"></a>
+<a id="src-00078"></a>
 
 **Source file:** `content/bechorot/16.txt`
 
@@ -1777,7 +1790,7 @@ Art:&nbsp;John Frederick Herring, Jnr. - Animals In A Farm Yard
 ---
 
 ### content/bechorot/17.txt
-<a id="src-00078"></a>
+<a id="src-00079"></a>
 
 **Source file:** `content/bechorot/17.txt`
 
@@ -1793,7 +1806,7 @@ Art: Richard Ansdell - A Ewe with Lambs and a Heron Beside a Loch
 ---
 
 ### content/bechorot/18.txt
-<a id="src-00079"></a>
+<a id="src-00080"></a>
 
 **Source file:** `content/bechorot/18.txt`
 
@@ -1815,7 +1828,7 @@ Art: Pancraz Koerle - The Broken Vase
 ---
 
 ### content/bechorot/19.txt
-<a id="src-00080"></a>
+<a id="src-00081"></a>
 
 **Source file:** `content/bechorot/19.txt`
 
@@ -1836,7 +1849,7 @@ Art: Sir Hubert von Herkomer - The First Born
 ---
 
 ### content/bechorot/2.txt
-<a id="src-00081"></a>
+<a id="src-00082"></a>
 
 **Source file:** `content/bechorot/2.txt`
 
@@ -1853,7 +1866,7 @@ Art: Eduard Karl Gustav Lebrecht Pistorius - The Donkey Seller
 ---
 
 ### content/bechorot/20.txt
-<a id="src-00082"></a>
+<a id="src-00083"></a>
 
 **Source file:** `content/bechorot/20.txt`
 
@@ -1869,7 +1882,7 @@ Art: Edward Atkinson Hornel - The Little Goat Herd
 ---
 
 ### content/bechorot/21.txt
-<a id="src-00083"></a>
+<a id="src-00084"></a>
 
 **Source file:** `content/bechorot/21.txt`
 
@@ -1885,7 +1898,7 @@ Art: Jakob Philippe Hackert - Italian Landscape With A Goat And Her Kid
 ---
 
 ### content/bechorot/22.txt
-<a id="src-00084"></a>
+<a id="src-00085"></a>
 
 **Source file:** `content/bechorot/22.txt`
 
@@ -1906,7 +1919,7 @@ Art: Giovanni Segantini - Goat With Offspring
 ---
 
 ### content/bechorot/23.txt
-<a id="src-00085"></a>
+<a id="src-00086"></a>
 
 **Source file:** `content/bechorot/23.txt`
 
@@ -1927,7 +1940,7 @@ Art: David The Younger Teniers - An interior scene with pots, barrels, baskets, 
 ---
 
 ### content/bechorot/24.txt
-<a id="src-00086"></a>
+<a id="src-00087"></a>
 
 **Source file:** `content/bechorot/24.txt`
 
@@ -1943,7 +1956,7 @@ Art: John Frederick Herring, Jnr.- Berkshire Saddlebacks with Piglets in a Farmy
 ---
 
 ### content/bechorot/25.txt
-<a id="src-00087"></a>
+<a id="src-00088"></a>
 
 **Source file:** `content/bechorot/25.txt`
 
@@ -1959,7 +1972,7 @@ Art: Tom Roberts - Shearing the Rams
 ---
 
 ### content/bechorot/26.txt
-<a id="src-00088"></a>
+<a id="src-00089"></a>
 
 **Source file:** `content/bechorot/26.txt`
 
@@ -1977,7 +1990,7 @@ Art: Alexander Mann - Sheep Shearing
 ---
 
 ### content/bechorot/27.txt
-<a id="src-00089"></a>
+<a id="src-00090"></a>
 
 **Source file:** `content/bechorot/27.txt`
 
@@ -1992,7 +2005,7 @@ Art: Albert Dubois-Pillet - Lady Carrying Bread
 ---
 
 ### content/bechorot/28.txt
-<a id="src-00090"></a>
+<a id="src-00091"></a>
 
 **Source file:** `content/bechorot/28.txt`
 
@@ -2011,7 +2024,7 @@ Art: Lovis (Franz Heinrich Louis) Corinth - In The Slaughter House
 ---
 
 ### content/bechorot/29.txt
-<a id="src-00091"></a>
+<a id="src-00092"></a>
 
 **Source file:** `content/bechorot/29.txt`
 
@@ -2033,7 +2046,7 @@ Art: Carl Neuman - Wise Words
 ---
 
 ### content/bechorot/3.txt
-<a id="src-00092"></a>
+<a id="src-00093"></a>
 
 **Source file:** `content/bechorot/3.txt`
 
@@ -2051,7 +2064,7 @@ Art: Sydney S. Morrish - Sabbath Evening In A Shepherd's Cottage
 ---
 
 ### content/bechorot/30.txt
-<a id="src-00093"></a>
+<a id="src-00094"></a>
 
 **Source file:** `content/bechorot/30.txt`
 
@@ -2070,7 +2083,7 @@ Art: Charles Olivier De Penne - The Deer Hunt
 ---
 
 ### content/bechorot/31.txt
-<a id="src-00094"></a>
+<a id="src-00095"></a>
 
 **Source file:** `content/bechorot/31.txt`
 
@@ -2086,7 +2099,7 @@ Art: William Hunt - Early Morning in the Village Cattle Market
 ---
 
 ### content/bechorot/32.txt
-<a id="src-00095"></a>
+<a id="src-00096"></a>
 
 **Source file:** `content/bechorot/32.txt`
 
@@ -2105,7 +2118,7 @@ Art:&nbsp;Walter Langley - The Orphan
 ---
 
 ### content/bechorot/33.txt
-<a id="src-00096"></a>
+<a id="src-00097"></a>
 
 **Source file:** `content/bechorot/33.txt`
 
@@ -2120,7 +2133,7 @@ Art: Camille-Leopold Cabaillot-Lasal - The Pet Lamb
 ---
 
 ### content/bechorot/34.txt
-<a id="src-00097"></a>
+<a id="src-00098"></a>
 
 **Source file:** `content/bechorot/34.txt`
 
@@ -2136,7 +2149,7 @@ Art: Harmenszoon van Rijn Rembrandt - Samson Accusing His Father In Law
 ---
 
 ### content/bechorot/35.txt
-<a id="src-00098"></a>
+<a id="src-00099"></a>
 
 **Source file:** `content/bechorot/35.txt`
 
@@ -2158,7 +2171,7 @@ Art: Victor-Gabriel Gilbert - Boys Playing
 ---
 
 ### content/bechorot/36.txt
-<a id="src-00099"></a>
+<a id="src-00100"></a>
 
 **Source file:** `content/bechorot/36.txt`
 
@@ -2173,7 +2186,7 @@ Art: James Riddel - A Goat With Her Kid
 ---
 
 ### content/bechorot/37.txt
-<a id="src-00100"></a>
+<a id="src-00101"></a>
 
 **Source file:** `content/bechorot/37.txt`
 
@@ -2192,7 +2205,7 @@ Art: Edward Ladell - Shrimps, a peeled lemon, a glass of wine and a blue and whi
 ---
 
 ### content/bechorot/38.txt
-<a id="src-00101"></a>
+<a id="src-00102"></a>
 
 **Source file:** `content/bechorot/38.txt`
 
@@ -2211,7 +2224,7 @@ Art: Francois Verwilt - A shepherd couple with goats and a cow nearby
 ---
 
 ### content/bechorot/39.txt
-<a id="src-00102"></a>
+<a id="src-00103"></a>
 
 **Source file:** `content/bechorot/39.txt`
 
@@ -2230,7 +2243,7 @@ Art: Gerrit Van Honthorst - The Tooth Puller
 ---
 
 ### content/bechorot/4.txt
-<a id="src-00103"></a>
+<a id="src-00104"></a>
 
 **Source file:** `content/bechorot/4.txt`
 
@@ -2246,7 +2259,7 @@ Art:&nbsp;Sir Lawrence Alma-Tadema - The Death Of The First Born
 ---
 
 ### content/bechorot/40.txt
-<a id="src-00104"></a>
+<a id="src-00105"></a>
 
 **Source file:** `content/bechorot/40.txt`
 
@@ -2264,7 +2277,7 @@ Art: Richard Ansdell - The Wounded Hound
 ---
 
 ### content/bechorot/41.txt
-<a id="src-00105"></a>
+<a id="src-00106"></a>
 
 **Source file:** `content/bechorot/41.txt`
 
@@ -2280,7 +2293,7 @@ Art: Richard Ansdell - The Sick Lamb
 ---
 
 ### content/bechorot/42.txt
-<a id="src-00106"></a>
+<a id="src-00107"></a>
 
 **Source file:** `content/bechorot/42.txt`
 
@@ -2296,7 +2309,7 @@ Art: David The Younger Teniers - Domestic Worker Holding a Broom
 ---
 
 ### content/bechorot/43.txt
-<a id="src-00107"></a>
+<a id="src-00108"></a>
 
 **Source file:** `content/bechorot/43.txt`
 
@@ -2315,7 +2328,7 @@ Art: John Constable - Portrait of a Balding Man
 ---
 
 ### content/bechorot/44.txt
-<a id="src-00108"></a>
+<a id="src-00109"></a>
 
 **Source file:** `content/bechorot/44.txt`
 
@@ -2337,7 +2350,7 @@ Art: Cuyp Jacob Gerritsz - Boy with a Goose
 ---
 
 ### content/bechorot/45.txt
-<a id="src-00109"></a>
+<a id="src-00110"></a>
 
 **Source file:** `content/bechorot/45.txt`
 
@@ -2356,7 +2369,7 @@ Art: Pietro Longhi - The Giant Magrat
 ---
 
 ### content/bechorot/46.txt
-<a id="src-00110"></a>
+<a id="src-00111"></a>
 
 **Source file:** `content/bechorot/46.txt`
 
@@ -2372,7 +2385,7 @@ Art: Salomon de Bray - The Twins Clara and Aelbert de Bray
 ---
 
 ### content/bechorot/47.txt
-<a id="src-00111"></a>
+<a id="src-00112"></a>
 
 **Source file:** `content/bechorot/47.txt`
 
@@ -2388,7 +2401,7 @@ Art: Franz Cusaude - The Gosnall Twins
 ---
 
 ### content/bechorot/48.txt
-<a id="src-00112"></a>
+<a id="src-00113"></a>
 
 **Source file:** `content/bechorot/48.txt`
 
@@ -2404,7 +2417,7 @@ Art:&nbsp;Nicholas Gysis - New Arrival
 ---
 
 ### content/bechorot/49.txt
-<a id="src-00113"></a>
+<a id="src-00114"></a>
 
 **Source file:** `content/bechorot/49.txt`
 
@@ -2420,7 +2433,7 @@ Art: George Frederic Watts - Death Crowning Innocence
 ---
 
 ### content/bechorot/5.txt
-<a id="src-00114"></a>
+<a id="src-00115"></a>
 
 **Source file:** `content/bechorot/5.txt`
 
@@ -2437,7 +2450,7 @@ Art: George Cruikshank I - The thief &nbsp;- Jonathan Wild Thief Turned Thief Ta
 ---
 
 ### content/bechorot/50.txt
-<a id="src-00115"></a>
+<a id="src-00116"></a>
 
 **Source file:** `content/bechorot/50.txt`
 
@@ -2455,7 +2468,7 @@ Art: Auguste Charpentier
 ---
 
 ### content/bechorot/51.txt
-<a id="src-00116"></a>
+<a id="src-00117"></a>
 
 **Source file:** `content/bechorot/51.txt`
 
@@ -2472,7 +2485,7 @@ Art: Jan Steen- A woman counting coins at a table
 ---
 
 ### content/bechorot/52.txt
-<a id="src-00117"></a>
+<a id="src-00118"></a>
 
 **Source file:** `content/bechorot/52.txt`
 
@@ -2488,7 +2501,7 @@ Art:&nbsp;Bartolome Esteban Murillo - The Prodigal Son Receiving His Portion Of 
 ---
 
 ### content/bechorot/53.txt
-<a id="src-00118"></a>
+<a id="src-00119"></a>
 
 **Source file:** `content/bechorot/53.txt`
 
@@ -2504,7 +2517,7 @@ Art: Albertus Verhoesen - A Summer Landscape With Cows And Sheep By A Pool And A
 ---
 
 ### content/bechorot/54.txt
-<a id="src-00119"></a>
+<a id="src-00120"></a>
 
 **Source file:** `content/bechorot/54.txt`
 
@@ -2520,7 +2533,7 @@ Art: Julien Dupre - A Shepherd And His Flock
 ---
 
 ### content/bechorot/55.txt
-<a id="src-00120"></a>
+<a id="src-00121"></a>
 
 **Source file:** `content/bechorot/55.txt`
 
@@ -2539,7 +2552,7 @@ Art: John Robert Keitley Duff - Highland Bridge with Shepherd and Flock
 ---
 
 ### content/bechorot/56.txt
-<a id="src-00121"></a>
+<a id="src-00122"></a>
 
 **Source file:** `content/bechorot/56.txt`
 
@@ -2555,7 +2568,7 @@ Art: Jusepe de Ribera - Jacob's Dream
 ---
 
 ### content/bechorot/57.txt
-<a id="src-00122"></a>
+<a id="src-00123"></a>
 
 **Source file:** `content/bechorot/57.txt`
 
@@ -2571,7 +2584,7 @@ Art: George Cochran Lambdin - The Little White Heifer
 ---
 
 ### content/bechorot/58.txt
-<a id="src-00123"></a>
+<a id="src-00124"></a>
 
 **Source file:** `content/bechorot/58.txt`
 
@@ -2587,7 +2600,7 @@ Art: Theophile Louis Deyrolle - A Shepherdess and her Flock
 ---
 
 ### content/bechorot/59.txt
-<a id="src-00124"></a>
+<a id="src-00125"></a>
 
 **Source file:** `content/bechorot/59.txt`
 
@@ -2606,7 +2619,7 @@ Art:&nbsp;Ary Johannes Lamme - Paying The Tithe
 ---
 
 ### content/bechorot/6.txt
-<a id="src-00125"></a>
+<a id="src-00126"></a>
 
 **Source file:** `content/bechorot/6.txt`
 
@@ -2624,7 +2637,7 @@ Art:&nbsp;Karel Dujardin - A White Horse, A Cow And A Donkey In A Landscape
 ---
 
 ### content/bechorot/60.txt
-<a id="src-00126"></a>
+<a id="src-00127"></a>
 
 **Source file:** `content/bechorot/60.txt`
 
@@ -2643,7 +2656,7 @@ Art: Anton Mauve - Bringing Home The Flock
 ---
 
 ### content/bechorot/61.txt
-<a id="src-00127"></a>
+<a id="src-00128"></a>
 
 **Source file:** `content/bechorot/61.txt`
 
@@ -2659,7 +2672,7 @@ Art: Joseph Augustus Knip - A Flock Of Sheep In A Stable
 ---
 
 ### content/bechorot/7.txt
-<a id="src-00128"></a>
+<a id="src-00129"></a>
 
 **Source file:** `content/bechorot/7.txt`
 
@@ -2675,7 +2688,7 @@ Art:&nbsp;George Willoughby Maynard - Mermaids
 ---
 
 ### content/bechorot/8.txt
-<a id="src-00129"></a>
+<a id="src-00130"></a>
 
 **Source file:** `content/bechorot/8.txt`
 
@@ -2692,7 +2705,7 @@ Art: Jan van Kessel - The Enemies of Snakes
 ---
 
 ### content/bechorot/9.txt
-<a id="src-00130"></a>
+<a id="src-00131"></a>
 
 **Source file:** `content/bechorot/9.txt`
 
@@ -2710,7 +2723,7 @@ Art: John Singer Sargent - Donkeys in a Desert
 ---
 
 ### content/beitzah/10.txt
-<a id="src-00131"></a>
+<a id="src-00132"></a>
 
 **Source file:** `content/beitzah/10.txt`
 
@@ -2729,7 +2742,7 @@ Art:&nbsp;A peasant leaning on a spade by Matheus van Helmont
 ---
 
 ### content/beitzah/11.txt
-<a id="src-00132"></a>
+<a id="src-00133"></a>
 
 **Source file:** `content/beitzah/11.txt`
 
@@ -2747,7 +2760,7 @@ Art:&nbsp;Still Life Of Cockerels, White Doves, A Jay, Grey And Red-Legged Partr
 ---
 
 ### content/beitzah/12.txt
-<a id="src-00133"></a>
+<a id="src-00134"></a>
 
 **Source file:** `content/beitzah/12.txt`
 
@@ -2766,7 +2779,7 @@ Art: Girl Carrying a Child by William-Adolphe Bouguereau<br />
 ---
 
 ### content/beitzah/13.txt
-<a id="src-00134"></a>
+<a id="src-00135"></a>
 
 **Source file:** `content/beitzah/13.txt`
 
@@ -2788,7 +2801,7 @@ Art: Winnowing by William Edward Millner
 ---
 
 ### content/beitzah/14.txt
-<a id="src-00135"></a>
+<a id="src-00136"></a>
 
 **Source file:** `content/beitzah/14.txt`
 
@@ -2809,7 +2822,7 @@ Art: Preparing spices for market By Paul Saint-Jean
 ---
 
 ### content/beitzah/15.txt
-<a id="src-00136"></a>
+<a id="src-00137"></a>
 
 **Source file:** `content/beitzah/15.txt`
 
@@ -2827,7 +2840,7 @@ Art:&nbsp;A Kitchen Still Life With A Servant Boy Holding A Cask Of Wine by (aft
 ---
 
 ### content/beitzah/16.txt
-<a id="src-00137"></a>
+<a id="src-00138"></a>
 
 **Source file:** `content/beitzah/16.txt`
 
@@ -2844,7 +2857,7 @@ Art:&nbsp;The feast by Adriaen Brouwer<br />
 ---
 
 ### content/beitzah/17.txt
-<a id="src-00138"></a>
+<a id="src-00139"></a>
 
 **Source file:** `content/beitzah/17.txt`
 
@@ -2863,7 +2876,7 @@ Art: The Cooks by Theodule Augustine Ribot
 ---
 
 ### content/beitzah/18.txt
-<a id="src-00139"></a>
+<a id="src-00140"></a>
 
 **Source file:** `content/beitzah/18.txt`
 
@@ -2882,7 +2895,7 @@ Art: Peasants drawing Water from a Fountain by Gioacchino Assereto
 ---
 
 ### content/beitzah/19.txt
-<a id="src-00140"></a>
+<a id="src-00141"></a>
 
 **Source file:** `content/beitzah/19.txt`
 
@@ -2892,7 +2905,7 @@ Beitzah 19 - Cooking and eating the sacrifices
 ---
 
 ### content/beitzah/2.txt
-<a id="src-00141"></a>
+<a id="src-00142"></a>
 
 **Source file:** `content/beitzah/2.txt`
 
@@ -2917,7 +2930,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/20.txt
-<a id="src-00142"></a>
+<a id="src-00143"></a>
 
 **Source file:** `content/beitzah/20.txt`
 
@@ -2926,7 +2939,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/21.txt
-<a id="src-00143"></a>
+<a id="src-00144"></a>
 
 **Source file:** `content/beitzah/21.txt`
 
@@ -2935,7 +2948,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/22.txt
-<a id="src-00144"></a>
+<a id="src-00145"></a>
 
 **Source file:** `content/beitzah/22.txt`
 
@@ -2944,7 +2957,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/23.txt
-<a id="src-00145"></a>
+<a id="src-00146"></a>
 
 **Source file:** `content/beitzah/23.txt`
 
@@ -2953,7 +2966,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/24.txt
-<a id="src-00146"></a>
+<a id="src-00147"></a>
 
 **Source file:** `content/beitzah/24.txt`
 
@@ -2962,7 +2975,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/25.txt
-<a id="src-00147"></a>
+<a id="src-00148"></a>
 
 **Source file:** `content/beitzah/25.txt`
 
@@ -2971,7 +2984,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/26.txt
-<a id="src-00148"></a>
+<a id="src-00149"></a>
 
 **Source file:** `content/beitzah/26.txt`
 
@@ -2980,7 +2993,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/27.txt
-<a id="src-00149"></a>
+<a id="src-00150"></a>
 
 **Source file:** `content/beitzah/27.txt`
 
@@ -2989,7 +3002,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/28.txt
-<a id="src-00150"></a>
+<a id="src-00151"></a>
 
 **Source file:** `content/beitzah/28.txt`
 
@@ -2998,7 +3011,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/29.txt
-<a id="src-00151"></a>
+<a id="src-00152"></a>
 
 **Source file:** `content/beitzah/29.txt`
 
@@ -3007,7 +3020,7 @@ Art: Still Life With Bread And Eggs By Paul Cezanne
 ---
 
 ### content/beitzah/3.txt
-<a id="src-00152"></a>
+<a id="src-00153"></a>
 
 **Source file:** `content/beitzah/3.txt`
 
@@ -3029,7 +3042,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/30.txt
-<a id="src-00153"></a>
+<a id="src-00154"></a>
 
 **Source file:** `content/beitzah/30.txt`
 
@@ -3038,7 +3051,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/31.txt
-<a id="src-00154"></a>
+<a id="src-00155"></a>
 
 **Source file:** `content/beitzah/31.txt`
 
@@ -3047,7 +3060,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/32.txt
-<a id="src-00155"></a>
+<a id="src-00156"></a>
 
 **Source file:** `content/beitzah/32.txt`
 
@@ -3056,7 +3069,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/33.txt
-<a id="src-00156"></a>
+<a id="src-00157"></a>
 
 **Source file:** `content/beitzah/33.txt`
 
@@ -3065,7 +3078,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/34.txt
-<a id="src-00157"></a>
+<a id="src-00158"></a>
 
 **Source file:** `content/beitzah/34.txt`
 
@@ -3074,7 +3087,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/35.txt
-<a id="src-00158"></a>
+<a id="src-00159"></a>
 
 **Source file:** `content/beitzah/35.txt`
 
@@ -3083,7 +3096,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/36.txt
-<a id="src-00159"></a>
+<a id="src-00160"></a>
 
 **Source file:** `content/beitzah/36.txt`
 
@@ -3092,7 +3105,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/37.txt
-<a id="src-00160"></a>
+<a id="src-00161"></a>
 
 **Source file:** `content/beitzah/37.txt`
 
@@ -3101,7 +3114,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/38.txt
-<a id="src-00161"></a>
+<a id="src-00162"></a>
 
 **Source file:** `content/beitzah/38.txt`
 
@@ -3110,7 +3123,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/39.txt
-<a id="src-00162"></a>
+<a id="src-00163"></a>
 
 **Source file:** `content/beitzah/39.txt`
 
@@ -3119,7 +3132,7 @@ Art: Still Life with Fruit, Bird's Nest and Broken Egg By George Forster
 ---
 
 ### content/beitzah/4.txt
-<a id="src-00163"></a>
+<a id="src-00164"></a>
 
 **Source file:** `content/beitzah/4.txt`
 
@@ -3138,7 +3151,7 @@ Art: Two hens by (after) Adriaen Van Utrecht
 ---
 
 ### content/beitzah/40.txt
-<a id="src-00164"></a>
+<a id="src-00165"></a>
 
 **Source file:** `content/beitzah/40.txt`
 
@@ -3147,7 +3160,7 @@ Art: Two hens by (after) Adriaen Van Utrecht
 ---
 
 ### content/beitzah/5.txt
-<a id="src-00165"></a>
+<a id="src-00166"></a>
 
 **Source file:** `content/beitzah/5.txt`
 
@@ -3168,7 +3181,7 @@ Art: Moonrise over the Sea By Caspar David Friedrich
 ---
 
 ### content/beitzah/6.txt
-<a id="src-00166"></a>
+<a id="src-00167"></a>
 
 **Source file:** `content/beitzah/6.txt`
 
@@ -3186,7 +3199,7 @@ Art: The Proud Mother Hen and Chicks by John Frederick Herring Snr
 ---
 
 ### content/beitzah/7.txt
-<a id="src-00167"></a>
+<a id="src-00168"></a>
 
 **Source file:** `content/beitzah/7.txt`
 
@@ -3208,7 +3221,7 @@ Art: Rooster with Hens and Chicks By Carl Jutz
 ---
 
 ### content/beitzah/8.txt
-<a id="src-00168"></a>
+<a id="src-00169"></a>
 
 **Source file:** `content/beitzah/8.txt`
 
@@ -3224,7 +3237,7 @@ Art:&nbsp;Woman Digging in an Orchard by Camille Pissarro
 ---
 
 ### content/beitzah/9.txt
-<a id="src-00169"></a>
+<a id="src-00170"></a>
 
 **Source file:** `content/beitzah/9.txt`
 
@@ -3243,7 +3256,7 @@ Art: The entrance to a large barn, a ladder leaning against the wall by Giovanni
 ---
 
 ### content/brachot/10.txt
-<a id="src-00170"></a>
+<a id="src-00171"></a>
 
 **Source file:** `content/brachot/10.txt`
 
@@ -3262,7 +3275,7 @@ Art: John Phillip - Prayer
 ---
 
 ### content/brachot/11.txt
-<a id="src-00171"></a>
+<a id="src-00172"></a>
 
 **Source file:** `content/brachot/11.txt`
 
@@ -3282,7 +3295,7 @@ Art: Paul Cezanne - Boy Resting
 ---
 
 ### content/brachot/12.txt
-<a id="src-00172"></a>
+<a id="src-00173"></a>
 
 **Source file:** `content/brachot/12.txt`
 
@@ -3304,7 +3317,7 @@ Art: Pierre Auguste Renoir - Glass of Wine
 ---
 
 ### content/brachot/13.txt
-<a id="src-00173"></a>
+<a id="src-00174"></a>
 
 **Source file:** `content/brachot/13.txt`
 
@@ -3322,7 +3335,7 @@ Art: Otto Herschel - Rabbi Reading The Torah
 ---
 
 ### content/brachot/14.txt
-<a id="src-00174"></a>
+<a id="src-00175"></a>
 
 **Source file:** `content/brachot/14.txt`
 
@@ -3337,7 +3350,7 @@ Art: Daniele Crespi - Fasting
 ---
 
 ### content/brachot/15.txt
-<a id="src-00175"></a>
+<a id="src-00176"></a>
 
 **Source file:** `content/brachot/15.txt`
 
@@ -3355,7 +3368,7 @@ Art: Jan Lievens - Washing the hands
 ---
 
 ### content/brachot/16.txt
-<a id="src-00176"></a>
+<a id="src-00177"></a>
 
 **Source file:** `content/brachot/16.txt`
 
@@ -3374,7 +3387,7 @@ Antonius Heusler - Portrait of a Bridegroom
 ---
 
 ### content/brachot/17.txt
-<a id="src-00177"></a>
+<a id="src-00178"></a>
 
 **Source file:** `content/brachot/17.txt`
 
@@ -3395,7 +3408,7 @@ Art: Vittore Ghislandi - Portrait Of Giovanni Secco Suardo And His Servant
 ---
 
 ### content/brachot/18.txt
-<a id="src-00178"></a>
+<a id="src-00179"></a>
 
 **Source file:** `content/brachot/18.txt`
 
@@ -3417,7 +3430,7 @@ Art: Theodore Gericault - Head of a dead young man
 ---
 
 ### content/brachot/19.txt
-<a id="src-00179"></a>
+<a id="src-00180"></a>
 
 **Source file:** `content/brachot/19.txt`
 
@@ -3439,7 +3452,7 @@ Art: German Unknown Masters - Parable of the Unfaithful Servant
 ---
 
 ### content/brachot/2.txt
-<a id="src-00180"></a>
+<a id="src-00181"></a>
 
 **Source file:** `content/brachot/2.txt`
 
@@ -3458,7 +3471,7 @@ Art: Vincent Van Gogh - Four Peasants at a Meal
 ---
 
 ### content/brachot/20.txt
-<a id="src-00181"></a>
+<a id="src-00182"></a>
 
 **Source file:** `content/brachot/20.txt`
 
@@ -3480,7 +3493,7 @@ Art: Paul Mathey - Woman &amp; Child in an Interior
 ---
 
 ### content/brachot/21.txt
-<a id="src-00182"></a>
+<a id="src-00183"></a>
 
 **Source file:** `content/brachot/21.txt`
 
@@ -3496,7 +3509,7 @@ Art: Peder Vilhelm Ilsted - Boy Studying
 ---
 
 ### content/brachot/22.txt
-<a id="src-00183"></a>
+<a id="src-00184"></a>
 
 **Source file:** `content/brachot/22.txt`
 
@@ -3514,7 +3527,7 @@ Art: Antonio Rotta - Student Dreamer
 ---
 
 ### content/brachot/23.txt
-<a id="src-00184"></a>
+<a id="src-00185"></a>
 
 **Source file:** `content/brachot/23.txt`
 
@@ -3533,7 +3546,7 @@ Art: Edward Henry Potthast - Bathing Boy
 ---
 
 ### content/brachot/24.txt
-<a id="src-00185"></a>
+<a id="src-00186"></a>
 
 **Source file:** `content/brachot/24.txt`
 
@@ -3552,7 +3565,7 @@ Art: Sir Anthony Van Dyck - Portrait of Mary Ruthven, wife of the artist
 ---
 
 ### content/brachot/25.txt
-<a id="src-00186"></a>
+<a id="src-00187"></a>
 
 **Source file:** `content/brachot/25.txt`
 
@@ -3566,7 +3579,7 @@ Art: David The Younger Teniers - The Five Senses Series- Smelling
 ---
 
 ### content/brachot/26.txt
-<a id="src-00187"></a>
+<a id="src-00188"></a>
 
 **Source file:** `content/brachot/26.txt`
 
@@ -3585,7 +3598,7 @@ Art: Isidor Kaufmann - Chassid in Gedanken
 ---
 
 ### content/brachot/27.txt
-<a id="src-00188"></a>
+<a id="src-00189"></a>
 
 **Source file:** `content/brachot/27.txt`
 
@@ -3601,7 +3614,7 @@ Art: Frederick Childe Hassam - Sunday Morning
 ---
 
 ### content/brachot/28.txt
-<a id="src-00189"></a>
+<a id="src-00190"></a>
 
 **Source file:** `content/brachot/28.txt`
 
@@ -3622,7 +3635,7 @@ Art: Isidor Kaufmann - Portrait of a rabbi
 ---
 
 ### content/brachot/29.txt
-<a id="src-00190"></a>
+<a id="src-00191"></a>
 
 **Source file:** `content/brachot/29.txt`
 
@@ -3644,7 +3657,7 @@ Art: Albert Anker - Boy Writing
 ---
 
 ### content/brachot/3.txt
-<a id="src-00191"></a>
+<a id="src-00192"></a>
 
 **Source file:** `content/brachot/3.txt`
 
@@ -3663,7 +3676,7 @@ Art: Rosa Bonheur - Lion and Prey
 ---
 
 ### content/brachot/30.txt
-<a id="src-00192"></a>
+<a id="src-00193"></a>
 
 **Source file:** `content/brachot/30.txt`
 
@@ -3682,7 +3695,7 @@ Art: Camille Pissarro - The Donkey Ride at Le Roche Guyon
 ---
 
 ### content/brachot/31.txt
-<a id="src-00193"></a>
+<a id="src-00194"></a>
 
 **Source file:** `content/brachot/31.txt`
 
@@ -3705,7 +3718,7 @@ Art: William Brassey Hole - The sorrow of king David
 ---
 
 ### content/brachot/32.txt
-<a id="src-00194"></a>
+<a id="src-00195"></a>
 
 **Source file:** `content/brachot/32.txt`
 
@@ -3723,7 +3736,7 @@ Art: Eanger Irving Couse - The Pottery Maker
 ---
 
 ### content/brachot/33.txt
-<a id="src-00195"></a>
+<a id="src-00196"></a>
 
 **Source file:** `content/brachot/33.txt`
 
@@ -3745,7 +3758,7 @@ Art: Paulus Van Somer - King James I of England
 ---
 
 ### content/brachot/34.txt
-<a id="src-00196"></a>
+<a id="src-00197"></a>
 
 **Source file:** `content/brachot/34.txt`
 
@@ -3764,7 +3777,7 @@ Art: Archibald Thorburn - House martins, on a nest beneath the eves
 ---
 
 ### content/brachot/35.txt
-<a id="src-00197"></a>
+<a id="src-00198"></a>
 
 **Source file:** `content/brachot/35.txt`
 
@@ -3783,7 +3796,7 @@ Art: Cornelis De Heem - Still life with wine and grapes
 ---
 
 ### content/brachot/36.txt
-<a id="src-00198"></a>
+<a id="src-00199"></a>
 
 **Source file:** `content/brachot/36.txt`
 
@@ -3798,7 +3811,7 @@ Art: Frederic Edwin Church - Tamaca Palms
 ---
 
 ### content/brachot/37.txt
-<a id="src-00199"></a>
+<a id="src-00200"></a>
 
 **Source file:** `content/brachot/37.txt`
 
@@ -3817,7 +3830,7 @@ Art: Felix Edouard Vallotton - Still Life with Red Peppers on a White Lacquered 
 ---
 
 ### content/brachot/38.txt
-<a id="src-00200"></a>
+<a id="src-00201"></a>
 
 **Source file:** `content/brachot/38.txt`
 
@@ -3836,7 +3849,7 @@ Art: August Muller - A bottle of Chateau Margaux, a goblet, fruit, bread, cheese
 ---
 
 ### content/brachot/39.txt
-<a id="src-00201"></a>
+<a id="src-00202"></a>
 
 **Source file:** `content/brachot/39.txt`
 
@@ -3855,7 +3868,7 @@ Art: J. Francis Sartorius - Brace of English Partridge
 ---
 
 ### content/brachot/4.txt
-<a id="src-00202"></a>
+<a id="src-00203"></a>
 
 **Source file:** `content/brachot/4.txt`
 
@@ -3874,7 +3887,7 @@ Art: Andrea Celesti - King David Playing the Zither
 ---
 
 ### content/brachot/40.txt
-<a id="src-00203"></a>
+<a id="src-00204"></a>
 
 **Source file:** `content/brachot/40.txt`
 
@@ -3890,7 +3903,7 @@ Art: Francisco De Goya y Lucientes - Still life with fruit, bottles, breads
 ---
 
 ### content/brachot/41.txt
-<a id="src-00204"></a>
+<a id="src-00205"></a>
 
 **Source file:** `content/brachot/41.txt`
 
@@ -3909,7 +3922,7 @@ Art: Bartolommeo Bimbi - A Bunch of Dates
 ---
 
 ### content/brachot/42.txt
-<a id="src-00205"></a>
+<a id="src-00206"></a>
 
 **Source file:** `content/brachot/42.txt`
 
@@ -3925,7 +3938,7 @@ Art: Anthonie Palamedesz - A servant offering a glass of wine to an elegant coup
 ---
 
 ### content/brachot/43.txt
-<a id="src-00206"></a>
+<a id="src-00207"></a>
 
 **Source file:** `content/brachot/43.txt`
 
@@ -3944,7 +3957,7 @@ Art: Jan Steen - The Meal
 ---
 
 ### content/brachot/44.txt
-<a id="src-00207"></a>
+<a id="src-00208"></a>
 
 **Source file:** `content/brachot/44.txt`
 
@@ -3966,7 +3979,7 @@ Art: Claude Oscar Monet - Fruit Basket With Apples And Grapes
 ---
 
 ### content/brachot/45.txt
-<a id="src-00208"></a>
+<a id="src-00209"></a>
 
 **Source file:** `content/brachot/45.txt`
 
@@ -3984,7 +3997,7 @@ Art: Gillis Van Tilborch - Elegant company at a table on a terrace
 ---
 
 ### content/brachot/46.txt
-<a id="src-00209"></a>
+<a id="src-00210"></a>
 
 **Source file:** `content/brachot/46.txt`
 
@@ -4003,7 +4016,7 @@ Art: George, of Chichester Smith - Still Life With Bread, Cheese And A Decanter
 ---
 
 ### content/brachot/47.txt
-<a id="src-00210"></a>
+<a id="src-00211"></a>
 
 **Source file:** `content/brachot/47.txt`
 
@@ -4022,7 +4035,7 @@ Art: Willem Kalf - Landscape With A Man Unloading Produce From A Donkey
 ---
 
 ### content/brachot/48.txt
-<a id="src-00211"></a>
+<a id="src-00212"></a>
 
 **Source file:** `content/brachot/48.txt`
 
@@ -4045,7 +4058,7 @@ Art: John Francis - Still Life Fruit And Wine Glass
 ---
 
 ### content/brachot/49.txt
-<a id="src-00212"></a>
+<a id="src-00213"></a>
 
 **Source file:** `content/brachot/49.txt`
 
@@ -4067,7 +4080,7 @@ Art: Jacques des Rousseaux - An Old Man At Prayer
 ---
 
 ### content/brachot/5.txt
-<a id="src-00213"></a>
+<a id="src-00214"></a>
 
 **Source file:** `content/brachot/5.txt`
 
@@ -4086,7 +4099,7 @@ Art: Cornelis Bisschop - Old Woman Sleeping
 ---
 
 ### content/brachot/50.txt
-<a id="src-00214"></a>
+<a id="src-00215"></a>
 
 **Source file:** `content/brachot/50.txt`
 
@@ -4105,7 +4118,7 @@ Art: Claude Oscar Monet - The Dinner
 ---
 
 ### content/brachot/51.txt
-<a id="src-00215"></a>
+<a id="src-00216"></a>
 
 **Source file:** `content/brachot/51.txt`
 
@@ -4124,7 +4137,7 @@ Art: Hendrick Maertensz. Sorch (a.k.a Sorgh) - A Barn Interior With A Still Life
 ---
 
 ### content/brachot/52.txt
-<a id="src-00216"></a>
+<a id="src-00217"></a>
 
 **Source file:** `content/brachot/52.txt`
 
@@ -4143,7 +4156,7 @@ Art: Pierre Auguste Renoir - Sweeper
 ---
 
 ### content/brachot/53.txt
-<a id="src-00217"></a>
+<a id="src-00218"></a>
 
 **Source file:** `content/brachot/53.txt`
 
@@ -4163,7 +4176,7 @@ Art: Alberto Pasini - Caravan In The Desert
 ---
 
 ### content/brachot/54.txt
-<a id="src-00218"></a>
+<a id="src-00219"></a>
 
 **Source file:** `content/brachot/54.txt`
 
@@ -4184,7 +4197,7 @@ Art: Pieter Cornelisz. van SLINGELANDT - A Kitchen Scene with a Maid Drawing Wat
 ---
 
 ### content/brachot/55.txt
-<a id="src-00219"></a>
+<a id="src-00220"></a>
 
 **Source file:** `content/brachot/55.txt`
 
@@ -4208,7 +4221,7 @@ Art: Domenico Maggiotto - Joseph interpreting the dreams of Pharaoh's Butler and
 ---
 
 ### content/brachot/56.txt
-<a id="src-00220"></a>
+<a id="src-00221"></a>
 
 **Source file:** `content/brachot/56.txt`
 
@@ -4232,7 +4245,7 @@ Art: John Anster Fitzgerald - The Stuff that Dreams are made of
 ---
 
 ### content/brachot/57.txt
-<a id="src-00221"></a>
+<a id="src-00222"></a>
 
 **Source file:** `content/brachot/57.txt`
 
@@ -4251,7 +4264,7 @@ Art: Jacques Carabain - Belgian Riverside
 ---
 
 ### content/brachot/58.txt
-<a id="src-00222"></a>
+<a id="src-00223"></a>
 
 **Source file:** `content/brachot/58.txt`
 
@@ -4271,7 +4284,7 @@ Art: Rembrandt Van Rijn - A Scholar
 ---
 
 ### content/brachot/59.txt
-<a id="src-00223"></a>
+<a id="src-00224"></a>
 
 **Source file:** `content/brachot/59.txt`
 
@@ -4293,7 +4306,7 @@ Bartolome Esteban Murillo - The Prodigal Son Receives His Rightful Inheritance
 ---
 
 ### content/brachot/6.txt
-<a id="src-00224"></a>
+<a id="src-00225"></a>
 
 **Source file:** `content/brachot/6.txt`
 
@@ -4311,7 +4324,7 @@ Art: Henriette Ronner-Knip - A black cat
 ---
 
 ### content/brachot/60.txt
-<a id="src-00225"></a>
+<a id="src-00226"></a>
 
 **Source file:** `content/brachot/60.txt`
 
@@ -4330,7 +4343,7 @@ Art: Arthur von Ferraris - The Learned Man
 ---
 
 ### content/brachot/61.txt
-<a id="src-00226"></a>
+<a id="src-00227"></a>
 
 **Source file:** `content/brachot/61.txt`
 
@@ -4340,7 +4353,7 @@ Brachot 61 - All that God does is for the good (Blessings)
 ---
 
 ### content/brachot/62.txt
-<a id="src-00227"></a>
+<a id="src-00228"></a>
 
 **Source file:** `content/brachot/62.txt`
 
@@ -4350,7 +4363,7 @@ Brachot 62 - Bedside Manners (Blessings)
 ---
 
 ### content/brachot/63.txt
-<a id="src-00228"></a>
+<a id="src-00229"></a>
 
 **Source file:** `content/brachot/63.txt`
 
@@ -4360,7 +4373,7 @@ Brachot 63 - When to Nullify the Torah and When to Uphold It - (Blessings)
 ---
 
 ### content/brachot/64.txt
-<a id="src-00229"></a>
+<a id="src-00230"></a>
 
 **Source file:** `content/brachot/64.txt`
 
@@ -4370,7 +4383,7 @@ Brachot 64 - Do Not Force Your Luck (Blessing)
 ---
 
 ### content/brachot/7.txt
-<a id="src-00230"></a>
+<a id="src-00231"></a>
 
 **Source file:** `content/brachot/7.txt`
 
@@ -4392,7 +4405,7 @@ Art: Caravaggio - The Seven Acts of Mercy (detail)
 ---
 
 ### content/brachot/8.txt
-<a id="src-00231"></a>
+<a id="src-00232"></a>
 
 **Source file:** `content/brachot/8.txt`
 
@@ -4410,7 +4423,7 @@ Art: Allan Ramsay - The painters wife, Margaret Lindsay
 ---
 
 ### content/brachot/9.txt
-<a id="src-00232"></a>
+<a id="src-00233"></a>
 
 **Source file:** `content/brachot/9.txt`
 
@@ -4428,7 +4441,7 @@ Art: Hieronymous Bosch - Marriage Feast at Cana
 ---
 
 ### content/chagigah/10.txt
-<a id="src-00233"></a>
+<a id="src-00234"></a>
 
 **Source file:** `content/chagigah/10.txt`
 
@@ -4437,7 +4450,7 @@ Art: Hieronymous Bosch - Marriage Feast at Cana
 ---
 
 ### content/chagigah/11.txt
-<a id="src-00234"></a>
+<a id="src-00235"></a>
 
 **Source file:** `content/chagigah/11.txt`
 
@@ -4446,7 +4459,7 @@ Art: Hieronymous Bosch - Marriage Feast at Cana
 ---
 
 ### content/chagigah/12.txt
-<a id="src-00235"></a>
+<a id="src-00236"></a>
 
 **Source file:** `content/chagigah/12.txt`
 
@@ -4455,7 +4468,7 @@ Art: Hieronymous Bosch - Marriage Feast at Cana
 ---
 
 ### content/chagigah/13.txt
-<a id="src-00236"></a>
+<a id="src-00237"></a>
 
 **Source file:** `content/chagigah/13.txt`
 
@@ -4475,7 +4488,7 @@ Art: Interior Scene, Called 'Mystery' By Edouard (Jean-Edouard) Vuillard
 ---
 
 ### content/chagigah/14.txt
-<a id="src-00237"></a>
+<a id="src-00238"></a>
 
 **Source file:** `content/chagigah/14.txt`
 
@@ -4484,7 +4497,7 @@ Art: Interior Scene, Called 'Mystery' By Edouard (Jean-Edouard) Vuillard
 ---
 
 ### content/chagigah/15.txt
-<a id="src-00238"></a>
+<a id="src-00239"></a>
 
 **Source file:** `content/chagigah/15.txt`
 
@@ -4493,7 +4506,7 @@ Art: Interior Scene, Called 'Mystery' By Edouard (Jean-Edouard) Vuillard
 ---
 
 ### content/chagigah/16.txt
-<a id="src-00239"></a>
+<a id="src-00240"></a>
 
 **Source file:** `content/chagigah/16.txt`
 
@@ -4502,7 +4515,7 @@ Art: Interior Scene, Called 'Mystery' By Edouard (Jean-Edouard) Vuillard
 ---
 
 ### content/chagigah/17.txt
-<a id="src-00240"></a>
+<a id="src-00241"></a>
 
 **Source file:** `content/chagigah/17.txt`
 
@@ -4511,7 +4524,7 @@ Art: Interior Scene, Called 'Mystery' By Edouard (Jean-Edouard) Vuillard
 ---
 
 ### content/chagigah/18.txt
-<a id="src-00241"></a>
+<a id="src-00242"></a>
 
 **Source file:** `content/chagigah/18.txt`
 
@@ -4520,7 +4533,7 @@ Art: Interior Scene, Called 'Mystery' By Edouard (Jean-Edouard) Vuillard
 ---
 
 ### content/chagigah/19.txt
-<a id="src-00242"></a>
+<a id="src-00243"></a>
 
 **Source file:** `content/chagigah/19.txt`
 
@@ -4529,7 +4542,7 @@ Art: Interior Scene, Called 'Mystery' By Edouard (Jean-Edouard) Vuillard
 ---
 
 ### content/chagigah/2.txt
-<a id="src-00243"></a>
+<a id="src-00244"></a>
 
 **Source file:** `content/chagigah/2.txt`
 
@@ -4549,7 +4562,7 @@ Art: Village Celebrations by David The Younger Teniers
 ---
 
 ### content/chagigah/20.txt
-<a id="src-00244"></a>
+<a id="src-00245"></a>
 
 **Source file:** `content/chagigah/20.txt`
 
@@ -4572,7 +4585,7 @@ Art: Women Weaving By Enoch Wood Perry
 ---
 
 ### content/chagigah/21.txt
-<a id="src-00245"></a>
+<a id="src-00246"></a>
 
 **Source file:** `content/chagigah/21.txt`
 
@@ -4591,7 +4604,7 @@ Art: A personification of Purity by Simone Pignone
 ---
 
 ### content/chagigah/22.txt
-<a id="src-00246"></a>
+<a id="src-00247"></a>
 
 **Source file:** `content/chagigah/22.txt`
 
@@ -4613,7 +4626,7 @@ Art: A Barn Interior With A Still Life Of Kitchen Utensils And An Owl, Two Men B
 ---
 
 ### content/chagigah/23.txt
-<a id="src-00247"></a>
+<a id="src-00248"></a>
 
 **Source file:** `content/chagigah/23.txt`
 
@@ -4622,7 +4635,7 @@ Art: A Barn Interior With A Still Life Of Kitchen Utensils And An Owl, Two Men B
 ---
 
 ### content/chagigah/24.txt
-<a id="src-00248"></a>
+<a id="src-00249"></a>
 
 **Source file:** `content/chagigah/24.txt`
 
@@ -4631,7 +4644,7 @@ Art: A Barn Interior With A Still Life Of Kitchen Utensils And An Owl, Two Men B
 ---
 
 ### content/chagigah/25.txt
-<a id="src-00249"></a>
+<a id="src-00250"></a>
 
 **Source file:** `content/chagigah/25.txt`
 
@@ -4649,7 +4662,7 @@ Art: The fine wine by French School
 ---
 
 ### content/chagigah/26.txt
-<a id="src-00250"></a>
+<a id="src-00251"></a>
 
 **Source file:** `content/chagigah/26.txt`
 
@@ -4665,7 +4678,7 @@ Art: The fruit thief by  Jean Raoux
 ---
 
 ### content/chagigah/27.txt
-<a id="src-00251"></a>
+<a id="src-00252"></a>
 
 **Source file:** `content/chagigah/27.txt`
 
@@ -4686,7 +4699,7 @@ Art: Still Life Of Pomegranates Upon A Pewter Dish by Juan De Zurbaran
 ---
 
 ### content/chagigah/3.txt
-<a id="src-00252"></a>
+<a id="src-00253"></a>
 
 **Source file:** `content/chagigah/3.txt`
 
@@ -4708,7 +4721,7 @@ Art: Two Brothers by Maurice Leloir
 ---
 
 ### content/chagigah/4.txt
-<a id="src-00253"></a>
+<a id="src-00254"></a>
 
 **Source file:** `content/chagigah/4.txt`
 
@@ -4730,7 +4743,7 @@ Art: Fishermen's Cemetery by Franz Heinrich Louis Corinth
 ---
 
 ### content/chagigah/5.txt
-<a id="src-00254"></a>
+<a id="src-00255"></a>
 
 **Source file:** `content/chagigah/5.txt`
 
@@ -4751,7 +4764,7 @@ Art: Julius Caesar By Peter Paul Rubens
 ---
 
 ### content/chagigah/6.txt
-<a id="src-00255"></a>
+<a id="src-00256"></a>
 
 **Source file:** `content/chagigah/6.txt`
 
@@ -4760,7 +4773,7 @@ Art: Julius Caesar By Peter Paul Rubens
 ---
 
 ### content/chagigah/7.txt
-<a id="src-00256"></a>
+<a id="src-00257"></a>
 
 **Source file:** `content/chagigah/7.txt`
 
@@ -4769,7 +4782,7 @@ Art: Julius Caesar By Peter Paul Rubens
 ---
 
 ### content/chagigah/8.txt
-<a id="src-00257"></a>
+<a id="src-00258"></a>
 
 **Source file:** `content/chagigah/8.txt`
 
@@ -4778,7 +4791,7 @@ Art: Julius Caesar By Peter Paul Rubens
 ---
 
 ### content/chagigah/9.txt
-<a id="src-00258"></a>
+<a id="src-00259"></a>
 
 **Source file:** `content/chagigah/9.txt`
 
@@ -4788,7 +4801,7 @@ Chagigah 9 - What is right and what is wrong
 ---
 
 ### content/chullin/10.txt
-<a id="src-00259"></a>
+<a id="src-00260"></a>
 
 **Source file:** `content/chullin/10.txt`
 
@@ -4804,7 +4817,7 @@ Art: Frans Wilhelm Odelmark - The Snake Charmer</span>
 ---
 
 ### content/chullin/100.txt
-<a id="src-00260"></a>
+<a id="src-00261"></a>
 
 **Source file:** `content/chullin/100.txt`
 
@@ -4821,7 +4834,7 @@ Art: Floris Gerritsz. van Schooten - A Kitchen Interior
 ---
 
 ### content/chullin/101.txt
-<a id="src-00261"></a>
+<a id="src-00262"></a>
 
 **Source file:** `content/chullin/101.txt`
 
@@ -4838,7 +4851,7 @@ Art: Andrea Commodi - Young Woman in the Kitchen
 ---
 
 ### content/chullin/102.txt
-<a id="src-00262"></a>
+<a id="src-00263"></a>
 
 **Source file:** `content/chullin/102.txt`
 
@@ -4856,7 +4869,7 @@ Art: Paolo Antonio Barbieri - Still Life With Plates, A Sack Filled With Olives,
 ---
 
 ### content/chullin/103.txt
-<a id="src-00263"></a>
+<a id="src-00264"></a>
 
 **Source file:** `content/chullin/103.txt`
 
@@ -4873,7 +4886,7 @@ Art: Martin Johnson Heade - Amethyst Hummingbirds And Red Flowers
 ---
 
 ### content/chullin/104.txt
-<a id="src-00264"></a>
+<a id="src-00265"></a>
 
 **Source file:** `content/chullin/104.txt`
 
@@ -4890,7 +4903,7 @@ Art: loris Claesz Van Dijck : Still Life With CheesesStill-Life with Cheeses
 ---
 
 ### content/chullin/105.txt
-<a id="src-00265"></a>
+<a id="src-00266"></a>
 
 **Source file:** `content/chullin/105.txt`
 
@@ -4911,7 +4924,7 @@ Art: Joris Van Son - Still-Life with Cheese
 ---
 
 ### content/chullin/106.txt
-<a id="src-00266"></a>
+<a id="src-00267"></a>
 
 **Source file:** `content/chullin/106.txt`
 
@@ -4932,7 +4945,7 @@ Art: Mikhail Aleksandrovich Vrubel : Demon sitting
 ---
 
 ### content/chullin/107.txt
-<a id="src-00267"></a>
+<a id="src-00268"></a>
 
 **Source file:** `content/chullin/107.txt`
 
@@ -4954,7 +4967,7 @@ Art: Giuseppe de Nittis - Breakfast in the garden
 ---
 
 ### content/chullin/108.txt
-<a id="src-00268"></a>
+<a id="src-00269"></a>
 
 **Source file:** `content/chullin/108.txt`
 
@@ -4976,7 +4989,7 @@ Art: Jean Baptiste-Simeon Chardin - The Kitchen Table
 ---
 
 ### content/chullin/109.txt
-<a id="src-00269"></a>
+<a id="src-00270"></a>
 
 **Source file:** `content/chullin/109.txt`
 
@@ -4998,7 +5011,7 @@ Art: Leo Malempre - Milking the Goat
 ---
 
 ### content/chullin/11.txt
-<a id="src-00270"></a>
+<a id="src-00271"></a>
 
 **Source file:** `content/chullin/11.txt`
 
@@ -5012,7 +5025,7 @@ How do we know the principle of majority?  – One who strikes his parent is to 
 ---
 
 ### content/chullin/110.txt
-<a id="src-00271"></a>
+<a id="src-00272"></a>
 
 **Source file:** `content/chullin/110.txt`
 
@@ -5058,7 +5071,7 @@ Art: Lorenzo Lotto - Portrait Of A Young Scholar
 ---
 
 ### content/chullin/111.txt
-<a id="src-00272"></a>
+<a id="src-00273"></a>
 
 **Source file:** `content/chullin/111.txt`
 
@@ -5077,7 +5090,7 @@ Art: Floris Gerritsz. van Schooten - A Still Life of Meat and Fish with a Cook
 ---
 
 ### content/chullin/112.txt
-<a id="src-00273"></a>
+<a id="src-00274"></a>
 
 **Source file:** `content/chullin/112.txt`
 
@@ -5101,7 +5114,7 @@ Art: Frederic Bazille - Still Life with Fish
 ---
 
 ### content/chullin/113.txt
-<a id="src-00274"></a>
+<a id="src-00275"></a>
 
 **Source file:** `content/chullin/113.txt`
 
@@ -5120,7 +5133,7 @@ Art: Ferdinand Loyen Du Puigaudeau - Landscape with Mill near the Salt Ponds
 ---
 
 ### content/chullin/114.txt
-<a id="src-00275"></a>
+<a id="src-00276"></a>
 
 **Source file:** `content/chullin/114.txt`
 
@@ -5139,7 +5152,7 @@ Art: Richard Ansdell - Feeding Goats in the Alhambra
 ---
 
 ### content/chullin/115.txt
-<a id="src-00276"></a>
+<a id="src-00277"></a>
 
 **Source file:** `content/chullin/115.txt`
 
@@ -5161,7 +5174,7 @@ Art: Sören Emil Carlse - Still Life with Ducks
 ---
 
 ### content/chullin/116.txt
-<a id="src-00277"></a>
+<a id="src-00278"></a>
 
 **Source file:** `content/chullin/116.txt`
 
@@ -5183,7 +5196,7 @@ Art: Julien Dupre - The Milkmaid
 ---
 
 ### content/chullin/117.txt
-<a id="src-00278"></a>
+<a id="src-00279"></a>
 
 **Source file:** `content/chullin/117.txt`
 
@@ -5205,7 +5218,7 @@ Art: Pieter Aertsen - Vendor Of Fowl
 ---
 
 ### content/chullin/118.txt
-<a id="src-00279"></a>
+<a id="src-00280"></a>
 
 **Source file:** `content/chullin/118.txt`
 
@@ -5227,7 +5240,7 @@ Art: Pieter Aertsen - Butcher's Stall
 ---
 
 ### content/chullin/119.txt
-<a id="src-00280"></a>
+<a id="src-00281"></a>
 
 **Source file:** `content/chullin/119.txt`
 
@@ -5249,7 +5262,7 @@ Art: Ignace Henri Jean Fantin-Latour - Still Life, Hyacinths and Fruit
 ---
 
 ### content/chullin/12.txt
-<a id="src-00281"></a>
+<a id="src-00282"></a>
 
 **Source file:** `content/chullin/12.txt`
 
@@ -5265,7 +5278,7 @@ Art: Winslow Homer - Salt Kettle - Bermuda</span>
 ---
 
 ### content/chullin/120.txt
-<a id="src-00282"></a>
+<a id="src-00283"></a>
 
 **Source file:** `content/chullin/120.txt`
 
@@ -5284,7 +5297,7 @@ Art: Aurelio Zingoni - The Hungry Chimney Sweep
 ---
 
 ### content/chullin/121.txt
-<a id="src-00283"></a>
+<a id="src-00284"></a>
 
 **Source file:** `content/chullin/121.txt`
 
@@ -5306,7 +5319,7 @@ Art: Simon Van Den Berg - Minding the animals
 ---
 
 ### content/chullin/122.txt
-<a id="src-00284"></a>
+<a id="src-00285"></a>
 
 **Source file:** `content/chullin/122.txt`
 
@@ -5331,7 +5344,7 @@ Art: Eugène-Alexis Girardet - Camel Train By An Oasis At Dawn
 ---
 
 ### content/chullin/123.txt
-<a id="src-00285"></a>
+<a id="src-00286"></a>
 
 **Source file:** `content/chullin/123.txt`
 
@@ -5350,7 +5363,7 @@ Art: Vincent Van Gogh - Still Life With Four Stone Bottles Flask And White Cup
 ---
 
 ### content/chullin/124.txt
-<a id="src-00286"></a>
+<a id="src-00287"></a>
 
 **Source file:** `content/chullin/124.txt`
 
@@ -5369,7 +5382,7 @@ Art: Bartolomeo Passerotti - The Butcher's Shop
 ---
 
 ### content/chullin/125.txt
-<a id="src-00287"></a>
+<a id="src-00288"></a>
 
 **Source file:** `content/chullin/125.txt`
 
@@ -5388,7 +5401,7 @@ Art: David The Younger Teniers - Sausage-making
 ---
 
 ### content/chullin/126.txt
-<a id="src-00288"></a>
+<a id="src-00289"></a>
 
 **Source file:** `content/chullin/126.txt`
 
@@ -5410,7 +5423,7 @@ Art: Willem Van Aelst - Still-Life with Mouse and Candle
 ---
 
 ### content/chullin/127.txt
-<a id="src-00289"></a>
+<a id="src-00290"></a>
 
 **Source file:** `content/chullin/127.txt`
 
@@ -5431,7 +5444,7 @@ Art: Pieter Gysels- Still Life with Vegetables, Meat, Fruit and Game
 ---
 
 ### content/chullin/128.txt
-<a id="src-00290"></a>
+<a id="src-00291"></a>
 
 **Source file:** `content/chullin/128.txt`
 
@@ -5454,7 +5467,7 @@ Art: Gustave Caillebotte - Rib Of Beef
 ---
 
 ### content/chullin/129.txt
-<a id="src-00291"></a>
+<a id="src-00292"></a>
 
 **Source file:** `content/chullin/129.txt`
 
@@ -5473,7 +5486,7 @@ Art: Arie de Vois - The Wanton Student
 ---
 
 ### content/chullin/13.txt
-<a id="src-00292"></a>
+<a id="src-00293"></a>
 
 **Source file:** `content/chullin/13.txt`
 
@@ -5487,7 +5500,7 @@ Art: Lombard School - A man eating and drinking at a partly-draped table in an i
 ---
 
 ### content/chullin/130.txt
-<a id="src-00293"></a>
+<a id="src-00294"></a>
 
 **Source file:** `content/chullin/130.txt`
 
@@ -5506,7 +5519,7 @@ Art: Pieter de Grebber - Elisha Refusing Gifts From Naaman
 ---
 
 ### content/chullin/131.txt
-<a id="src-00294"></a>
+<a id="src-00295"></a>
 
 **Source file:** `content/chullin/131.txt`
 
@@ -5525,7 +5538,7 @@ Art: Alessandro Sani - A Gift From Grandpa
 ---
 
 ### content/chullin/132.txt
-<a id="src-00295"></a>
+<a id="src-00296"></a>
 
 **Source file:** `content/chullin/132.txt`
 
@@ -5544,7 +5557,7 @@ Art: Eugène Verboeckhoven - A Panoramic Summer Landscape With Cattle Grazing In
 ---
 
 ### content/chullin/133.txt
-<a id="src-00296"></a>
+<a id="src-00297"></a>
 
 **Source file:** `content/chullin/133.txt`
 
@@ -5563,7 +5576,7 @@ Art: Gabriel Metsu - The Feast Of The Bean King
 ---
 
 ### content/chullin/134.txt
-<a id="src-00297"></a>
+<a id="src-00298"></a>
 
 **Source file:** `content/chullin/134.txt`
 
@@ -5585,7 +5598,7 @@ Art: Max Liebermann - Farmer and Cow
 ---
 
 ### content/chullin/135.txt
-<a id="src-00298"></a>
+<a id="src-00299"></a>
 
 **Source file:** `content/chullin/135.txt`
 
@@ -5604,7 +5617,7 @@ Art: John Frederick Tayler - Sheep Shearing
 ---
 
 ### content/chullin/136.txt
-<a id="src-00299"></a>
+<a id="src-00300"></a>
 
 **Source file:** `content/chullin/136.txt`
 
@@ -5626,7 +5639,7 @@ Art: George Lambert - Weighing The Fleece
 ---
 
 ### content/chullin/137.txt
-<a id="src-00300"></a>
+<a id="src-00301"></a>
 
 **Source file:** `content/chullin/137.txt`
 
@@ -5648,7 +5661,7 @@ Art: Paolo Veronese (Caliari) - Portrait of a Man in a Fur Coat
 ---
 
 ### content/chullin/138.txt
-<a id="src-00301"></a>
+<a id="src-00302"></a>
 
 **Source file:** `content/chullin/138.txt`
 
@@ -5666,7 +5679,7 @@ Art: John Anster Fitzgerald - Fairies In A Bird's Nest
 ---
 
 ### content/chullin/139.txt
-<a id="src-00302"></a>
+<a id="src-00303"></a>
 
 **Source file:** `content/chullin/139.txt`
 
@@ -5684,7 +5697,7 @@ Art:&nbsp;Bela Spanyi - Flock Of Birds At Sunset</span>
 ---
 
 ### content/chullin/14.txt
-<a id="src-00303"></a>
+<a id="src-00304"></a>
 
 **Source file:** `content/chullin/14.txt`
 
@@ -5699,7 +5712,7 @@ Art: Blind Musician - Cawen Alvar Sokea Soittoniekka<br />
 ---
 
 ### content/chullin/140.txt
-<a id="src-00304"></a>
+<a id="src-00305"></a>
 
 **Source file:** `content/chullin/140.txt`
 
@@ -5715,7 +5728,7 @@ Art: Jacomo (or Victor, Jacobus) Victors - Still Life Of Two Courting Doves, A P
 ---
 
 ### content/chullin/141.txt
-<a id="src-00305"></a>
+<a id="src-00306"></a>
 
 **Source file:** `content/chullin/141.txt`
 
@@ -5735,7 +5748,7 @@ Art:&nbsp;Martin Johnson Heade - Two Ruby Throats by their Nest
 ---
 
 ### content/chullin/142.txt
-<a id="src-00306"></a>
+<a id="src-00307"></a>
 
 **Source file:** `content/chullin/142.txt`
 
@@ -5755,7 +5768,7 @@ Art: Giovanni Battista Tiepolo - The entrance to a large barn, a ladder leaning 
 ---
 
 ### content/chullin/15.txt
-<a id="src-00307"></a>
+<a id="src-00308"></a>
 
 **Source file:** `content/chullin/15.txt`
 
@@ -5769,7 +5782,7 @@ Art: Reinier or Reynier Coveyn or Covyn - A Woman Preparing Fish in her Kitchen<
 ---
 
 ### content/chullin/16.txt
-<a id="src-00308"></a>
+<a id="src-00309"></a>
 
 **Source file:** `content/chullin/16.txt`
 
@@ -5787,7 +5800,7 @@ Art: Caravaggio - The Sacrifice of Isaac</span>
 ---
 
 ### content/chullin/17.txt
-<a id="src-00309"></a>
+<a id="src-00310"></a>
 
 **Source file:** `content/chullin/17.txt`
 
@@ -5801,7 +5814,7 @@ Art: Jozef Chelmonski - Dawn. The Kingdom of Birds</span>
 ---
 
 ### content/chullin/18.txt
-<a id="src-00310"></a>
+<a id="src-00311"></a>
 
 **Source file:** `content/chullin/18.txt`
 
@@ -5815,7 +5828,7 @@ Art: Leon Bonvin - Still Life With Basket Of Grapes, Walnuts And Knife</span>
 ---
 
 ### content/chullin/19.txt
-<a id="src-00311"></a>
+<a id="src-00312"></a>
 
 **Source file:** `content/chullin/19.txt`
 
@@ -5831,7 +5844,7 @@ Art: Henry Towneley Green - A Disagreement</span>
 ---
 
 ### content/chullin/2.txt
-<a id="src-00312"></a>
+<a id="src-00313"></a>
 
 **Source file:** `content/chullin/2.txt`
 
@@ -5849,7 +5862,7 @@ Art: Julien Dupre - A Shepherdess with Cows and Sheep in a Landscape</span>
 ---
 
 ### content/chullin/20.txt
-<a id="src-00313"></a>
+<a id="src-00314"></a>
 
 **Source file:** `content/chullin/20.txt`
 
@@ -5865,7 +5878,7 @@ Art: Jozef Chelmonski - Greeting Of The Sun Cranes</span>
 ---
 
 ### content/chullin/21.txt
-<a id="src-00314"></a>
+<a id="src-00315"></a>
 
 **Source file:** `content/chullin/21.txt`
 
@@ -5882,7 +5895,7 @@ Art: Francis Barlow - An Ostrich<br />
 ---
 
 ### content/chullin/22.txt
-<a id="src-00315"></a>
+<a id="src-00316"></a>
 
 **Source file:** `content/chullin/22.txt`
 
@@ -5898,7 +5911,7 @@ Art: James E. Bourhill - Pouter Pigeons</span>
 ---
 
 ### content/chullin/23.txt
-<a id="src-00316"></a>
+<a id="src-00317"></a>
 
 **Source file:** `content/chullin/23.txt`
 
@@ -5915,7 +5928,7 @@ Art: Antonio Paoletti - Feeding The Pigeons At Piazza St. Marco, Venice<br />
 ---
 
 ### content/chullin/24.txt
-<a id="src-00317"></a>
+<a id="src-00318"></a>
 
 **Source file:** `content/chullin/24.txt`
 
@@ -5932,7 +5945,7 @@ Art: Emil Jacobs - Young Student<br />
 ---
 
 ### content/chullin/25.txt
-<a id="src-00318"></a>
+<a id="src-00319"></a>
 
 **Source file:** `content/chullin/25.txt`
 
@@ -5948,7 +5961,7 @@ Art: Edgar Degas - Still Life With Lizard</span>
 ---
 
 ### content/chullin/26.txt
-<a id="src-00319"></a>
+<a id="src-00320"></a>
 
 **Source file:** `content/chullin/26.txt`
 
@@ -5965,7 +5978,7 @@ Art: Artemisia Gentileschi - Judith and Her Maidservant<br />
 ---
 
 ### content/chullin/27.txt
-<a id="src-00320"></a>
+<a id="src-00321"></a>
 
 **Source file:** `content/chullin/27.txt`
 
@@ -5982,7 +5995,7 @@ Art: Thomas Wade - Man Tickling a Woman's Nose with a Feather<br />
 ---
 
 ### content/chullin/28.txt
-<a id="src-00321"></a>
+<a id="src-00322"></a>
 
 **Source file:** `content/chullin/28.txt`
 
@@ -5997,7 +6010,7 @@ Art: Jan Fyt - A cat stalking dead songbirds on a ledge<br />
 ---
 
 ### content/chullin/29.txt
-<a id="src-00322"></a>
+<a id="src-00323"></a>
 
 **Source file:** `content/chullin/29.txt`
 
@@ -6013,7 +6026,7 @@ Art: Pieter Harmansz Verelst - A young boy reclining, eating from an earthenware
 ---
 
 ### content/chullin/3.txt
-<a id="src-00323"></a>
+<a id="src-00324"></a>
 
 **Source file:** `content/chullin/3.txt`
 
@@ -6027,7 +6040,7 @@ Art: James Charles - The Knifegrinder</span>
 ---
 
 ### content/chullin/30.txt
-<a id="src-00324"></a>
+<a id="src-00325"></a>
 
 **Source file:** `content/chullin/30.txt`
 
@@ -6042,7 +6055,7 @@ Art: Caspar David Friedrich - Two men at moonrise by the sea<br />
 ---
 
 ### content/chullin/31.txt
-<a id="src-00325"></a>
+<a id="src-00326"></a>
 
 **Source file:** `content/chullin/31.txt`
 
@@ -6056,7 +6069,7 @@ Art: Hans Memling - Portrait of a Man with an Arrow</span>
 ---
 
 ### content/chullin/32.txt
-<a id="src-00326"></a>
+<a id="src-00327"></a>
 
 **Source file:** `content/chullin/32.txt`
 
@@ -6072,7 +6085,7 @@ Art: Gerard Terborch - Woman Washing Hands</span>
 ---
 
 ### content/chullin/33.txt
-<a id="src-00327"></a>
+<a id="src-00328"></a>
 
 **Source file:** `content/chullin/33.txt`
 
@@ -6088,7 +6101,7 @@ Art: Jean-Baptiste Oudry - A Deer Chased by Dogs</span>
 ---
 
 ### content/chullin/34.txt
-<a id="src-00328"></a>
+<a id="src-00329"></a>
 
 **Source file:** `content/chullin/34.txt`
 
@@ -6102,7 +6115,7 @@ Art: Evert Pieters - Preparing The Meal</span>
 ---
 
 ### content/chullin/35.txt
-<a id="src-00329"></a>
+<a id="src-00330"></a>
 
 **Source file:** `content/chullin/35.txt`
 
@@ -6116,7 +6129,7 @@ Art: Christoffel Lubieniecki - Food Lovers</span>
 ---
 
 ### content/chullin/36.txt
-<a id="src-00330"></a>
+<a id="src-00331"></a>
 
 **Source file:** `content/chullin/36.txt`
 
@@ -6131,7 +6144,7 @@ Art: Jan Lievens - Jacob Receiving the Blooded Tunic of Joseph<br />
 ---
 
 ### content/chullin/37.txt
-<a id="src-00331"></a>
+<a id="src-00332"></a>
 
 **Source file:** `content/chullin/37.txt`
 
@@ -6145,7 +6158,7 @@ Art: Frans Snyders - A deer, a fawn and other dead game suspended on hooks</span
 ---
 
 ### content/chullin/38.txt
-<a id="src-00332"></a>
+<a id="src-00333"></a>
 
 **Source file:** `content/chullin/38.txt`
 
@@ -6161,7 +6174,7 @@ Art: Frank Johnson - The Wounded Buffalo</span>
 ---
 
 ### content/chullin/39.txt
-<a id="src-00333"></a>
+<a id="src-00334"></a>
 
 **Source file:** `content/chullin/39.txt`
 
@@ -6177,7 +6190,7 @@ Art: Jacob Willemsz de Wet the Elder - Figures Offering A Sacrifice In A Temple<
 ---
 
 ### content/chullin/4.txt
-<a id="src-00334"></a>
+<a id="src-00335"></a>
 
 **Source file:** `content/chullin/4.txt`
 
@@ -6195,7 +6208,7 @@ Art: Paul Gauguin - Portrait Of The Artist With The Idol </span>
 ---
 
 ### content/chullin/40.txt
-<a id="src-00335"></a>
+<a id="src-00336"></a>
 
 **Source file:** `content/chullin/40.txt`
 
@@ -6211,7 +6224,7 @@ Art: Gustave Dore - Gorge In The Mountains</span>
 ---
 
 ### content/chullin/41.txt
-<a id="src-00336"></a>
+<a id="src-00337"></a>
 
 **Source file:** `content/chullin/41.txt`
 
@@ -6229,23 +6242,23 @@ Art: Carl Spitzweg - Still Life With A Jellyjar, A Carafe And A Bottle Of Wine</
 ---
 
 ### content/chullin/42.txt
-<a id="src-00337"></a>
+<a id="src-00338"></a>
 
 **Source file:** `content/chullin/42.txt`
 
 Chullin 42 – These Are The Cases of Terefah
-<div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk4CUQr_SLO_krQzRo52GqaykgkL5RTGy8dG-9ifjDNLGySiNOtPxcEQfQvZ3BaAmipkTTi2FNt8tmZ6xQ0oDV4NZqazPa2-jS6_iCn53-LhdYNjPcRAAF7B3_yZuoWuHH1E7mW9B-3rk/s1600/George+Frederick+Watts+-+The+Wounded+Heron.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk4CUQr_SLO_krQzRo52GqaykgkL5RTGy8dG-9ifjDNLGySiNOtPxcEQfQvZ3BaAmipkTTi2FNt8tmZ6xQ0oDV4NZqazPa2-jS6_iCn53-LhdYNjPcRAAF7B3_yZuoWuHH1E7mW9B-3rk/s320/George+Frederick+Watts+-+The+Wounded+Heron.jpg" width="244" /></a></div><span style="font-size: medium;">The Torah said, “<a href="http://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=2&amp;CHAPTER=22#P2142">Do not eat flesh torn off in the field by a predator</a>.” This cannot mean that the animal already died by itself – for then it would be a case of nevelah, carcass. Rather, it is talking about an animal that is fatally wounded. Even if it was properly slaughtered, it is forbidden to be eaten as “terefah.” The defect may be caused by an animal or a man, in any place, it can even be congenital, and “in the field” simply describes a common scenario.<br />
+<div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk4CUQr_SLO_krQzRo52GqaykgkL5RTGy8dG-9ifjDNLGySiNOtPxcEQfQvZ3BaAmipkTTi2FNt8tmZ6xQ0oDV4NZqazPa2-jS6_iCn53-LhdYNjPcRAAF7B3_yZuoWuHH1E7mW9B-3rk/s1600/George+Frederick+Watts+-+The+Wounded+Heron.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk4CUQr_SLO_krQzRo52GqaykgkL5RTGy8dG-9ifjDNLGySiNOtPxcEQfQvZ3BaAmipkTTi2FNt8tmZ6xQ0oDV4NZqazPa2-jS6_iCn53-LhdYNjPcRAAF7B3_yZuoWuHH1E7mW9B-3rk/s320/George+Frederick+Watts+-+The+Wounded+Heron.jpg" width="244" /></a></div><span style="font-size: medium;">The Torah said, “<a href="http://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=2&amp;CHAPTER=22#P2142">Do not eat flesh torn off in the field by a predator</a>.” This cannot mean that the animal already died by itself, for then it would be a case of nevelah, carcass. Rather, it is talking about an animal that is fatally wounded. Even if it was properly slaughtered, it is forbidden to be eaten as “terefah.” The defect may be caused by an animal or a man, in any place, it can even be congenital, and “in the field” simply describes a common scenario.<br />
 <br />
-There are eight general categories of <a href="http://mkerzner.blogspot.com/2011/07/terefah-and-nevelah-two-categories-of.html">terefah</a>, taught to Moses on Sinai, and they can be arranged according to the Hebrew acronym of “dan chanak nefesh(דן חנק נףש).” They are: clawed, punctured, deficient, removed, torn, fallen, severed, and fractured. For practical purposes the classification of terefah was divided into eighteen cases, starting with an animal whose esophagus was punctured, one whose trachea was severed, whose brain was punctured, and so on.<br />
+There are eight general categories of <a href="http://mkerzner.blogspot.com/2011/07/terefah-and-nevelah-two-categories-of.html">terefah</a>, taught to Moses on Sinai, which can be arranged according to the Hebrew acronym "dan chanak nefesh." They are: clawed, punctured, deficient, removed, torn, fallen, severed, and fractured. For practical purposes, the classification of terefah was divided into eighteen cases, starting with an animal whose esophagus was punctured, one whose trachea was severed, whose brain was punctured, and so on.<br />
 <br />
-The laws that follow are complex, and the difficulty is compounded by the fact that not everybody knows the necessary details of the <a href="http://www.animalcorner.co.uk/farm/cows/cow_anatomy.html">animal anatomy</a>. Artscroll illustrations&nbsp;can help.<br />
+The laws that follow are complex, and the difficulty is compounded by the fact that not everybody knows the necessary details of&nbsp;<a href="http://www.animalcorner.co.uk/farm/cows/cow_anatomy.html">animal anatomy</a>. Artscroll illustrations&nbsp;can help.<br />
 <br />
 Art: George Frederick Watts - The Wounded Heron</span>
 
 ---
 
 ### content/chullin/43.txt
-<a id="src-00338"></a>
+<a id="src-00339"></a>
 
 **Source file:** `content/chullin/43.txt`
 
@@ -6261,7 +6274,7 @@ Art: James Hayllar - The Thorn</span>
 ---
 
 ### content/chullin/44.txt
-<a id="src-00339"></a>
+<a id="src-00340"></a>
 
 **Source file:** `content/chullin/44.txt`
 
@@ -6276,7 +6289,7 @@ Art: Winslow Homer - The Country Store<br />
 ---
 
 ### content/chullin/45.txt
-<a id="src-00340"></a>
+<a id="src-00341"></a>
 
 **Source file:** `content/chullin/45.txt`
 
@@ -6292,7 +6305,7 @@ Art: Justus Juncker - A Scholar Sitting At His Desk</span>
 ---
 
 ### content/chullin/46.txt
-<a id="src-00341"></a>
+<a id="src-00342"></a>
 
 **Source file:** `content/chullin/46.txt`
 
@@ -6309,7 +6322,7 @@ Art: Juan Bautista de Espinosa - Still Life Of Fruits And A Plate Of Olives<br /
 ---
 
 ### content/chullin/47.txt
-<a id="src-00342"></a>
+<a id="src-00343"></a>
 
 **Source file:** `content/chullin/47.txt`
 
@@ -6323,7 +6336,7 @@ Art: Claude Oscar Monet - The Blue House At Zaandam</span>
 ---
 
 ### content/chullin/48.txt
-<a id="src-00343"></a>
+<a id="src-00344"></a>
 
 **Source file:** `content/chullin/48.txt`
 
@@ -6337,7 +6350,7 @@ Art: Louis Coulon - The Prick Of The Needle</span>
 ---
 
 ### content/chullin/49.txt
-<a id="src-00344"></a>
+<a id="src-00345"></a>
 
 **Source file:** `content/chullin/49.txt`
 
@@ -6351,7 +6364,7 @@ Art: Jules (Adolphe Aime Louis) Breton - Peasant Woman Threading A Needle</span>
 ---
 
 ### content/chullin/5.txt
-<a id="src-00345"></a>
+<a id="src-00346"></a>
 
 **Source file:** `content/chullin/5.txt`
 
@@ -6368,7 +6381,7 @@ Art: Sir Edwin Henry Landseer - Isaac van Amburgh and his Animals<br />
 ---
 
 ### content/chullin/50.txt
-<a id="src-00346"></a>
+<a id="src-00347"></a>
 
 **Source file:** `content/chullin/50.txt`
 
@@ -6384,7 +6397,7 @@ Art: Lorenzo Delleani - Wise Counsel</span>
 ---
 
 ### content/chullin/51.txt
-<a id="src-00347"></a>
+<a id="src-00348"></a>
 
 **Source file:** `content/chullin/51.txt`
 
@@ -6400,7 +6413,7 @@ Art: Joseph Crawhall - Pigeons on the Roof</span>
 ---
 
 ### content/chullin/52.txt
-<a id="src-00348"></a>
+<a id="src-00349"></a>
 
 **Source file:** `content/chullin/52.txt`
 
@@ -6414,7 +6427,7 @@ Art: William Henry Hamilton Trood - Cats</span>
 ---
 
 ### content/chullin/53.txt
-<a id="src-00349"></a>
+<a id="src-00350"></a>
 
 **Source file:** `content/chullin/53.txt`
 
@@ -6430,7 +6443,7 @@ Art: Geza Vastagh - The British Lion</span>
 ---
 
 ### content/chullin/54.txt
-<a id="src-00350"></a>
+<a id="src-00351"></a>
 
 **Source file:** `content/chullin/54.txt`
 
@@ -6446,7 +6459,7 @@ Art: Henry Herbert La Thangue - The Thorn</span>
 ---
 
 ### content/chullin/55.txt
-<a id="src-00351"></a>
+<a id="src-00352"></a>
 
 **Source file:** `content/chullin/55.txt`
 
@@ -6463,7 +6476,7 @@ Art: Martin Johnson Heade - Thunder Storm On Narragansett Bay<br />
 ---
 
 ### content/chullin/56.txt
-<a id="src-00352"></a>
+<a id="src-00353"></a>
 
 **Source file:** `content/chullin/56.txt`
 
@@ -6477,7 +6490,7 @@ Art: Wallerant Vaillant - Young Sportsman with Rabbit and Fowl</span>
 ---
 
 ### content/chullin/57.txt
-<a id="src-00353"></a>
+<a id="src-00354"></a>
 
 **Source file:** `content/chullin/57.txt`
 
@@ -6491,7 +6504,7 @@ Art: Alfred Sisley - Still-Life: Heron with Spread Wings</span>
 ---
 
 ### content/chullin/58.txt
-<a id="src-00354"></a>
+<a id="src-00355"></a>
 
 **Source file:** `content/chullin/58.txt`
 
@@ -6507,7 +6520,7 @@ Art: Frans Hals - Boy With A Skull</span>
 ---
 
 ### content/chullin/59.txt
-<a id="src-00355"></a>
+<a id="src-00356"></a>
 
 **Source file:** `content/chullin/59.txt`
 
@@ -6523,7 +6536,7 @@ Art: Winslow Homer - Fallen Deer</span>
 ---
 
 ### content/chullin/6.txt
-<a id="src-00356"></a>
+<a id="src-00357"></a>
 
 **Source file:** `content/chullin/6.txt`
 
@@ -6540,7 +6553,7 @@ Art: Antoine Vollon - Still Life with a Pen, Jug, Bottle and Eggs on a Table<br 
 ---
 
 ### content/chullin/60.txt
-<a id="src-00357"></a>
+<a id="src-00358"></a>
 
 **Source file:** `content/chullin/60.txt`
 
@@ -6557,7 +6570,7 @@ Art: Edward Stott - The High Grasses<br />
 ---
 
 ### content/chullin/61.txt
-<a id="src-00358"></a>
+<a id="src-00359"></a>
 
 **Source file:** `content/chullin/61.txt`
 
@@ -6571,7 +6584,7 @@ Art: Joseph Crawhall - The Aviary</span>
 ---
 
 ### content/chullin/62.txt
-<a id="src-00359"></a>
+<a id="src-00360"></a>
 
 **Source file:** `content/chullin/62.txt`
 
@@ -6587,7 +6600,7 @@ Art: Herbert William Weekes - The Sermon - A Raven Addressing a Gaggle of Geese<
 ---
 
 ### content/chullin/63.txt
-<a id="src-00360"></a>
+<a id="src-00361"></a>
 
 **Source file:** `content/chullin/63.txt`
 
@@ -6602,7 +6615,7 @@ Art: Wladyslaw Aleksander Malecki - Storks' Seym<br />
 ---
 
 ### content/chullin/64.txt
-<a id="src-00361"></a>
+<a id="src-00362"></a>
 
 **Source file:** `content/chullin/64.txt`
 
@@ -6616,7 +6629,7 @@ Art: Willem Roelofs - Still life with eggs</span>
 ---
 
 ### content/chullin/65.txt
-<a id="src-00362"></a>
+<a id="src-00363"></a>
 
 **Source file:** `content/chullin/65.txt`
 
@@ -6634,7 +6647,7 @@ Art: Balthasar Van Der Ast - Carnations, a parrot tulip, a grasshopper and a liz
 ---
 
 ### content/chullin/66.txt
-<a id="src-00363"></a>
+<a id="src-00364"></a>
 
 **Source file:** `content/chullin/66.txt`
 
@@ -6650,7 +6663,7 @@ Art: Alexander Adriaenssen - The Fishmonger</span>
 ---
 
 ### content/chullin/67.txt
-<a id="src-00364"></a>
+<a id="src-00365"></a>
 
 **Source file:** `content/chullin/67.txt`
 
@@ -6666,7 +6679,7 @@ Art: William Huggins - The Diet of Worms</span>
 ---
 
 ### content/chullin/68.txt
-<a id="src-00365"></a>
+<a id="src-00366"></a>
 
 **Source file:** `content/chullin/68.txt`
 
@@ -6682,7 +6695,7 @@ Art: Jean-Francois Millet - Peasants Bringing Home a Calf Born in the Fields</sp
 ---
 
 ### content/chullin/69.txt
-<a id="src-00366"></a>
+<a id="src-00367"></a>
 
 **Source file:** `content/chullin/69.txt`
 
@@ -6696,7 +6709,7 @@ Art: Rosa Bonheur - Doe And Fawn In A Thicket</span>
 ---
 
 ### content/chullin/7.txt
-<a id="src-00367"></a>
+<a id="src-00368"></a>
 
 **Source file:** `content/chullin/7.txt`
 
@@ -6716,7 +6729,7 @@ Art: Willem Maris - A Herdboy With Donkeys On Scheveningen Beach</span>
 ---
 
 ### content/chullin/70.txt
-<a id="src-00368"></a>
+<a id="src-00369"></a>
 
 **Source file:** `content/chullin/70.txt`
 
@@ -6730,7 +6743,7 @@ Art: Eugène Verboeckhoven - A Sheep And Two Lambs Resting In A Summer Landscape
 ---
 
 ### content/chullin/71.txt
-<a id="src-00369"></a>
+<a id="src-00370"></a>
 
 **Source file:** `content/chullin/71.txt`
 
@@ -6748,7 +6761,7 @@ Art: G. Horning Jensen - Turning the clay in the pottery</span>
 ---
 
 ### content/chullin/72.txt
-<a id="src-00370"></a>
+<a id="src-00371"></a>
 
 **Source file:** `content/chullin/72.txt`
 
@@ -6764,7 +6777,7 @@ Art: Frans Snyders : The market game</span>
 ---
 
 ### content/chullin/73.txt
-<a id="src-00371"></a>
+<a id="src-00372"></a>
 
 **Source file:** `content/chullin/73.txt`
 
@@ -6778,7 +6791,7 @@ Art: William Huggins - Rams and Ewes in a Landscape</span>
 ---
 
 ### content/chullin/74.txt
-<a id="src-00372"></a>
+<a id="src-00373"></a>
 
 **Source file:** `content/chullin/74.txt`
 
@@ -6795,7 +6808,7 @@ Art: Pieter Aertsen - The Cook</span>
 ---
 
 ### content/chullin/75.txt
-<a id="src-00373"></a>
+<a id="src-00374"></a>
 
 **Source file:** `content/chullin/75.txt`
 
@@ -6809,7 +6822,7 @@ Art: Adrien Moreau - Plowing The Fields</span>
 ---
 
 ### content/chullin/76.txt
-<a id="src-00374"></a>
+<a id="src-00375"></a>
 
 **Source file:** `content/chullin/76.txt`
 
@@ -6825,7 +6838,7 @@ Art: George Cochran Lamdin - The Little White Heifer</span>
 ---
 
 ### content/chullin/77.txt
-<a id="src-00375"></a>
+<a id="src-00376"></a>
 
 **Source file:** `content/chullin/77.txt`
 
@@ -6842,7 +6855,7 @@ Art: Charles Émile Jacque -  A Flock Of Sheep In A Barn<br />
 ---
 
 ### content/chullin/78.txt
-<a id="src-00376"></a>
+<a id="src-00377"></a>
 
 **Source file:** `content/chullin/78.txt`
 
@@ -6858,7 +6871,7 @@ Art: Eugène Verboeckhoven - Shepherd Girl With Cattle And Sheep At Rest</span>
 ---
 
 ### content/chullin/79.txt
-<a id="src-00377"></a>
+<a id="src-00378"></a>
 
 **Source file:** `content/chullin/79.txt`
 
@@ -6876,7 +6889,7 @@ Art: Martin Johnson Heade - Two Hummingbirds At A Nest</span>
 ---
 
 ### content/chullin/8.txt
-<a id="src-00378"></a>
+<a id="src-00379"></a>
 
 **Source file:** `content/chullin/8.txt`
 
@@ -6892,7 +6905,7 @@ Art: Francis Wheatley - Knives, Scissors and Razors to Grind</span>
 ---
 
 ### content/chullin/80.txt
-<a id="src-00379"></a>
+<a id="src-00380"></a>
 
 **Source file:** `content/chullin/80.txt`
 
@@ -6908,7 +6921,7 @@ Art: Roelandt Jacobsz Savery : A stag, deers, herons, goats, parrots and other a
 ---
 
 ### content/chullin/81.txt
-<a id="src-00380"></a>
+<a id="src-00381"></a>
 
 **Source file:** `content/chullin/81.txt`
 
@@ -6922,7 +6935,7 @@ Art: English Provincial School - The Head Of A Prize Bull</span>
 ---
 
 ### content/chullin/82.txt
-<a id="src-00381"></a>
+<a id="src-00382"></a>
 
 **Source file:** `content/chullin/82.txt`
 
@@ -6938,7 +6951,7 @@ Art: George W. Horlor - Calves Feeding</span>
 ---
 
 ### content/chullin/83.txt
-<a id="src-00382"></a>
+<a id="src-00383"></a>
 
 **Source file:** `content/chullin/83.txt`
 
@@ -6952,7 +6965,7 @@ Art: William Hart - Sunset With Cows</span>
 ---
 
 ### content/chullin/84.txt
-<a id="src-00383"></a>
+<a id="src-00384"></a>
 
 **Source file:** `content/chullin/84.txt`
 
@@ -6968,7 +6981,7 @@ Art: Jan Vermeer Van Delft - Young Girl in an Antique Costume</span>
 ---
 
 ### content/chullin/85.txt
-<a id="src-00384"></a>
+<a id="src-00385"></a>
 
 **Source file:** `content/chullin/85.txt`
 
@@ -6982,7 +6995,7 @@ Art: Winslow Homer - The Dinner Horn</span>
 ---
 
 ### content/chullin/86.txt
-<a id="src-00385"></a>
+<a id="src-00386"></a>
 
 **Source file:** `content/chullin/86.txt`
 
@@ -6999,7 +7012,7 @@ Art: John William Waterhouse - Windswept<br />
 ---
 
 ### content/chullin/87.txt
-<a id="src-00386"></a>
+<a id="src-00387"></a>
 
 **Source file:** `content/chullin/87.txt`
 
@@ -7018,7 +7031,7 @@ Art: Camille Pissarro - Strong Winds, Pontoise<br />
 ---
 
 ### content/chullin/88.txt
-<a id="src-00387"></a>
+<a id="src-00388"></a>
 
 **Source file:** `content/chullin/88.txt`
 
@@ -7035,7 +7048,7 @@ Art: Francisco De Zurbaran - Still-Life with Pottery Jars<br />
 ---
 
 ### content/chullin/89.txt
-<a id="src-00388"></a>
+<a id="src-00389"></a>
 
 **Source file:** `content/chullin/89.txt`
 
@@ -7051,7 +7064,7 @@ Art: Francois-Andre Vincent - Job Being Scolded by his Wife</span>
 ---
 
 ### content/chullin/9.txt
-<a id="src-00389"></a>
+<a id="src-00390"></a>
 
 **Source file:** `content/chullin/9.txt`
 
@@ -7069,7 +7082,7 @@ Art: Benjamin Gerritsz. Cuyp - The Circumcision</span>
 ---
 
 ### content/chullin/90.txt
-<a id="src-00390"></a>
+<a id="src-00391"></a>
 
 **Source file:** `content/chullin/90.txt`
 
@@ -7088,7 +7101,7 @@ Art: Thomas George Cooper - A ewe with lambs in a coastal landscape<br />
 ---
 
 ### content/chullin/91.txt
-<a id="src-00391"></a>
+<a id="src-00392"></a>
 
 **Source file:** `content/chullin/91.txt`
 
@@ -7104,7 +7117,7 @@ Art: Luca Giordano - Jacob Wrestling With The Angel</span>
 ---
 
 ### content/chullin/92.txt
-<a id="src-00392"></a>
+<a id="src-00393"></a>
 
 **Source file:** `content/chullin/92.txt`
 
@@ -7120,7 +7133,7 @@ Art: Giorgio da Castelfranco Veneto ( Giorgione) - The Singing Lesson</span>
 ---
 
 ### content/chullin/93.txt
-<a id="src-00393"></a>
+<a id="src-00394"></a>
 
 **Source file:** `content/chullin/93.txt`
 
@@ -7134,7 +7147,7 @@ Art: Esaias Boursse - Interior with Woman Cooking </span>
 ---
 
 ### content/chullin/94.txt
-<a id="src-00394"></a>
+<a id="src-00395"></a>
 
 **Source file:** `content/chullin/94.txt`
 
@@ -7151,7 +7164,7 @@ Art: Francisco De Goya y Lucientes - A Butcher's Counter<br />
 ---
 
 ### content/chullin/95.txt
-<a id="src-00395"></a>
+<a id="src-00396"></a>
 
 **Source file:** `content/chullin/95.txt`
 
@@ -7170,7 +7183,7 @@ Art: Edward Frederick Brewtnall - The three ravens<br />
 ---
 
 ### content/chullin/96.txt
-<a id="src-00396"></a>
+<a id="src-00397"></a>
 
 **Source file:** `content/chullin/96.txt`
 
@@ -7186,7 +7199,7 @@ Art: Pietro Longhi - Vendor of Roast Meat</span>
 ---
 
 ### content/chullin/97.txt
-<a id="src-00397"></a>
+<a id="src-00398"></a>
 
 **Source file:** `content/chullin/97.txt`
 
@@ -7203,7 +7216,7 @@ Art: Jozef Israels - The Frugal Meal
 ---
 
 ### content/chullin/98.txt
-<a id="src-00398"></a>
+<a id="src-00399"></a>
 
 **Source file:** `content/chullin/98.txt`
 
@@ -7220,7 +7233,7 @@ Art: Antoine Vollon - Brass Cooking Vessel
 ---
 
 ### content/chullin/99.txt
-<a id="src-00399"></a>
+<a id="src-00400"></a>
 
 **Source file:** `content/chullin/99.txt`
 
@@ -7238,7 +7251,7 @@ Art: Cornelis Jacobsz Delff - Still-Life of Kitchen Utensils</span>
 ---
 
 ### content/eruvin/10.txt
-<a id="src-00400"></a>
+<a id="src-00401"></a>
 
 **Source file:** `content/eruvin/10.txt`
 
@@ -7257,7 +7270,7 @@ Art: Jose Benlliure Y Gil - Uncle Jose
 ---
 
 ### content/eruvin/100.txt
-<a id="src-00401"></a>
+<a id="src-00402"></a>
 
 **Source file:** `content/eruvin/100.txt`
 
@@ -7266,7 +7279,7 @@ Art: Jose Benlliure Y Gil - Uncle Jose
 ---
 
 ### content/eruvin/101.txt
-<a id="src-00402"></a>
+<a id="src-00403"></a>
 
 **Source file:** `content/eruvin/101.txt`
 
@@ -7275,7 +7288,7 @@ Art: Jose Benlliure Y Gil - Uncle Jose
 ---
 
 ### content/eruvin/102.txt
-<a id="src-00403"></a>
+<a id="src-00404"></a>
 
 **Source file:** `content/eruvin/102.txt`
 
@@ -7284,7 +7297,7 @@ Art: Jose Benlliure Y Gil - Uncle Jose
 ---
 
 ### content/eruvin/103.txt
-<a id="src-00404"></a>
+<a id="src-00405"></a>
 
 **Source file:** `content/eruvin/103.txt`
 
@@ -7293,7 +7306,7 @@ Art: Jose Benlliure Y Gil - Uncle Jose
 ---
 
 ### content/eruvin/104.txt
-<a id="src-00405"></a>
+<a id="src-00406"></a>
 
 **Source file:** `content/eruvin/104.txt`
 
@@ -7302,7 +7315,7 @@ Art: Jose Benlliure Y Gil - Uncle Jose
 ---
 
 ### content/eruvin/105.txt
-<a id="src-00406"></a>
+<a id="src-00407"></a>
 
 **Source file:** `content/eruvin/105.txt`
 
@@ -7311,7 +7324,7 @@ Art: Jose Benlliure Y Gil - Uncle Jose
 ---
 
 ### content/eruvin/11.txt
-<a id="src-00407"></a>
+<a id="src-00408"></a>
 
 **Source file:** `content/eruvin/11.txt`
 
@@ -7330,7 +7343,7 @@ Art: Otto Piltz - A young Maid in a Doorway
 ---
 
 ### content/eruvin/12.txt
-<a id="src-00408"></a>
+<a id="src-00409"></a>
 
 **Source file:** `content/eruvin/12.txt`
 
@@ -7352,7 +7365,7 @@ Art: John Singer Sargent - White Walls in Sunlight Morocco
 ---
 
 ### content/eruvin/13.txt
-<a id="src-00409"></a>
+<a id="src-00410"></a>
 
 **Source file:** `content/eruvin/13.txt`
 
@@ -7371,7 +7384,7 @@ Art: B. Werner - Rabbis in a debate
 ---
 
 ### content/eruvin/14.txt
-<a id="src-00410"></a>
+<a id="src-00411"></a>
 
 **Source file:** `content/eruvin/14.txt`
 
@@ -7387,7 +7400,7 @@ Art: Vasily Perov - Three Apprentice Workmen Carrying Water
 ---
 
 ### content/eruvin/15.txt
-<a id="src-00411"></a>
+<a id="src-00412"></a>
 
 **Source file:** `content/eruvin/15.txt`
 
@@ -7402,7 +7415,7 @@ Art:  Caspar David Friedrich - Landscape with Grave, Coffin and Owl
 ---
 
 ### content/eruvin/16.txt
-<a id="src-00412"></a>
+<a id="src-00413"></a>
 
 **Source file:** `content/eruvin/16.txt`
 
@@ -7420,7 +7433,7 @@ Art: Edwin Lord Weeks - Arrival Of A Caravan
 ---
 
 ### content/eruvin/17.txt
-<a id="src-00413"></a>
+<a id="src-00414"></a>
 
 **Source file:** `content/eruvin/17.txt`
 
@@ -7442,7 +7455,7 @@ Art: Francesco Peluso - An Algerian Caravan At Rest
 ---
 
 ### content/eruvin/18.txt
-<a id="src-00414"></a>
+<a id="src-00415"></a>
 
 **Source file:** `content/eruvin/18.txt`
 
@@ -7451,7 +7464,7 @@ Art: Francesco Peluso - An Algerian Caravan At Rest
 ---
 
 ### content/eruvin/19.txt
-<a id="src-00415"></a>
+<a id="src-00416"></a>
 
 **Source file:** `content/eruvin/19.txt`
 
@@ -7460,7 +7473,7 @@ Art: Francesco Peluso - An Algerian Caravan At Rest
 ---
 
 ### content/eruvin/2.txt
-<a id="src-00416"></a>
+<a id="src-00417"></a>
 
 **Source file:** `content/eruvin/2.txt`
 
@@ -7481,7 +7494,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/20.txt
-<a id="src-00417"></a>
+<a id="src-00418"></a>
 
 **Source file:** `content/eruvin/20.txt`
 
@@ -7490,7 +7503,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/21.txt
-<a id="src-00418"></a>
+<a id="src-00419"></a>
 
 **Source file:** `content/eruvin/21.txt`
 
@@ -7499,7 +7512,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/22.txt
-<a id="src-00419"></a>
+<a id="src-00420"></a>
 
 **Source file:** `content/eruvin/22.txt`
 
@@ -7508,7 +7521,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/23.txt
-<a id="src-00420"></a>
+<a id="src-00421"></a>
 
 **Source file:** `content/eruvin/23.txt`
 
@@ -7517,7 +7530,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/24.txt
-<a id="src-00421"></a>
+<a id="src-00422"></a>
 
 **Source file:** `content/eruvin/24.txt`
 
@@ -7526,7 +7539,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/25.txt
-<a id="src-00422"></a>
+<a id="src-00423"></a>
 
 **Source file:** `content/eruvin/25.txt`
 
@@ -7535,7 +7548,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/26.txt
-<a id="src-00423"></a>
+<a id="src-00424"></a>
 
 **Source file:** `content/eruvin/26.txt`
 
@@ -7544,7 +7557,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/27.txt
-<a id="src-00424"></a>
+<a id="src-00425"></a>
 
 **Source file:** `content/eruvin/27.txt`
 
@@ -7553,7 +7566,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/28.txt
-<a id="src-00425"></a>
+<a id="src-00426"></a>
 
 **Source file:** `content/eruvin/28.txt`
 
@@ -7562,7 +7575,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/29.txt
-<a id="src-00426"></a>
+<a id="src-00427"></a>
 
 **Source file:** `content/eruvin/29.txt`
 
@@ -7571,7 +7584,7 @@ Art: Gillis van Tilborgh - An Elegant Company Eating, Drinking And Smoking In Th
 ---
 
 ### content/eruvin/3.txt
-<a id="src-00427"></a>
+<a id="src-00428"></a>
 
 **Source file:** `content/eruvin/3.txt`
 
@@ -7589,25 +7602,6 @@ What is the final conclusion? It is OK in both cases, since the correct understa
 <br />
 <br />
 Art: Franz Skarbina - A Back Alley in Hamburg
-
----
-
-### content/eruvin/30.txt
-<a id="src-00428"></a>
-
-**Source file:** `content/eruvin/30.txt`
-
-Eruvin 30 – Common food (eruv)
-<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTfRrC1eqlbuwuNgLFQM7hqcmcWoT2IVUfhH6dcyhJfs0lCvd5YGkGjgYVsNUZN5qMp9i1oTPd0Aybi_2_bZKv53Y81LMqc7j2nJPtWJJaa_0rUwI2HVjxUdBmtteE9lr26lfAMpXSSqUl/s1600/Albert+Neuhuys+-+Dinner+time.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="263" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTfRrC1eqlbuwuNgLFQM7hqcmcWoT2IVUfhH6dcyhJfs0lCvd5YGkGjgYVsNUZN5qMp9i1oTPd0Aybi_2_bZKv53Y81LMqc7j2nJPtWJJaa_0rUwI2HVjxUdBmtteE9lr26lfAMpXSSqUl/s320/Albert+Neuhuys+-+Dinner+time.jpg" width="320" /></a>In order for people to <a href="http://mkerzner.blogspot.com/2013/03/eruvin-2-houses-courtyard-alley.html">carry in an alleyway</a>, they must not only place a crossbeam across the alley's opening, but also place some common food (eruv) in a designated place, to indicate that they are now one family and even combine their meals.
-<br />
-<br />
-Any kind of food can be used for the eruv, except for water and salt – since they do not properly nourish. Incidentally, one who vowed to abstain for nourishment can still drink water and eat salt. The food does not have to be edible by the owner, as long as others can eat it. For example, one can make an eruv of wine for a <a href="http://en.wikipedia.org/wiki/Nazirite">nazirite</a>: even though he is prohibited to drink wine, others can. Similarly, one can make eruv of terumah (Kohen's portion) for a regular Jew: even though he cannot eat it, but a Kohen can.
-<br />
-<br />
-One can make an eruv with meat cooked rare – since some people eat it, and with raw eggs – again, since they are eaten under certain circumstances. How many eggs would be needed? Since the eruv should be sufficient for two meals, two eggs will constitute an eruv.
-<br />
-<br />
-Art: Albert Neuhuys - Dinner time
 
 ---
 

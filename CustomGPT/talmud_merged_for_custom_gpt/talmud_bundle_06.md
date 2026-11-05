@@ -4,433 +4,575 @@
 
 ## Table of Contents
 
-- [content/sukkah/31.txt](#src-00001)
-- [content/sukkah/32.txt](#src-00002)
-- [content/sukkah/33.txt](#src-00003)
-- [content/sukkah/34.txt](#src-00004)
-- [content/sukkah/35.txt](#src-00005)
-- [content/sukkah/36.txt](#src-00006)
-- [content/sukkah/37.txt](#src-00007)
-- [content/sukkah/38.txt](#src-00008)
-- [content/sukkah/39.txt](#src-00009)
-- [content/sukkah/4.txt](#src-00010)
-- [content/sukkah/40.txt](#src-00011)
-- [content/sukkah/41.txt](#src-00012)
-- [content/sukkah/42.txt](#src-00013)
-- [content/sukkah/43.txt](#src-00014)
-- [content/sukkah/44.txt](#src-00015)
-- [content/sukkah/45.txt](#src-00016)
-- [content/sukkah/46.txt](#src-00017)
-- [content/sukkah/47.txt](#src-00018)
-- [content/sukkah/48.txt](#src-00019)
-- [content/sukkah/49.txt](#src-00020)
-- [content/sukkah/5.txt](#src-00021)
-- [content/sukkah/50.txt](#src-00022)
-- [content/sukkah/51.txt](#src-00023)
-- [content/sukkah/52.txt](#src-00024)
-- [content/sukkah/53.txt](#src-00025)
-- [content/sukkah/54.txt](#src-00026)
-- [content/sukkah/55.txt](#src-00027)
-- [content/sukkah/56.txt](#src-00028)
-- [content/sukkah/6.txt](#src-00029)
-- [content/sukkah/7.txt](#src-00030)
-- [content/sukkah/8.txt](#src-00031)
-- [content/sukkah/9.txt](#src-00032)
-- [content/taanit/10.txt](#src-00033)
-- [content/taanit/11.txt](#src-00034)
-- [content/taanit/12.txt](#src-00035)
-- [content/taanit/13.txt](#src-00036)
-- [content/taanit/14.txt](#src-00037)
-- [content/taanit/15.txt](#src-00038)
-- [content/taanit/16.txt](#src-00039)
-- [content/taanit/17.txt](#src-00040)
-- [content/taanit/18.txt](#src-00041)
-- [content/taanit/19.txt](#src-00042)
-- [content/taanit/2.txt](#src-00043)
-- [content/taanit/20.txt](#src-00044)
-- [content/taanit/21.txt](#src-00045)
-- [content/taanit/22.txt](#src-00046)
-- [content/taanit/23.txt](#src-00047)
-- [content/taanit/24.txt](#src-00048)
-- [content/taanit/25.txt](#src-00049)
-- [content/taanit/26.txt](#src-00050)
-- [content/taanit/27.txt](#src-00051)
-- [content/taanit/28.txt](#src-00052)
-- [content/taanit/29.txt](#src-00053)
-- [content/taanit/3.txt](#src-00054)
-- [content/taanit/30.txt](#src-00055)
-- [content/taanit/31.txt](#src-00056)
-- [content/taanit/4.txt](#src-00057)
-- [content/taanit/5.txt](#src-00058)
-- [content/taanit/6.txt](#src-00059)
-- [content/taanit/7.txt](#src-00060)
-- [content/taanit/8.txt](#src-00061)
-- [content/taanit/9.txt](#src-00062)
-- [content/temurah/10.txt](#src-00063)
-- [content/temurah/11.txt](#src-00064)
-- [content/temurah/12.txt](#src-00065)
-- [content/temurah/13.txt](#src-00066)
-- [content/temurah/14.txt](#src-00067)
-- [content/temurah/15.txt](#src-00068)
-- [content/temurah/16.txt](#src-00069)
-- [content/temurah/17.txt](#src-00070)
-- [content/temurah/18.txt](#src-00071)
-- [content/temurah/19.txt](#src-00072)
-- [content/temurah/2.txt](#src-00073)
-- [content/temurah/20.txt](#src-00074)
-- [content/temurah/21.txt](#src-00075)
-- [content/temurah/22.txt](#src-00076)
-- [content/temurah/23.txt](#src-00077)
-- [content/temurah/24.txt](#src-00078)
-- [content/temurah/25.txt](#src-00079)
-- [content/temurah/26.txt](#src-00080)
-- [content/temurah/27.txt](#src-00081)
-- [content/temurah/28.txt](#src-00082)
-- [content/temurah/29.txt](#src-00083)
-- [content/temurah/3.txt](#src-00084)
-- [content/temurah/30.txt](#src-00085)
-- [content/temurah/31.txt](#src-00086)
-- [content/temurah/32.txt](#src-00087)
-- [content/temurah/33.txt](#src-00088)
-- [content/temurah/34.txt](#src-00089)
-- [content/temurah/4.txt](#src-00090)
-- [content/temurah/5.txt](#src-00091)
-- [content/temurah/6.txt](#src-00092)
-- [content/temurah/7.txt](#src-00093)
-- [content/temurah/8.txt](#src-00094)
-- [content/temurah/9.txt](#src-00095)
-- [content/yevamot/10.txt](#src-00096)
-- [content/yevamot/100.txt](#src-00097)
-- [content/yevamot/101.txt](#src-00098)
-- [content/yevamot/102.txt](#src-00099)
-- [content/yevamot/103.txt](#src-00100)
-- [content/yevamot/104.txt](#src-00101)
-- [content/yevamot/105.txt](#src-00102)
-- [content/yevamot/106.txt](#src-00103)
-- [content/yevamot/107.txt](#src-00104)
-- [content/yevamot/108.txt](#src-00105)
-- [content/yevamot/109.txt](#src-00106)
-- [content/yevamot/11.txt](#src-00107)
-- [content/yevamot/110.txt](#src-00108)
-- [content/yevamot/111.txt](#src-00109)
-- [content/yevamot/112.txt](#src-00110)
-- [content/yevamot/113.txt](#src-00111)
-- [content/yevamot/114.txt](#src-00112)
-- [content/yevamot/115.txt](#src-00113)
-- [content/yevamot/116.txt](#src-00114)
-- [content/yevamot/117.txt](#src-00115)
-- [content/yevamot/118.txt](#src-00116)
-- [content/yevamot/119.txt](#src-00117)
-- [content/yevamot/12.txt](#src-00118)
-- [content/yevamot/120.txt](#src-00119)
-- [content/yevamot/121.txt](#src-00120)
-- [content/yevamot/122.txt](#src-00121)
-- [content/yevamot/13.txt](#src-00122)
-- [content/yevamot/14.txt](#src-00123)
-- [content/yevamot/15.txt](#src-00124)
-- [content/yevamot/16.txt](#src-00125)
-- [content/yevamot/17.txt](#src-00126)
-- [content/yevamot/18.txt](#src-00127)
-- [content/yevamot/19.txt](#src-00128)
-- [content/yevamot/2.txt](#src-00129)
-- [content/yevamot/20.txt](#src-00130)
-- [content/yevamot/21.txt](#src-00131)
-- [content/yevamot/22.txt](#src-00132)
-- [content/yevamot/23.txt](#src-00133)
-- [content/yevamot/24.txt](#src-00134)
-- [content/yevamot/25.txt](#src-00135)
-- [content/yevamot/26.txt](#src-00136)
-- [content/yevamot/27.txt](#src-00137)
-- [content/yevamot/28.txt](#src-00138)
-- [content/yevamot/29.txt](#src-00139)
-- [content/yevamot/3.txt](#src-00140)
-- [content/yevamot/30.txt](#src-00141)
-- [content/yevamot/31.txt](#src-00142)
-- [content/yevamot/32.txt](#src-00143)
-- [content/yevamot/33.txt](#src-00144)
-- [content/yevamot/34.txt](#src-00145)
-- [content/yevamot/35.txt](#src-00146)
-- [content/yevamot/36.txt](#src-00147)
-- [content/yevamot/37.txt](#src-00148)
-- [content/yevamot/38.txt](#src-00149)
-- [content/yevamot/39.txt](#src-00150)
-- [content/yevamot/4.txt](#src-00151)
-- [content/yevamot/40.txt](#src-00152)
-- [content/yevamot/41.txt](#src-00153)
-- [content/yevamot/42.txt](#src-00154)
-- [content/yevamot/43.txt](#src-00155)
-- [content/yevamot/44.txt](#src-00156)
-- [content/yevamot/45.txt](#src-00157)
-- [content/yevamot/46.txt](#src-00158)
-- [content/yevamot/47.txt](#src-00159)
-- [content/yevamot/48.txt](#src-00160)
-- [content/yevamot/49.txt](#src-00161)
-- [content/yevamot/5.txt](#src-00162)
-- [content/yevamot/50.txt](#src-00163)
-- [content/yevamot/51.txt](#src-00164)
-- [content/yevamot/52.txt](#src-00165)
-- [content/yevamot/53.txt](#src-00166)
-- [content/yevamot/54.txt](#src-00167)
-- [content/yevamot/55.txt](#src-00168)
-- [content/yevamot/56.txt](#src-00169)
-- [content/yevamot/57.txt](#src-00170)
-- [content/yevamot/58.txt](#src-00171)
-- [content/yevamot/59.txt](#src-00172)
-- [content/yevamot/6.txt](#src-00173)
-- [content/yevamot/60.txt](#src-00174)
-- [content/yevamot/61.txt](#src-00175)
-- [content/yevamot/62.txt](#src-00176)
-- [content/yevamot/63.txt](#src-00177)
-- [content/yevamot/64.txt](#src-00178)
-- [content/yevamot/65.txt](#src-00179)
-- [content/yevamot/66.txt](#src-00180)
-- [content/yevamot/67.txt](#src-00181)
-- [content/yevamot/68.txt](#src-00182)
-- [content/yevamot/69.txt](#src-00183)
-- [content/yevamot/7.txt](#src-00184)
-- [content/yevamot/70.txt](#src-00185)
-- [content/yevamot/71.txt](#src-00186)
-- [content/yevamot/72.txt](#src-00187)
-- [content/yevamot/73.txt](#src-00188)
-- [content/yevamot/74.txt](#src-00189)
-- [content/yevamot/75.txt](#src-00190)
-- [content/yevamot/76.txt](#src-00191)
-- [content/yevamot/77.txt](#src-00192)
-- [content/yevamot/78.txt](#src-00193)
-- [content/yevamot/79.txt](#src-00194)
-- [content/yevamot/8.txt](#src-00195)
-- [content/yevamot/80.txt](#src-00196)
-- [content/yevamot/81.txt](#src-00197)
-- [content/yevamot/82.txt](#src-00198)
-- [content/yevamot/83.txt](#src-00199)
-- [content/yevamot/84.txt](#src-00200)
-- [content/yevamot/85.txt](#src-00201)
-- [content/yevamot/86.txt](#src-00202)
-- [content/yevamot/87.txt](#src-00203)
-- [content/yevamot/88.txt](#src-00204)
-- [content/yevamot/89.txt](#src-00205)
-- [content/yevamot/9.txt](#src-00206)
-- [content/yevamot/90.txt](#src-00207)
-- [content/yevamot/91.txt](#src-00208)
-- [content/yevamot/92.txt](#src-00209)
-- [content/yevamot/93.txt](#src-00210)
-- [content/yevamot/94.txt](#src-00211)
-- [content/yevamot/95.txt](#src-00212)
-- [content/yevamot/96.txt](#src-00213)
-- [content/yevamot/97.txt](#src-00214)
-- [content/yevamot/98.txt](#src-00215)
-- [content/yevamot/99.txt](#src-00216)
-- [content/yoma/10.txt](#src-00217)
-- [content/yoma/11.txt](#src-00218)
-- [content/yoma/12.txt](#src-00219)
-- [content/yoma/13.txt](#src-00220)
-- [content/yoma/14.txt](#src-00221)
-- [content/yoma/15.txt](#src-00222)
-- [content/yoma/16.txt](#src-00223)
-- [content/yoma/17.txt](#src-00224)
-- [content/yoma/18.txt](#src-00225)
-- [content/yoma/19.txt](#src-00226)
-- [content/yoma/2.txt](#src-00227)
-- [content/yoma/20.txt](#src-00228)
-- [content/yoma/21.txt](#src-00229)
-- [content/yoma/22.txt](#src-00230)
-- [content/yoma/23.txt](#src-00231)
-- [content/yoma/24.txt](#src-00232)
-- [content/yoma/25.txt](#src-00233)
-- [content/yoma/26.txt](#src-00234)
-- [content/yoma/27.txt](#src-00235)
-- [content/yoma/28.txt](#src-00236)
-- [content/yoma/29.txt](#src-00237)
-- [content/yoma/3.txt](#src-00238)
-- [content/yoma/30.txt](#src-00239)
-- [content/yoma/31.txt](#src-00240)
-- [content/yoma/32.txt](#src-00241)
-- [content/yoma/33.txt](#src-00242)
-- [content/yoma/34.txt](#src-00243)
-- [content/yoma/35.txt](#src-00244)
-- [content/yoma/36.txt](#src-00245)
-- [content/yoma/37.txt](#src-00246)
-- [content/yoma/38.txt](#src-00247)
-- [content/yoma/39.txt](#src-00248)
-- [content/yoma/4.txt](#src-00249)
-- [content/yoma/40.txt](#src-00250)
-- [content/yoma/41.txt](#src-00251)
-- [content/yoma/42.txt](#src-00252)
-- [content/yoma/43.txt](#src-00253)
-- [content/yoma/44.txt](#src-00254)
-- [content/yoma/45.txt](#src-00255)
-- [content/yoma/46.txt](#src-00256)
-- [content/yoma/47.txt](#src-00257)
-- [content/yoma/48.txt](#src-00258)
-- [content/yoma/49.txt](#src-00259)
-- [content/yoma/5.txt](#src-00260)
-- [content/yoma/50.txt](#src-00261)
-- [content/yoma/51.txt](#src-00262)
-- [content/yoma/52.txt](#src-00263)
-- [content/yoma/53.txt](#src-00264)
-- [content/yoma/54.txt](#src-00265)
-- [content/yoma/55.txt](#src-00266)
-- [content/yoma/56.txt](#src-00267)
-- [content/yoma/57.txt](#src-00268)
-- [content/yoma/58.txt](#src-00269)
-- [content/yoma/59.txt](#src-00270)
-- [content/yoma/6.txt](#src-00271)
-- [content/yoma/60.txt](#src-00272)
-- [content/yoma/61.txt](#src-00273)
-- [content/yoma/62.txt](#src-00274)
-- [content/yoma/63.txt](#src-00275)
-- [content/yoma/64.txt](#src-00276)
-- [content/yoma/65.txt](#src-00277)
-- [content/yoma/66.txt](#src-00278)
-- [content/yoma/67.txt](#src-00279)
-- [content/yoma/68.txt](#src-00280)
-- [content/yoma/69.txt](#src-00281)
-- [content/yoma/7.txt](#src-00282)
-- [content/yoma/70.txt](#src-00283)
-- [content/yoma/71.txt](#src-00284)
-- [content/yoma/72.txt](#src-00285)
-- [content/yoma/73.txt](#src-00286)
-- [content/yoma/74.txt](#src-00287)
-- [content/yoma/75.txt](#src-00288)
-- [content/yoma/76.txt](#src-00289)
-- [content/yoma/77.txt](#src-00290)
-- [content/yoma/78.txt](#src-00291)
-- [content/yoma/79.txt](#src-00292)
-- [content/yoma/8.txt](#src-00293)
-- [content/yoma/80.txt](#src-00294)
-- [content/yoma/81.txt](#src-00295)
-- [content/yoma/82.txt](#src-00296)
-- [content/yoma/83.txt](#src-00297)
-- [content/yoma/84.txt](#src-00298)
-- [content/yoma/85.txt](#src-00299)
-- [content/yoma/86.txt](#src-00300)
-- [content/yoma/87.txt](#src-00301)
-- [content/yoma/88.txt](#src-00302)
-- [content/yoma/9.txt](#src-00303)
-- [content/zevachim/10.txt](#src-00304)
-- [content/zevachim/100.txt](#src-00305)
-- [content/zevachim/101.txt](#src-00306)
-- [content/zevachim/102.txt](#src-00307)
-- [content/zevachim/103.txt](#src-00308)
-- [content/zevachim/104.txt](#src-00309)
-- [content/zevachim/105.txt](#src-00310)
-- [content/zevachim/106.txt](#src-00311)
-- [content/zevachim/107.txt](#src-00312)
-- [content/zevachim/108.txt](#src-00313)
-- [content/zevachim/109.txt](#src-00314)
-- [content/zevachim/11.txt](#src-00315)
-- [content/zevachim/110.txt](#src-00316)
-- [content/zevachim/111.txt](#src-00317)
-- [content/zevachim/112.txt](#src-00318)
-- [content/zevachim/113.txt](#src-00319)
-- [content/zevachim/114.txt](#src-00320)
-- [content/zevachim/115.txt](#src-00321)
-- [content/zevachim/116.txt](#src-00322)
-- [content/zevachim/117.txt](#src-00323)
-- [content/zevachim/118.txt](#src-00324)
-- [content/zevachim/119.txt](#src-00325)
-- [content/zevachim/12.txt](#src-00326)
-- [content/zevachim/120.txt](#src-00327)
-- [content/zevachim/13.txt](#src-00328)
-- [content/zevachim/14.txt](#src-00329)
-- [content/zevachim/15.txt](#src-00330)
-- [content/zevachim/16.txt](#src-00331)
-- [content/zevachim/17.txt](#src-00332)
-- [content/zevachim/18.txt](#src-00333)
-- [content/zevachim/19.txt](#src-00334)
-- [content/zevachim/2.txt](#src-00335)
-- [content/zevachim/20.txt](#src-00336)
-- [content/zevachim/21.txt](#src-00337)
-- [content/zevachim/22.txt](#src-00338)
-- [content/zevachim/23.txt](#src-00339)
-- [content/zevachim/24.txt](#src-00340)
-- [content/zevachim/25.txt](#src-00341)
-- [content/zevachim/26.txt](#src-00342)
-- [content/zevachim/27.txt](#src-00343)
-- [content/zevachim/28.txt](#src-00344)
-- [content/zevachim/29.txt](#src-00345)
-- [content/zevachim/3.txt](#src-00346)
-- [content/zevachim/30.txt](#src-00347)
-- [content/zevachim/31.txt](#src-00348)
-- [content/zevachim/32.txt](#src-00349)
-- [content/zevachim/33.txt](#src-00350)
-- [content/zevachim/34.txt](#src-00351)
-- [content/zevachim/35.txt](#src-00352)
-- [content/zevachim/36.txt](#src-00353)
-- [content/zevachim/37.txt](#src-00354)
-- [content/zevachim/38.txt](#src-00355)
-- [content/zevachim/39.txt](#src-00356)
-- [content/zevachim/4.txt](#src-00357)
-- [content/zevachim/40.txt](#src-00358)
-- [content/zevachim/41.txt](#src-00359)
-- [content/zevachim/42.txt](#src-00360)
-- [content/zevachim/43.txt](#src-00361)
-- [content/zevachim/44.txt](#src-00362)
-- [content/zevachim/45.txt](#src-00363)
-- [content/zevachim/46.txt](#src-00364)
-- [content/zevachim/47.txt](#src-00365)
-- [content/zevachim/48.txt](#src-00366)
-- [content/zevachim/49.txt](#src-00367)
-- [content/zevachim/5.txt](#src-00368)
-- [content/zevachim/50.txt](#src-00369)
-- [content/zevachim/51.txt](#src-00370)
-- [content/zevachim/52.txt](#src-00371)
-- [content/zevachim/53.txt](#src-00372)
-- [content/zevachim/54.txt](#src-00373)
-- [content/zevachim/55.txt](#src-00374)
-- [content/zevachim/56.txt](#src-00375)
-- [content/zevachim/57.txt](#src-00376)
-- [content/zevachim/58.txt](#src-00377)
-- [content/zevachim/59.txt](#src-00378)
-- [content/zevachim/6.txt](#src-00379)
-- [content/zevachim/60.txt](#src-00380)
-- [content/zevachim/61.txt](#src-00381)
-- [content/zevachim/62.txt](#src-00382)
-- [content/zevachim/63.txt](#src-00383)
-- [content/zevachim/64.txt](#src-00384)
-- [content/zevachim/65.txt](#src-00385)
-- [content/zevachim/66.txt](#src-00386)
-- [content/zevachim/67.txt](#src-00387)
-- [content/zevachim/68.txt](#src-00388)
-- [content/zevachim/69.txt](#src-00389)
-- [content/zevachim/7.txt](#src-00390)
-- [content/zevachim/70.txt](#src-00391)
-- [content/zevachim/71.txt](#src-00392)
-- [content/zevachim/72.txt](#src-00393)
-- [content/zevachim/73.txt](#src-00394)
-- [content/zevachim/74.txt](#src-00395)
-- [content/zevachim/75.txt](#src-00396)
-- [content/zevachim/76.txt](#src-00397)
-- [content/zevachim/77.txt](#src-00398)
-- [content/zevachim/78.txt](#src-00399)
-- [content/zevachim/79.txt](#src-00400)
-- [content/zevachim/8.txt](#src-00401)
-- [content/zevachim/80.txt](#src-00402)
-- [content/zevachim/81.txt](#src-00403)
-- [content/zevachim/82.txt](#src-00404)
-- [content/zevachim/83.txt](#src-00405)
-- [content/zevachim/84.txt](#src-00406)
-- [content/zevachim/85.txt](#src-00407)
-- [content/zevachim/86.txt](#src-00408)
-- [content/zevachim/87.txt](#src-00409)
-- [content/zevachim/88.txt](#src-00410)
-- [content/zevachim/89.txt](#src-00411)
-- [content/zevachim/9.txt](#src-00412)
-- [content/zevachim/90.txt](#src-00413)
-- [content/zevachim/91.txt](#src-00414)
-- [content/zevachim/92.txt](#src-00415)
-- [content/zevachim/93.txt](#src-00416)
-- [content/zevachim/94.txt](#src-00417)
-- [content/zevachim/95.txt](#src-00418)
-- [content/zevachim/96.txt](#src-00419)
-- [content/zevachim/97.txt](#src-00420)
-- [content/zevachim/98.txt](#src-00421)
-- [content/zevachim/99.txt](#src-00422)
+- [content/sukkah/23.txt](#src-00001)
+- [content/sukkah/24.txt](#src-00002)
+- [content/sukkah/25.txt](#src-00003)
+- [content/sukkah/26.txt](#src-00004)
+- [content/sukkah/27.txt](#src-00005)
+- [content/sukkah/28.txt](#src-00006)
+- [content/sukkah/29.txt](#src-00007)
+- [content/sukkah/3.txt](#src-00008)
+- [content/sukkah/30.txt](#src-00009)
+- [content/sukkah/31.txt](#src-00010)
+- [content/sukkah/32.txt](#src-00011)
+- [content/sukkah/33.txt](#src-00012)
+- [content/sukkah/34.txt](#src-00013)
+- [content/sukkah/35.txt](#src-00014)
+- [content/sukkah/36.txt](#src-00015)
+- [content/sukkah/37.txt](#src-00016)
+- [content/sukkah/38.txt](#src-00017)
+- [content/sukkah/39.txt](#src-00018)
+- [content/sukkah/4.txt](#src-00019)
+- [content/sukkah/40.txt](#src-00020)
+- [content/sukkah/41.txt](#src-00021)
+- [content/sukkah/42.txt](#src-00022)
+- [content/sukkah/43.txt](#src-00023)
+- [content/sukkah/44.txt](#src-00024)
+- [content/sukkah/45.txt](#src-00025)
+- [content/sukkah/46.txt](#src-00026)
+- [content/sukkah/47.txt](#src-00027)
+- [content/sukkah/48.txt](#src-00028)
+- [content/sukkah/49.txt](#src-00029)
+- [content/sukkah/5.txt](#src-00030)
+- [content/sukkah/50.txt](#src-00031)
+- [content/sukkah/51.txt](#src-00032)
+- [content/sukkah/52.txt](#src-00033)
+- [content/sukkah/53.txt](#src-00034)
+- [content/sukkah/54.txt](#src-00035)
+- [content/sukkah/55.txt](#src-00036)
+- [content/sukkah/56.txt](#src-00037)
+- [content/sukkah/6.txt](#src-00038)
+- [content/sukkah/7.txt](#src-00039)
+- [content/sukkah/8.txt](#src-00040)
+- [content/sukkah/9.txt](#src-00041)
+- [content/taanit/10.txt](#src-00042)
+- [content/taanit/11.txt](#src-00043)
+- [content/taanit/12.txt](#src-00044)
+- [content/taanit/13.txt](#src-00045)
+- [content/taanit/14.txt](#src-00046)
+- [content/taanit/15.txt](#src-00047)
+- [content/taanit/16.txt](#src-00048)
+- [content/taanit/17.txt](#src-00049)
+- [content/taanit/18.txt](#src-00050)
+- [content/taanit/19.txt](#src-00051)
+- [content/taanit/2.txt](#src-00052)
+- [content/taanit/20.txt](#src-00053)
+- [content/taanit/21.txt](#src-00054)
+- [content/taanit/22.txt](#src-00055)
+- [content/taanit/23.txt](#src-00056)
+- [content/taanit/24.txt](#src-00057)
+- [content/taanit/25.txt](#src-00058)
+- [content/taanit/26.txt](#src-00059)
+- [content/taanit/27.txt](#src-00060)
+- [content/taanit/28.txt](#src-00061)
+- [content/taanit/29.txt](#src-00062)
+- [content/taanit/3.txt](#src-00063)
+- [content/taanit/30.txt](#src-00064)
+- [content/taanit/31.txt](#src-00065)
+- [content/taanit/4.txt](#src-00066)
+- [content/taanit/5.txt](#src-00067)
+- [content/taanit/6.txt](#src-00068)
+- [content/taanit/7.txt](#src-00069)
+- [content/taanit/8.txt](#src-00070)
+- [content/taanit/9.txt](#src-00071)
+- [content/temurah/10.txt](#src-00072)
+- [content/temurah/11.txt](#src-00073)
+- [content/temurah/12.txt](#src-00074)
+- [content/temurah/13.txt](#src-00075)
+- [content/temurah/14.txt](#src-00076)
+- [content/temurah/15.txt](#src-00077)
+- [content/temurah/16.txt](#src-00078)
+- [content/temurah/17.txt](#src-00079)
+- [content/temurah/18.txt](#src-00080)
+- [content/temurah/19.txt](#src-00081)
+- [content/temurah/2.txt](#src-00082)
+- [content/temurah/20.txt](#src-00083)
+- [content/temurah/21.txt](#src-00084)
+- [content/temurah/22.txt](#src-00085)
+- [content/temurah/23.txt](#src-00086)
+- [content/temurah/24.txt](#src-00087)
+- [content/temurah/25.txt](#src-00088)
+- [content/temurah/26.txt](#src-00089)
+- [content/temurah/27.txt](#src-00090)
+- [content/temurah/28.txt](#src-00091)
+- [content/temurah/29.txt](#src-00092)
+- [content/temurah/3.txt](#src-00093)
+- [content/temurah/30.txt](#src-00094)
+- [content/temurah/31.txt](#src-00095)
+- [content/temurah/32.txt](#src-00096)
+- [content/temurah/33.txt](#src-00097)
+- [content/temurah/34.txt](#src-00098)
+- [content/temurah/4.txt](#src-00099)
+- [content/temurah/5.txt](#src-00100)
+- [content/temurah/6.txt](#src-00101)
+- [content/temurah/7.txt](#src-00102)
+- [content/temurah/8.txt](#src-00103)
+- [content/temurah/9.txt](#src-00104)
+- [content/yevamot/10.txt](#src-00105)
+- [content/yevamot/100.txt](#src-00106)
+- [content/yevamot/101.txt](#src-00107)
+- [content/yevamot/102.txt](#src-00108)
+- [content/yevamot/103.txt](#src-00109)
+- [content/yevamot/104.txt](#src-00110)
+- [content/yevamot/105.txt](#src-00111)
+- [content/yevamot/106.txt](#src-00112)
+- [content/yevamot/107.txt](#src-00113)
+- [content/yevamot/108.txt](#src-00114)
+- [content/yevamot/109.txt](#src-00115)
+- [content/yevamot/11.txt](#src-00116)
+- [content/yevamot/110.txt](#src-00117)
+- [content/yevamot/111.txt](#src-00118)
+- [content/yevamot/112.txt](#src-00119)
+- [content/yevamot/113.txt](#src-00120)
+- [content/yevamot/114.txt](#src-00121)
+- [content/yevamot/115.txt](#src-00122)
+- [content/yevamot/116.txt](#src-00123)
+- [content/yevamot/117.txt](#src-00124)
+- [content/yevamot/118.txt](#src-00125)
+- [content/yevamot/119.txt](#src-00126)
+- [content/yevamot/12.txt](#src-00127)
+- [content/yevamot/120.txt](#src-00128)
+- [content/yevamot/121.txt](#src-00129)
+- [content/yevamot/122.txt](#src-00130)
+- [content/yevamot/13.txt](#src-00131)
+- [content/yevamot/14.txt](#src-00132)
+- [content/yevamot/15.txt](#src-00133)
+- [content/yevamot/16.txt](#src-00134)
+- [content/yevamot/17.txt](#src-00135)
+- [content/yevamot/18.txt](#src-00136)
+- [content/yevamot/19.txt](#src-00137)
+- [content/yevamot/2.txt](#src-00138)
+- [content/yevamot/20.txt](#src-00139)
+- [content/yevamot/21.txt](#src-00140)
+- [content/yevamot/22.txt](#src-00141)
+- [content/yevamot/23.txt](#src-00142)
+- [content/yevamot/24.txt](#src-00143)
+- [content/yevamot/25.txt](#src-00144)
+- [content/yevamot/26.txt](#src-00145)
+- [content/yevamot/27.txt](#src-00146)
+- [content/yevamot/28.txt](#src-00147)
+- [content/yevamot/29.txt](#src-00148)
+- [content/yevamot/3.txt](#src-00149)
+- [content/yevamot/30.txt](#src-00150)
+- [content/yevamot/31.txt](#src-00151)
+- [content/yevamot/32.txt](#src-00152)
+- [content/yevamot/33.txt](#src-00153)
+- [content/yevamot/34.txt](#src-00154)
+- [content/yevamot/35.txt](#src-00155)
+- [content/yevamot/36.txt](#src-00156)
+- [content/yevamot/37.txt](#src-00157)
+- [content/yevamot/38.txt](#src-00158)
+- [content/yevamot/39.txt](#src-00159)
+- [content/yevamot/4.txt](#src-00160)
+- [content/yevamot/40.txt](#src-00161)
+- [content/yevamot/41.txt](#src-00162)
+- [content/yevamot/42.txt](#src-00163)
+- [content/yevamot/43.txt](#src-00164)
+- [content/yevamot/44.txt](#src-00165)
+- [content/yevamot/45.txt](#src-00166)
+- [content/yevamot/46.txt](#src-00167)
+- [content/yevamot/47.txt](#src-00168)
+- [content/yevamot/48.txt](#src-00169)
+- [content/yevamot/49.txt](#src-00170)
+- [content/yevamot/5.txt](#src-00171)
+- [content/yevamot/50.txt](#src-00172)
+- [content/yevamot/51.txt](#src-00173)
+- [content/yevamot/52.txt](#src-00174)
+- [content/yevamot/53.txt](#src-00175)
+- [content/yevamot/54.txt](#src-00176)
+- [content/yevamot/55.txt](#src-00177)
+- [content/yevamot/56.txt](#src-00178)
+- [content/yevamot/57.txt](#src-00179)
+- [content/yevamot/58.txt](#src-00180)
+- [content/yevamot/59.txt](#src-00181)
+- [content/yevamot/6.txt](#src-00182)
+- [content/yevamot/60.txt](#src-00183)
+- [content/yevamot/61.txt](#src-00184)
+- [content/yevamot/62.txt](#src-00185)
+- [content/yevamot/63.txt](#src-00186)
+- [content/yevamot/64.txt](#src-00187)
+- [content/yevamot/65.txt](#src-00188)
+- [content/yevamot/66.txt](#src-00189)
+- [content/yevamot/67.txt](#src-00190)
+- [content/yevamot/68.txt](#src-00191)
+- [content/yevamot/69.txt](#src-00192)
+- [content/yevamot/7.txt](#src-00193)
+- [content/yevamot/70.txt](#src-00194)
+- [content/yevamot/71.txt](#src-00195)
+- [content/yevamot/72.txt](#src-00196)
+- [content/yevamot/73.txt](#src-00197)
+- [content/yevamot/74.txt](#src-00198)
+- [content/yevamot/75.txt](#src-00199)
+- [content/yevamot/76.txt](#src-00200)
+- [content/yevamot/77.txt](#src-00201)
+- [content/yevamot/78.txt](#src-00202)
+- [content/yevamot/79.txt](#src-00203)
+- [content/yevamot/8.txt](#src-00204)
+- [content/yevamot/80.txt](#src-00205)
+- [content/yevamot/81.txt](#src-00206)
+- [content/yevamot/82.txt](#src-00207)
+- [content/yevamot/83.txt](#src-00208)
+- [content/yevamot/84.txt](#src-00209)
+- [content/yevamot/85.txt](#src-00210)
+- [content/yevamot/86.txt](#src-00211)
+- [content/yevamot/87.txt](#src-00212)
+- [content/yevamot/88.txt](#src-00213)
+- [content/yevamot/89.txt](#src-00214)
+- [content/yevamot/9.txt](#src-00215)
+- [content/yevamot/90.txt](#src-00216)
+- [content/yevamot/91.txt](#src-00217)
+- [content/yevamot/92.txt](#src-00218)
+- [content/yevamot/93.txt](#src-00219)
+- [content/yevamot/94.txt](#src-00220)
+- [content/yevamot/95.txt](#src-00221)
+- [content/yevamot/96.txt](#src-00222)
+- [content/yevamot/97.txt](#src-00223)
+- [content/yevamot/98.txt](#src-00224)
+- [content/yevamot/99.txt](#src-00225)
+- [content/yoma/10.txt](#src-00226)
+- [content/yoma/11.txt](#src-00227)
+- [content/yoma/12.txt](#src-00228)
+- [content/yoma/13.txt](#src-00229)
+- [content/yoma/14.txt](#src-00230)
+- [content/yoma/15.txt](#src-00231)
+- [content/yoma/16.txt](#src-00232)
+- [content/yoma/17.txt](#src-00233)
+- [content/yoma/18.txt](#src-00234)
+- [content/yoma/19.txt](#src-00235)
+- [content/yoma/2.txt](#src-00236)
+- [content/yoma/20.txt](#src-00237)
+- [content/yoma/21.txt](#src-00238)
+- [content/yoma/22.txt](#src-00239)
+- [content/yoma/23.txt](#src-00240)
+- [content/yoma/24.txt](#src-00241)
+- [content/yoma/25.txt](#src-00242)
+- [content/yoma/26.txt](#src-00243)
+- [content/yoma/27.txt](#src-00244)
+- [content/yoma/28.txt](#src-00245)
+- [content/yoma/29.txt](#src-00246)
+- [content/yoma/3.txt](#src-00247)
+- [content/yoma/30.txt](#src-00248)
+- [content/yoma/31.txt](#src-00249)
+- [content/yoma/32.txt](#src-00250)
+- [content/yoma/33.txt](#src-00251)
+- [content/yoma/34.txt](#src-00252)
+- [content/yoma/35.txt](#src-00253)
+- [content/yoma/36.txt](#src-00254)
+- [content/yoma/37.txt](#src-00255)
+- [content/yoma/38.txt](#src-00256)
+- [content/yoma/39.txt](#src-00257)
+- [content/yoma/4.txt](#src-00258)
+- [content/yoma/40.txt](#src-00259)
+- [content/yoma/41.txt](#src-00260)
+- [content/yoma/42.txt](#src-00261)
+- [content/yoma/43.txt](#src-00262)
+- [content/yoma/44.txt](#src-00263)
+- [content/yoma/45.txt](#src-00264)
+- [content/yoma/46.txt](#src-00265)
+- [content/yoma/47.txt](#src-00266)
+- [content/yoma/48.txt](#src-00267)
+- [content/yoma/49.txt](#src-00268)
+- [content/yoma/5.txt](#src-00269)
+- [content/yoma/50.txt](#src-00270)
+- [content/yoma/51.txt](#src-00271)
+- [content/yoma/52.txt](#src-00272)
+- [content/yoma/53.txt](#src-00273)
+- [content/yoma/54.txt](#src-00274)
+- [content/yoma/55.txt](#src-00275)
+- [content/yoma/56.txt](#src-00276)
+- [content/yoma/57.txt](#src-00277)
+- [content/yoma/58.txt](#src-00278)
+- [content/yoma/59.txt](#src-00279)
+- [content/yoma/6.txt](#src-00280)
+- [content/yoma/60.txt](#src-00281)
+- [content/yoma/61.txt](#src-00282)
+- [content/yoma/62.txt](#src-00283)
+- [content/yoma/63.txt](#src-00284)
+- [content/yoma/64.txt](#src-00285)
+- [content/yoma/65.txt](#src-00286)
+- [content/yoma/66.txt](#src-00287)
+- [content/yoma/67.txt](#src-00288)
+- [content/yoma/68.txt](#src-00289)
+- [content/yoma/69.txt](#src-00290)
+- [content/yoma/7.txt](#src-00291)
+- [content/yoma/70.txt](#src-00292)
+- [content/yoma/71.txt](#src-00293)
+- [content/yoma/72.txt](#src-00294)
+- [content/yoma/73.txt](#src-00295)
+- [content/yoma/74.txt](#src-00296)
+- [content/yoma/75.txt](#src-00297)
+- [content/yoma/76.txt](#src-00298)
+- [content/yoma/77.txt](#src-00299)
+- [content/yoma/78.txt](#src-00300)
+- [content/yoma/79.txt](#src-00301)
+- [content/yoma/8.txt](#src-00302)
+- [content/yoma/80.txt](#src-00303)
+- [content/yoma/81.txt](#src-00304)
+- [content/yoma/82.txt](#src-00305)
+- [content/yoma/83.txt](#src-00306)
+- [content/yoma/84.txt](#src-00307)
+- [content/yoma/85.txt](#src-00308)
+- [content/yoma/86.txt](#src-00309)
+- [content/yoma/87.txt](#src-00310)
+- [content/yoma/88.txt](#src-00311)
+- [content/yoma/9.txt](#src-00312)
+- [content/zevachim/10.txt](#src-00313)
+- [content/zevachim/100.txt](#src-00314)
+- [content/zevachim/101.txt](#src-00315)
+- [content/zevachim/102.txt](#src-00316)
+- [content/zevachim/103.txt](#src-00317)
+- [content/zevachim/104.txt](#src-00318)
+- [content/zevachim/105.txt](#src-00319)
+- [content/zevachim/106.txt](#src-00320)
+- [content/zevachim/107.txt](#src-00321)
+- [content/zevachim/108.txt](#src-00322)
+- [content/zevachim/109.txt](#src-00323)
+- [content/zevachim/11.txt](#src-00324)
+- [content/zevachim/110.txt](#src-00325)
+- [content/zevachim/111.txt](#src-00326)
+- [content/zevachim/112.txt](#src-00327)
+- [content/zevachim/113.txt](#src-00328)
+- [content/zevachim/114.txt](#src-00329)
+- [content/zevachim/115.txt](#src-00330)
+- [content/zevachim/116.txt](#src-00331)
+- [content/zevachim/117.txt](#src-00332)
+- [content/zevachim/118.txt](#src-00333)
+- [content/zevachim/119.txt](#src-00334)
+- [content/zevachim/12.txt](#src-00335)
+- [content/zevachim/120.txt](#src-00336)
+- [content/zevachim/13.txt](#src-00337)
+- [content/zevachim/14.txt](#src-00338)
+- [content/zevachim/15.txt](#src-00339)
+- [content/zevachim/16.txt](#src-00340)
+- [content/zevachim/17.txt](#src-00341)
+- [content/zevachim/18.txt](#src-00342)
+- [content/zevachim/19.txt](#src-00343)
+- [content/zevachim/2.txt](#src-00344)
+- [content/zevachim/20.txt](#src-00345)
+- [content/zevachim/21.txt](#src-00346)
+- [content/zevachim/22.txt](#src-00347)
+- [content/zevachim/23.txt](#src-00348)
+- [content/zevachim/24.txt](#src-00349)
+- [content/zevachim/25.txt](#src-00350)
+- [content/zevachim/26.txt](#src-00351)
+- [content/zevachim/27.txt](#src-00352)
+- [content/zevachim/28.txt](#src-00353)
+- [content/zevachim/29.txt](#src-00354)
+- [content/zevachim/3.txt](#src-00355)
+- [content/zevachim/30.txt](#src-00356)
+- [content/zevachim/31.txt](#src-00357)
+- [content/zevachim/32.txt](#src-00358)
+- [content/zevachim/33.txt](#src-00359)
+- [content/zevachim/34.txt](#src-00360)
+- [content/zevachim/35.txt](#src-00361)
+- [content/zevachim/36.txt](#src-00362)
+- [content/zevachim/37.txt](#src-00363)
+- [content/zevachim/38.txt](#src-00364)
+- [content/zevachim/39.txt](#src-00365)
+- [content/zevachim/4.txt](#src-00366)
+- [content/zevachim/40.txt](#src-00367)
+- [content/zevachim/41.txt](#src-00368)
+- [content/zevachim/42.txt](#src-00369)
+- [content/zevachim/43.txt](#src-00370)
+- [content/zevachim/44.txt](#src-00371)
+- [content/zevachim/45.txt](#src-00372)
+- [content/zevachim/46.txt](#src-00373)
+- [content/zevachim/47.txt](#src-00374)
+- [content/zevachim/48.txt](#src-00375)
+- [content/zevachim/49.txt](#src-00376)
+- [content/zevachim/5.txt](#src-00377)
+- [content/zevachim/50.txt](#src-00378)
+- [content/zevachim/51.txt](#src-00379)
+- [content/zevachim/52.txt](#src-00380)
+- [content/zevachim/53.txt](#src-00381)
+- [content/zevachim/54.txt](#src-00382)
+- [content/zevachim/55.txt](#src-00383)
+- [content/zevachim/56.txt](#src-00384)
+- [content/zevachim/57.txt](#src-00385)
+- [content/zevachim/58.txt](#src-00386)
+- [content/zevachim/59.txt](#src-00387)
+- [content/zevachim/6.txt](#src-00388)
+- [content/zevachim/60.txt](#src-00389)
+- [content/zevachim/61.txt](#src-00390)
+- [content/zevachim/62.txt](#src-00391)
+- [content/zevachim/63.txt](#src-00392)
+- [content/zevachim/64.txt](#src-00393)
+- [content/zevachim/65.txt](#src-00394)
+- [content/zevachim/66.txt](#src-00395)
+- [content/zevachim/67.txt](#src-00396)
+- [content/zevachim/68.txt](#src-00397)
+- [content/zevachim/69.txt](#src-00398)
+- [content/zevachim/7.txt](#src-00399)
+- [content/zevachim/70.txt](#src-00400)
+- [content/zevachim/71.txt](#src-00401)
+- [content/zevachim/72.txt](#src-00402)
+- [content/zevachim/73.txt](#src-00403)
+- [content/zevachim/74.txt](#src-00404)
+- [content/zevachim/75.txt](#src-00405)
+- [content/zevachim/76.txt](#src-00406)
+- [content/zevachim/77.txt](#src-00407)
+- [content/zevachim/78.txt](#src-00408)
+- [content/zevachim/79.txt](#src-00409)
+- [content/zevachim/8.txt](#src-00410)
+- [content/zevachim/80.txt](#src-00411)
+- [content/zevachim/81.txt](#src-00412)
+- [content/zevachim/82.txt](#src-00413)
+- [content/zevachim/83.txt](#src-00414)
+- [content/zevachim/84.txt](#src-00415)
+- [content/zevachim/85.txt](#src-00416)
+- [content/zevachim/86.txt](#src-00417)
+- [content/zevachim/87.txt](#src-00418)
+- [content/zevachim/88.txt](#src-00419)
+- [content/zevachim/89.txt](#src-00420)
+- [content/zevachim/9.txt](#src-00421)
+- [content/zevachim/90.txt](#src-00422)
+- [content/zevachim/91.txt](#src-00423)
+- [content/zevachim/92.txt](#src-00424)
+- [content/zevachim/93.txt](#src-00425)
+- [content/zevachim/94.txt](#src-00426)
+- [content/zevachim/95.txt](#src-00427)
+- [content/zevachim/96.txt](#src-00428)
+- [content/zevachim/97.txt](#src-00429)
+- [content/zevachim/98.txt](#src-00430)
+- [content/zevachim/99.txt](#src-00431)
+
+---
+
+### content/sukkah/23.txt
+<a id="src-00001"></a>
+
+**Source file:** `content/sukkah/23.txt`
+
+Sukkah 23 – Sukkah-mobile
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihS8KhtPuEg0g4i1PqebXqj1-O6QPwCRD-rVQO95RVZDDIH39sAaiJdCfBvGx22DAeRFOyk7VSZgYZN-n3LDRQuo3lYR57a3f8x8C3cSudX4M-c4vNj2G8NLm2CsCX4LCJ5pp0gJfLQVN8/s1600/The+Storm+at+Sea+with+Shipwreck+By+Jan+The+Elder+Brueghel.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="234" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihS8KhtPuEg0g4i1PqebXqj1-O6QPwCRD-rVQO95RVZDDIH39sAaiJdCfBvGx22DAeRFOyk7VSZgYZN-n3LDRQuo3lYR57a3f8x8C3cSudX4M-c4vNj2G8NLm2CsCX4LCJ5pp0gJfLQVN8/s1600/The+Storm+at+Sea+with+Shipwreck+By+Jan+The+Elder+Brueghel.jpg" width="320" /></a></div>
+If one makes his sukkah on top of a wagon – it is valid since it is definitely only a temporary dwelling.
+<br />
+<br />
+If he makes it on a ship, it is valid too. It once happened that Rabbi Akiva and Rabban Gamliel were traveling on a ship, and Rabbi Akiva made his sukkah on top of it. The following day a wind blew and toppled the sukkah. Said Rabban Gamliel, “Akiva, where is your sukkah now?” However, he was not taunting; rather, in Rabban Gamliel's view, a sukkah on top of a ship is invalid. Why? – Because it cannot withstand the strong sea winds, and is thus as if non-existent. If so, what does Rabbi Akiva answer? – He says that if it could stand on land, that is enough permanence, which is valid.
+<br />
+<br />
+If he makes his sukkah on top of a tree, this is valid, but since one cannot climb trees on holidays, one cannot go up into this sukkah on the first day of Sukkot (a Holiday.)<br />
+<br />
+If he makes a sukkah on top of a camel, it is valid between the camel's humps, and here too, he cannot go up into this sukkah on the holidays. Some say that the sukkah should be equally fit for all seven days of Sukkot and, since here he cannot use it on the first day, it is invalid for the rest. The Talmud continues with discussions of when live animals can be used for walls or coverings, or even for <a href="http://mkerzner.blogspot.com/search/label/Gittin">writing a Get</a> on them, and what the problems with this might be.
+<br />
+<br />
+Art: The Storm at Sea with Shipwreck By Jan The Elder Brueghel
+
+---
+
+### content/sukkah/24.txt
+<a id="src-00002"></a>
+
+**Source file:** `content/sukkah/24.txt`
+
+Sukkah 24 – Should one be concerned with improbabilities?
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVQIV_8kMWU1OywTOStePkyGhYgf4GA3jjEqKIZugIGNJYchvkchwq7TlO6IZ5JuEXovkC5lY9-Z4EKXZbfvvTyJ3ljgHy-mgoXigUvmgMjgle6u8EodJM7ZpPEleVXWKFtxb8rIRriyoj/s1600/The+Display+of+the+Elephant+by+Pietro+Longhi.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="252" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVQIV_8kMWU1OywTOStePkyGhYgf4GA3jjEqKIZugIGNJYchvkchwq7TlO6IZ5JuEXovkC5lY9-Z4EKXZbfvvTyJ3ljgHy-mgoXigUvmgMjgle6u8EodJM7ZpPEleVXWKFtxb8rIRriyoj/s1600/The+Display+of+the+Elephant+by+Pietro+Longhi.jpg" width="320" /></a>In discussing the use of an animal for walls of a sukkah, Rabbi Yehudah allows it: as long as it serves as a partition, it is a valid wall. However, Rabbi Meir says that the Sages decreed not to do this. Why not? The animal may die, and in doing so, bring its height to less than ten handbreadths. One may not notice this and continue sitting in a sukkah that is not kosher. According to this, an elephant, which is high enough even in death, would make a valid partition.
+<br />
+<br />
+But is it Rabbi Meir's way to be concerned with improbabilities? For example, if one buys wine that may not have been tithed and needs to drink it on Shabbat, he can separate the tithe in his mind and do it physically after Shabbat – and there Rabbi Meir is not concerned that the wine bag will break and leave him with no tithe! - He will answer that it is more likely for an animal to die than for a wineskin to break. 
+<br />
+<br />
+But is Rabbi Yehudah not concerned with the possibility of death? Why, on Yom Kippur, he prepares <a href="http://mkerzner.blogspot.com/2013/11/yoma-13-another-wife-for-high-priest.html">another wife for the High Priest – lest his wife will die</a>! – He will answer that Yom Kippur is special.
+<br />
+<br />
+So you are saying that you are concerned about the animal's death, but otherwise, the animal could be a wall? If so, it is a utensil and can receive spiritual impurity. Why then does Rabbi Meir consider it pure even when used as a coffin cover? Because of this objection, we take away all of the previous discussion and say that the real reason why an animal cannot be a wall is that Rabbi Meir requires walls made by man's hands in a sukkah.
+<br />
+<br />
+Art: The Display of the Elephant by Pietro Longhi
+
+---
+
+### content/sukkah/25.txt
+<a id="src-00003"></a>
+
+**Source file:** `content/sukkah/25.txt`
+
+Sukkah 25 – Trees around your sukkah
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkDi0xdleOXRhLNXl8G8s69KTukOQzGfbtS4Zqbgv9QaJ9bVbl7iD6gNPJyQ2c2y3-fTJM4tf9AtHJAP8efyrDTIpsxg7xNfmbAyBuEml74CYW0hoXMFQGfPnhHHlq2PpzrtIHzHwvzF7p/s1600/The+Artist's+House+Through+the+Trees+by+John+Henry+Twachtman.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkDi0xdleOXRhLNXl8G8s69KTukOQzGfbtS4Zqbgv9QaJ9bVbl7iD6gNPJyQ2c2y3-fTJM4tf9AtHJAP8efyrDTIpsxg7xNfmbAyBuEml74CYW0hoXMFQGfPnhHHlq2PpzrtIHzHwvzF7p/s1600/The+Artist's+House+Through+the+Trees+by+John+Henry+Twachtman.jpg" width="259" /></a>If one made trees serve as walls of his sukkah, this is valid, and we don't say that perhaps the Sages decreed not to do this out of concern that someone may use a tree on holiday. They didn't. 
+<br />
+<br />
+However, Rav Acha bar Yakov stated that any partition that moves is not valid. What about our sukkah, which is surrounded by trees whose branches are always moving! - Rav Acha will answer that we don't know all the circumstances: the rule only applies if he has tied the tree branches with interwoven branches of palm trees. Thus, the permission that we had suddenly becomes very limited.
+<br />
+<br />
+One who is busy with a mitzvah – such as traveling to study Torah, greet his teacher, or redeem a Jewish captive – does not have to observe the mitzvah of sukkah. Why? – Since he is busy with one mitzvah, he should not abandon it to do another one. And how do we know this principle? – Since the Torah said, "<a href="http://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=5&amp;CHAPTER=6#P5088">When you sit in your home</a>." This is said about reading the "Shema" prayer, but it teaches us a general principle: one only has to do a mitzvah if he is “sitting in his home” and is not busy with another mitzvah. But maybe the Torah is talking about one who is sitting in his home and is already doing a mitzvah – which would then teach us precisely the opposite, namely, that one has to drop a mitzvah and do another one!? – No, the Torah said an extra word, “your” home, to teach that you are busy only with your affairs. Quod erat demonstrandum.
+<br />
+<br />
+Art: The Artist's House Through the Trees by John Henry Twachtman
+
+---
+
+### content/sukkah/26.txt
+<a id="src-00004"></a>
+
+**Source file:** `content/sukkah/26.txt`
+
+Sukkah 26 - A guarantor needs another guarantor in turn
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7XgcOKU9V71r3FdfY5N8Wf60bm0FdPeFKSl24lU0gz-Iz5_WqMObVhm1EfTSwacYP-giK_idu5vJLZDefpdjhUf_9f8PPDk2-xZXmHcbomy-dwPmdds_qe5sxvb-3PL3o4HHqAHbw8hgs/s800/The+Sick+Child+by+J.+Bond+Francisco.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="532" data-original-width="800" height="213" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7XgcOKU9V71r3FdfY5N8Wf60bm0FdPeFKSl24lU0gz-Iz5_WqMObVhm1EfTSwacYP-giK_idu5vJLZDefpdjhUf_9f8PPDk2-xZXmHcbomy-dwPmdds_qe5sxvb-3PL3o4HHqAHbw8hgs/s320/The+Sick+Child+by+J.+Bond+Francisco.jpg" width="320" /></a></div>Someone who is sick is exempt from the obligation of a sukkah: he does not have to sleep there, and he does not have to eat there. Even his attendants can go out of the sukkah and sleep outside. One who feels discomfort - such as the smell of the floor - is not obligated to be in the sukkah. If so, why did we have to mention the sick person? Surely, the sick is uncomfortable. The difference is that the sick can take his attendants with him, but it does not apply to the attendants of an uncomfortable person.&nbsp;<p></p><p>One can eat a light snack outside the sukkah but not take a catnap. But with tefillin, catnap is allowed; what is the difference? Is it because he can appoint an overseer who will wake him up? Rav Mesharshia objected: that's not an explanation - guarantor needs his own guarantor, and your overseer may fall asleep as well! Rather, one should not nap outside the sukkah because even a nap refreshes him and counts as sleep. With tefillin, the concern is that he should not pass gas, and that won't happen while catnapping.</p><p>Rabbi Yochanan ben Zakkai was extra strict with himself and ate and drank even small amounts only in the sukkah. Nevertheless, this kind of strictness is permitted and is not considered presumptuous.</p><p>Art:&nbsp;The Sick Child by J. Bond Francisco</p>
+
+---
+
+### content/sukkah/27.txt
+<a id="src-00005"></a>
+
+**Source file:** `content/sukkah/27.txt`
+
+Sukkah 27 - Fourteen obligatory meals in the Sukkah
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfvADrGrl0c8DEH_AXq6jp7wK9BOsdaMCRJ_SGbOsyo4ckhUeAPbn6DOCpdOSVhzUqIm-oRqF8tSPq-S1jTg1kZkexYE-RktHHuO9scLpXG-U3HAi0jrvjXWcUtP1_CggoEPBbmnEh9k71/s599/The+Prayer+Before+the+Meal+-+Jan+Steen.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="599" data-original-width="514" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfvADrGrl0c8DEH_AXq6jp7wK9BOsdaMCRJ_SGbOsyo4ckhUeAPbn6DOCpdOSVhzUqIm-oRqF8tSPq-S1jTg1kZkexYE-RktHHuO9scLpXG-U3HAi0jrvjXWcUtP1_CggoEPBbmnEh9k71/s320/The+Prayer+Before+the+Meal+-+Jan+Steen.jpg" width="275" /></a></div>One must eat fourteen meals in the Sukkah during the seven days of the Holiday, one during the day and one in the evening. This is the opinion of Rabbi Eliezer. What is his logic? One should live in the Sukkah like at home, and just as at home, he eats a day meal and an evening meal; he must do the same in the Sukkah.<p></p><p>The Sages disagree: only the first evening meal is obligatory. What is their logic? Don't they agree that he should live in the Sukkah? Yes, they agree, but their logic is different: just as at home, eating is not obligatory but is his choice, so in the Sukkah, he is not obligated to eat. But if so, why is the first meal required? - They compare Sukkot to Pesach. Just as Pesach starts on the fifteenth of the month and <a href="https://mkerzner.blogspot.com/2013/10/pesachim-108-drinking-wine-and-eating.html" target="_blank">the first meal - matzah</a> - is required, Sukkot also starts on the fifteenth, and the first meal is required.</p><p>Furthermore, Rabbi Eliezer said that if one missed the first meal in the Sukkah, he can compensate it by eating another meal, and even on the Holiday right after Sukkot, which is called Shemini Atzeret, the Eighth-day Holiday. But how could Rabbi Eliezer say that - one is not allowed to sit in the Sukkah for an extra day! - By then, Rabbi Eliezer changed his mind. He agrees that fourteen meals are not required, and now he argues that one can fulfill his obligation after Sukkot, just as it is true on the eighth day of Passover.</p><p>The Prayer Before the Meal by Jan Steen</p>
+
+---
+
+### content/sukkah/28.txt
+<a id="src-00006"></a>
+
+**Source file:** `content/sukkah/28.txt`
+
+Sukkah 28 - All Israel can use one sukkah
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTuY-_2dZT2IanpP1sLbQeeaAYfHkXHk89gjgKZpafMjjnA2wvWkL-0dJ123iZ-117av3gaNFlzydKMPXJBA6EOvFXywJ9KOKqnc5G1nSsyahxAPgZEYBqVoFhuCwGB3TD4OUiyDegZTZB/s1024/The+Palm+by+Pierre-Auguste+Renoir.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="848" data-original-width="1024" height="265" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTuY-_2dZT2IanpP1sLbQeeaAYfHkXHk89gjgKZpafMjjnA2wvWkL-0dJ123iZ-117av3gaNFlzydKMPXJBA6EOvFXywJ9KOKqnc5G1nSsyahxAPgZEYBqVoFhuCwGB3TD4OUiyDegZTZB/s320/The+Palm+by+Pierre-Auguste+Renoir.jpg" width="320" /></a></div>Another mitzvah of Sukkot is "<a href="https://mkerzner.blogspot.com/2014/03/sukkah-34-branches.html" target="_blank">waving the branches</a>" - the palm branches, citron, and so on. One should own them at the time of waving because the requirement is "take for yourself." Could it be that one should own the sukkah as well? - No, all Israelites can sit in one sukkah because it says, "<a href="https://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=3&amp;CHAPTER=23#P3442" target="_blank">All the natives in Israel will sit in a Sukkah</a>," that is, they can sit in one sukkah.<p></p><p>The sukkah should be big enough to contain his head and most of the body, but the table can stay outside. The School of Shammai disagrees: the table must be inside, or else he might be drawn after it and eat outside the sukkah. Now they bring evidence. The Sages from both schools once visited Rabbi Yochanan ben HaChoranit and found him sitting in a sukkah with the table outside and said nothing. But they disagree about this evidence: the School of Shammai says that the Sages spoke up and told him, "If this is how you always conducted yourself, you never fulfilled this mitzvah in your life!'</p><p>Art:&nbsp;The Palm by Pierre-Auguste Renoir</p>
+
+---
+
+### content/sukkah/29.txt
+<a id="src-00007"></a>
+
+**Source file:** `content/sukkah/29.txt`
+
+Sukkah 29 - Permanent temporary dwelling
+<div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnG9cePRNrK96dV_O3DT2535DLVD7ybyhyphenhyphen-gzNZJa0qDK72ER_PYwgWlI0DETIcJp3npmnMJceXFMY8mp3FwFqhmNGfyV_yUBxm8kfHVJ27oYKELR0lwpo7rZ67LL_NyRXUYnas6F01ZUR/s545/The+drunk+violinist+by+Gerrit+van+Honthorst.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="545" data-original-width="545" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnG9cePRNrK96dV_O3DT2535DLVD7ybyhyphenhyphen-gzNZJa0qDK72ER_PYwgWlI0DETIcJp3npmnMJceXFMY8mp3FwFqhmNGfyV_yUBxm8kfHVJ27oYKELR0lwpo7rZ67LL_NyRXUYnas6F01ZUR/s320/The+drunk+violinist+by+Gerrit+van+Honthorst.jpg" width="320" /></a></div>The sukkah is intended as a temporary dwelling: it is shaky and not too strong; it lets in sun and rain. However, its residents must behave as if it were their permanent home for the seven days of the festival. How do they show it? If he has nice vessels, he should bring them to the sukkah. Nice clothing? - Bring them to the sukkah. In general, he should eat, drink, and relax in the sukkah.<div><br /></div><div>One cannot deny, however, that sukkah is not conducive to deep concentration. Where should he study, inside or outside? For things that are easy or already understood - he can review them in the sukkah. For hard things, he can go learn them at home.</div><div><br /></div><div>If it begins to rain, he should persist. However, once there is enough rain to cause discomfort, he can leave. What is called discomfort? When his porridge is ruined because of the rain.&nbsp;</div><div><br /></div><div>When we are all ready for the sukkah and it rains - what can this be compared to? To a slave who came to pour wine for his master (and wine was usually diluted with water,) but the master took this water and poured it in his face.</div><div><br /></div><div>Art:&nbsp;The drunk violinist by Gerrit van Honthorst</div>
+
+---
+
+### content/sukkah/3.txt
+<a id="src-00008"></a>
+
+**Source file:** `content/sukkah/3.txt`
+
+Sukkah 3 – The smallest possible sukkah
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOefF8nT7foYkgaZ52sj-LpHGk2CVL04ovzKwCmurfEbwJDQ1VrqLcsdkAYkVoF7dpPtptuAeyH8NaLxW-qxq3ihxWO6vNRTgV6BKWDhdczxls0r3w85BXczYbMWz_WkhMUIJW0HdPdpML/s1600/Peasants+at+the+Table+By+Diego+Rodriguez+de+Silva+y+Velazquez.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="276" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOefF8nT7foYkgaZ52sj-LpHGk2CVL04ovzKwCmurfEbwJDQ1VrqLcsdkAYkVoF7dpPtptuAeyH8NaLxW-qxq3ihxWO6vNRTgV6BKWDhdczxls0r3w85BXczYbMWz_WkhMUIJW0HdPdpML/s1600/Peasants+at+the+Table+By+Diego+Rodriguez+de+Silva+y+Velazquez.jpg" width="320" /></a>Rav Itzhak bar Shmuel stated the law: the smallest possible sukkah has to be no less than seven handbreadths by seven handbreadths so that one can fit in it his head, most of his body, and his table. They asked him, “But this is the opinion of Beit Shammai, and we know that whenever Beit Hillel and Beit Shammai argue, the law is always like Beit Hillel!?” He answered, “And what should I do? In this case, Beit Shammai is correct.”
+<br />
+<br />
+Note, however, that the table is inside the sukkah. This leaves room for a more lenient opinion: a sukkah that is so small that it only contains his head and body while the table is outside is still valid. That, indeed, is the opinion of Beit Hillel. 
+<br />
+<br />
+What if the sukkah is pretty big, but the table is still outside? Would this be valid or not? It turns out that Beit Hillel and Beit Shammai are consistent with their own opinions: Beit Hillel permits it, while Beit Shammai says he does not fulfill the mitzvah. What is then the basic underlying reason for their disagreement? - Beit Shammai says that the Sages instituted an additional law and disqualified a sukkah with an outside table out of concern that he will get drawn after the food on the table and will, in fact, eat outside the sukkah. Beit Hillel disagrees and says that there is no such concern.
+<br />
+<br />
+Art: Peasants at the Table By Diego Rodriguez de Silva y Velazquez
+
+---
+
+### content/sukkah/30.txt
+<a id="src-00009"></a>
+
+**Source file:** `content/sukkah/30.txt`
+
+Sukkah 30 - Good deed performed through a bad one
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhow9MWMNawreecktmgdRS9SNrwvwI468nQTQy-Dvvwtss6V4jy2OVNG-ZCxRXUscODWJnDfDz4BCAmhebIO837SM8xSk13mcr3R4CY3GgI0YTAPbbBKLQ2O7YsYQwvhTKZ0pJiet6IUcTZ/s774/774px-Paul-Charles_Chocarne-Moreau_The_Cunning_Thief.jpeg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="600" data-original-width="774" height="248" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhow9MWMNawreecktmgdRS9SNrwvwI468nQTQy-Dvvwtss6V4jy2OVNG-ZCxRXUscODWJnDfDz4BCAmhebIO837SM8xSk13mcr3R4CY3GgI0YTAPbbBKLQ2O7YsYQwvhTKZ0pJiet6IUcTZ/s320/774px-Paul-Charles_Chocarne-Moreau_The_Cunning_Thief.jpeg" width="320" /></a></div>On Sukkot, people must wave a <a href="https://mkerzner.blogspot.com/2014/03/sukkah-34-branches.html" target="_blank">bunch of branches</a>. One of these is a palm branch (lulav.) However, if he stole his lulav, it is not kosher, and he has not fulfilled his obligation.<p></p><p>Why is that? Since the Torah said, "<a href="https://bible.ort.org/books/pentd2.asp?ACTION=displaypage&amp;BOOK=3&amp;CHAPTER=23#P3440" target="_blank">You shall take <i>for yourself</i>, on the <i>first day</i> of Sukkot holiday, palms tree branches</a>," they should belong to yourself. And stolen branch does not belong to the thief. However,&nbsp; this only resolves the matter for the first day. What about the second day?</p><p>Rabbi Shimon, the author of the Zohar, gives the rule: it would be a good deed brought about through transgression, which is not valid. But why is this so? Why not say that the end justifies the means? It is because of this: "<a href="https://www.mechon-mamre.org/p/pt/pt2401.htm" target="_blank">You bring the stolen, the lame, and the sick animal - shall I accept it</a>?" Just as lame cannot be fixed, so stolen is forever disqualified.&nbsp;</p><p>But let's analyze this further. The thief steals the goods. The owner has not given up and hopes to get them back. At this time, the object does not belong to the owner, and a mitzvah that should be done with one's own object is invalid. But later, when the owner despairs, the object belongs to the thief! And yet, Rabbi Shimon declares it invalid. This tells us that one cannot do a good deed through transgression.</p><p>This opinion is not unanimous. Shmuel disagrees and says that it depends on the situation. He says that just as you can borrow a lulav and thus make it yours for performing the commandment, so is the stolen lulav valid starting from the second day of Sukkot and later.</p><p>Art:&nbsp;&nbsp;The Cunning Thief by Paul-Charles Chocarne-Moreau</p>
 
 ---
 
 ### content/sukkah/31.txt
-<a id="src-00001"></a>
+<a id="src-00010"></a>
 
 **Source file:** `content/sukkah/31.txt`
 
@@ -440,7 +582,7 @@ Sukkah 31 - Stolen sukkah
 ---
 
 ### content/sukkah/32.txt
-<a id="src-00002"></a>
+<a id="src-00011"></a>
 
 **Source file:** `content/sukkah/32.txt`
 
@@ -450,7 +592,7 @@ Sukkah 32
 ---
 
 ### content/sukkah/33.txt
-<a id="src-00003"></a>
+<a id="src-00012"></a>
 
 **Source file:** `content/sukkah/33.txt`
 
@@ -459,7 +601,7 @@ Sukkah 32
 ---
 
 ### content/sukkah/34.txt
-<a id="src-00004"></a>
+<a id="src-00013"></a>
 
 **Source file:** `content/sukkah/34.txt`
 
@@ -481,7 +623,7 @@ Art:&nbsp;Large Citron in a Landscape by Bartolommeo Bimbi
 ---
 
 ### content/sukkah/35.txt
-<a id="src-00005"></a>
+<a id="src-00014"></a>
 
 **Source file:** `content/sukkah/35.txt`
 
@@ -501,7 +643,7 @@ Art:&nbsp;Pepper And Lemon On A White Tablecloth By Odilon Redon
 ---
 
 ### content/sukkah/36.txt
-<a id="src-00006"></a>
+<a id="src-00015"></a>
 
 **Source file:** `content/sukkah/36.txt`
 
@@ -523,7 +665,7 @@ Art: Dormice By Archibald Thorburn
 ---
 
 ### content/sukkah/37.txt
-<a id="src-00007"></a>
+<a id="src-00016"></a>
 
 **Source file:** `content/sukkah/37.txt`
 
@@ -542,7 +684,7 @@ Art: Branches with Almond Blossom By Vincent Van Gogh
 ---
 
 ### content/sukkah/38.txt
-<a id="src-00008"></a>
+<a id="src-00017"></a>
 
 **Source file:** `content/sukkah/38.txt`
 
@@ -558,7 +700,7 @@ Art: Old Woman Waving a Stick at a Boy By George Morland
 ---
 
 ### content/sukkah/39.txt
-<a id="src-00009"></a>
+<a id="src-00018"></a>
 
 **Source file:** `content/sukkah/39.txt`
 
@@ -578,7 +720,7 @@ Art: Branch Of Lemons by Claude Oscar Monet
 ---
 
 ### content/sukkah/4.txt
-<a id="src-00010"></a>
+<a id="src-00019"></a>
 
 **Source file:** `content/sukkah/4.txt`
 
@@ -597,7 +739,7 @@ Art: Cottage with Woman Digging By Vincent Van Gogh
 ---
 
 ### content/sukkah/40.txt
-<a id="src-00011"></a>
+<a id="src-00020"></a>
 
 **Source file:** `content/sukkah/40.txt`
 
@@ -614,7 +756,7 @@ Art: Still Life With Lemons On A Plate by Vincent Van Gogh<br />
 ---
 
 ### content/sukkah/41.txt
-<a id="src-00012"></a>
+<a id="src-00021"></a>
 
 **Source file:** `content/sukkah/41.txt`
 
@@ -639,7 +781,7 @@ Art: The Wheat Field by Claude Oscar Monet
 ---
 
 ### content/sukkah/42.txt
-<a id="src-00013"></a>
+<a id="src-00022"></a>
 
 **Source file:** `content/sukkah/42.txt`
 
@@ -649,7 +791,7 @@ Sukkah 42 - The love for the lulav
 ---
 
 ### content/sukkah/43.txt
-<a id="src-00014"></a>
+<a id="src-00023"></a>
 
 **Source file:** `content/sukkah/43.txt`
 
@@ -659,7 +801,7 @@ Sukkah 43 - How many days?
 ---
 
 ### content/sukkah/44.txt
-<a id="src-00015"></a>
+<a id="src-00024"></a>
 
 **Source file:** `content/sukkah/44.txt`
 
@@ -669,7 +811,7 @@ Sukkah 44 - Ten saplings, willow, and water
 ---
 
 ### content/sukkah/45.txt
-<a id="src-00016"></a>
+<a id="src-00025"></a>
 
 **Source file:** `content/sukkah/45.txt`
 
@@ -679,7 +821,7 @@ Sukkah 45 - Willow (aravah)
 ---
 
 ### content/sukkah/46.txt
-<a id="src-00017"></a>
+<a id="src-00026"></a>
 
 **Source file:** `content/sukkah/46.txt`
 
@@ -689,7 +831,7 @@ Sukkah 46 - A full cup
 ---
 
 ### content/sukkah/47.txt
-<a id="src-00018"></a>
+<a id="src-00027"></a>
 
 **Source file:** `content/sukkah/47.txt`
 
@@ -699,7 +841,7 @@ Sukkah 47 - Pezer Keshev
 ---
 
 ### content/sukkah/48.txt
-<a id="src-00019"></a>
+<a id="src-00028"></a>
 
 **Source file:** `content/sukkah/48.txt`
 
@@ -709,7 +851,7 @@ Sukkah 48 - A quick repartee
 ---
 
 ### content/sukkah/49.txt
-<a id="src-00020"></a>
+<a id="src-00029"></a>
 
 **Source file:** `content/sukkah/49.txt`
 
@@ -719,7 +861,7 @@ Sukkah 49 - Uncovered water
 ---
 
 ### content/sukkah/5.txt
-<a id="src-00021"></a>
+<a id="src-00030"></a>
 
 **Source file:** `content/sukkah/5.txt`
 
@@ -735,7 +877,7 @@ Art: Angelic Musician By Rosso Fiorentino
 ---
 
 ### content/sukkah/50.txt
-<a id="src-00022"></a>
+<a id="src-00031"></a>
 
 **Source file:** `content/sukkah/50.txt`
 
@@ -745,7 +887,7 @@ Sukkah 50 - Which is the essential part, vocal or instrumental?
 ---
 
 ### content/sukkah/51.txt
-<a id="src-00023"></a>
+<a id="src-00032"></a>
 
 **Source file:** `content/sukkah/51.txt`
 
@@ -755,7 +897,7 @@ Sukkah 51 - The Water-Drawing Celebration
 ---
 
 ### content/sukkah/52.txt
-<a id="src-00024"></a>
+<a id="src-00033"></a>
 
 **Source file:** `content/sukkah/52.txt`
 
@@ -765,7 +907,7 @@ Sukkah 52 - The nature of evil
 ---
 
 ### content/sukkah/53.txt
-<a id="src-00025"></a>
+<a id="src-00034"></a>
 
 **Source file:** `content/sukkah/53.txt`
 
@@ -774,7 +916,7 @@ Sukkah 52 - The nature of evil
 ---
 
 ### content/sukkah/54.txt
-<a id="src-00026"></a>
+<a id="src-00035"></a>
 
 **Source file:** `content/sukkah/54.txt`
 
@@ -783,7 +925,7 @@ Sukkah 52 - The nature of evil
 ---
 
 ### content/sukkah/55.txt
-<a id="src-00027"></a>
+<a id="src-00036"></a>
 
 **Source file:** `content/sukkah/55.txt`
 
@@ -792,7 +934,7 @@ Sukkah 52 - The nature of evil
 ---
 
 ### content/sukkah/56.txt
-<a id="src-00028"></a>
+<a id="src-00037"></a>
 
 **Source file:** `content/sukkah/56.txt`
 
@@ -817,7 +959,7 @@ Art: Bread and a coffeepot By Frans Meerts
 ---
 
 ### content/sukkah/6.txt
-<a id="src-00029"></a>
+<a id="src-00038"></a>
 
 **Source file:** `content/sukkah/6.txt`
 
@@ -839,7 +981,7 @@ Art: A Bunch of white Grapes with Figs in a shallow Bowl By Jos Gozalves De Coni
 ---
 
 ### content/sukkah/7.txt
-<a id="src-00030"></a>
+<a id="src-00039"></a>
 
 **Source file:** `content/sukkah/7.txt`
 
@@ -859,7 +1001,7 @@ Art:&nbsp;White Walls By Karl Briullov<br />
 ---
 
 ### content/sukkah/8.txt
-<a id="src-00031"></a>
+<a id="src-00040"></a>
 
 **Source file:** `content/sukkah/8.txt`
 
@@ -878,7 +1020,7 @@ Art:&nbsp;A Shaded Avenue By Jean-Honore Fragonard
 ---
 
 ### content/sukkah/9.txt
-<a id="src-00032"></a>
+<a id="src-00041"></a>
 
 **Source file:** `content/sukkah/9.txt`
 
@@ -893,7 +1035,7 @@ Art: Cottage and Peasant Woman under the Trees By Vincent Van Gogh
 ---
 
 ### content/taanit/10.txt
-<a id="src-00033"></a>
+<a id="src-00042"></a>
 
 **Source file:** `content/taanit/10.txt`
 
@@ -902,7 +1044,7 @@ Art: Cottage and Peasant Woman under the Trees By Vincent Van Gogh
 ---
 
 ### content/taanit/11.txt
-<a id="src-00034"></a>
+<a id="src-00043"></a>
 
 **Source file:** `content/taanit/11.txt`
 
@@ -921,7 +1063,7 @@ Art: The Fasting of St. Charles By Daniele Crespi
 ---
 
 ### content/taanit/12.txt
-<a id="src-00035"></a>
+<a id="src-00044"></a>
 
 **Source file:** `content/taanit/12.txt`
 
@@ -939,7 +1081,7 @@ Art: Joseph's Dream By Gaetano Gandolfi
 ---
 
 ### content/taanit/13.txt
-<a id="src-00036"></a>
+<a id="src-00045"></a>
 
 **Source file:** `content/taanit/13.txt`
 
@@ -958,7 +1100,7 @@ Art: Morning Greeting by Daniel Ridgway Knight
 ---
 
 ### content/taanit/14.txt
-<a id="src-00037"></a>
+<a id="src-00046"></a>
 
 **Source file:** `content/taanit/14.txt`
 
@@ -968,7 +1110,7 @@ Taanit 14 - Distresses other than drought
 ---
 
 ### content/taanit/15.txt
-<a id="src-00038"></a>
+<a id="src-00047"></a>
 
 **Source file:** `content/taanit/15.txt`
 
@@ -989,7 +1131,7 @@ Art:&nbsp;The Irish Famine by George Frederick Watts
 ---
 
 ### content/taanit/16.txt
-<a id="src-00039"></a>
+<a id="src-00048"></a>
 
 **Source file:** `content/taanit/16.txt`
 
@@ -1008,7 +1150,7 @@ Art: Leverington Cemetery by William Trost Richards
 ---
 
 ### content/taanit/17.txt
-<a id="src-00040"></a>
+<a id="src-00049"></a>
 
 **Source file:** `content/taanit/17.txt`
 
@@ -1027,7 +1169,7 @@ Art: Elegant company drinking in an interior by Jan Olis
 ---
 
 ### content/taanit/18.txt
-<a id="src-00041"></a>
+<a id="src-00050"></a>
 
 **Source file:** `content/taanit/18.txt`
 
@@ -1054,7 +1196,7 @@ Art: Battle between the Maccabees and the Bacchides by Jean Fouquet
 ---
 
 ### content/taanit/19.txt
-<a id="src-00042"></a>
+<a id="src-00051"></a>
 
 **Source file:** `content/taanit/19.txt`
 
@@ -1073,7 +1215,7 @@ Art: Cloudy Skies, Sunset, Jamaica by Frederic Edwin Church
 ---
 
 ### content/taanit/2.txt
-<a id="src-00043"></a>
+<a id="src-00052"></a>
 
 **Source file:** `content/taanit/2.txt`
 
@@ -1095,7 +1237,7 @@ Art: Wheat Field In Rain by Vincent Van Gogh
 ---
 
 ### content/taanit/20.txt
-<a id="src-00044"></a>
+<a id="src-00053"></a>
 
 **Source file:** `content/taanit/20.txt`
 
@@ -1113,7 +1255,7 @@ Art: Reeds in Shallow Water by Paul Baum
 ---
 
 ### content/taanit/21.txt
-<a id="src-00045"></a>
+<a id="src-00054"></a>
 
 **Source file:** `content/taanit/21.txt`
 
@@ -1131,7 +1273,7 @@ Art:&nbsp;Treasures In The Granovitaya Palata by Konstantin &nbsp;Egorovich Mako
 ---
 
 ### content/taanit/22.txt
-<a id="src-00046"></a>
+<a id="src-00055"></a>
 
 **Source file:** `content/taanit/22.txt`
 
@@ -1150,7 +1292,7 @@ Art:&nbsp;A Jester by Philipe Mercier
 ---
 
 ### content/taanit/23.txt
-<a id="src-00047"></a>
+<a id="src-00056"></a>
 
 **Source file:** `content/taanit/23.txt`
 
@@ -1168,7 +1310,7 @@ Art:&nbsp;A man asleep on a table by (after) Arie De Vois</div>
 ---
 
 ### content/taanit/24.txt
-<a id="src-00048"></a>
+<a id="src-00057"></a>
 
 **Source file:** `content/taanit/24.txt`
 
@@ -1187,7 +1329,7 @@ Art:&nbsp;Study Of A Fig Tree by John Singer Sargent<br />
 ---
 
 ### content/taanit/25.txt
-<a id="src-00049"></a>
+<a id="src-00058"></a>
 
 **Source file:** `content/taanit/25.txt`
 
@@ -1207,7 +1349,7 @@ Art: Dancing Bears by William Holbrook Beard
 ---
 
 ### content/taanit/26.txt
-<a id="src-00050"></a>
+<a id="src-00059"></a>
 
 **Source file:** `content/taanit/26.txt`
 
@@ -1217,7 +1359,7 @@ Taanit 26 - When to stop fasting?
 ---
 
 ### content/taanit/27.txt
-<a id="src-00051"></a>
+<a id="src-00060"></a>
 
 **Source file:** `content/taanit/27.txt`
 
@@ -1227,7 +1369,7 @@ Taanit 27 - Community standing by
 ---
 
 ### content/taanit/28.txt
-<a id="src-00052"></a>
+<a id="src-00061"></a>
 
 **Source file:** `content/taanit/28.txt`
 
@@ -1237,7 +1379,7 @@ Taanit 28 - The fast of the seventeenth of Tamuz
 ---
 
 ### content/taanit/29.txt
-<a id="src-00053"></a>
+<a id="src-00062"></a>
 
 **Source file:** `content/taanit/29.txt`
 
@@ -1247,7 +1389,7 @@ Taanit 29 - What happened on Tisha B'Av
 ---
 
 ### content/taanit/3.txt
-<a id="src-00054"></a>
+<a id="src-00063"></a>
 
 **Source file:** `content/taanit/3.txt`
 
@@ -1265,7 +1407,7 @@ Art: View on the Seine - Harp of the Winds by Homer Dodge Martin
 ---
 
 ### content/taanit/30.txt
-<a id="src-00055"></a>
+<a id="src-00064"></a>
 
 **Source file:** `content/taanit/30.txt`
 
@@ -1275,7 +1417,7 @@ Taanit 30 - The good things of Tu B'Av
 ---
 
 ### content/taanit/31.txt
-<a id="src-00056"></a>
+<a id="src-00065"></a>
 
 **Source file:** `content/taanit/31.txt`
 
@@ -1285,7 +1427,7 @@ Taanit 31 - How to celebrate Tu B'Av
 ---
 
 ### content/taanit/4.txt
-<a id="src-00057"></a>
+<a id="src-00066"></a>
 
 **Source file:** `content/taanit/4.txt`
 
@@ -1304,7 +1446,7 @@ Art: Eliezer and Rebecca at the Well by Nicolas Poussin
 ---
 
 ### content/taanit/5.txt
-<a id="src-00058"></a>
+<a id="src-00067"></a>
 
 **Source file:** `content/taanit/5.txt`
 
@@ -1325,7 +1467,7 @@ Art: Reapers Resting in a Wheat Field by John Singer Sargent<br />
 ---
 
 ### content/taanit/6.txt
-<a id="src-00059"></a>
+<a id="src-00068"></a>
 
 **Source file:** `content/taanit/6.txt`
 
@@ -1343,7 +1485,7 @@ Art: Rainy Night by Childe Hassam</div>
 ---
 
 ### content/taanit/7.txt
-<a id="src-00060"></a>
+<a id="src-00069"></a>
 
 **Source file:** `content/taanit/7.txt`
 
@@ -1352,7 +1494,7 @@ Art: Rainy Night by Childe Hassam</div>
 ---
 
 ### content/taanit/8.txt
-<a id="src-00061"></a>
+<a id="src-00070"></a>
 
 **Source file:** `content/taanit/8.txt`
 
@@ -1361,7 +1503,7 @@ Art: Rainy Night by Childe Hassam</div>
 ---
 
 ### content/taanit/9.txt
-<a id="src-00062"></a>
+<a id="src-00071"></a>
 
 **Source file:** `content/taanit/9.txt`
 
@@ -1370,7 +1512,7 @@ Art: Rainy Night by Childe Hassam</div>
 ---
 
 ### content/temurah/10.txt
-<a id="src-00063"></a>
+<a id="src-00072"></a>
 
 **Source file:** `content/temurah/10.txt`
 
@@ -1386,7 +1528,7 @@ Art: John Lawson - Feeding The Lamb
 ---
 
 ### content/temurah/11.txt
-<a id="src-00064"></a>
+<a id="src-00073"></a>
 
 **Source file:** `content/temurah/11.txt`
 
@@ -1401,7 +1543,7 @@ Art: Adriaen van Utrecht - Still-Life with  Birds on a Ring
 ---
 
 ### content/temurah/12.txt
-<a id="src-00065"></a>
+<a id="src-00074"></a>
 
 **Source file:** `content/temurah/12.txt`
 
@@ -1417,7 +1559,7 @@ Art: Rudolf August Wilhelm Lehmann - Sifting The Grain
 ---
 
 ### content/temurah/13.txt
-<a id="src-00066"></a>
+<a id="src-00075"></a>
 
 **Source file:** `content/temurah/13.txt`
 
@@ -1437,7 +1579,7 @@ Art: John Frederick Herring Snr - Still life of dead birds, fruit, vegetables, a
 ---
 
 ### content/temurah/14.txt
-<a id="src-00067"></a>
+<a id="src-00076"></a>
 
 **Source file:** `content/temurah/14.txt`
 
@@ -1456,7 +1598,7 @@ Art: Gabriel Metsu - Man Writing a Letter
 ---
 
 ### content/temurah/15.txt
-<a id="src-00068"></a>
+<a id="src-00077"></a>
 
 **Source file:** `content/temurah/15.txt`
 
@@ -1475,7 +1617,7 @@ Art: Aleksander Kotsis - Mother Died
 ---
 
 ### content/temurah/16.txt
-<a id="src-00069"></a>
+<a id="src-00078"></a>
 
 **Source file:** `content/temurah/16.txt`
 
@@ -1491,7 +1633,7 @@ Art: Claude Oscar Monet - Ships In Harbor
 ---
 
 ### content/temurah/17.txt
-<a id="src-00070"></a>
+<a id="src-00079"></a>
 
 **Source file:** `content/temurah/17.txt`
 
@@ -1509,7 +1651,7 @@ Art: Bela Pallik - Ewes grazing
 ---
 
 ### content/temurah/18.txt
-<a id="src-00071"></a>
+<a id="src-00080"></a>
 
 **Source file:** `content/temurah/18.txt`
 
@@ -1528,7 +1670,7 @@ Art: Petrus Paulus Schiedges - A Shepherd With His Flock
 ---
 
 ### content/temurah/19.txt
-<a id="src-00072"></a>
+<a id="src-00081"></a>
 
 **Source file:** `content/temurah/19.txt`
 
@@ -1544,7 +1686,7 @@ Art: James Ward - A Dartmoor Ram, Ewe And Wether
 ---
 
 ### content/temurah/2.txt
-<a id="src-00073"></a>
+<a id="src-00082"></a>
 
 **Source file:** `content/temurah/2.txt`
 
@@ -1560,7 +1702,7 @@ Art: Follower of Jacob Gerritsz Cuyp - Double Portrait of Children,  With a Goat
 ---
 
 ### content/temurah/20.txt
-<a id="src-00074"></a>
+<a id="src-00083"></a>
 
 **Source file:** `content/temurah/20.txt`
 
@@ -1579,7 +1721,7 @@ Art: Rosa Bonheur - Heads Of Sheep And Rams
 ---
 
 ### content/temurah/21.txt
-<a id="src-00075"></a>
+<a id="src-00084"></a>
 
 **Source file:** `content/temurah/21.txt`
 
@@ -1595,7 +1737,7 @@ Art: Pieter Aertsen - Market scene (detail)
 ---
 
 ### content/temurah/22.txt
-<a id="src-00076"></a>
+<a id="src-00085"></a>
 
 **Source file:** `content/temurah/22.txt`
 
@@ -1620,7 +1762,7 @@ Art: George Shalders- Sheep Grazing
 ---
 
 ### content/temurah/23.txt
-<a id="src-00077"></a>
+<a id="src-00086"></a>
 
 **Source file:** `content/temurah/23.txt`
 
@@ -1636,7 +1778,7 @@ Art: John Singer Sargent - The Dead Sea
 ---
 
 ### content/temurah/24.txt
-<a id="src-00078"></a>
+<a id="src-00087"></a>
 
 **Source file:** `content/temurah/24.txt`
 
@@ -1655,7 +1797,7 @@ Art: Richard Ansdell - A Ewe with Lambs and a Heron Beside a Loch
 ---
 
 ### content/temurah/25.txt
-<a id="src-00079"></a>
+<a id="src-00088"></a>
 
 **Source file:** `content/temurah/25.txt`
 
@@ -1674,7 +1816,7 @@ Art: Richard Ansdell - Highland Folk - Two Lambs, a Ewe and a Fox
 ---
 
 ### content/temurah/26.txt
-<a id="src-00080"></a>
+<a id="src-00089"></a>
 
 **Source file:** `content/temurah/26.txt`
 
@@ -1695,7 +1837,7 @@ Art: Richard Ansdell - Feeding Goats in the Alhambra
 ---
 
 ### content/temurah/27.txt
-<a id="src-00081"></a>
+<a id="src-00090"></a>
 
 **Source file:** `content/temurah/27.txt`
 
@@ -1714,7 +1856,7 @@ Art: David The Younger Teniers - A Shepherd Boy talking to a milkmaid in a cowsh
 ---
 
 ### content/temurah/28.txt
-<a id="src-00082"></a>
+<a id="src-00091"></a>
 
 **Source file:** `content/temurah/28.txt`
 
@@ -1735,7 +1877,7 @@ Art: Cornelis van Leemputten - Shepherd Boys With Their Flock
 ---
 
 ### content/temurah/29.txt
-<a id="src-00083"></a>
+<a id="src-00092"></a>
 
 **Source file:** `content/temurah/29.txt`
 
@@ -1751,7 +1893,7 @@ Art: Jean-Francois Millet - Seated Shepherdess
 ---
 
 ### content/temurah/3.txt
-<a id="src-00084"></a>
+<a id="src-00093"></a>
 
 **Source file:** `content/temurah/3.txt`
 
@@ -1770,7 +1912,7 @@ Art: Italian School - Little Boy In Venice
 ---
 
 ### content/temurah/30.txt
-<a id="src-00085"></a>
+<a id="src-00094"></a>
 
 **Source file:** `content/temurah/30.txt`
 
@@ -1789,7 +1931,7 @@ Art: Pierre Auguste Renoir  - Woman With A Black Dog
 ---
 
 ### content/temurah/31.txt
-<a id="src-00086"></a>
+<a id="src-00095"></a>
 
 **Source file:** `content/temurah/31.txt`
 
@@ -1808,7 +1950,7 @@ Art: Felix Edouard Vallotton - Mulet, Vegtables And Eggs
 ---
 
 ### content/temurah/32.txt
-<a id="src-00087"></a>
+<a id="src-00096"></a>
 
 **Source file:** `content/temurah/32.txt`
 
@@ -1827,7 +1969,7 @@ Art: Laszlo Mednyanszky - Burial in the Carpathian Mountains
 ---
 
 ### content/temurah/33.txt
-<a id="src-00088"></a>
+<a id="src-00097"></a>
 
 **Source file:** `content/temurah/33.txt`
 
@@ -1848,7 +1990,7 @@ Art: Philipp Peter Roos - A Goat And A Sheep In An Italianate Landscape
 ---
 
 ### content/temurah/34.txt
-<a id="src-00089"></a>
+<a id="src-00098"></a>
 
 **Source file:** `content/temurah/34.txt`
 
@@ -1870,7 +2012,7 @@ Art: David Fulton - A girl in an orchard with a basket of apples<br />
 ---
 
 ### content/temurah/4.txt
-<a id="src-00090"></a>
+<a id="src-00099"></a>
 
 **Source file:** `content/temurah/4.txt`
 
@@ -1891,7 +2033,7 @@ Art: Pierre Auguste Renoir - Young Girl In A Straw Hat
 ---
 
 ### content/temurah/5.txt
-<a id="src-00091"></a>
+<a id="src-00100"></a>
 
 **Source file:** `content/temurah/5.txt`
 
@@ -1913,7 +2055,7 @@ Art: Aert De Gelder - The Jewish Bride
 ---
 
 ### content/temurah/6.txt
-<a id="src-00092"></a>
+<a id="src-00101"></a>
 
 **Source file:** `content/temurah/6.txt`
 
@@ -1932,7 +2074,7 @@ Art: Theodore Gerard - The Little Thief
 ---
 
 ### content/temurah/7.txt
-<a id="src-00093"></a>
+<a id="src-00102"></a>
 
 **Source file:** `content/temurah/7.txt`
 
@@ -1951,7 +2093,7 @@ Art: Albrecht Durer - Portrait of a stranger
 ---
 
 ### content/temurah/8.txt
-<a id="src-00094"></a>
+<a id="src-00103"></a>
 
 **Source file:** `content/temurah/8.txt`
 
@@ -1967,7 +2109,7 @@ Art: William-Adolphe Bouguereau - A Newborn Lamb
 ---
 
 ### content/temurah/9.txt
-<a id="src-00095"></a>
+<a id="src-00104"></a>
 
 **Source file:** `content/temurah/9.txt`
 
@@ -1985,7 +2127,7 @@ Art: Charles Ferdinand Ceramano - A shepherdess with her flock before a storm
 ---
 
 ### content/yevamot/10.txt
-<a id="src-00096"></a>
+<a id="src-00105"></a>
 
 **Source file:** `content/yevamot/10.txt`
 
@@ -2006,7 +2148,7 @@ Art: Double portrait of a father and son by Jacob Gerritsz. Cuyp
 ---
 
 ### content/yevamot/100.txt
-<a id="src-00097"></a>
+<a id="src-00106"></a>
 
 **Source file:** `content/yevamot/100.txt`
 
@@ -2025,7 +2167,7 @@ Art: Dressing The Baby by Jacob Simon Hendrik Kever
 ---
 
 ### content/yevamot/101.txt
-<a id="src-00098"></a>
+<a id="src-00107"></a>
 
 **Source file:** `content/yevamot/101.txt`
 
@@ -2043,7 +2185,7 @@ Art: Waiting For Father's Return by Philippe Lodowyck Jacob Sadee
 ---
 
 ### content/yevamot/102.txt
-<a id="src-00099"></a>
+<a id="src-00108"></a>
 
 **Source file:** `content/yevamot/102.txt`
 
@@ -2065,7 +2207,7 @@ Art: The New Shoe by Elizabeth Nourse
 ---
 
 ### content/yevamot/103.txt
-<a id="src-00100"></a>
+<a id="src-00109"></a>
 
 **Source file:** `content/yevamot/103.txt`
 
@@ -2081,7 +2223,7 @@ Art: Mending father's socks by William Baater Collier Fyfe
 ---
 
 ### content/yevamot/104.txt
-<a id="src-00101"></a>
+<a id="src-00110"></a>
 
 **Source file:** `content/yevamot/104.txt`
 
@@ -2100,7 +2242,7 @@ Art: Yael and Sisera by Artemisia Gentileschi
 ---
 
 ### content/yevamot/105.txt
-<a id="src-00102"></a>
+<a id="src-00111"></a>
 
 **Source file:** `content/yevamot/105.txt`
 
@@ -2118,7 +2260,7 @@ Art: Shoes For Sale by Eugène-Alexis Girardet
 ---
 
 ### content/yevamot/106.txt
-<a id="src-00103"></a>
+<a id="src-00112"></a>
 
 **Source file:** `content/yevamot/106.txt`
 
@@ -2138,7 +2280,7 @@ Art: Tasso in the Prison by Louis Gallait
 ---
 
 ### content/yevamot/107.txt
-<a id="src-00104"></a>
+<a id="src-00113"></a>
 
 **Source file:** `content/yevamot/107.txt`
 
@@ -2159,7 +2301,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/108.txt
-<a id="src-00105"></a>
+<a id="src-00114"></a>
 
 **Source file:** `content/yevamot/108.txt`
 
@@ -2168,7 +2310,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/109.txt
-<a id="src-00106"></a>
+<a id="src-00115"></a>
 
 **Source file:** `content/yevamot/109.txt`
 
@@ -2177,7 +2319,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/11.txt
-<a id="src-00107"></a>
+<a id="src-00116"></a>
 
 **Source file:** `content/yevamot/11.txt`
 
@@ -2186,7 +2328,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/110.txt
-<a id="src-00108"></a>
+<a id="src-00117"></a>
 
 **Source file:** `content/yevamot/110.txt`
 
@@ -2195,7 +2337,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/111.txt
-<a id="src-00109"></a>
+<a id="src-00118"></a>
 
 **Source file:** `content/yevamot/111.txt`
 
@@ -2204,7 +2346,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/112.txt
-<a id="src-00110"></a>
+<a id="src-00119"></a>
 
 **Source file:** `content/yevamot/112.txt`
 
@@ -2213,7 +2355,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/113.txt
-<a id="src-00111"></a>
+<a id="src-00120"></a>
 
 **Source file:** `content/yevamot/113.txt`
 
@@ -2222,7 +2364,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/114.txt
-<a id="src-00112"></a>
+<a id="src-00121"></a>
 
 **Source file:** `content/yevamot/114.txt`
 
@@ -2231,7 +2373,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/115.txt
-<a id="src-00113"></a>
+<a id="src-00122"></a>
 
 **Source file:** `content/yevamot/115.txt`
 
@@ -2240,7 +2382,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/116.txt
-<a id="src-00114"></a>
+<a id="src-00123"></a>
 
 **Source file:** `content/yevamot/116.txt`
 
@@ -2249,7 +2391,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/117.txt
-<a id="src-00115"></a>
+<a id="src-00124"></a>
 
 **Source file:** `content/yevamot/117.txt`
 
@@ -2258,7 +2400,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/118.txt
-<a id="src-00116"></a>
+<a id="src-00125"></a>
 
 **Source file:** `content/yevamot/118.txt`
 
@@ -2267,7 +2409,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/119.txt
-<a id="src-00117"></a>
+<a id="src-00126"></a>
 
 **Source file:** `content/yevamot/119.txt`
 
@@ -2276,7 +2418,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/12.txt
-<a id="src-00118"></a>
+<a id="src-00127"></a>
 
 **Source file:** `content/yevamot/12.txt`
 
@@ -2285,7 +2427,7 @@ Art: Wedding Dinner by Jacob Gerritsz by Van Hasselt
 ---
 
 ### content/yevamot/120.txt
-<a id="src-00119"></a>
+<a id="src-00128"></a>
 
 **Source file:** `content/yevamot/120.txt`
 
@@ -2306,7 +2448,7 @@ Art: Landscapes with Wild Beasts by Roelandt Jacobsz Savery
 ---
 
 ### content/yevamot/121.txt
-<a id="src-00120"></a>
+<a id="src-00129"></a>
 
 **Source file:** `content/yevamot/121.txt`
 
@@ -2327,7 +2469,7 @@ Art: Found Drowned by George Frederick Watts
 ---
 
 ### content/yevamot/122.txt
-<a id="src-00121"></a>
+<a id="src-00130"></a>
 
 **Source file:** `content/yevamot/122.txt`
 
@@ -2349,7 +2491,7 @@ Art: Children Playing with Hoops in a Street by Milly Childers
 ---
 
 ### content/yevamot/13.txt
-<a id="src-00122"></a>
+<a id="src-00131"></a>
 
 **Source file:** `content/yevamot/13.txt`
 
@@ -2370,7 +2512,7 @@ Art: Group portrait of a husband and wife in a drawing-room by Arthur Alfred Dav
 ---
 
 ### content/yevamot/14.txt
-<a id="src-00123"></a>
+<a id="src-00132"></a>
 
 **Source file:** `content/yevamot/14.txt`
 
@@ -2379,7 +2521,7 @@ Art: Group portrait of a husband and wife in a drawing-room by Arthur Alfred Dav
 ---
 
 ### content/yevamot/15.txt
-<a id="src-00124"></a>
+<a id="src-00133"></a>
 
 **Source file:** `content/yevamot/15.txt`
 
@@ -2401,7 +2543,7 @@ Art: Double portrait of a husband and wife by Wolfgang Heimbach
 ---
 
 ### content/yevamot/16.txt
-<a id="src-00125"></a>
+<a id="src-00134"></a>
 
 **Source file:** `content/yevamot/16.txt`
 
@@ -2410,7 +2552,7 @@ Art: Double portrait of a husband and wife by Wolfgang Heimbach
 ---
 
 ### content/yevamot/17.txt
-<a id="src-00126"></a>
+<a id="src-00135"></a>
 
 **Source file:** `content/yevamot/17.txt`
 
@@ -2432,7 +2574,7 @@ Art: Jacob Sending his Son Joseph to Look for his Brothers by Eustache Le Sueur
 ---
 
 ### content/yevamot/18.txt
-<a id="src-00127"></a>
+<a id="src-00136"></a>
 
 **Source file:** `content/yevamot/18.txt`
 
@@ -2454,7 +2596,7 @@ Art: Portrait Of The Artists Mother by Franz Marc
 ---
 
 ### content/yevamot/19.txt
-<a id="src-00128"></a>
+<a id="src-00137"></a>
 
 **Source file:** `content/yevamot/19.txt`
 
@@ -2463,7 +2605,7 @@ Art: Portrait Of The Artists Mother by Franz Marc
 ---
 
 ### content/yevamot/2.txt
-<a id="src-00129"></a>
+<a id="src-00138"></a>
 
 **Source file:** `content/yevamot/2.txt`
 
@@ -2485,7 +2627,7 @@ Art: The Two Sisters by August Andreas Jerndorff
 ---
 
 ### content/yevamot/20.txt
-<a id="src-00130"></a>
+<a id="src-00139"></a>
 
 **Source file:** `content/yevamot/20.txt`
 
@@ -2494,7 +2636,7 @@ Art: The Two Sisters by August Andreas Jerndorff
 ---
 
 ### content/yevamot/21.txt
-<a id="src-00131"></a>
+<a id="src-00140"></a>
 
 **Source file:** `content/yevamot/21.txt`
 
@@ -2503,7 +2645,7 @@ Art: The Two Sisters by August Andreas Jerndorff
 ---
 
 ### content/yevamot/22.txt
-<a id="src-00132"></a>
+<a id="src-00141"></a>
 
 **Source file:** `content/yevamot/22.txt`
 
@@ -2525,7 +2667,7 @@ Art: Portrait Of A Father And Son by Florentine School
 ---
 
 ### content/yevamot/23.txt
-<a id="src-00133"></a>
+<a id="src-00142"></a>
 
 **Source file:** `content/yevamot/23.txt`
 
@@ -2544,7 +2686,7 @@ Art: The most devoted of her slaves by Briton Rivière
 ---
 
 ### content/yevamot/24.txt
-<a id="src-00134"></a>
+<a id="src-00143"></a>
 
 **Source file:** `content/yevamot/24.txt`
 
@@ -2570,7 +2712,7 @@ Art: The Cameron Sisters by Stephen Catterson Smith
 ---
 
 ### content/yevamot/25.txt
-<a id="src-00135"></a>
+<a id="src-00144"></a>
 
 **Source file:** `content/yevamot/25.txt`
 
@@ -2579,7 +2721,7 @@ Art: The Cameron Sisters by Stephen Catterson Smith
 ---
 
 ### content/yevamot/26.txt
-<a id="src-00136"></a>
+<a id="src-00145"></a>
 
 **Source file:** `content/yevamot/26.txt`
 
@@ -2597,7 +2739,7 @@ Art: A family portrait of two brothers and two sisters by Wybrand Simonsz de Gee
 ---
 
 ### content/yevamot/27.txt
-<a id="src-00137"></a>
+<a id="src-00146"></a>
 
 **Source file:** `content/yevamot/27.txt`
 
@@ -2606,7 +2748,7 @@ Art: A family portrait of two brothers and two sisters by Wybrand Simonsz de Gee
 ---
 
 ### content/yevamot/28.txt
-<a id="src-00138"></a>
+<a id="src-00147"></a>
 
 **Source file:** `content/yevamot/28.txt`
 
@@ -2615,7 +2757,7 @@ Art: A family portrait of two brothers and two sisters by Wybrand Simonsz de Gee
 ---
 
 ### content/yevamot/29.txt
-<a id="src-00139"></a>
+<a id="src-00148"></a>
 
 **Source file:** `content/yevamot/29.txt`
 
@@ -2637,7 +2779,7 @@ Art: The Betrothal by Jose Juarez
 ---
 
 ### content/yevamot/3.txt
-<a id="src-00140"></a>
+<a id="src-00149"></a>
 
 **Source file:** `content/yevamot/3.txt`
 
@@ -2647,7 +2789,7 @@ Yevamot 3 - Sleeping with one's daughter
 ---
 
 ### content/yevamot/30.txt
-<a id="src-00141"></a>
+<a id="src-00150"></a>
 
 **Source file:** `content/yevamot/30.txt`
 
@@ -2669,7 +2811,7 @@ Art: The Bride by Edward Alfred Angelo Goodall
 ---
 
 ### content/yevamot/31.txt
-<a id="src-00142"></a>
+<a id="src-00151"></a>
 
 **Source file:** `content/yevamot/31.txt`
 
@@ -2679,7 +2821,7 @@ Yevamot 31 - Did I really marry you?
 ---
 
 ### content/yevamot/32.txt
-<a id="src-00143"></a>
+<a id="src-00152"></a>
 
 **Source file:** `content/yevamot/32.txt`
 
@@ -2698,7 +2840,7 @@ Art: Sisters by Walter C. Strich Hutton
 ---
 
 ### content/yevamot/33.txt
-<a id="src-00144"></a>
+<a id="src-00153"></a>
 
 **Source file:** `content/yevamot/33.txt`
 
@@ -2707,7 +2849,7 @@ Art: Sisters by Walter C. Strich Hutton
 ---
 
 ### content/yevamot/34.txt
-<a id="src-00145"></a>
+<a id="src-00154"></a>
 
 **Source file:** `content/yevamot/34.txt`
 
@@ -2716,7 +2858,7 @@ Art: Sisters by Walter C. Strich Hutton
 ---
 
 ### content/yevamot/35.txt
-<a id="src-00146"></a>
+<a id="src-00155"></a>
 
 **Source file:** `content/yevamot/35.txt`
 
@@ -2735,7 +2877,7 @@ Art:&nbsp;A Widow by James Jacques Joseph Tissot
 ---
 
 ### content/yevamot/36.txt
-<a id="src-00147"></a>
+<a id="src-00156"></a>
 
 **Source file:** `content/yevamot/36.txt`
 
@@ -2754,7 +2896,7 @@ Art: The Widow by Pavel Andreevich Fedotov
 ---
 
 ### content/yevamot/37.txt
-<a id="src-00148"></a>
+<a id="src-00157"></a>
 
 **Source file:** `content/yevamot/37.txt`
 
@@ -2773,7 +2915,7 @@ Art: Mother and Child by Cornelis C. Zwaan</div>
 ---
 
 ### content/yevamot/38.txt
-<a id="src-00149"></a>
+<a id="src-00158"></a>
 
 **Source file:** `content/yevamot/38.txt`
 
@@ -2796,7 +2938,7 @@ Art: Her Future Dowry by Antoine Jean Bail
 ---
 
 ### content/yevamot/39.txt
-<a id="src-00150"></a>
+<a id="src-00159"></a>
 
 **Source file:** `content/yevamot/39.txt`
 
@@ -2805,7 +2947,7 @@ Art: Her Future Dowry by Antoine Jean Bail
 ---
 
 ### content/yevamot/4.txt
-<a id="src-00151"></a>
+<a id="src-00160"></a>
 
 **Source file:** `content/yevamot/4.txt`
 
@@ -2815,7 +2957,7 @@ Yevamot 4 - Looking for a permission to marry one's daughter
 ---
 
 ### content/yevamot/40.txt
-<a id="src-00152"></a>
+<a id="src-00161"></a>
 
 **Source file:** `content/yevamot/40.txt`
 
@@ -2824,7 +2966,7 @@ Yevamot 4 - Looking for a permission to marry one's daughter
 ---
 
 ### content/yevamot/41.txt
-<a id="src-00153"></a>
+<a id="src-00162"></a>
 
 **Source file:** `content/yevamot/41.txt`
 
@@ -2843,7 +2985,7 @@ Art:&nbsp;Portrait of a Bridegroom by Antonius Heusler
 ---
 
 ### content/yevamot/42.txt
-<a id="src-00154"></a>
+<a id="src-00163"></a>
 
 **Source file:** `content/yevamot/42.txt`
 
@@ -2852,7 +2994,7 @@ Art:&nbsp;Portrait of a Bridegroom by Antonius Heusler
 ---
 
 ### content/yevamot/43.txt
-<a id="src-00155"></a>
+<a id="src-00164"></a>
 
 **Source file:** `content/yevamot/43.txt`
 
@@ -2861,7 +3003,7 @@ Art:&nbsp;Portrait of a Bridegroom by Antonius Heusler
 ---
 
 ### content/yevamot/44.txt
-<a id="src-00156"></a>
+<a id="src-00165"></a>
 
 **Source file:** `content/yevamot/44.txt`
 
@@ -2882,7 +3024,7 @@ Art: Portrait Of A Young Woman In An Interior by Gustave Caillebotte
 ---
 
 ### content/yevamot/45.txt
-<a id="src-00157"></a>
+<a id="src-00166"></a>
 
 **Source file:** `content/yevamot/45.txt`
 
@@ -2899,7 +3041,7 @@ Art:&nbsp;Woman With A Child In A Pantry by Pieter De Hooch
 ---
 
 ### content/yevamot/46.txt
-<a id="src-00158"></a>
+<a id="src-00167"></a>
 
 **Source file:** `content/yevamot/46.txt`
 
@@ -2921,7 +3063,7 @@ Art:&nbsp;Jews at the Wailing Wall by Gustave Bauernfeind
 ---
 
 ### content/yevamot/47.txt
-<a id="src-00159"></a>
+<a id="src-00168"></a>
 
 **Source file:** `content/yevamot/47.txt`
 
@@ -2940,7 +3082,7 @@ Art: Children by Boris Dmitrievich Grigoriev<br />
 ---
 
 ### content/yevamot/48.txt
-<a id="src-00160"></a>
+<a id="src-00169"></a>
 
 **Source file:** `content/yevamot/48.txt`
 
@@ -2949,7 +3091,7 @@ Art: Children by Boris Dmitrievich Grigoriev<br />
 ---
 
 ### content/yevamot/49.txt
-<a id="src-00161"></a>
+<a id="src-00170"></a>
 
 **Source file:** `content/yevamot/49.txt`
 
@@ -2966,7 +3108,7 @@ Art: The Cedar Tree by George Frederick Watts
 ---
 
 ### content/yevamot/5.txt
-<a id="src-00162"></a>
+<a id="src-00171"></a>
 
 **Source file:** `content/yevamot/5.txt`
 
@@ -2975,7 +3117,7 @@ Art: The Cedar Tree by George Frederick Watts
 ---
 
 ### content/yevamot/50.txt
-<a id="src-00163"></a>
+<a id="src-00172"></a>
 
 **Source file:** `content/yevamot/50.txt`
 
@@ -2997,7 +3139,7 @@ Art: Four Fisherwives by Winslow Homer
 ---
 
 ### content/yevamot/51.txt
-<a id="src-00164"></a>
+<a id="src-00173"></a>
 
 **Source file:** `content/yevamot/51.txt`
 
@@ -3006,7 +3148,7 @@ Art: Four Fisherwives by Winslow Homer
 ---
 
 ### content/yevamot/52.txt
-<a id="src-00165"></a>
+<a id="src-00174"></a>
 
 **Source file:** `content/yevamot/52.txt`
 
@@ -3025,7 +3167,7 @@ Art: The Marriage Contract by Jan Jozef, the Younger Horemans
 ---
 
 ### content/yevamot/53.txt
-<a id="src-00166"></a>
+<a id="src-00175"></a>
 
 **Source file:** `content/yevamot/53.txt`
 
@@ -3034,7 +3176,7 @@ Art: The Marriage Contract by Jan Jozef, the Younger Horemans
 ---
 
 ### content/yevamot/54.txt
-<a id="src-00167"></a>
+<a id="src-00176"></a>
 
 **Source file:** `content/yevamot/54.txt`
 
@@ -3053,7 +3195,7 @@ Art:&nbsp;The Sisters by George Baxter
 ---
 
 ### content/yevamot/55.txt
-<a id="src-00168"></a>
+<a id="src-00177"></a>
 
 **Source file:** `content/yevamot/55.txt`
 
@@ -3062,7 +3204,7 @@ Art:&nbsp;The Sisters by George Baxter
 ---
 
 ### content/yevamot/56.txt
-<a id="src-00169"></a>
+<a id="src-00178"></a>
 
 **Source file:** `content/yevamot/56.txt`
 
@@ -3084,7 +3226,7 @@ Art: A Couple Sitting At A Table In An Inn by (after) Jacob Toorenvliet
 ---
 
 ### content/yevamot/57.txt
-<a id="src-00170"></a>
+<a id="src-00179"></a>
 
 **Source file:** `content/yevamot/57.txt`
 
@@ -3093,7 +3235,7 @@ Art: A Couple Sitting At A Table In An Inn by (after) Jacob Toorenvliet
 ---
 
 ### content/yevamot/58.txt
-<a id="src-00171"></a>
+<a id="src-00180"></a>
 
 **Source file:** `content/yevamot/58.txt`
 
@@ -3109,7 +3251,7 @@ Art: The Wedding Dress by George Goodwin Kilburne
 ---
 
 ### content/yevamot/59.txt
-<a id="src-00172"></a>
+<a id="src-00181"></a>
 
 **Source file:** `content/yevamot/59.txt`
 
@@ -3131,7 +3273,7 @@ Art: The Widow by Ramon Casas
 ---
 
 ### content/yevamot/6.txt
-<a id="src-00173"></a>
+<a id="src-00182"></a>
 
 **Source file:** `content/yevamot/6.txt`
 
@@ -3140,7 +3282,7 @@ Art: The Widow by Ramon Casas
 ---
 
 ### content/yevamot/60.txt
-<a id="src-00174"></a>
+<a id="src-00183"></a>
 
 **Source file:** `content/yevamot/60.txt`
 
@@ -3149,7 +3291,7 @@ Art: The Widow by Ramon Casas
 ---
 
 ### content/yevamot/61.txt
-<a id="src-00175"></a>
+<a id="src-00184"></a>
 
 **Source file:** `content/yevamot/61.txt`
 
@@ -3171,7 +3313,7 @@ Art: A Marriage Portrait by Pieter de Grebber
 ---
 
 ### content/yevamot/62.txt
-<a id="src-00176"></a>
+<a id="src-00185"></a>
 
 **Source file:** `content/yevamot/62.txt`
 
@@ -3191,7 +3333,7 @@ Art:&nbsp;Mrs. Arthur Knowles and her Two Sons by John Singer Sargent
 ---
 
 ### content/yevamot/63.txt
-<a id="src-00177"></a>
+<a id="src-00186"></a>
 
 **Source file:** `content/yevamot/63.txt`
 
@@ -3215,7 +3357,7 @@ Art: A Portrait Of Nobleman With His Wife And Two Children by Johann Hulsman
 ---
 
 ### content/yevamot/64.txt
-<a id="src-00178"></a>
+<a id="src-00187"></a>
 
 **Source file:** `content/yevamot/64.txt`
 
@@ -3231,7 +3373,7 @@ Art: Family with a Bird by Bartolome Esteban Murillo
 ---
 
 ### content/yevamot/65.txt
-<a id="src-00179"></a>
+<a id="src-00188"></a>
 
 **Source file:** `content/yevamot/65.txt`
 
@@ -3250,7 +3392,7 @@ Art: A Family Resting Before A House, With A Mother Silencing Her Husband Sleeps
 ---
 
 ### content/yevamot/66.txt
-<a id="src-00180"></a>
+<a id="src-00189"></a>
 
 **Source file:** `content/yevamot/66.txt`
 
@@ -3259,7 +3401,7 @@ Art: A Family Resting Before A House, With A Mother Silencing Her Husband Sleeps
 ---
 
 ### content/yevamot/67.txt
-<a id="src-00181"></a>
+<a id="src-00190"></a>
 
 **Source file:** `content/yevamot/67.txt`
 
@@ -3268,7 +3410,7 @@ Art: A Family Resting Before A House, With A Mother Silencing Her Husband Sleeps
 ---
 
 ### content/yevamot/68.txt
-<a id="src-00182"></a>
+<a id="src-00191"></a>
 
 **Source file:** `content/yevamot/68.txt`
 
@@ -3277,7 +3419,7 @@ Art: A Family Resting Before A House, With A Mother Silencing Her Husband Sleeps
 ---
 
 ### content/yevamot/69.txt
-<a id="src-00183"></a>
+<a id="src-00192"></a>
 
 **Source file:** `content/yevamot/69.txt`
 
@@ -3286,7 +3428,7 @@ Art: A Family Resting Before A House, With A Mother Silencing Her Husband Sleeps
 ---
 
 ### content/yevamot/7.txt
-<a id="src-00184"></a>
+<a id="src-00193"></a>
 
 **Source file:** `content/yevamot/7.txt`
 
@@ -3295,7 +3437,7 @@ Art: A Family Resting Before A House, With A Mother Silencing Her Husband Sleeps
 ---
 
 ### content/yevamot/70.txt
-<a id="src-00185"></a>
+<a id="src-00194"></a>
 
 **Source file:** `content/yevamot/70.txt`
 
@@ -3311,7 +3453,7 @@ Art:&nbsp;Self Portrait with Father and Brother by John Hamilton Mortimer
 ---
 
 ### content/yevamot/71.txt
-<a id="src-00186"></a>
+<a id="src-00195"></a>
 
 **Source file:** `content/yevamot/71.txt`
 
@@ -3320,7 +3462,7 @@ Art:&nbsp;Self Portrait with Father and Brother by John Hamilton Mortimer
 ---
 
 ### content/yevamot/72.txt
-<a id="src-00187"></a>
+<a id="src-00196"></a>
 
 **Source file:** `content/yevamot/72.txt`
 
@@ -3329,7 +3471,7 @@ Art:&nbsp;Self Portrait with Father and Brother by John Hamilton Mortimer
 ---
 
 ### content/yevamot/73.txt
-<a id="src-00188"></a>
+<a id="src-00197"></a>
 
 **Source file:** `content/yevamot/73.txt`
 
@@ -3338,7 +3480,7 @@ Art:&nbsp;Self Portrait with Father and Brother by John Hamilton Mortimer
 ---
 
 ### content/yevamot/74.txt
-<a id="src-00189"></a>
+<a id="src-00198"></a>
 
 **Source file:** `content/yevamot/74.txt`
 
@@ -3347,7 +3489,7 @@ Art:&nbsp;Self Portrait with Father and Brother by John Hamilton Mortimer
 ---
 
 ### content/yevamot/75.txt
-<a id="src-00190"></a>
+<a id="src-00199"></a>
 
 **Source file:** `content/yevamot/75.txt`
 
@@ -3356,7 +3498,7 @@ Art:&nbsp;Self Portrait with Father and Brother by John Hamilton Mortimer
 ---
 
 ### content/yevamot/76.txt
-<a id="src-00191"></a>
+<a id="src-00200"></a>
 
 **Source file:** `content/yevamot/76.txt`
 
@@ -3374,7 +3516,7 @@ Art: The Dead Sea with the mountains of Moab by Gustave Bauernfeind
 ---
 
 ### content/yevamot/77.txt
-<a id="src-00192"></a>
+<a id="src-00201"></a>
 
 **Source file:** `content/yevamot/77.txt`
 
@@ -3396,7 +3538,7 @@ Art: The Cavalier's Sword by William A. Breakspeare
 ---
 
 ### content/yevamot/78.txt
-<a id="src-00193"></a>
+<a id="src-00202"></a>
 
 **Source file:** `content/yevamot/78.txt`
 
@@ -3406,7 +3548,7 @@ Yevamot 78 - Can a mamzer survive?
 ---
 
 ### content/yevamot/79.txt
-<a id="src-00194"></a>
+<a id="src-00203"></a>
 
 **Source file:** `content/yevamot/79.txt`
 
@@ -3415,7 +3557,7 @@ Yevamot 78 - Can a mamzer survive?
 ---
 
 ### content/yevamot/8.txt
-<a id="src-00195"></a>
+<a id="src-00204"></a>
 
 **Source file:** `content/yevamot/8.txt`
 
@@ -3434,7 +3576,7 @@ Art: Portrait of the Shishmariov Sisters by Jules Elie Delauney
 ---
 
 ### content/yevamot/80.txt
-<a id="src-00196"></a>
+<a id="src-00205"></a>
 
 **Source file:** `content/yevamot/80.txt`
 
@@ -3443,7 +3585,7 @@ Art: Portrait of the Shishmariov Sisters by Jules Elie Delauney
 ---
 
 ### content/yevamot/81.txt
-<a id="src-00197"></a>
+<a id="src-00206"></a>
 
 **Source file:** `content/yevamot/81.txt`
 
@@ -3459,7 +3601,7 @@ Art: Married Couple in a Garden by Frans Hals
 ---
 
 ### content/yevamot/82.txt
-<a id="src-00198"></a>
+<a id="src-00207"></a>
 
 **Source file:** `content/yevamot/82.txt`
 
@@ -3478,7 +3620,7 @@ Art: Still-life with Quince, Cabbage, Melon, and Cucumber by Juan Sanchez Cotan
 ---
 
 ### content/yevamot/83.txt
-<a id="src-00199"></a>
+<a id="src-00208"></a>
 
 **Source file:** `content/yevamot/83.txt`
 
@@ -3502,7 +3644,7 @@ Art: Hay And Wheat Stooks Before The Rain by Edward Duncan
 ---
 
 ### content/yevamot/84.txt
-<a id="src-00200"></a>
+<a id="src-00209"></a>
 
 **Source file:** `content/yevamot/84.txt`
 
@@ -3525,7 +3667,7 @@ Art: The Widower by James Jacques Joseph Tissot
 ---
 
 ### content/yevamot/85.txt
-<a id="src-00201"></a>
+<a id="src-00210"></a>
 
 **Source file:** `content/yevamot/85.txt`
 
@@ -3534,7 +3676,7 @@ Art: The Widower by James Jacques Joseph Tissot
 ---
 
 ### content/yevamot/86.txt
-<a id="src-00202"></a>
+<a id="src-00211"></a>
 
 **Source file:** `content/yevamot/86.txt`
 
@@ -3558,7 +3700,7 @@ Art: Old Cemetery Tower At Nuenen by Vincent Van Gogh
 ---
 
 ### content/yevamot/87.txt
-<a id="src-00203"></a>
+<a id="src-00212"></a>
 
 **Source file:** `content/yevamot/87.txt`
 
@@ -3583,7 +3725,7 @@ Art: Portrait of the Artist's Wife by Tadeusz Pruszkowski
 ---
 
 ### content/yevamot/88.txt
-<a id="src-00204"></a>
+<a id="src-00213"></a>
 
 **Source file:** `content/yevamot/88.txt`
 
@@ -3602,7 +3744,7 @@ Art: Dead men tell no tales by Howard Pyle
 ---
 
 ### content/yevamot/89.txt
-<a id="src-00205"></a>
+<a id="src-00214"></a>
 
 **Source file:** `content/yevamot/89.txt`
 
@@ -3624,7 +3766,7 @@ Art: The Engaged Couple by Giuseppe Tominz
 ---
 
 ### content/yevamot/9.txt
-<a id="src-00206"></a>
+<a id="src-00215"></a>
 
 **Source file:** `content/yevamot/9.txt`
 
@@ -3642,7 +3784,7 @@ Art: Fisherman and his Daughter by Charles Hawthorne
 ---
 
 ### content/yevamot/90.txt
-<a id="src-00207"></a>
+<a id="src-00216"></a>
 
 **Source file:** `content/yevamot/90.txt`
 
@@ -3668,7 +3810,7 @@ Art: Portrait Of A Married Couple By Sir Anthony Van Dyck
 ---
 
 ### content/yevamot/91.txt
-<a id="src-00208"></a>
+<a id="src-00217"></a>
 
 **Source file:** `content/yevamot/91.txt`
 
@@ -3677,7 +3819,7 @@ Art: Portrait Of A Married Couple By Sir Anthony Van Dyck
 ---
 
 ### content/yevamot/92.txt
-<a id="src-00209"></a>
+<a id="src-00218"></a>
 
 **Source file:** `content/yevamot/92.txt`
 
@@ -3686,7 +3828,7 @@ Art: Portrait Of A Married Couple By Sir Anthony Van Dyck
 ---
 
 ### content/yevamot/93.txt
-<a id="src-00210"></a>
+<a id="src-00219"></a>
 
 **Source file:** `content/yevamot/93.txt`
 
@@ -3695,7 +3837,7 @@ Art: Portrait Of A Married Couple By Sir Anthony Van Dyck
 ---
 
 ### content/yevamot/94.txt
-<a id="src-00211"></a>
+<a id="src-00220"></a>
 
 **Source file:** `content/yevamot/94.txt`
 
@@ -3704,7 +3846,7 @@ Art: Portrait Of A Married Couple By Sir Anthony Van Dyck
 ---
 
 ### content/yevamot/95.txt
-<a id="src-00212"></a>
+<a id="src-00221"></a>
 
 **Source file:** `content/yevamot/95.txt`
 
@@ -3713,7 +3855,7 @@ Art: Portrait Of A Married Couple By Sir Anthony Van Dyck
 ---
 
 ### content/yevamot/96.txt
-<a id="src-00213"></a>
+<a id="src-00222"></a>
 
 **Source file:** `content/yevamot/96.txt`
 
@@ -3722,7 +3864,7 @@ Art: Portrait Of A Married Couple By Sir Anthony Van Dyck
 ---
 
 ### content/yevamot/97.txt
-<a id="src-00214"></a>
+<a id="src-00223"></a>
 
 **Source file:** `content/yevamot/97.txt`
 
@@ -3747,7 +3889,7 @@ Art: Sisters In The Sewing Room by Fritz von Uhde
 ---
 
 ### content/yevamot/98.txt
-<a id="src-00215"></a>
+<a id="src-00224"></a>
 
 **Source file:** `content/yevamot/98.txt`
 
@@ -3756,7 +3898,7 @@ Art: Sisters In The Sewing Room by Fritz von Uhde
 ---
 
 ### content/yevamot/99.txt
-<a id="src-00216"></a>
+<a id="src-00225"></a>
 
 **Source file:** `content/yevamot/99.txt`
 
@@ -3765,7 +3907,7 @@ Art: Sisters In The Sewing Room by Fritz von Uhde
 ---
 
 ### content/yoma/10.txt
-<a id="src-00217"></a>
+<a id="src-00226"></a>
 
 **Source file:** `content/yoma/10.txt`
 
@@ -3781,7 +3923,7 @@ Art: In prison By Rembrandt Van Rijn
 ---
 
 ### content/yoma/11.txt
-<a id="src-00218"></a>
+<a id="src-00227"></a>
 
 **Source file:** `content/yoma/11.txt`
 
@@ -3799,7 +3941,7 @@ Art: Yellow Bath House And Sailboat, Bellport, Long Island by William Glackens
 ---
 
 ### content/yoma/12.txt
-<a id="src-00219"></a>
+<a id="src-00228"></a>
 
 **Source file:** `content/yoma/12.txt`
 
@@ -3818,7 +3960,7 @@ Laundress Carrying Linen by Edgar Degas
 ---
 
 ### content/yoma/13.txt
-<a id="src-00220"></a>
+<a id="src-00229"></a>
 
 **Source file:** `content/yoma/13.txt`
 
@@ -3836,7 +3978,7 @@ Art: Self-Portrait with His Wife, by Jan de Baen
 ---
 
 ### content/yoma/14.txt
-<a id="src-00221"></a>
+<a id="src-00230"></a>
 
 **Source file:** `content/yoma/14.txt`
 
@@ -3854,7 +3996,7 @@ Art: The Judgement of Solomon by Sir Peter Paul Rubens
 ---
 
 ### content/yoma/15.txt
-<a id="src-00222"></a>
+<a id="src-00231"></a>
 
 **Source file:** `content/yoma/15.txt`
 
@@ -3872,7 +4014,7 @@ Art: Cleaning The Swords by Hermanus Koekkoek
 ---
 
 ### content/yoma/16.txt
-<a id="src-00223"></a>
+<a id="src-00232"></a>
 
 **Source file:** `content/yoma/16.txt`
 
@@ -3888,7 +4030,7 @@ Art: Jerusalem From The Mount Of Olives by Frederic Edwin Church
 ---
 
 ### content/yoma/17.txt
-<a id="src-00224"></a>
+<a id="src-00233"></a>
 
 **Source file:** `content/yoma/17.txt`
 
@@ -3907,7 +4049,7 @@ Art: The Pet Lamb by J. Hardwicke Lewis
 ---
 
 ### content/yoma/18.txt
-<a id="src-00225"></a>
+<a id="src-00234"></a>
 
 **Source file:** `content/yoma/18.txt`
 
@@ -3929,7 +4071,7 @@ Art: A Footman Sleeping by Charles Bargue</div>
 ---
 
 ### content/yoma/19.txt
-<a id="src-00226"></a>
+<a id="src-00235"></a>
 
 **Source file:** `content/yoma/19.txt`
 
@@ -3947,7 +4089,7 @@ Art: La Leçon de Lecture (The Reading Lesson) by Léon-Augustin L'hermitte
 ---
 
 ### content/yoma/2.txt
-<a id="src-00227"></a>
+<a id="src-00236"></a>
 
 **Source file:** `content/yoma/2.txt`
 
@@ -3963,7 +4105,7 @@ Art: Solitude by Marc Chagall
 ---
 
 ### content/yoma/20.txt
-<a id="src-00228"></a>
+<a id="src-00237"></a>
 
 **Source file:** `content/yoma/20.txt`
 
@@ -3982,7 +4124,7 @@ Art: The Rooster By Edwin John Alexander
 ---
 
 ### content/yoma/21.txt
-<a id="src-00229"></a>
+<a id="src-00238"></a>
 
 **Source file:** `content/yoma/21.txt`
 
@@ -4000,7 +4142,7 @@ Art: Fruit Tree in Blossom By Carl Fredrik Hill
 ---
 
 ### content/yoma/22.txt
-<a id="src-00230"></a>
+<a id="src-00239"></a>
 
 **Source file:** `content/yoma/22.txt`
 
@@ -4024,7 +4166,7 @@ Art: An old man with a raised finger by Jacob Jordaens
 ---
 
 ### content/yoma/23.txt
-<a id="src-00231"></a>
+<a id="src-00240"></a>
 
 **Source file:** `content/yoma/23.txt`
 
@@ -4042,7 +4184,7 @@ Art: The Wounded Trumpeter by Horace Vernet</div>
 ---
 
 ### content/yoma/24.txt
-<a id="src-00232"></a>
+<a id="src-00241"></a>
 
 **Source file:** `content/yoma/24.txt`
 
@@ -4064,7 +4206,7 @@ Art: Study Of Garments by Ghirlandaio Domenico
 ---
 
 ### content/yoma/25.txt
-<a id="src-00233"></a>
+<a id="src-00242"></a>
 
 **Source file:** `content/yoma/25.txt`
 
@@ -4082,7 +4224,7 @@ Art: A woman cleaning pots at a casement by (after) Gerrit Dou
 ---
 
 ### content/yoma/26.txt
-<a id="src-00234"></a>
+<a id="src-00243"></a>
 
 **Source file:** `content/yoma/26.txt`
 
@@ -4098,7 +4240,7 @@ Art: Still Life Of Apples And A Glass Of Water by Philippe Rousseau
 ---
 
 ### content/yoma/27.txt
-<a id="src-00235"></a>
+<a id="src-00244"></a>
 
 **Source file:** `content/yoma/27.txt`
 
@@ -4117,7 +4259,7 @@ Art: Moroccan Butcher Shop By Theo van Rysselberghe
 ---
 
 ### content/yoma/28.txt
-<a id="src-00236"></a>
+<a id="src-00245"></a>
 
 **Source file:** `content/yoma/28.txt`
 
@@ -4133,7 +4275,7 @@ Art: Johannes Vermeer The Astronomer
 ---
 
 ### content/yoma/29.txt
-<a id="src-00237"></a>
+<a id="src-00246"></a>
 
 **Source file:** `content/yoma/29.txt`
 
@@ -4155,7 +4297,7 @@ Art: An Old Man At Prayer By Jacques des Rousseaux
 ---
 
 ### content/yoma/3.txt
-<a id="src-00238"></a>
+<a id="src-00247"></a>
 
 **Source file:** `content/yoma/3.txt`
 
@@ -4174,7 +4316,7 @@ Art: Separated by Istvan Farkas&nbsp;<div>(Istvan Farkas: 1887, Budapest - 1944,
 ---
 
 ### content/yoma/30.txt
-<a id="src-00239"></a>
+<a id="src-00248"></a>
 
 **Source file:** `content/yoma/30.txt`
 
@@ -4193,7 +4335,7 @@ Art: Pilate Washing His Hands by Rembrandt Van Rijn
 ---
 
 ### content/yoma/31.txt
-<a id="src-00240"></a>
+<a id="src-00249"></a>
 
 **Source file:** `content/yoma/31.txt`
 
@@ -4203,7 +4345,7 @@ Yoma 31 - The golden vestments
 ---
 
 ### content/yoma/32.txt
-<a id="src-00241"></a>
+<a id="src-00250"></a>
 
 **Source file:** `content/yoma/32.txt`
 
@@ -4213,7 +4355,7 @@ Yoma 32 - Five immersions and ten washings of hands and feet
 ---
 
 ### content/yoma/33.txt
-<a id="src-00242"></a>
+<a id="src-00251"></a>
 
 **Source file:** `content/yoma/33.txt`
 
@@ -4223,7 +4365,7 @@ Yoma 33 - Order of the sacrifices
 ---
 
 ### content/yoma/34.txt
-<a id="src-00243"></a>
+<a id="src-00252"></a>
 
 **Source file:** `content/yoma/34.txt`
 
@@ -4233,7 +4375,7 @@ Yoma 34 - The second immersion
 ---
 
 ### content/yoma/35.txt
-<a id="src-00244"></a>
+<a id="src-00253"></a>
 
 **Source file:** `content/yoma/35.txt`
 
@@ -4243,7 +4385,7 @@ Yoma 35 - Why everyone should learn Torah
 ---
 
 ### content/yoma/36.txt
-<a id="src-00245"></a>
+<a id="src-00254"></a>
 
 **Source file:** `content/yoma/36.txt`
 
@@ -4265,7 +4407,7 @@ Art: Portrait of a Bull's Head by Thomas Sidney Cooper
 ---
 
 ### content/yoma/37.txt
-<a id="src-00246"></a>
+<a id="src-00255"></a>
 
 **Source file:** `content/yoma/37.txt`
 
@@ -4283,7 +4425,7 @@ Art:&nbsp;The Candelabrum by John Singer Sargent
 ---
 
 ### content/yoma/38.txt
-<a id="src-00247"></a>
+<a id="src-00256"></a>
 
 **Source file:** `content/yoma/38.txt`
 
@@ -4302,7 +4444,7 @@ Art: A Writer Trimming His Pen by Jan the Younger Ekels
 ---
 
 ### content/yoma/39.txt
-<a id="src-00248"></a>
+<a id="src-00257"></a>
 
 **Source file:** `content/yoma/39.txt`
 
@@ -4321,7 +4463,7 @@ Art: Woman Carrying Firewood and a Pail by Jean-Francois Millet
 ---
 
 ### content/yoma/4.txt
-<a id="src-00249"></a>
+<a id="src-00258"></a>
 
 **Source file:** `content/yoma/4.txt`
 
@@ -4336,7 +4478,7 @@ Art: Moses by Carlo Dolci
 ---
 
 ### content/yoma/40.txt
-<a id="src-00250"></a>
+<a id="src-00259"></a>
 
 **Source file:** `content/yoma/40.txt`
 
@@ -4352,7 +4494,7 @@ Art: The road to Jericho by George Lambert
 ---
 
 ### content/yoma/41.txt
-<a id="src-00251"></a>
+<a id="src-00260"></a>
 
 **Source file:** `content/yoma/41.txt`
 
@@ -4370,7 +4512,7 @@ Art: A Study For The Head Of A Goat by (after) Philipp Peter Roos
 ---
 
 ### content/yoma/42.txt
-<a id="src-00252"></a>
+<a id="src-00261"></a>
 
 **Source file:** `content/yoma/42.txt`
 
@@ -4384,7 +4526,7 @@ Art:&nbsp;Goats in a landscape by (after) Johann Rudolf Byss
 ---
 
 ### content/yoma/43.txt
-<a id="src-00253"></a>
+<a id="src-00262"></a>
 
 **Source file:** `content/yoma/43.txt`
 
@@ -4402,7 +4544,7 @@ Art: Watering cows by Willem Roefols
 ---
 
 ### content/yoma/44.txt
-<a id="src-00254"></a>
+<a id="src-00263"></a>
 
 **Source file:** `content/yoma/44.txt`
 
@@ -4416,7 +4558,7 @@ Art:&nbsp;Bull by John Glover
 ---
 
 ### content/yoma/45.txt
-<a id="src-00255"></a>
+<a id="src-00264"></a>
 
 **Source file:** `content/yoma/45.txt`
 
@@ -4432,7 +4574,7 @@ Art:&nbsp;An old man warming his hands over coals by (after) Jacob Cornelisz Van
 ---
 
 ### content/yoma/46.txt
-<a id="src-00256"></a>
+<a id="src-00265"></a>
 
 **Source file:** `content/yoma/46.txt`
 
@@ -4450,7 +4592,7 @@ Art: A Night Scene With An Old Lady Holding A Basket And A Candle by Peter Paul 
 ---
 
 ### content/yoma/47.txt
-<a id="src-00257"></a>
+<a id="src-00266"></a>
 
 **Source file:** `content/yoma/47.txt`
 
@@ -4471,7 +4613,7 @@ Art: Portrait of Wilhelmine with Her Hair in Braids By Lovis (Franz Heinrich Lou
 ---
 
 ### content/yoma/48.txt
-<a id="src-00258"></a>
+<a id="src-00267"></a>
 
 **Source file:** `content/yoma/48.txt`
 
@@ -4493,7 +4635,7 @@ Art: Brass Cooking Vessel By Antoine Vollon
 ---
 
 ### content/yoma/49.txt
-<a id="src-00259"></a>
+<a id="src-00268"></a>
 
 **Source file:** `content/yoma/49.txt`
 
@@ -4514,7 +4656,7 @@ Art: Study Of Clasped Hands By Andrea Boscoli
 ---
 
 ### content/yoma/5.txt
-<a id="src-00260"></a>
+<a id="src-00269"></a>
 
 **Source file:** `content/yoma/5.txt`
 
@@ -4536,7 +4678,7 @@ Art: Two women leaning on a gate by Edgar Degas
 ---
 
 ### content/yoma/50.txt
-<a id="src-00261"></a>
+<a id="src-00270"></a>
 
 **Source file:** `content/yoma/50.txt`
 
@@ -4551,7 +4693,7 @@ Art:&nbsp;Bulls fighting By Albertus Verhoesen
 ---
 
 ### content/yoma/51.txt
-<a id="src-00262"></a>
+<a id="src-00271"></a>
 
 **Source file:** `content/yoma/51.txt`
 
@@ -4566,7 +4708,7 @@ Art:&nbsp;White Walls in Sunlight Morocco by John Singer Sargent
 ---
 
 ### content/yoma/52.txt
-<a id="src-00263"></a>
+<a id="src-00272"></a>
 
 **Source file:** `content/yoma/52.txt`
 
@@ -4585,7 +4727,7 @@ Art: Smoke. Autumn by Jozef Chelmonski
 ---
 
 ### content/yoma/53.txt
-<a id="src-00264"></a>
+<a id="src-00273"></a>
 
 **Source file:** `content/yoma/53.txt`
 
@@ -4604,7 +4746,7 @@ Art: Rain By Camille Pissarro
 ---
 
 ### content/yoma/54.txt
-<a id="src-00265"></a>
+<a id="src-00274"></a>
 
 **Source file:** `content/yoma/54.txt`
 
@@ -4623,7 +4765,7 @@ Art: The embrace by Pio Ricci
 ---
 
 ### content/yoma/55.txt
-<a id="src-00266"></a>
+<a id="src-00275"></a>
 
 **Source file:** `content/yoma/55.txt`
 
@@ -4642,7 +4784,7 @@ Art: A Rocky Landscape With A Bull, Goat, Ram, And Sheepdog By Philipp Peter Roo
 ---
 
 ### content/yoma/56.txt
-<a id="src-00267"></a>
+<a id="src-00276"></a>
 
 **Source file:** `content/yoma/56.txt`
 
@@ -4661,7 +4803,7 @@ Art: Bulls And Goats In ASummer Landscape by Albertus Verhoesen
 ---
 
 ### content/yoma/57.txt
-<a id="src-00268"></a>
+<a id="src-00277"></a>
 
 **Source file:** `content/yoma/57.txt`
 
@@ -4680,7 +4822,7 @@ Seated Demon by Mikhail Aleksandrovich Vrubel
 ---
 
 ### content/yoma/58.txt
-<a id="src-00269"></a>
+<a id="src-00278"></a>
 
 **Source file:** `content/yoma/58.txt`
 
@@ -4695,7 +4837,7 @@ Art: Oxen In Repose by John Singer Sargent
 ---
 
 ### content/yoma/59.txt
-<a id="src-00270"></a>
+<a id="src-00279"></a>
 
 **Source file:** `content/yoma/59.txt`
 
@@ -4705,7 +4847,7 @@ Yoma 59 - The remainder of the blood
 ---
 
 ### content/yoma/6.txt
-<a id="src-00271"></a>
+<a id="src-00280"></a>
 
 **Source file:** `content/yoma/6.txt`
 
@@ -4722,7 +4864,7 @@ Art: The Dead Body of Wallenstein by Von Piloty Karl Theodor
 ---
 
 ### content/yoma/60.txt
-<a id="src-00272"></a>
+<a id="src-00281"></a>
 
 **Source file:** `content/yoma/60.txt`
 
@@ -4732,7 +4874,7 @@ Yoma 60 - The order of the Yom Kippur service
 ---
 
 ### content/yoma/61.txt
-<a id="src-00273"></a>
+<a id="src-00282"></a>
 
 **Source file:** `content/yoma/61.txt`
 
@@ -4742,7 +4884,7 @@ Yoma 61 - No remedy
 ---
 
 ### content/yoma/62.txt
-<a id="src-00274"></a>
+<a id="src-00283"></a>
 
 **Source file:** `content/yoma/62.txt`
 
@@ -4761,7 +4903,7 @@ Art: Two Goats by Jacques Laurent Agasse
 ---
 
 ### content/yoma/63.txt
-<a id="src-00275"></a>
+<a id="src-00284"></a>
 
 **Source file:** `content/yoma/63.txt`
 
@@ -4771,7 +4913,7 @@ Yoma 63 - High Priest who ignored the lots
 ---
 
 ### content/yoma/64.txt
-<a id="src-00276"></a>
+<a id="src-00285"></a>
 
 **Source file:** `content/yoma/64.txt`
 
@@ -4781,7 +4923,7 @@ Yoma 64 - Can live sacrifice be rejected?
 ---
 
 ### content/yoma/65.txt
-<a id="src-00277"></a>
+<a id="src-00286"></a>
 
 **Source file:** `content/yoma/65.txt`
 
@@ -4791,7 +4933,7 @@ Yoma 65 - If the goat's blood spilled
 ---
 
 ### content/yoma/66.txt
-<a id="src-00278"></a>
+<a id="src-00287"></a>
 
 **Source file:** `content/yoma/66.txt`
 
@@ -4809,7 +4951,7 @@ Art: The Cliff At Dieppe by Claude Oscar Monet
 ---
 
 ### content/yoma/67.txt
-<a id="src-00279"></a>
+<a id="src-00288"></a>
 
 **Source file:** `content/yoma/67.txt`
 
@@ -4825,7 +4967,7 @@ Art:&nbsp;Four Still Lives of Food and Fruit by Jan van Kessel
 ---
 
 ### content/yoma/68.txt
-<a id="src-00280"></a>
+<a id="src-00289"></a>
 
 **Source file:** `content/yoma/68.txt`
 
@@ -4840,7 +4982,7 @@ Art:&nbsp;Rue Montorgueil with Flags by Claude Oscar Monet
 ---
 
 ### content/yoma/69.txt
-<a id="src-00281"></a>
+<a id="src-00290"></a>
 
 **Source file:** `content/yoma/69.txt`
 
@@ -4863,7 +5005,7 @@ Art:&nbsp;Still Life With Jugs And Eggs by Theodule Augustine Ribot<br />
 ---
 
 ### content/yoma/7.txt
-<a id="src-00282"></a>
+<a id="src-00291"></a>
 
 **Source file:** `content/yoma/7.txt`
 
@@ -4882,7 +5024,7 @@ Art: The Argument by William Henry Knight
 ---
 
 ### content/yoma/70.txt
-<a id="src-00283"></a>
+<a id="src-00292"></a>
 
 **Source file:** `content/yoma/70.txt`
 
@@ -4901,7 +5043,7 @@ Art:&nbsp;Two Rams In A Landscape by Rosa Bonheur
 ---
 
 ### content/yoma/71.txt
-<a id="src-00284"></a>
+<a id="src-00293"></a>
 
 **Source file:** `content/yoma/71.txt`
 
@@ -4919,7 +5061,7 @@ Art:&nbsp;Rural Feast by Abraham Teniers
 ---
 
 ### content/yoma/72.txt
-<a id="src-00285"></a>
+<a id="src-00294"></a>
 
 **Source file:** `content/yoma/72.txt`
 
@@ -4936,7 +5078,7 @@ Art:&nbsp;Portrait of a Man in Oriental Garment &nbsp;By Rembrandt Van Rijn
 ---
 
 ### content/yoma/73.txt
-<a id="src-00286"></a>
+<a id="src-00295"></a>
 
 **Source file:** `content/yoma/73.txt`
 
@@ -4952,7 +5094,7 @@ Art: To Decide the Question By John George Brown
 ---
 
 ### content/yoma/74.txt
-<a id="src-00287"></a>
+<a id="src-00296"></a>
 
 **Source file:** `content/yoma/74.txt`
 
@@ -4971,7 +5113,7 @@ Art: Thirst By William-Adolphe Bouguereau
 ---
 
 ### content/yoma/75.txt
-<a id="src-00288"></a>
+<a id="src-00297"></a>
 
 **Source file:** `content/yoma/75.txt`
 
@@ -4990,7 +5132,7 @@ Art:&nbsp;The Gathering of the Manna By Bernardino Luini
 ---
 
 ### content/yoma/76.txt
-<a id="src-00289"></a>
+<a id="src-00298"></a>
 
 **Source file:** `content/yoma/76.txt`
 
@@ -5009,7 +5151,7 @@ Art: A bottle of wine By French School
 ---
 
 ### content/yoma/77.txt
-<a id="src-00290"></a>
+<a id="src-00299"></a>
 
 **Source file:** `content/yoma/77.txt`
 
@@ -5028,7 +5170,7 @@ Art: Figures crossing a frozen river By Louis Pierre Verwee
 ---
 
 ### content/yoma/78.txt
-<a id="src-00291"></a>
+<a id="src-00300"></a>
 
 **Source file:** `content/yoma/78.txt`
 
@@ -5047,7 +5189,7 @@ Art: Still life, a pair of shoes by Vincent Van Gogh
 ---
 
 ### content/yoma/79.txt
-<a id="src-00292"></a>
+<a id="src-00301"></a>
 
 **Source file:** `content/yoma/79.txt`
 
@@ -5068,7 +5210,7 @@ Art:&nbsp;Still Life Of Porcelain Bowls Containing Sugared Dates, Grapes, And Or
 ---
 
 ### content/yoma/8.txt
-<a id="src-00293"></a>
+<a id="src-00302"></a>
 
 **Source file:** `content/yoma/8.txt`
 
@@ -5087,7 +5229,7 @@ Art: Yemeni Jew,  1914 National Geographic Magazine.
 ---
 
 ### content/yoma/80.txt
-<a id="src-00294"></a>
+<a id="src-00303"></a>
 
 **Source file:** `content/yoma/80.txt`
 
@@ -5108,7 +5250,7 @@ Art: A lady seated in an interior, with a maidservant and a girl holding a chick
 ---
 
 ### content/yoma/81.txt
-<a id="src-00295"></a>
+<a id="src-00304"></a>
 
 **Source file:** `content/yoma/81.txt`
 
@@ -5118,7 +5260,7 @@ Yoma 81 - How to eat on Yom Kippur and not bear responsibility
 ---
 
 ### content/yoma/82.txt
-<a id="src-00296"></a>
+<a id="src-00305"></a>
 
 **Source file:** `content/yoma/82.txt`
 
@@ -5128,7 +5270,7 @@ Yoma 82 - Children do not fast on Yom Kippur
 ---
 
 ### content/yoma/83.txt
-<a id="src-00297"></a>
+<a id="src-00306"></a>
 
 **Source file:** `content/yoma/83.txt`
 
@@ -5138,7 +5280,7 @@ Yoma 83 - Hand washing after the meal (maim acharonim)
 ---
 
 ### content/yoma/84.txt
-<a id="src-00298"></a>
+<a id="src-00307"></a>
 
 **Source file:** `content/yoma/84.txt`
 
@@ -5148,7 +5290,7 @@ Yoma 84 - How Rabbi Yochanan fooled a sorceress
 ---
 
 ### content/yoma/85.txt
-<a id="src-00299"></a>
+<a id="src-00308"></a>
 
 **Source file:** `content/yoma/85.txt`
 
@@ -5158,7 +5300,7 @@ Yoma 85 - For what does Yom Kippur forgive?
 ---
 
 ### content/yoma/86.txt
-<a id="src-00300"></a>
+<a id="src-00309"></a>
 
 **Source file:** `content/yoma/86.txt`
 
@@ -5168,7 +5310,7 @@ Yoma 86 - Desecration of God's name
 ---
 
 ### content/yoma/87.txt
-<a id="src-00301"></a>
+<a id="src-00310"></a>
 
 **Source file:** `content/yoma/87.txt`
 
@@ -5187,7 +5329,7 @@ Art: Joseph's Forgiveness of his Brethren By Siegfried Detler Bendixen
 ---
 
 ### content/yoma/88.txt
-<a id="src-00302"></a>
+<a id="src-00311"></a>
 
 **Source file:** `content/yoma/88.txt`
 
@@ -5208,7 +5350,7 @@ Art: Forgiven by Thomas Faed
 ---
 
 ### content/yoma/9.txt
-<a id="src-00303"></a>
+<a id="src-00312"></a>
 
 **Source file:** `content/yoma/9.txt`
 
@@ -5227,7 +5369,7 @@ Art: Gossip at the stile By Valentin Walter Bromley
 ---
 
 ### content/zevachim/10.txt
-<a id="src-00304"></a>
+<a id="src-00313"></a>
 
 **Source file:** `content/zevachim/10.txt`
 
@@ -5241,7 +5383,7 @@ Art: Camille Pissarro : Flock of Sheep in a Field after the Harvest</span>
 ---
 
 ### content/zevachim/100.txt
-<a id="src-00305"></a>
+<a id="src-00314"></a>
 
 **Source file:** `content/zevachim/100.txt`
 
@@ -5257,7 +5399,7 @@ Art: Vasily Perov - Seeing off the Dead</span>
 ---
 
 ### content/zevachim/101.txt
-<a id="src-00306"></a>
+<a id="src-00315"></a>
 
 **Source file:** `content/zevachim/101.txt`
 
@@ -5277,7 +5419,7 @@ Art: Johann Hamza - A Good Dinner</span>
 ---
 
 ### content/zevachim/102.txt
-<a id="src-00307"></a>
+<a id="src-00316"></a>
 
 **Source file:** `content/zevachim/102.txt`
 
@@ -5295,7 +5437,7 @@ Art: Jules Charles Boquet - Mourning</span>
 ---
 
 ### content/zevachim/103.txt
-<a id="src-00308"></a>
+<a id="src-00317"></a>
 
 **Source file:** `content/zevachim/103.txt`
 
@@ -5311,7 +5453,7 @@ Art: Pieter Gysels - Still Life with Vegetables Meat Fruit and Game</span>
 ---
 
 ### content/zevachim/104.txt
-<a id="src-00309"></a>
+<a id="src-00318"></a>
 
 **Source file:** `content/zevachim/104.txt`
 
@@ -5326,7 +5468,7 @@ Art: Giovacchino Toma - The Rain Of Ashes, 1880<br />
 ---
 
 ### content/zevachim/105.txt
-<a id="src-00310"></a>
+<a id="src-00319"></a>
 
 **Source file:** `content/zevachim/105.txt`
 
@@ -5342,7 +5484,7 @@ Art: Henri De Toulouse-Lautrec - Two Bulls Wearing a Yoke</span>
 ---
 
 ### content/zevachim/106.txt
-<a id="src-00311"></a>
+<a id="src-00320"></a>
 
 **Source file:** `content/zevachim/106.txt`
 
@@ -5360,7 +5502,7 @@ Art: Abel Grimmer - A Wooded Winter Village Landscape With Peasants Slaughtering
 ---
 
 ### content/zevachim/107.txt
-<a id="src-00312"></a>
+<a id="src-00321"></a>
 
 **Source file:** `content/zevachim/107.txt`
 
@@ -5376,7 +5518,7 @@ Art: Cornelis van Leemputten - Shepherdess with Sheep in a Landscape</span>
 ---
 
 ### content/zevachim/108.txt
-<a id="src-00313"></a>
+<a id="src-00322"></a>
 
 **Source file:** `content/zevachim/108.txt`
 
@@ -5395,7 +5537,7 @@ Art: William Lucas - Sharpening The Knife 1868<br />
 ---
 
 ### content/zevachim/109.txt
-<a id="src-00314"></a>
+<a id="src-00323"></a>
 
 **Source file:** `content/zevachim/109.txt`
 
@@ -5413,7 +5555,7 @@ Art: Adam Colonia - Noah Leaving the Ark</span>
 ---
 
 ### content/zevachim/11.txt
-<a id="src-00315"></a>
+<a id="src-00324"></a>
 
 **Source file:** `content/zevachim/11.txt`
 
@@ -5435,7 +5577,7 @@ Art: Abraham Solomon - Not Guilty (The Acquittal)<br />
 ---
 
 ### content/zevachim/110.txt
-<a id="src-00316"></a>
+<a id="src-00325"></a>
 
 **Source file:** `content/zevachim/110.txt`
 
@@ -5450,7 +5592,7 @@ Art: Gerrit Dou - Woman Pouring Water Into A Jar<br />
 ---
 
 ### content/zevachim/111.txt
-<a id="src-00317"></a>
+<a id="src-00326"></a>
 
 **Source file:** `content/zevachim/111.txt`
 
@@ -5466,7 +5608,7 @@ Art: Perrault Leon Jean Basile - The Bird Charmer 1873</span>
 ---
 
 ### content/zevachim/112.txt
-<a id="src-00318"></a>
+<a id="src-00327"></a>
 
 **Source file:** `content/zevachim/112.txt`
 
@@ -5480,7 +5622,7 @@ Art: Van Gogh - Cows after Jordaens</span>
 ---
 
 ### content/zevachim/113.txt
-<a id="src-00319"></a>
+<a id="src-00328"></a>
 
 **Source file:** `content/zevachim/113.txt`
 
@@ -5498,7 +5640,7 @@ Art: Bonaventura, the Elder Peeters - The Great Flood</span>
 ---
 
 ### content/zevachim/114.txt
-<a id="src-00320"></a>
+<a id="src-00329"></a>
 
 **Source file:** `content/zevachim/114.txt`
 
@@ -5512,7 +5654,7 @@ Art: Giovanni Segantini - Il reddito del pastore</span>
 ---
 
 ### content/zevachim/115.txt
-<a id="src-00321"></a>
+<a id="src-00330"></a>
 
 **Source file:** `content/zevachim/115.txt`
 
@@ -5528,7 +5670,7 @@ Art: Johann Wilhelm Schirmer - The Departure Of The Man To Jericho Morning C.185
 ---
 
 ### content/zevachim/116.txt
-<a id="src-00322"></a>
+<a id="src-00331"></a>
 
 **Source file:** `content/zevachim/116.txt`
 
@@ -5547,7 +5689,7 @@ Art: Lovis (Franz Heinrich Louis) Corinth - The Painter Charlotte Berend With A 
 ---
 
 ### content/zevachim/117.txt
-<a id="src-00323"></a>
+<a id="src-00332"></a>
 
 **Source file:** `content/zevachim/117.txt`
 
@@ -5561,7 +5703,7 @@ Art: Eugène-Alexis Girardet - Bedouins In The Desert</span>
 ---
 
 ### content/zevachim/118.txt
-<a id="src-00324"></a>
+<a id="src-00333"></a>
 
 **Source file:** `content/zevachim/118.txt`
 
@@ -5577,7 +5719,7 @@ Art: Frederic Edwin Church - Twilight In The Wilderness</span>
 ---
 
 ### content/zevachim/119.txt
-<a id="src-00325"></a>
+<a id="src-00334"></a>
 
 **Source file:** `content/zevachim/119.txt`
 
@@ -5593,7 +5735,7 @@ Art: John William Waterhouse - A Roman Offering</span>
 ---
 
 ### content/zevachim/12.txt
-<a id="src-00326"></a>
+<a id="src-00335"></a>
 
 **Source file:** `content/zevachim/12.txt`
 
@@ -5611,7 +5753,7 @@ Art: Jacopo d'Antonio Negretti - Passover</span>
 ---
 
 ### content/zevachim/120.txt
-<a id="src-00327"></a>
+<a id="src-00336"></a>
 
 **Source file:** `content/zevachim/120.txt`
 
@@ -5627,7 +5769,7 @@ Art: Frans Snyders - Concert of Birds</span>
 ---
 
 ### content/zevachim/13.txt
-<a id="src-00328"></a>
+<a id="src-00337"></a>
 
 **Source file:** `content/zevachim/13.txt`
 
@@ -5644,7 +5786,7 @@ Art: Arthur Hacker - Vale Or Farewell<br />
 ---
 
 ### content/zevachim/14.txt
-<a id="src-00329"></a>
+<a id="src-00338"></a>
 
 **Source file:** `content/zevachim/14.txt`
 
@@ -5660,7 +5802,7 @@ Art: David Roberts - Hall of Columns, Karnak, from Egypt</span>
 ---
 
 ### content/zevachim/15.txt
-<a id="src-00330"></a>
+<a id="src-00339"></a>
 
 **Source file:** `content/zevachim/15.txt`
 
@@ -5678,7 +5820,7 @@ Art: Jan Victors - Hannah Giving Her Son Samuel to the Priest</span>
 ---
 
 ### content/zevachim/16.txt
-<a id="src-00331"></a>
+<a id="src-00340"></a>
 
 **Source file:** `content/zevachim/16.txt`
 
@@ -5697,7 +5839,7 @@ Art: Pierre Auguste Renoir - The Artists Family<br />
 ---
 
 ### content/zevachim/17.txt
-<a id="src-00332"></a>
+<a id="src-00341"></a>
 
 **Source file:** `content/zevachim/17.txt`
 
@@ -5713,7 +5855,7 @@ Art: Sir Edwin Henry Landseer - Ratcatchers</span>
 ---
 
 ### content/zevachim/18.txt
-<a id="src-00333"></a>
+<a id="src-00342"></a>
 
 **Source file:** `content/zevachim/18.txt`
 
@@ -5727,7 +5869,7 @@ Art: John Bagnold Burgess - The Favourite Priest</span>
 ---
 
 ### content/zevachim/19.txt
-<a id="src-00334"></a>
+<a id="src-00343"></a>
 
 **Source file:** `content/zevachim/19.txt`
 
@@ -5744,7 +5886,7 @@ Art: Peeter Franchoys - Ruby on the Fingernail<br />
 ---
 
 ### content/zevachim/2.txt
-<a id="src-00335"></a>
+<a id="src-00344"></a>
 
 **Source file:** `content/zevachim/2.txt`
 
@@ -5762,7 +5904,7 @@ Art: Gerard Ter Borch - Woman Reading a Letter </span>
 ---
 
 ### content/zevachim/20.txt
-<a id="src-00336"></a>
+<a id="src-00345"></a>
 
 **Source file:** `content/zevachim/20.txt`
 
@@ -5781,7 +5923,7 @@ Art: Mattia Preti - Pilate Washing his Hands 1663<br />
 ---
 
 ### content/zevachim/21.txt
-<a id="src-00337"></a>
+<a id="src-00346"></a>
 
 **Source file:** `content/zevachim/21.txt`
 
@@ -5797,7 +5939,7 @@ Art: Edgar Degas - Study of hands</span>
 ---
 
 ### content/zevachim/22.txt
-<a id="src-00338"></a>
+<a id="src-00347"></a>
 
 **Source file:** `content/zevachim/22.txt`
 
@@ -5813,7 +5955,7 @@ Art: Jean-Baptiste-Simeon Chardin - The Copper Drinking Fountain</span>
 ---
 
 ### content/zevachim/23.txt
-<a id="src-00339"></a>
+<a id="src-00348"></a>
 
 **Source file:** `content/zevachim/23.txt`
 
@@ -5829,7 +5971,7 @@ Art: Charles Emile Callande de Champmartin - Study of a Head of a Corpse</span>
 ---
 
 ### content/zevachim/24.txt
-<a id="src-00340"></a>
+<a id="src-00349"></a>
 
 **Source file:** `content/zevachim/24.txt`
 
@@ -5849,7 +5991,7 @@ Art: John Singer Sargent - Feet Of An Arab, - Tiberias</span>
 ---
 
 ### content/zevachim/25.txt
-<a id="src-00341"></a>
+<a id="src-00350"></a>
 
 **Source file:** `content/zevachim/25.txt`
 
@@ -5867,7 +6009,7 @@ Art: James Ward - Study of a Bull</span>
 ---
 
 ### content/zevachim/26.txt
-<a id="src-00342"></a>
+<a id="src-00351"></a>
 
 **Source file:** `content/zevachim/26.txt`
 
@@ -5885,7 +6027,7 @@ Art: Giovanni Martinelli - The Sacrifice Of Noah<br />
 ---
 
 ### content/zevachim/27.txt
-<a id="src-00343"></a>
+<a id="src-00352"></a>
 
 **Source file:** `content/zevachim/27.txt`
 
@@ -5903,7 +6045,7 @@ Art: Zbigniew Tymoszewski - Still Life with a Piece of Meat</span>
 ---
 
 ### content/zevachim/28.txt
-<a id="src-00344"></a>
+<a id="src-00353"></a>
 
 **Source file:** `content/zevachim/28.txt`
 
@@ -5917,7 +6059,7 @@ Art: Frans van Mieris - An Elderly Couple Eating</span>
 ---
 
 ### content/zevachim/29.txt
-<a id="src-00345"></a>
+<a id="src-00354"></a>
 
 **Source file:** `content/zevachim/29.txt`
 
@@ -5932,7 +6074,7 @@ Art: Rembrandt Van Rijn - The Slaughtered Ox<br />
 ---
 
 ### content/zevachim/3.txt
-<a id="src-00346"></a>
+<a id="src-00355"></a>
 
 **Source file:** `content/zevachim/3.txt`
 
@@ -5949,7 +6091,7 @@ Art: Piero della Francesca - Portraits of Federico da Montefeltro and His Wife B
 ---
 
 ### content/zevachim/30.txt
-<a id="src-00347"></a>
+<a id="src-00356"></a>
 
 **Source file:** `content/zevachim/30.txt`
 
@@ -5963,7 +6105,7 @@ Art: Paul Cezanne - The Black Clock</span>
 ---
 
 ### content/zevachim/31.txt
-<a id="src-00348"></a>
+<a id="src-00357"></a>
 
 **Source file:** `content/zevachim/31.txt`
 
@@ -5977,7 +6119,7 @@ Art: Pieter Claesz - A Still Life With An Overturned Silver Tazza, A Silver Plat
 ---
 
 ### content/zevachim/32.txt
-<a id="src-00349"></a>
+<a id="src-00358"></a>
 
 **Source file:** `content/zevachim/32.txt`
 
@@ -5993,7 +6135,7 @@ Art: Gustave Caillebotte - Garlic Cloves And Knife On The Corner Of A Table</spa
 ---
 
 ### content/zevachim/33.txt
-<a id="src-00350"></a>
+<a id="src-00359"></a>
 
 **Source file:** `content/zevachim/33.txt`
 
@@ -6009,7 +6151,7 @@ Art: Egon Schiele - Self Portrait With Black Vase And Spread Fingers</span>
 ---
 
 ### content/zevachim/34.txt
-<a id="src-00351"></a>
+<a id="src-00360"></a>
 
 **Source file:** `content/zevachim/34.txt`
 
@@ -6025,7 +6167,7 @@ Art: Diego Rodriguez de Silva y Velazquez - Joseph's Bloody Coat Brought to Jaco
 ---
 
 ### content/zevachim/35.txt
-<a id="src-00352"></a>
+<a id="src-00361"></a>
 
 **Source file:** `content/zevachim/35.txt`
 
@@ -6041,7 +6183,7 @@ Art: Jan Steen - Grace Before A Meal 1660</span>
 ---
 
 ### content/zevachim/36.txt
-<a id="src-00353"></a>
+<a id="src-00362"></a>
 
 **Source file:** `content/zevachim/36.txt`
 
@@ -6058,7 +6200,7 @@ Art: George, of Chichester Smith - Still life with meat and bread<br />
 ---
 
 ### content/zevachim/37.txt
-<a id="src-00354"></a>
+<a id="src-00363"></a>
 
 **Source file:** `content/zevachim/37.txt`
 
@@ -6074,7 +6216,7 @@ Art: Karoly Ferenczy - Boys Throwing Pebbles into the River</span>
 ---
 
 ### content/zevachim/38.txt
-<a id="src-00355"></a>
+<a id="src-00364"></a>
 
 **Source file:** `content/zevachim/38.txt`
 
@@ -6091,7 +6233,7 @@ Art: Moretto Da Brescia - St Justina With The Unicorn<br />
 ---
 
 ### content/zevachim/39.txt
-<a id="src-00356"></a>
+<a id="src-00365"></a>
 
 **Source file:** `content/zevachim/39.txt`
 
@@ -6107,7 +6249,7 @@ Art: Filippo Palizzi - Feeding Time</span>
 ---
 
 ### content/zevachim/4.txt
-<a id="src-00357"></a>
+<a id="src-00366"></a>
 
 **Source file:** `content/zevachim/4.txt`
 
@@ -6124,7 +6266,7 @@ Art: Gustave Bauernfeind - At the Entrance to the Temple Mount, Jerusalem</span>
 ---
 
 ### content/zevachim/40.txt
-<a id="src-00358"></a>
+<a id="src-00367"></a>
 
 **Source file:** `content/zevachim/40.txt`
 
@@ -6138,7 +6280,7 @@ Art: John Frederick Herring Snr - Galloping Horse in a Landscape</span>
 ---
 
 ### content/zevachim/41.txt
-<a id="src-00359"></a>
+<a id="src-00368"></a>
 
 **Source file:** `content/zevachim/41.txt`
 
@@ -6152,7 +6294,7 @@ Art: Max Liebermann - Woman with Goats in the Dunes</span>
 ---
 
 ### content/zevachim/42.txt
-<a id="src-00360"></a>
+<a id="src-00369"></a>
 
 **Source file:** `content/zevachim/42.txt`
 
@@ -6166,7 +6308,7 @@ Art: Louis Robert Carrier-Belleuse - Delivering Flour-1885</span>
 ---
 
 ### content/zevachim/43.txt
-<a id="src-00361"></a>
+<a id="src-00370"></a>
 
 **Source file:** `content/zevachim/43.txt`
 
@@ -6185,7 +6327,7 @@ Art: Max Liebermann - Interior of a flour mill in Florence<br />
 ---
 
 ### content/zevachim/44.txt
-<a id="src-00362"></a>
+<a id="src-00371"></a>
 
 **Source file:** `content/zevachim/44.txt`
 
@@ -6203,7 +6345,7 @@ Art: Frederick Daniel Hardy - First-Born</span>
 ---
 
 ### content/zevachim/45.txt
-<a id="src-00363"></a>
+<a id="src-00372"></a>
 
 **Source file:** `content/zevachim/45.txt`
 
@@ -6217,7 +6359,7 @@ Art: Jacob Jordaens - Eating Man</span>
 ---
 
 ### content/zevachim/46.txt
-<a id="src-00364"></a>
+<a id="src-00373"></a>
 
 **Source file:** `content/zevachim/46.txt`
 
@@ -6233,7 +6375,7 @@ Art: Henri Matisse - Dinner Table</span>
 ---
 
 ### content/zevachim/47.txt
-<a id="src-00365"></a>
+<a id="src-00374"></a>
 
 **Source file:** `content/zevachim/47.txt`
 
@@ -6247,7 +6389,7 @@ Art: Rudolph Ernst - The Perfume Maker</span>
 ---
 
 ### content/zevachim/48.txt
-<a id="src-00366"></a>
+<a id="src-00375"></a>
 
 **Source file:** `content/zevachim/48.txt`
 
@@ -6263,7 +6405,7 @@ Art: Jan Steen - The Severe Teacher</span>
 ---
 
 ### content/zevachim/49.txt
-<a id="src-00367"></a>
+<a id="src-00376"></a>
 
 **Source file:** `content/zevachim/49.txt`
 
@@ -6284,7 +6426,7 @@ Art: Pieter the Elder Bruegel - The Slaughter Of The Innocents 1565-66<br />
 ---
 
 ### content/zevachim/5.txt
-<a id="src-00368"></a>
+<a id="src-00377"></a>
 
 **Source file:** `content/zevachim/5.txt`
 
@@ -6300,7 +6442,7 @@ Art: Benjamin Eugene Fichel - A Gentlemans Debate</span>
 ---
 
 ### content/zevachim/50.txt
-<a id="src-00369"></a>
+<a id="src-00378"></a>
 
 **Source file:** `content/zevachim/50.txt`
 
@@ -6314,7 +6456,7 @@ Art; Pieter the Elder Bruegel - Two Chained Monkeys</span>
 ---
 
 ### content/zevachim/51.txt
-<a id="src-00370"></a>
+<a id="src-00379"></a>
 
 **Source file:** `content/zevachim/51.txt`
 
@@ -6331,7 +6473,7 @@ Art: Thomas Sidney Cooper - A Bull And Cow, Two Sheep And A Goat<br />
 ---
 
 ### content/zevachim/52.txt
-<a id="src-00371"></a>
+<a id="src-00380"></a>
 
 **Source file:** `content/zevachim/52.txt`
 
@@ -6349,7 +6491,7 @@ Art: Orazio Riminaldi - Sacrifice Of Isaac C. 1625</span>
 ---
 
 ### content/zevachim/53.txt
-<a id="src-00372"></a>
+<a id="src-00381"></a>
 
 **Source file:** `content/zevachim/53.txt`
 
@@ -6364,7 +6506,7 @@ Art: Camille Pissarro - Crossroads at l'Hermitage, Pontoise<br />
 ---
 
 ### content/zevachim/54.txt
-<a id="src-00373"></a>
+<a id="src-00382"></a>
 
 **Source file:** `content/zevachim/54.txt`
 
@@ -6382,7 +6524,7 @@ Art: Rembrandt Van Rijn - David Playing The Harp To Saul</span>
 ---
 
 ### content/zevachim/55.txt
-<a id="src-00374"></a>
+<a id="src-00383"></a>
 
 **Source file:** `content/zevachim/55.txt`
 
@@ -6398,7 +6540,7 @@ Art: Gaetano Chierici - Feeding The Lambs</span>
 ---
 
 ### content/zevachim/56.txt
-<a id="src-00375"></a>
+<a id="src-00384"></a>
 
 **Source file:** `content/zevachim/56.txt`
 
@@ -6414,7 +6556,7 @@ Art:&nbsp;Charles Théodore Frère - Sunset On The Nile</span>
 ---
 
 ### content/zevachim/57.txt
-<a id="src-00376"></a>
+<a id="src-00385"></a>
 
 **Source file:** `content/zevachim/57.txt`
 
@@ -6432,7 +6574,7 @@ Art: Julien Dupre - A Shepherd And His Flock</span>
 ---
 
 ### content/zevachim/58.txt
-<a id="src-00377"></a>
+<a id="src-00386"></a>
 
 **Source file:** `content/zevachim/58.txt`
 
@@ -6447,7 +6589,7 @@ Art: Caspar David Friedrich - Northern Sea in the Moonlight<br />
 ---
 
 ### content/zevachim/59.txt
-<a id="src-00378"></a>
+<a id="src-00387"></a>
 
 **Source file:** `content/zevachim/59.txt`
 
@@ -6463,7 +6605,7 @@ Art: Edgar Degas - Semiramis Building Babylon, 1861</span>
 ---
 
 ### content/zevachim/6.txt
-<a id="src-00379"></a>
+<a id="src-00388"></a>
 
 **Source file:** `content/zevachim/6.txt`
 
@@ -6479,7 +6621,7 @@ Art: Lasar Segall - Praying Jew</span>
 ---
 
 ### content/zevachim/60.txt
-<a id="src-00380"></a>
+<a id="src-00389"></a>
 
 **Source file:** `content/zevachim/60.txt`
 
@@ -6495,7 +6637,7 @@ Art: Fra Bartolomeo - Prophet Isaiah C.1516</span>
 ---
 
 ### content/zevachim/61.txt
-<a id="src-00381"></a>
+<a id="src-00390"></a>
 
 **Source file:** `content/zevachim/61.txt`
 
@@ -6513,7 +6655,7 @@ Art: Joseph Mallord William Turner - Shade and Darkness</span>
 ---
 
 ### content/zevachim/62.txt
-<a id="src-00382"></a>
+<a id="src-00391"></a>
 
 **Source file:** `content/zevachim/62.txt`
 
@@ -6531,7 +6673,7 @@ Art: Camille Pissarro - Resting, Peasant Girl Lying on the Grass, Pontoise</span
 ---
 
 ### content/zevachim/63.txt
-<a id="src-00383"></a>
+<a id="src-00392"></a>
 
 **Source file:** `content/zevachim/63.txt`
 
@@ -6545,7 +6687,7 @@ Art: Francisco De Goya y Lucientes - Dead Birds</span>
 ---
 
 ### content/zevachim/64.txt
-<a id="src-00384"></a>
+<a id="src-00393"></a>
 
 **Source file:** `content/zevachim/64.txt`
 
@@ -6559,7 +6701,7 @@ Art: Jean Baptiste Greuze - Young Girl Weeping for her Dead Bird-1759</span>
 ---
 
 ### content/zevachim/65.txt
-<a id="src-00385"></a>
+<a id="src-00394"></a>
 
 **Source file:** `content/zevachim/65.txt`
 
@@ -6575,7 +6717,7 @@ Art: Pieter Gysels - Still Life with Dead Birds</span>
 ---
 
 ### content/zevachim/66.txt
-<a id="src-00386"></a>
+<a id="src-00395"></a>
 
 **Source file:** `content/zevachim/66.txt`
 
@@ -6591,7 +6733,7 @@ Art: Momo Chidori Kyoka Awase - Cockerel And Hen On The Right With A Bunting On 
 ---
 
 ### content/zevachim/67.txt
-<a id="src-00387"></a>
+<a id="src-00396"></a>
 
 **Source file:** `content/zevachim/67.txt`
 
@@ -6607,7 +6749,7 @@ Art: Melchior de Hondecoeter - Birds In A Park 1686</span>
 ---
 
 ### content/zevachim/68.txt
-<a id="src-00388"></a>
+<a id="src-00397"></a>
 
 **Source file:** `content/zevachim/68.txt`
 
@@ -6623,7 +6765,7 @@ Art: Francisco De Goya y Lucientes - Knife Grinder</span>
 ---
 
 ### content/zevachim/69.txt
-<a id="src-00389"></a>
+<a id="src-00398"></a>
 
 **Source file:** `content/zevachim/69.txt`
 
@@ -6642,7 +6784,7 @@ Art: Pieter the Elder Bruegel - Winter Landscape with Skaters and a Bird Trap (d
 ---
 
 ### content/zevachim/7.txt
-<a id="src-00390"></a>
+<a id="src-00399"></a>
 
 **Source file:** `content/zevachim/7.txt`
 
@@ -6656,7 +6798,7 @@ Art: Francisco De Goya y Lucientes - Prison Scene</span>
 ---
 
 ### content/zevachim/70.txt
-<a id="src-00391"></a>
+<a id="src-00400"></a>
 
 **Source file:** `content/zevachim/70.txt`
 
@@ -6672,7 +6814,7 @@ Art: William Gowe Ferguson - Still Life Of Dead Birds</span>
 ---
 
 ### content/zevachim/71.txt
-<a id="src-00392"></a>
+<a id="src-00401"></a>
 
 **Source file:** `content/zevachim/71.txt`
 
@@ -6686,7 +6828,7 @@ Art: Rembrandt Van Rijn - Dead Peacocks
 ---
 
 ### content/zevachim/72.txt
-<a id="src-00393"></a>
+<a id="src-00402"></a>
 
 **Source file:** `content/zevachim/72.txt`
 
@@ -6700,7 +6842,7 @@ Art: John Frederick Herring, Jnr. - A horse, pigs, ducks and cattle in a farmyar
 ---
 
 ### content/zevachim/73.txt
-<a id="src-00394"></a>
+<a id="src-00403"></a>
 
 **Source file:** `content/zevachim/73.txt`
 
@@ -6717,7 +6859,7 @@ Art: Theodule Augustine Ribot - Still Life with a Pomegranate<br />
 ---
 
 ### content/zevachim/74.txt
-<a id="src-00395"></a>
+<a id="src-00404"></a>
 
 **Source file:** `content/zevachim/74.txt`
 
@@ -6733,7 +6875,7 @@ Art: Rembrandt Van Rijn - A Young Woman Trying on Earings</span>
 ---
 
 ### content/zevachim/75.txt
-<a id="src-00396"></a>
+<a id="src-00405"></a>
 
 **Source file:** `content/zevachim/75.txt`
 
@@ -6750,7 +6892,7 @@ Art: Abraham Hendrickz Van Beyeren - Still Life With Wine Glasses<br />
 ---
 
 ### content/zevachim/76.txt
-<a id="src-00397"></a>
+<a id="src-00406"></a>
 
 **Source file:** `content/zevachim/76.txt`
 
@@ -6766,7 +6908,7 @@ Art: Heinrich Bürkel - The Village Cattle Market</span>
 ---
 
 ### content/zevachim/77.txt
-<a id="src-00398"></a>
+<a id="src-00407"></a>
 
 **Source file:** `content/zevachim/77.txt`
 
@@ -6782,7 +6924,7 @@ Art: Winslow Homer - CampFire</span>
 ---
 
 ### content/zevachim/78.txt
-<a id="src-00399"></a>
+<a id="src-00408"></a>
 
 **Source file:** `content/zevachim/78.txt`
 
@@ -6798,7 +6940,7 @@ Art: Jean Beraud - The drinkers</span>
 ---
 
 ### content/zevachim/79.txt
-<a id="src-00400"></a>
+<a id="src-00409"></a>
 
 **Source file:** `content/zevachim/79.txt`
 
@@ -6814,7 +6956,7 @@ Art: William Sidney Mount - Fruit Piece: Apples on Tin Cups</span>
 ---
 
 ### content/zevachim/8.txt
-<a id="src-00401"></a>
+<a id="src-00410"></a>
 
 **Source file:** `content/zevachim/8.txt`
 
@@ -6832,7 +6974,7 @@ Art: Vincent Van Gogh - Fishing In Spring</span>
 ---
 
 ### content/zevachim/80.txt
-<a id="src-00402"></a>
+<a id="src-00411"></a>
 
 **Source file:** `content/zevachim/80.txt`
 
@@ -6848,7 +6990,7 @@ Art: El Greco (Domenikos Theotokopoulos) - Nobleman with his Hand on his Chest -
 ---
 
 ### content/zevachim/81.txt
-<a id="src-00403"></a>
+<a id="src-00412"></a>
 
 **Source file:** `content/zevachim/81.txt`
 
@@ -6865,7 +7007,7 @@ Art: Maurycy Gottlieb -  Jews praying in the synagogue on Yom Kippur<br />
 ---
 
 ### content/zevachim/82.txt
-<a id="src-00404"></a>
+<a id="src-00413"></a>
 
 **Source file:** `content/zevachim/82.txt`
 
@@ -6881,7 +7023,7 @@ Art: Adriaen Jansz. Van Ostade - Inside a Peasant's Cottage</span>
 ---
 
 ### content/zevachim/83.txt
-<a id="src-00405"></a>
+<a id="src-00414"></a>
 
 **Source file:** `content/zevachim/83.txt`
 
@@ -6897,7 +7039,7 @@ Art: Caravaggio - The Sacrifice of Isaac </span>
 ---
 
 ### content/zevachim/84.txt
-<a id="src-00406"></a>
+<a id="src-00415"></a>
 
 **Source file:** `content/zevachim/84.txt`
 
@@ -6916,7 +7058,7 @@ Art: William Henry Pyne - Slaughterman<br />
 ---
 
 ### content/zevachim/85.txt
-<a id="src-00407"></a>
+<a id="src-00416"></a>
 
 **Source file:** `content/zevachim/85.txt`
 
@@ -6932,7 +7074,7 @@ Art: William Strutt - Goats In A Cornfield</span>
 ---
 
 ### content/zevachim/86.txt
-<a id="src-00408"></a>
+<a id="src-00417"></a>
 
 **Source file:** `content/zevachim/86.txt`
 
@@ -6948,7 +7090,7 @@ Art: Cornelis van Leemputten - A Shepherd with Sheep and Lambs</span>
 ---
 
 ### content/zevachim/87.txt
-<a id="src-00409"></a>
+<a id="src-00418"></a>
 
 **Source file:** `content/zevachim/87.txt`
 
@@ -6964,7 +7106,7 @@ Art: Istvan Boldizsar - Slicing the Bread </span>
 ---
 
 ### content/zevachim/88.txt
-<a id="src-00410"></a>
+<a id="src-00419"></a>
 
 **Source file:** `content/zevachim/88.txt`
 
@@ -6980,11 +7122,11 @@ Art: Jan Van Eyck - Man in a Red Turban</span>
 ---
 
 ### content/zevachim/89.txt
-<a id="src-00411"></a>
+<a id="src-00420"></a>
 
 **Source file:** `content/zevachim/89.txt`
 
-Zevachim 89 – Who Deserves to Come First
+Zevachim 89 – Which Action is Preferred?
 <div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCJ231Py9aIc0bSVrHJfx9ZtTTjc521ZRJ02lwZ_Di2-ARWqxBVwjuGNYWVkhsvGswem93nrd0hjweTv2TJM8YEJJqkclJLoVT9QbyTItAmDeAUfGejEIo6KMLaCogsl1Mk-iw4jDAR5c/s1600/Giotto+%250ANicolo+%2526+Stefano+da+Ferrara+Miretto+-+Act+of+Forgiveness.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="228" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCJ231Py9aIc0bSVrHJfx9ZtTTjc521ZRJ02lwZ_Di2-ARWqxBVwjuGNYWVkhsvGswem93nrd0hjweTv2TJM8YEJJqkclJLoVT9QbyTItAmDeAUfGejEIo6KMLaCogsl1Mk-iw4jDAR5c/s320/Giotto+%250ANicolo+%2526+Stefano+da+Ferrara+Miretto+-+Act+of+Forgiveness.jpg" width="320" /></a></div><span style="font-size: medium;">If there is a choice of two actions, the more frequent comes first. For example, daily offerings are brought before the additional Shabbat offerings. The rule is applicable to all situations, but it is derived from the order of sacrifices, as the Torah has said, talking about additional Passover offerings, “<a href="http://bible.cc/numbers/28-23.htm">Besides the morning burnt offering which is continual burnt offering, shall you offer these</a>,” - &nbsp;which teaches that the regular daily burnt offerings come first.<br />
 <br />
 If there is a choice of two actions, one more sacred or more special than the other, the special one comes first. For example, the application of the sin-offering blood comes before the burnt-offering, because the sin-offering brings forgiveness. How is this derived?<br />
@@ -6996,7 +7138,7 @@ Art: Giotto Nicolo & Stefano da Ferrara Miretto - Act of Forgiveness</span>
 ---
 
 ### content/zevachim/9.txt
-<a id="src-00412"></a>
+<a id="src-00421"></a>
 
 **Source file:** `content/zevachim/9.txt`
 
@@ -7012,7 +7154,7 @@ Art: Dieric the Elder Bouts - The Feast Of The Passover 1464-67</span>
 ---
 
 ### content/zevachim/90.txt
-<a id="src-00413"></a>
+<a id="src-00422"></a>
 
 **Source file:** `content/zevachim/90.txt`
 
@@ -7032,7 +7174,7 @@ Jean Baptiste Simeon Chardin - A "Lean Diet" with Cooking Utensils</span>
 ---
 
 ### content/zevachim/91.txt
-<a id="src-00414"></a>
+<a id="src-00423"></a>
 
 **Source file:** `content/zevachim/91.txt`
 
@@ -7047,7 +7189,7 @@ Art: Rembrandt Van Rijn - Dr Ephraim Bueno, Jewish Physician and Writer<br />
 ---
 
 ### content/zevachim/92.txt
-<a id="src-00415"></a>
+<a id="src-00424"></a>
 
 **Source file:** `content/zevachim/92.txt`
 
@@ -7061,7 +7203,7 @@ Art: Camille Pissarro - Woman Hanging up the Washing</span>
 ---
 
 ### content/zevachim/93.txt
-<a id="src-00416"></a>
+<a id="src-00425"></a>
 
 **Source file:** `content/zevachim/93.txt`
 
@@ -7077,7 +7219,7 @@ Art: Jan Mari Henri Ten Kate - Hanging Up the Washing</span>
 ---
 
 ### content/zevachim/94.txt
-<a id="src-00417"></a>
+<a id="src-00426"></a>
 
 **Source file:** `content/zevachim/94.txt`
 
@@ -7093,7 +7235,7 @@ Art: Edward Stott - The Washing Day</span>
 ---
 
 ### content/zevachim/95.txt
-<a id="src-00418"></a>
+<a id="src-00427"></a>
 
 **Source file:** `content/zevachim/95.txt`
 
@@ -7109,7 +7251,7 @@ Art: Lovis (Franz Heinrich Louis) Corinth - In a Silk Robe</span>
 ---
 
 ### content/zevachim/96.txt
-<a id="src-00419"></a>
+<a id="src-00428"></a>
 
 **Source file:** `content/zevachim/96.txt`
 
@@ -7125,7 +7267,7 @@ Art: Camille Pissarro - Eugene Murer at His Pastry Oven</span>
 ---
 
 ### content/zevachim/97.txt
-<a id="src-00420"></a>
+<a id="src-00429"></a>
 
 **Source file:** `content/zevachim/97.txt`
 
@@ -7141,7 +7283,7 @@ Art: Ribot Theodule -  Augustin The Cook Accountant</span>
 ---
 
 ### content/zevachim/98.txt
-<a id="src-00421"></a>
+<a id="src-00430"></a>
 
 **Source file:** `content/zevachim/98.txt`
 
@@ -7157,7 +7299,7 @@ Art: Albert Bierstadt - Sundown at Yosemite</span>
 ---
 
 ### content/zevachim/99.txt
-<a id="src-00422"></a>
+<a id="src-00431"></a>
 
 **Source file:** `content/zevachim/99.txt`
 

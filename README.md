@@ -40,5 +40,13 @@ automates, if you want to run them by hand:
    * `cp -r site/* ../TalmudIlluminatedContent/`
 5. Deploy from there (open TalmudIlluminatedContent project and run deploy.sh)
 
-* Custom GPT:
-* [MosesAI](https://chatgpt.com/g/g-68d6ee5a5c008191a1919c20e0777157-moses-ai)
+## Custom GPT
+
+* [MosesAI](https://chatgpt.com/g/g-68d6ee5a5c008191a1919c20e0777157-moses-ai) answers from
+  the page content in this repo, bundled as knowledge files.
+* **This link stops working on 11 December 2026**, when OpenAI retires custom GPTs. MosesAI
+  has to be migrated to a plugin before then, and the plugin needs to be shared again from
+  scratch. Steps, and the fallbacks if migration refuses the knowledge files, are in
+  [CustomGPT/README.md](CustomGPT/README.md).
+* Rebuild the knowledge bundles after any crawl that changes `content/`:
+  `./CustomGPT/make_bundles.py`
