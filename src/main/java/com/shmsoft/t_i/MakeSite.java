@@ -28,6 +28,11 @@ import java.util.List;
  *   site/offline.html                       shown for a daf that was never opened online
  *   site/icon-*.png                         home-screen icons
  *
+ * Generated pages deliberately carry no calls to action. The daily-email
+ * subscribe offer and the "Ask MosesAI" link were both removed in November
+ * 2026: the email list was not being used, and MosesAI is to be rebuilt rather
+ * than kept running. CustomGPT/ still holds the corpus builder for that rebuild.
+ *
  * The PWA files come from src/main/resources/pwa/. Note that the site root's
  * index.html and about.html are maintained by hand in the content repo, not
  * generated here, so they need the PWA head tags added separately -- publish.sh
@@ -36,14 +41,6 @@ import java.util.List;
 public class MakeSite {
 
     private static final String BRAND = "Talmud Illuminated";
-
-    /**
-     * Subscribe page for the daily email list (hosts the Sender.net form).
-     * Rendered as visible text, not just an href: these pages get copied and
-     * pasted into Facebook, which strips the markup, so a bare URL is the only
-     * form that survives as something a reader can click.
-     */
-    private static final String SUBSCRIBE_URL = "https://talmudilluminated.com/subscribe/";
 
     /** Matches --accent-dk in style.css, so the browser chrome blends with the page. */
     private static final String THEME_COLOR = "#6b4420";
@@ -135,14 +132,25 @@ public class MakeSite {
     /**
      * Writes the PWA files into site/.
      *
-     * The service worker's cache version is a hash of the search index, which
-     * lists every page that exists and its title. So the version moves when the
-     * content moves and stays put otherwise: readers pick up new dapim on their
-     * next visit, while a rebuild that changed nothing neither invalidates
-     * caches nor shows up as a diff in the content repo.
+     * The service worker's cache version is a hash of everything that changes
+     * what a reader sees: the search index (every page and its title), the
+     * stylesheet, and the page furniture itself. So the version moves when the
+     * site moves and stays put otherwise -- a rebuild that changed nothing
+     * neither invalidates caches nor shows up as a diff in the content repo.
+     *
+     * The stylesheet and furniture matter as much as the page list, because
+     * style.css is served cache-first: hashing only the search index would mean
+     * a restyled or re-footered site never reaching anyone who had already
+     * installed it.
      */
     private static void writePwaFiles(String searchIndexJson) throws IOException {
-        String cacheVersion = "ti-" + shortHash(searchIndexJson);
+        StringBuilder fingerprint = new StringBuilder(searchIndexJson);
+        File css = new File("site/style.css");
+        if (css.isFile()) {
+            fingerprint.append(FileUtils.readFileToString(css, StandardCharsets.UTF_8));
+        }
+        fingerprint.append(documentHead("")).append(footer());
+        String cacheVersion = "ti-" + shortHash(fingerprint.toString());
 
         String sw = readResource("sw.js");
         if (!sw.contains("@@CACHE_VERSION@@")) {
@@ -227,9 +235,7 @@ public class MakeSite {
                 + header("<a href=\"index.html\">" + escapeHtml(display) + "</a> &rsaquo; Daf " + p)
                 + "<main>\n"
                 + "<h1>" + escapeHtml(title) + "</h1>\n"
-                + "<article class=\"daf\">\n" + body + subscribeLine() + "</article>\n"
-                + "<p class=\"ask\"><a href=\"http://mosesai.org\">"
-                + "Don't understand a point? Ask MosesAI.org about it.</a></p>\n"
+                + "<article class=\"daf\">\n" + body + "</article>\n"
                 + "</main>\n"
                 + "<nav class=\"pager\">\n  " + prevHtml + "\n"
                 + "  <a class=\"up\" href=\"index.html\">All of " + escapeHtml(display) + "</a>\n"
@@ -322,20 +328,9 @@ public class MakeSite {
                 + "</header>\n";
     }
 
-    /**
-     * The daily-email offer. It is the last element inside &lt;article&gt;, directly
-     * after the summary, so that selecting the daf text and pasting it elsewhere
-     * (Facebook, email) carries the offer with it.
-     */
-    private static String subscribeLine() {
-        return "<p class=\"subscribe\">A page of Talmud in your inbox every morning &mdash; "
-                + "subscribe: <a href=\"" + SUBSCRIBE_URL + "\">" + SUBSCRIBE_URL + "</a></p>\n";
-    }
-
     private static String footer() {
         return "<footer class=\"site-footer\">\n"
                 + "  <a href=\"/index.html\">Home</a> &middot; <a href=\"/search.html\">Search</a> "
-                + "&middot; <a href=\"http://mosesai.org\">MosesAI</a> "
                 + "&middot; <a href=\"/about.html\">About</a><br>\n"
                 + "  Summaries of every page of the Talmud Bavli, illuminated with the world's best art.\n"
                 + "</footer>\n";

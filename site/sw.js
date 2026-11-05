@@ -1,6 +1,6 @@
 // Talmud Illuminated -- service worker.
 //
-// Copied to site/sw.js by MakeSite, which replaces ti-e4a6e407 with a
+// Copied to site/sw.js by MakeSite, which replaces ti-058e986d with a
 // hash of the search index. The version therefore changes when, and only when,
 // the site's content changes: readers get new dapim promptly, and a rebuild
 // that produced identical content does not invalidate anyone's cache.
@@ -9,7 +9,7 @@
 // network, artwork included. That is the point -- the Talmud gets studied on
 // trains, in shuls, and in other places with no usable signal.
 
-const VERSION = 'ti-e4a6e407';
+const VERSION = 'ti-058e986d';
 const SHELL = VERSION + '-shell';   // home, search, stylesheet, icons
 const PAGES = VERSION + '-pages';   // daf pages the reader has opened
 const ART   = VERSION + '-art';     // Blogger-hosted illustrations
