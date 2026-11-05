@@ -1,10 +1,15 @@
 package com.shmsoft.t_i;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,6 +22,16 @@ import java.util.List;
  *   site/<masechet>/index.html              styled, filterable list of that tractate's pages
  *   site/search.html                        client-side site search
  *   site/search-index.json                  data for the search page
+ *   site/manifest.webmanifest               PWA manifest: makes the site installable
+ *   site/sw.js                              service worker, for offline reading
+ *   site/pwa.js                             registers the service worker
+ *   site/offline.html                       shown for a daf that was never opened online
+ *   site/icon-*.png                         home-screen icons
+ *
+ * The PWA files come from src/main/resources/pwa/. Note that the site root's
+ * index.html and about.html are maintained by hand in the content repo, not
+ * generated here, so they need the PWA head tags added separately -- publish.sh
+ * warns when the deployed home page is missing them.
  */
 public class MakeSite {
 
@@ -29,6 +44,15 @@ public class MakeSite {
      * form that survives as something a reader can click.
      */
     private static final String SUBSCRIBE_URL = "https://talmudilluminated.com/subscribe/";
+
+    /** Matches --accent-dk in style.css, so the browser chrome blends with the page. */
+    private static final String THEME_COLOR = "#6b4420";
+
+    /** Binary and text assets copied verbatim from src/main/resources/pwa/ into site/. */
+    private static final String[] PWA_ASSETS = {
+            "manifest.webmanifest", "pwa.js",
+            "icon-192.png", "icon-512.png", "icon-maskable-512.png"
+    };
 
     public static void main(String[] argv) throws IOException {
         // For testing qa, give it a string to clean
@@ -104,7 +128,89 @@ public class MakeSite {
         searchIndex.append("\n]\n");
         FileUtils.write(new File("site/search-index.json"), searchIndex.toString(), "UTF-8");
         FileUtils.write(new File("site/search.html"), renderSearchPage(), "UTF-8");
+        writePwaFiles(searchIndex.toString());
         System.out.println("Site generated under site/");
+    }
+
+    /**
+     * Writes the PWA files into site/.
+     *
+     * The service worker's cache version is a hash of the search index, which
+     * lists every page that exists and its title. So the version moves when the
+     * content moves and stays put otherwise: readers pick up new dapim on their
+     * next visit, while a rebuild that changed nothing neither invalidates
+     * caches nor shows up as a diff in the content repo.
+     */
+    private static void writePwaFiles(String searchIndexJson) throws IOException {
+        String cacheVersion = "ti-" + shortHash(searchIndexJson);
+
+        String sw = readResource("sw.js");
+        if (!sw.contains("@@CACHE_VERSION@@")) {
+            throw new IOException("pwa/sw.js has no @@CACHE_VERSION@@ placeholder to substitute");
+        }
+        FileUtils.write(new File("site/sw.js"), sw.replace("@@CACHE_VERSION@@", cacheVersion), "UTF-8");
+
+        for (String asset : PWA_ASSETS) {
+            copyResource(asset, new File("site/" + asset));
+        }
+
+        FileUtils.write(new File("site/offline.html"), renderOfflinePage(), "UTF-8");
+        System.out.println("PWA files written (cache version " + cacheVersion + ")");
+    }
+
+    /** Shown when a reader opens a daf offline that they never opened online. */
+    private static String renderOfflinePage() {
+        return documentHead("Offline")
+                + header("Offline")
+                + "<main>\n"
+                + "<h1>Not available offline</h1>\n"
+                + "<p>This page has not been opened on this device while connected, so there is "
+                + "no copy stored here. Dapim you have already read stay available offline.</p>\n"
+                + "<p><a href=\"/index.html\">Go to the home page</a></p>\n"
+                + "</main>\n"
+                + footer()
+                + "</body>\n</html>\n";
+    }
+
+    private static String readResource(String name) throws IOException {
+        InputStream in = MakeSite.class.getResourceAsStream("/pwa/" + name);
+        if (in == null) throw new IOException("missing resource: /pwa/" + name);
+        try {
+            return IOUtils.toString(in, StandardCharsets.UTF_8);
+        } finally {
+            in.close();
+        }
+    }
+
+    private static void copyResource(String name, File target) throws IOException {
+        InputStream in = MakeSite.class.getResourceAsStream("/pwa/" + name);
+        if (in == null) throw new IOException("missing resource: /pwa/" + name);
+        try {
+            FileUtils.forceMkdirParent(target);
+            OutputStream out = FileUtils.openOutputStream(target);
+            try {
+                IOUtils.copy(in, out);
+            } finally {
+                out.close();
+            }
+        } finally {
+            in.close();
+        }
+    }
+
+    /** First 8 hex digits of the SHA-256 of {@code s} -- enough to name a cache. */
+    private static String shortHash(String s) throws IOException {
+        try {
+            byte[] digest = MessageDigest.getInstance("SHA-256")
+                    .digest(s.getBytes(StandardCharsets.UTF_8));
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < 4; ++i) {
+                sb.append(String.format("%02x", digest[i]));
+            }
+            return sb.toString();
+        } catch (NoSuchAlgorithmException e) {
+            throw new IOException("SHA-256 unavailable", e);
+        }
     }
 
     /** A single daf page. */
@@ -117,13 +223,7 @@ public class MakeSite {
                 ? "<a class=\"next\" href=\"" + masechet + next + ".html\">Daf " + next + " &rarr;</a>"
                 : "<span class=\"disabled\">&rarr;</span>";
 
-        return "<!DOCTYPE html>\n"
-                + "<html lang=\"en\">\n<head>\n"
-                + "<meta charset=\"utf-8\">\n"
-                + "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
-                + "<title>" + escapeHtml(title) + " | " + BRAND + "</title>\n"
-                + "<link rel=\"stylesheet\" href=\"/style.css\">\n"
-                + "</head>\n<body>\n"
+        return documentHead(title)
                 + header("<a href=\"index.html\">" + escapeHtml(display) + "</a> &rsaquo; Daf " + p)
                 + "<main>\n"
                 + "<h1>" + escapeHtml(title) + "</h1>\n"
@@ -141,13 +241,7 @@ public class MakeSite {
     /** A tractate index: filterable list of its pages. */
     private static void writeIndex(String masechet, String display, int count, String listItems)
             throws IOException {
-        String html = "<!DOCTYPE html>\n"
-                + "<html lang=\"en\">\n<head>\n"
-                + "<meta charset=\"utf-8\">\n"
-                + "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
-                + "<title>" + escapeHtml(display) + " | " + BRAND + "</title>\n"
-                + "<link rel=\"stylesheet\" href=\"/style.css\">\n"
-                + "</head>\n<body>\n"
+        String html = documentHead(display)
                 + header(escapeHtml(display))
                 + "<main>\n"
                 + "<h1>" + escapeHtml(display) + "</h1>\n"
@@ -169,13 +263,7 @@ public class MakeSite {
 
     /** Site-wide search page (client-side, uses search-index.json). */
     private static String renderSearchPage() {
-        return "<!DOCTYPE html>\n"
-                + "<html lang=\"en\">\n<head>\n"
-                + "<meta charset=\"utf-8\">\n"
-                + "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
-                + "<title>Search | " + BRAND + "</title>\n"
-                + "<link rel=\"stylesheet\" href=\"/style.css\">\n"
-                + "</head>\n<body>\n"
+        return documentHead("Search")
                 + header("Search")
                 + "<main>\n"
                 + "<h1>Search</h1>\n"
@@ -200,6 +288,30 @@ public class MakeSite {
                 + "d.t.replace(/</g,'&lt;')+'</a>';out.appendChild(li);});});\n"
                 + "</script>\n"
                 + "</body>\n</html>\n";
+    }
+
+    /**
+     * The opening of every generated page, down to the end of &lt;head&gt;.
+     *
+     * The PWA tags live here so that any page can be the one a reader installs
+     * from, or lands on from a search engine: the manifest makes the site
+     * installable, and pwa.js registers the worker that keeps visited dapim
+     * readable offline. pwa.js is a separate file rather than an inline script
+     * because the same bytes would otherwise be repeated in ~2,400 pages.
+     */
+    private static String documentHead(String title) {
+        return "<!DOCTYPE html>\n"
+                + "<html lang=\"en\">\n<head>\n"
+                + "<meta charset=\"utf-8\">\n"
+                + "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
+                + "<title>" + escapeHtml(title) + " | " + BRAND + "</title>\n"
+                + "<link rel=\"stylesheet\" href=\"/style.css\">\n"
+                + "<link rel=\"manifest\" href=\"/manifest.webmanifest\">\n"
+                + "<meta name=\"theme-color\" content=\"" + THEME_COLOR + "\">\n"
+                + "<link rel=\"apple-touch-icon\" href=\"/icon-192.png\">\n"
+                + "<meta name=\"apple-mobile-web-app-title\" content=\"Talmud\">\n"
+                + "<script src=\"/pwa.js\" defer></script>\n"
+                + "</head>\n<body>\n";
     }
 
     private static String header(String crumbTail) {

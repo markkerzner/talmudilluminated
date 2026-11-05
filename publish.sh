@@ -15,6 +15,10 @@
 #   ./publish.sh --update-baseline   record this run's QA result as the
 #                                    new doc/current_qa.txt baseline
 #
+# The build also emits the PWA files (manifest, service worker, icons) that make
+# the site installable and let an opened daf be re-read offline; the deploy is
+# gated on them being present and well formed.
+#
 # Environment:
 #   GOOGLE_API_KEY       required for the crawl (Blogger API)
 #   CONTENT_REPO         target repo for the built site
@@ -138,6 +142,46 @@ fi
 step "Building site/"
 run_java com.shmsoft.t_i.MakeSite
 
+# --- 3b. check the PWA files -------------------------------------------------
+
+# A broken manifest or service worker does not break the site, which is exactly
+# why it would go unnoticed: pages keep rendering while installability and
+# offline reading quietly stop working. Gate the deploy on it, as QA does.
+
+step "Checking PWA files"
+
+pwa_missing=()
+for f in manifest.webmanifest sw.js pwa.js offline.html \
+         icon-192.png icon-512.png icon-maskable-512.png; do
+  [[ -s "site/$f" ]] || pwa_missing+=("$f")
+done
+(( ${#pwa_missing[@]} == 0 )) \
+  || die "MakeSite did not produce: ${pwa_missing[*]}
+     These come from src/main/resources/pwa/; check that mvn copied them to target/classes."
+
+if grep -q '@@CACHE_VERSION@@' site/sw.js; then
+  die "site/sw.js still contains the @@CACHE_VERSION@@ placeholder -- every
+     reader would share one cache name that never changes, so no one would
+     ever see updated pages."
+fi
+
+if command -v python3 >/dev/null 2>&1; then
+  python3 -I -c 'import json,sys; json.load(open("site/manifest.webmanifest"))' \
+    || die "site/manifest.webmanifest is not valid JSON; browsers would ignore it
+     and the site would stop being installable."
+fi
+
+# The head tags are what make any given page an entry point for installing.
+# -print -quit rather than piping to head: under pipefail, head closing the pipe
+# kills find with SIGPIPE and takes the whole script down with it.
+sample_page="$(find site -name '*.html' -path '*/*' -print -quit)"
+if [[ -n "$sample_page" ]] && ! grep -q 'rel="manifest"' "$sample_page"; then
+  die "generated pages are missing the PWA head tags (checked $sample_page).
+     MakeSite.documentHead() should be emitting them."
+fi
+
+echo "PWA: $(grep -oP "const VERSION = '\K[^']+" site/sw.js), manifest and icons present."
+
 # --- 4. copy into the content repo ------------------------------------------
 
 if $skip_deploy; then
@@ -147,6 +191,24 @@ fi
 
 step "Copying site/ into $CONTENT_REPO"
 cp -r site/. "$CONTENT_REPO/"
+
+# index.html and about.html are hand-maintained in the content repo rather than
+# generated, so MakeSite cannot add the PWA tags to them. The home page is the
+# one most readers install from, so say something rather than fail: the deploy
+# is still correct, it just installs from a daf page instead.
+for hand_written in index.html about.html; do
+  page="$CONTENT_REPO/$hand_written"
+  if [[ -f "$page" ]] && ! grep -q 'rel="manifest"' "$page"; then
+    printf '\033[33mnote: %s has no PWA tags; add this inside its <head> to make it installable:\033[0m\n' "$hand_written"
+    cat <<'TAGS'
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#6b4420">
+    <link rel="apple-touch-icon" href="/icon-192.png">
+    <meta name="apple-mobile-web-app-title" content="Talmud">
+    <script src="/pwa.js" defer></script>
+TAGS
+  fi
+done
 
 # --- 5. deploy ---------------------------------------------------------------
 

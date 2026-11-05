@@ -1,0 +1,19 @@
+{
+  "name": "Talmud Illuminated",
+  "short_name": "Talmud",
+  "description": "Short, illustrated summaries of every page of the Talmud Bavli.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbf7ef",
+  "theme_color": "#6b4420",
+  "lang": "en",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Search", "short_name": "Search", "url": "/search.html" }
+  ]
+}
